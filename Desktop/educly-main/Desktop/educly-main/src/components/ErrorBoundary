@@ -1,0 +1,28 @@
+import React, { Component, ErrorInfo, ReactNode } from "react";
+import { supabase } from "@/integrations/supabase/client";
+
+export class GlobalErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean }> {
+  state = { hasError: false };
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    const reportUIBug = async () => {
+      const platformInfo = `${navigator.platform} - ${navigator.userAgent.split(' ')[0]}`;
+      await supabase.from('user_bugs').insert({
+        platform: platformInfo,
+        error_message: `[UI CRASH] ${error.message}`,
+        component_stack: errorInfo.componentStack || "Render Error",
+      });
+    };
+    reportUIBug();
+  }
+
+  render() {
+    // Retorna null para ser 100% invisível se algo quebrar
+    if (this.state.hasError) return null; 
+    return this.props.children;
+  }
+}

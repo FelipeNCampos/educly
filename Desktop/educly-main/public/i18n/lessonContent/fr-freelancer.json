@@ -1,0 +1,751 @@
+{
+  "module1": {
+    "title": "Le Monde du Freelance",
+    "description": "Qu'est-ce qu'un freelance et comment fonctionne ce jeu",
+    "icon": "Globe",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🌍 Bienvenue dans le Monde du Freelance",
+        "content": "Avant de parler de plateformes, de propositions ou de prix, vous devez comprendre quelque chose de fondamental :\n\n**Qu'est-ce qu'être vraiment freelance ?**\n\nBeaucoup de gens confondent freelance avec :\n- Un travail informel (\"petit boulot\" au Brésil)\n- Un employé sans droits\n- Quelque chose de risqué ou peu sérieux\n\n**La vérité est différente.**\n\nUn freelance est un professionnel qui offre ses services de manière indépendante, sans lien contractuel fixe avec une entreprise.\n\nAu lieu d'avoir UN patron, vous pouvez avoir PLUSIEURS clients.\n\nAu lieu d'un salaire fixe, vous gagnez par projet ou par tâche accomplie.\n\n**Et le meilleur :** avec les outils d'IA que vous connaissez déjà, vous pouvez fournir des résultats professionnels même en étant débutant."
+      },
+      {
+        "type": "text",
+        "title": "🤔 Freelance vs Employé vs Indépendant",
+        "content": "Clarifions une fois pour toutes les différences :\n\n**👔 Employé (CDI/Contrat)**\n- A un patron fixe\n- Horaires définis\n- Salaire mensuel garanti\n- Avantages (congés, assurance, etc.)\n- Moins de liberté, plus de sécurité\n\n**🧑‍💼 Indépendant/Auto-entrepreneur**\n- Travaille à son compte\n- Peut avoir des contrats longs\n- Émet des factures\n- Responsable de ses impôts\n- Plus de liberté, moins d'avantages\n\n**💻 Freelance**\n- Travaille par projet ou par tâche\n- Plusieurs clients simultanément\n- Flexibilité totale des horaires\n- Peut travailler de n'importe où\n- Revenus variables selon la demande\n\n**Important :** Un freelance PEUT être indépendant légalement, mais tous les indépendants ne sont pas freelances. La différence réside dans le MODÈLE de travail."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Associez les Concepts",
+          "description": "Associez chaque type de travailleur à sa caractéristique principale",
+          "pairs": [
+            { "left": "Employé", "right": "Salaire fixe mensuel" },
+            { "left": "Freelance", "right": "Travaille par projet" },
+            { "left": "Indépendant", "right": "Émet ses propres factures" },
+            { "left": "Entreprise individuelle", "right": "Société individuelle" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💰 Comment les Freelances Gagnent-ils de l'Argent ?",
+        "content": "Il existe 3 façons principales de gagner de l'argent en tant que freelance :\n\n**1️⃣ Par Projet**\n- Prix fixé pour une livraison complète\n- Exemple : \"Je crée votre site web pour 500 $\"\n- Avantage : Vous savez combien vous gagnerez\n- Risque : Si vous mettez plus de temps, vous gagnez moins par heure\n\n**2️⃣ Par Tâche**\n- Prix pour chaque petite tâche\n- Exemple : \"10 $ par article de blog\"\n- Avantage : Travail constant s'il y a de la demande\n- Risque : Besoin de volume pour bien gagner\n\n**3️⃣ Par Contrat Récurrent (Retainer)**\n- Montant fixe mensuel pour disponibilité\n- Exemple : \"800 $/mois pour gérer les réseaux sociaux\"\n- Avantage : Revenu prévisible\n- Risque : Le client peut annuler\n\n**💡 Conseil :** Les débutants commencent généralement par de petites tâches, évoluent vers des projets, et les plus expérimentés obtiennent des contrats récurrents."
+      },
+      {
+        "type": "quiz",
+        "question": "Un freelance qui facture 500 $ pour créer un site web complet travaille selon le modèle :",
+        "options": [
+          { "text": "Par tâche", "isCorrect": false },
+          { "text": "Par projet", "isCorrect": true },
+          { "text": "Par contrat récurrent", "isCorrect": false },
+          { "text": "Par salaire fixe", "isCorrect": false }
+        ],
+        "explanation": "Correct ! Facturer un montant fixe pour une livraison complète est le modèle 'par projet'. C'est différent de facturer par petite tâche ou d'avoir un contrat mensuel fixe."
+      },
+      {
+        "type": "text",
+        "title": "🏢 Le Rôle des Plateformes",
+        "content": "Voici une question fréquente :\n\n**\"Où trouver des clients ?\"**\n\nLa réponse la plus pratique pour les débutants : **Les plateformes de Freelance**\n\n**Qu'est-ce que c'est ?**\nCe sont des sites qui mettent en relation freelances et clients ayant besoin de services. Ils fonctionnent comme des intermédiaires.\n\n**Comment ça fonctionne ?**\n1. Le client publie un projet\n2. Les freelances envoient des propositions\n3. Le client choisit le meilleur\n4. Le travail est réalisé\n5. Le paiement est traité par la plateforme\n\n**Pourquoi utiliser des plateformes ?**\n- ✅ Clients déjà prêts à embaucher\n- ✅ Paiement garanti (la plateforme retient l'argent)\n- ✅ Système de réputation (avis)\n- ✅ Support en cas de problèmes\n\n**Inconvénient :**\n- ❌ Prélèvent une commission (5% à 20%)\n- ❌ Concurrence avec d'autres freelances"
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Complétez les Phrases",
+          "sentence": "Les plateformes de freelance fonctionnent comme des [BLANK] entre clients et professionnels. Elles garantissent le [BLANK] et prélèvent une [BLANK] pour chaque travail.",
+          "correctAnswers": ["intermédiaires", "paiement", "commission"],
+          "options": ["intermédiaires", "paiement", "commission", "salaire", "contrat", "employeurs"],
+          "explanation": "Les plateformes agissent comme des intermédiaires sécurisés, garantissant que le freelance reçoit le paiement et prélevant une commission pour le service."
+        }
+      },
+      {
+        "type": "text",
+        "title": "🌎 Plateformes Nationales vs Internationales",
+        "content": "Il existe deux types principaux de plateformes :\n\n**🇫🇷🇧🇪🇨🇭 Plateformes en Français/Régionales**\n- Malt\n- Comet\n- Crème de la Crème\n- 5euros.fr\n\n**Avantages :**\n- Communication dans votre langue\n- Clients locaux\n- Paiements en monnaie locale\n- Moins de concurrence internationale\n\n**🌍 Plateformes Internationales (Anglais)**\n- Upwork\n- Fiverr\n- Toptal\n- PeoplePerHour\n\n**Avantages :**\n- Clients du monde entier\n- Paiements en dollars/euros\n- Volume de projets plus important\n- Tarifs plus élevés\n\n**💡 Recommandation pour les débutants :**\nCommencez sur des plateformes francophones pour gagner de l'expérience et de la réputation. Ensuite, migrez progressivement vers les internationales pour augmenter vos revenus."
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est le principal avantage de commencer sur des plateformes francophones pour un débutant ?",
+        "options": [
+          { "text": "Elles paient plus que les internationales", "isCorrect": false },
+          { "text": "Elles ne prélèvent pas de commission", "isCorrect": false },
+          { "text": "Communication plus facile et moins de concurrence", "isCorrect": true },
+          { "text": "Elles ont plus de projets disponibles", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Pour les débutants, commencer sur des plateformes francophones facilite la communication avec les clients et réduit la concurrence avec les freelances du monde entier."
+      },
+      {
+        "type": "text",
+        "title": "⚠️ Mythes sur le Freelance",
+        "content": "Déboulonnons quelques mythes courants :\n\n**Mythe 1 : \"Je dois être expert pour commencer\"**\n❌ Faux. Beaucoup de clients recherchent des tâches simples que toute personne organisée peut faire.\n\n**Mythe 2 : \"C'est trop risqué, je pourrais ne rien gagner\"**\n❌ Partiellement faux. Il y a un risque, mais avec une bonne stratégie, vous pouvez avoir des revenus stables.\n\n**Mythe 3 : \"C'est seulement pour programmeurs et designers\"**\n❌ Faux. Il y a de la demande pour : rédacteurs, assistants virtuels, traducteurs, community managers, monteurs vidéo, et BEAUCOUP plus.\n\n**Mythe 4 : \"Les plateformes prennent tout l'argent\"**\n❌ Exagéré. La commission varie de 5% à 20%, mais en échange vous obtenez des clients, de la sécurité et de la visibilité.\n\n**Mythe 5 : \"Je dois investir de l'argent pour commencer\"**\n❌ Faux. Vous avez seulement besoin d'internet, d'un ordinateur basique, et de la volonté d'apprendre."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🎯 Mythe vs Réalité",
+          "description": "Associez chaque mythe à la réalité correspondante",
+          "pairs": [
+            { "left": "Je dois être expert", "right": "Il existe des tâches simples pour débutants" },
+            { "left": "Seulement pour programmeurs", "right": "Il y a de la demande dans de nombreux domaines" },
+            { "left": "Plateformes volent l'argent", "right": "Prélèvent une commission juste pour services" },
+            { "left": "Besoin d'investir beaucoup", "right": "Seulement internet et ordinateur basique" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "🚀 Votre Avantage Secret : l'Intelligence Artificielle",
+        "content": "Voici ce qui vous différencie de la majorité des freelances :\n\n**Vous connaissez déjà des outils d'IA.**\n\nAlors que d'autres freelances font tout manuellement, vous pouvez :\n\n**📝 Avec ChatGPT/Claude :**\n- Écrire des textes en minutes (pas en heures)\n- Créer des propositions personnalisées rapidement\n- Répondre aux emails de manière professionnelle\n- Traduire des contenus instantanément\n\n**🎨 Avec des outils d'image :**\n- Créer des designs basiques sans être designer\n- Éditer des photos rapidement\n- Générer des idées visuelles\n\n**📊 Avec l'IA pour l'organisation :**\n- Résumer des documents longs\n- Organiser les informations clients\n- Créer des tableaux et rapports\n\n**💡 Cela signifie :**\n- Livraisons plus rapides\n- Meilleure qualité\n- Plus de projets par mois\n- = PLUS D'ARGENT"
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi connaître les outils d'IA est un avantage compétitif pour un freelance débutant ?",
+        "options": [
+          { "text": "Parce que les plateformes donnent un rabais à ceux qui utilisent l'IA", "isCorrect": false },
+          { "text": "Parce que cela permet de livrer plus vite et avec une meilleure qualité", "isCorrect": true },
+          { "text": "Parce que les clients paient plus si vous utilisez l'IA", "isCorrect": false },
+          { "text": "Parce que vous n'avez pas besoin d'apprendre autre chose", "isCorrect": false }
+        ],
+        "explanation": "Parfait ! L'IA vous permet d'être plus productif : livrer plus vite, avec une meilleure qualité, et ainsi accepter plus de projets. Cela se traduit directement par plus de revenus."
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé : Ce Que Vous Avez Appris",
+        "content": "Récapitulons le Module 1 :\n\n**✅ Qu'est-ce qu'être freelance :**\nProfessionnel indépendant qui travaille par projet/tâche pour plusieurs clients.\n\n**✅ Différences claires :**\n- Employé = salaire fixe, un patron\n- Indépendant = travaille seul, peut avoir des contrats longs\n- Freelance = projets courts, plusieurs clients\n\n**✅ Comment gagner de l'argent :**\n- Par projet (prix fixé)\n- Par tâche (prix unitaire)\n- Par contrat récurrent (mensuel)\n\n**✅ Rôle des plateformes :**\nIntermédiaires qui connectent freelances et clients, garantissent le paiement et prélèvent une commission.\n\n**✅ Votre avantage :**\nAvec l'IA, vous pouvez livrer plus vite et mieux que la concurrence.\n\n**🎯 Prochaine étape :**\nDans le Module 2, nous allons explorer les principales plateformes et découvrir laquelle est la meilleure pour vous commencer."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "🏆 Test Final du Module 1",
+          "sentence": "Un freelance est un professionnel [BLANK] qui peut travailler pour [BLANK] clients. Les plateformes fonctionnent comme des [BLANK] et prélèvent une [BLANK] pour leurs services.",
+          "correctAnswers": ["indépendant", "plusieurs", "intermédiaires", "commission"],
+          "options": [
+            "indépendant",
+            "plusieurs",
+            "intermédiaires",
+            "commission",
+            "employé",
+            "un",
+            "patrons",
+            "salaire"
+          ],
+          "explanation": "Excellent ! Vous avez compris les concepts fondamentaux du monde du freelance. Vous êtes prêt pour le prochain module."
+        }
+      }
+    ]
+  },
+  "module2": {
+    "title": "Carte des Plateformes",
+    "description": "Où se trouve vraiment l'argent",
+    "icon": "Map",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🗺️ Les Plateformes de Freelance",
+        "content": "Maintenant que vous comprenez ce qu'est être freelance, vous devez savoir **où trouver des clients**.\n\nIl existe des dizaines de plateformes, mais elles ne sont pas toutes égales. Certaines sont meilleures pour les débutants, d'autres pour les expérimentés. Certaines paient en dollars, d'autres en monnaie locale.\n\n**Dans ce module vous allez apprendre :**\n- Les 5 plateformes les plus importantes\n- Avantages et inconvénients de chacune\n- Comment choisir selon votre niveau\n- Comment fonctionnent les paiements\n\n**Important :** Vous n'avez pas besoin d'être sur TOUTES les plateformes. Il vaut mieux maîtriser 1-2 plateformes que d'avoir un profil abandonné sur 10."
+      },
+      {
+        "type": "text",
+        "title": "🟢 Malt - Votre Première Option",
+        "content": "**Malt** est la plateforme leader en France et parfaite pour les débutants francophones.\n\n**Comment ça fonctionne :**\n1. Vous créez votre profil gratuit\n2. Vous voyez les projets publiés par les clients\n3. Vous envoyez des propositions (vous avez une limite mensuelle gratuite)\n4. Si vous êtes choisi, vous travaillez et recevez le paiement\n\n**✅ Avantages :**\n- Tout en français\n- Clients de France et Europe francophone\n- Projets pour débutants\n- Vous pouvez commencer sans portfolio\n- Paiements par PayPal, virement bancaire\n\n**❌ Inconvénients :**\n- Commission de 10-15%\n- Limite de propositions gratuites\n- Certains clients paient peu\n\n**💡 Idéal pour :** Votre premier projet freelance. Gagner de l'expérience et des avis."
+      },
+      {
+        "type": "text",
+        "title": "🌐 Upwork - Le Géant International",
+        "content": "**Upwork** est la plus grande plateforme de freelances au monde. C'est ici que se trouvent les clients avec les plus gros budgets.\n\n**Comment ça fonctionne :**\n1. Créez un profil (nécessite approbation)\n2. Achetez des \"connects\" pour envoyer des propositions\n3. Les clients vous interviewent\n4. Vous travaillez et facturez en dollars\n\n**✅ Avantages :**\n- Paiements en USD (dollars)\n- Clients de grandes entreprises\n- Projets à haute valeur\n- Système de protection robuste\n- Possibilité de contrats longs\n\n**❌ Inconvénients :**\n- Requiert l'anglais fluide\n- Connects sont payants\n- Commission de 10-20%\n- Forte concurrence mondiale\n\n**💡 Idéal pour :** Après 2-3 mois d'expérience. Quand vous maîtrisez l'anglais de base."
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi Malt est-il meilleur qu'Upwork pour un débutant absolu ?",
+        "options": [
+          { "text": "Parce qu'il paie plus par projet", "isCorrect": false },
+          { "text": "Parce qu'il ne prélève pas de commission", "isCorrect": false },
+          { "text": "Parce qu'il est en français et a moins de concurrence", "isCorrect": true },
+          { "text": "Parce qu'il a plus de projets disponibles", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Malt permet de commencer sans barrière linguistique et avec moins de concurrence internationale, ce qui facilite l'obtention des premiers projets."
+      },
+      {
+        "type": "text",
+        "title": "🎨 Fiverr - Le Modèle des Gigs",
+        "content": "**Fiverr** fonctionne différemment : VOUS créez des offres de services (appelées \"gigs\") et les clients vous trouvent.\n\n**Comment ça fonctionne :**\n1. Vous créez des \"gigs\" (offres de service)\n2. Vous optimisez avec des mots-clés\n3. Les clients cherchent et vous achètent\n4. Vous livrez et recevez le paiement\n\n**✅ Avantages :**\n- Pas besoin de chercher des clients\n- Vous pouvez avoir plusieurs gigs\n- Paiements internationaux\n- Évolutif (les clients vous trouvent 24h/24)\n\n**❌ Inconvénients :**\n- Prix initiaux très bas (5 $)\n- Concurrence féroce\n- Long à monter en niveau\n- Commission de 20%\n\n**💡 Idéal pour :** Services spécifiques et répétables. Exemple : \"Je crée 5 posts Instagram avec IA\" pour 25 $."
+      },
+      {
+        "type": "text",
+        "title": "🇫🇷🇧🇪 Plateformes Régionales",
+        "content": "En plus des grandes plateformes, il existe des plateformes locales qui peuvent être une mine d'or pour les débutants :\n\n**Comet (France)**\n- Spécialisée dans le freelance tech\n- Clients qualité\n- Tarifs plus élevés\n\n**Crème de la Crème (France)**\n- Plateforme premium\n- Clients sélectionnés\n- Projets complexes\n\n**5euros.fr (France)**\n- Pour micro-services\n- Prix bas (à partir de 5 €)\n- Bon pour commencer\n\n**💡 Stratégie :** Commencez sur 1-2 plateformes régionales. Quand vous avez 5-10 avis positifs, migrez vers Upwork pour des projets en dollars."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Associez Plateforme et Caractéristique",
+          "description": "Associez chaque plateforme à ce qui la rend spéciale",
+          "pairs": [
+            { "left": "Malt", "right": "Leader en France/francophone" },
+            { "left": "Upwork", "right": "Paiements en dollars USD" },
+            { "left": "Fiverr", "right": "Modèle de gigs/offres" },
+            { "left": "Comet", "right": "Spécialisé tech France" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💳 Comment Fonctionnent les Paiements",
+        "content": "Comprendre le flux d'argent est fondamental :\n\n**1. Le client paie à la plateforme**\n- L'argent est \"mis en attente\" (escrow)\n- Cela vous protège des arnaques\n\n**2. Vous livrez le travail**\n- Le client approuve\n- Ou demande des révisions\n\n**3. La plateforme libère le paiement**\n- Déduit sa commission\n- Transfère sur votre compte\n\n**4. Vous retirez l'argent**\n- PayPal (plus rapide)\n- Virement bancaire\n- Transferwise (meilleurs taux)\n\n**⚠️ Important :**\n- N'ACCEPTEZ JAMAIS de payer en dehors de la plateforme au début\n- C'est la forme d'arnaque la plus courante\n- La protection de la plateforme vaut la commission"
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi est-il dangereux d'accepter un paiement en dehors de la plateforme quand vous êtes débutant ?",
+        "options": [
+          { "text": "Parce que la plateforme peut vous bannir", "isCorrect": false },
+          { "text": "Parce que vous perdez la protection contre les arnaques", "isCorrect": true },
+          { "text": "Parce que vous payez plus d'impôts", "isCorrect": false },
+          { "text": "Parce que le client ne peut pas laisser d'avis", "isCorrect": false }
+        ],
+        "explanation": "Correct ! La principale raison est que vous perdez la protection. Le client pourrait ne pas payer et vous n'aurez personne à qui vous plaindre."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Quelle Plateforme Choisir ?",
+        "content": "Voici la recommandation selon votre niveau :\n\n**🟢 Débutant Absolu (0-3 mois)**\n→ **Malt** comme plateforme principale\n→ Optionnel : Fiverr avec 1-2 gigs spécifiques\n\n**🟡 Débutant avec Expérience (3-6 mois)**\n→ Gardez Malt\n→ Créez un profil sur **Upwork**\n→ Cherchez vos premiers clients internationaux\n\n**🔵 Freelance Établi (6+ mois)**\n→ Concentrez-vous sur **Upwork** pour les projets premium\n→ Malt pour les clients récurrents\n→ Fiverr pour les revenus passifs\n\n**💡 Règle d'or :**\nN'essayez pas d'être sur toutes. Maîtrisez-en une, obtenez des avis, puis développez-vous."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Votre Plan d'Action",
+          "sentence": "En tant que débutant, je vais commencer sur [BLANK] car c'est en [BLANK]. Après avoir obtenu [BLANK] avis positifs, je créerai un profil sur [BLANK] pour gagner en dollars.",
+          "correctAnswers": ["Malt", "français", "5-10", "Upwork"],
+          "options": ["Malt", "français", "5-10", "Upwork", "Fiverr", "anglais", "100", "Freelancer"],
+          "explanation": "Parfait ! C'est la route recommandée : maîtriser une plateforme locale avant de s'étendre à l'international."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 2",
+        "content": "**Ce que vous avez appris :**\n\n✅ **Malt** = Meilleur pour commencer (français, France)\n✅ **Upwork** = Pour grandir (dollars, clients globaux)\n✅ **Fiverr** = Modèle différent (vous créez des offres)\n✅ **Régionales** = Moins de concurrence, bon point de départ\n\n✅ **Paiements :**\n- Toujours par la plateforme au début\n- PayPal ou virement bancaire pour retirer\n- La commission vaut la protection\n\n✅ **Votre stratégie :**\n1. Commencez sur Malt\n2. Obtenez 5-10 avis\n3. Développez-vous sur Upwork\n\n**🎯 Prochain module :**\nMaintenant que vous savez OÙ chercher des clients, apprenons à créer un profil qui VEND."
+      }
+    ]
+  },
+  "module3": {
+    "title": "Créer Votre Compte Correctement",
+    "description": "Un mauvais profil ne reçoit pas de propositions",
+    "icon": "UserPlus",
+    "steps": [
+      {
+        "type": "text",
+        "title": "👤 Votre Profil est Votre Vitrine",
+        "content": "Imaginez que votre profil de freelance est comme la vitrine d'une boutique.\n\n**Si la vitrine est :**\n- Sale → personne n'entre\n- Vide → semble abandonnée\n- Confuse → on ne sait pas ce que vous vendez\n\n**Un mauvais profil = zéro proposition acceptée**\n\nDans ce module vous allez apprendre :\n- Ce qu'il faut mettre (et ne PAS mettre) dans votre profil\n- Comment écrire un titre qui vend\n- Comment créer une bio qui convertit\n- Que faire si vous n'avez pas de portfolio\n\n**La bonne nouvelle :** Avec les bonnes techniques, vous pouvez créer un profil professionnel en 1-2 heures, même sans expérience préalable."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Le Titre Professionnel",
+        "content": "Le titre est la PREMIÈRE chose que le client voit. Vous avez 3 secondes pour le convaincre de continuer à lire.\n\n**❌ Titres qui ne fonctionnent PAS :**\n- \"Freelance cherchant des opportunités\"\n- \"Étudiant avec envie d'apprendre\"\n- \"Je fais un peu de tout\"\n- \"Professionnel multidisciplinaire\"\n\n**✅ Titres qui VENDENT :**\n- \"Rédacteur de contenu pour blogs | SEO\"\n- \"Designer de posts pour réseaux sociaux\"\n- \"Assistant virtuel | Organisation et emails\"\n- \"Monteur vidéo pour YouTube et TikTok\"\n\n**La formule :**\n[Ce que vous faites] + [Pour qui/spécialisation]\n\n**💡 Astuce avec IA :**\nDemandez à ChatGPT : \"Donnez-moi 5 options de titre professionnel pour un freelance de [votre domaine] qui soit clair et spécifique\""
+      },
+      {
+        "type": "quiz",
+        "question": "Quel titre est le plus efficace pour un freelance débutant ?",
+        "options": [
+          { "text": "Étudiant cherchant de l'expérience", "isCorrect": false },
+          { "text": "Rédacteur de contenu pour blogs technologiques", "isCorrect": true },
+          { "text": "Je fais de tout : design, textes, vidéos", "isCorrect": false },
+          { "text": "Professionnel créatif et proactif", "isCorrect": false }
+        ],
+        "explanation": "Correct ! Un titre spécifique (rédacteur + blogs + technologie) dit exactement ce que vous faites et pour qui, facilitant la rencontre avec le bon client."
+      },
+      {
+        "type": "text",
+        "title": "📝 La Bio qui Convertit",
+        "content": "Votre bio (description) doit répondre à 3 questions dans les 2 premiers paragraphes :\n\n**1. Qu'est-ce que vous faites ?**\n\"Je crée du contenu écrit pour blogs et réseaux sociaux.\"\n\n**2. Pour qui ?**\n\"Je travaille avec des entrepreneurs et petites entreprises du secteur tech.\"\n\n**3. Quel résultat livrez-vous ?**\n\"Mes textes aident à attirer plus de visiteurs et à les convertir en clients.\"\n\n**Structure recommandée :**\n- Paragraphe 1 : Ce que vous faites + pour qui (2-3 lignes)\n- Paragraphe 2 : Comment vous travaillez + résultats (2-3 lignes)\n- Paragraphe 3 : Pourquoi vous choisir + appel à l'action (2 lignes)\n\n**❌ À éviter :**\n- Parler seulement de vous (\"Je suis passionné par...\")\n- Lister 20 compétences différentes\n- Des textes génériques qui conviennent à n'importe quel freelance"
+      },
+      {
+        "type": "text",
+        "title": "🚫 Ce qu'il ne faut JAMAIS Mettre",
+        "content": "Erreurs courantes qui détruisent votre crédibilité :\n\n**❌ Photos inappropriées :**\n- Selfies avec filtres Instagram\n- Photos de fête ou de plage\n- Sans photo (semble faux profil)\n\n**❌ Informations personnelles excessives :**\n- \"Je suis mère de 3 enfants et...\"\n- \"J'ai besoin d'argent urgent\"\n- \"Je suis au chômage depuis 6 mois\"\n\n**❌ Désespoir :**\n- \"J'accepte n'importe quel travail\"\n- \"Prix super bas\"\n- \"Je peux commencer MAINTENANT\"\n\n**❌ Mensonges :**\n- \"10 ans d'expérience\" (si vous ne les avez pas)\n- \"Expert en...\" (si vous savez à peine)\n- Portfolio d'autres personnes\n\n**✅ À la place :**\n- Photo professionnelle (peut être avec téléphone, fond neutre)\n- Concentration sur ce que vous pouvez faire pour le client\n- Honnêteté sur votre niveau (\"Je me spécialise actuellement en...\")"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Éléments du Profil",
+          "description": "Identifiez ce qui est bon et mauvais dans un profil",
+          "pairs": [
+            { "left": "Photo professionnelle fond neutre", "right": "Bon - transmet la confiance" },
+            { "left": "Titre générique 'je fais de tout'", "right": "Mauvais - ne dit rien de spécifique" },
+            { "left": "Bio axée sur les résultats", "right": "Bon - montre la valeur pour le client" },
+            { "left": "'J'ai besoin d'argent urgent'", "right": "Mauvais - transmet le désespoir" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "📁 Le Problème du Portfolio",
+        "content": "\"Mais je n'ai pas de travaux précédents à montrer...\"\n\nC'est l'objection la plus courante. Voici la solution :\n\n**Créez des projets fictifs de qualité :**\n\n1. **Choisissez 2-3 types de travail** que vous voulez offrir\n2. **Inventez un client fictif** (entreprise imaginaire)\n3. **Créez le travail complet** comme si c'était réel\n4. **Documentez le processus**\n\n**Exemple pour rédacteur :**\n- Créez 3 articles de blog pour une \"entreprise de technologie\"\n- Écrivez des posts de réseaux sociaux pour une \"marque de vêtements\"\n- Rédigez des emails marketing pour un \"cours en ligne\"\n\n**💡 Utilisez l'IA pour accélérer :**\n\"ChatGPT, crée un brief fictif d'un client qui a besoin d'articles de blog sur [sujet]. Inclut : nom d'entreprise, public cible, ton de voix.\"\n\nEnsuite, créez le contenu basé sur ce brief."
+      },
+      {
+        "type": "quiz",
+        "question": "Si vous n'avez pas de portfolio réel, que devez-vous faire ?",
+        "options": [
+          { "text": "Attendre d'avoir de l'expérience réelle", "isCorrect": false },
+          { "text": "Copier les travaux d'autres freelances", "isCorrect": false },
+          { "text": "Créer des projets fictifs de qualité", "isCorrect": true },
+          { "text": "Laisser le portfolio vide", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Les projets fictifs bien faits démontrent vos capacités aussi bien que les projets réels. L'important est la qualité, pas si le client était 'réel'."
+      },
+      {
+        "type": "text",
+        "title": "⭐ Les Premiers Avis",
+        "content": "Les avis (reviews) sont la monnaie du freelance. Sans avis, c'est difficile d'obtenir des projets.\n\n**Stratégie pour obtenir les premiers :**\n\n**1. Offrez des prix bas initialement**\n- Seulement pour les 2-3 premiers projets\n- L'objectif est d'obtenir des avis 5 étoiles\n- Ensuite vous montez les prix\n\n**2. Livrez PLUS que promis**\n- Si vous avez promis 5 posts, livrez-en 6\n- Si le délai était 5 jours, livrez en 3\n- Cela génère des avis enthousiastes\n\n**3. Demandez l'avis explicitement**\n- \"Pourriez-vous me laisser une évaluation ?\"\n- \"Votre feedback m'aide beaucoup à grandir\"\n\n**4. Soyez professionnel dans la communication**\n- Répondez rapidement\n- Soyez toujours poli\n- Clarifiez les doutes de manière proactive"
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Votre Stratégie d'Avis",
+          "sentence": "Pour obtenir mes premiers avis, je vais offrir des prix [BLANK] pour les premiers projets. Je vais livrer [BLANK] que promis pour impressionner le client. À la fin, je vais [BLANK] l'avis explicitement.",
+          "correctAnswers": ["bas", "plus", "demander"],
+          "options": ["bas", "plus", "demander", "hauts", "moins", "attendre"],
+          "explanation": "Parfait ! Cette stratégie d'investissement dans les premiers projets vous positionne pour facturer plus cher ensuite."
+        }
+      },
+      {
+        "type": "text",
+        "title": "✅ Checklist du Profil Parfait",
+        "content": "Avant de commencer à chercher des projets, vérifiez :\n\n**📷 Photo :**\n☐ Professionnelle (fond neutre, bonne lumière)\n☐ Seulement vous, regardant la caméra\n☐ Tenue appropriée\n\n**📝 Titre :**\n☐ Spécifique (ce que vous faites)\n☐ Mentionne la spécialisation ou niche\n☐ Maximum 60 caractères\n\n**📄 Bio :**\n☐ Premier paragraphe dit ce que vous faites et pour qui\n☐ Mentionne des résultats, pas seulement des tâches\n☐ A un appel à l'action à la fin\n☐ Sans fautes d'orthographe\n\n**📁 Portfolio :**\n☐ Minimum 3 exemples de travail\n☐ Chacun avec une brève description\n☐ Montre de la variété dans la niche\n\n**⚙️ Configuration :**\n☐ Disponibilité à jour\n☐ Méthodes de paiement configurées\n☐ Profil 100% complet"
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 3",
+        "content": "**Ce que vous avez appris :**\n\n✅ Le profil est votre vitrine - les premières impressions comptent\n\n✅ **Titre :** Spécifique + Niche\n→ \"Rédacteur de contenu pour blogs technologiques\"\n\n✅ **Bio :** Ce que vous faites + Pour qui + Résultats\n→ Axée sur le client, pas sur vous\n\n✅ **Portfolio sans expérience :**\n→ Créez des projets fictifs de qualité\n→ Documentez comme si c'étaient des projets réels\n\n✅ **Premiers avis :**\n→ Prix bas initial + Livrer plus + Demander l'avis\n\n✅ **À éviter :**\n→ Photos inappropriées, désespoir, mensonges\n\n**🎯 Prochain module :**\nAvec le profil prêt, découvrons QUELS services vous pouvez vendre en tant que débutant."
+      }
+    ]
+  },
+  "module4": {
+    "title": "Ce Que Je Peux Vendre",
+    "description": "Vous ne vendez pas d'IA, vous vendez de l'aide",
+    "icon": "ShoppingBag",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🤔 L'Erreur de Vendre 'IA'",
+        "content": "Beaucoup de débutants font la même erreur :\n\n❌ \"Je vends des services d'IA\"\n❌ \"J'utilise ChatGPT pour créer du contenu\"\n❌ \"J'automatise des choses avec l'intelligence artificielle\"\n\n**Pourquoi ça ne fonctionne pas ?**\n\nParce que le client ne veut pas d'\"IA\". Le client veut :\n- Plus de ventes\n- Moins de travail\n- Des problèmes résolus\n- Du temps libre\n\n**L'IA est l'OUTIL, pas le PRODUIT.**\n\nC'est comme un menuisier qui dit \"je vends des marteaux\" au lieu de \"je fabrique des meubles\".\n\n**La mentalité correcte :**\nVous vendez des RÉSULTATS. L'IA n'est que la façon dont vous les obtenez (plus vite et mieux)."
+      },
+      {
+        "type": "text",
+        "title": "📋 Services Pour Débutants",
+        "content": "Voici des services que vous pouvez offrir AUJOURD'HUI, en utilisant l'IA comme votre avantage :\n\n**✍️ Rédaction de Contenu**\n- Articles de blog\n- Posts pour réseaux sociaux\n- Descriptions de produits\n- Emails marketing\n\n**📱 Gestion de Réseaux Sociaux**\n- Créer un calendrier de contenu\n- Écrire des légendes\n- Répondre aux commentaires\n- Créer des rapports\n\n**📧 Assistance Virtuelle**\n- Organiser les emails\n- Planifier des réunions\n- Créer des documents\n- Recherche basique\n\n**🔤 Traduction Simple**\n- Textes de sites web\n- Documents courts\n- Sous-titres\n\n**💡 Tous ces services peuvent être accélérés 3-5x avec l'IA.**"
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est la bonne façon de présenter votre service à un client ?",
+        "options": [
+          { "text": "J'utilise ChatGPT pour écrire vos textes", "isCorrect": false },
+          { "text": "Je crée du contenu qui attire plus de clients pour votre entreprise", "isCorrect": true },
+          { "text": "Je suis expert en intelligence artificielle", "isCorrect": false },
+          { "text": "J'automatise votre marketing avec l'IA", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Le client veut des résultats (plus de clients). L'outil que vous utilisez est secondaire. Vendez le bénéfice, pas l'outil."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Choisissez UN Service Pour Commencer",
+        "content": "L'erreur des débutants est de vouloir tout offrir.\n\n**❌ Mauvais :**\n\"J'offre rédaction, design, vidéos, traductions, réseaux sociaux, emails...\"\n\n**✅ Bon :**\n\"Je me spécialise dans la création d'articles de blog pour les entreprises de technologie.\"\n\n**Pourquoi ça fonctionne :**\n1. C'est plus facile de créer un portfolio spécifique\n2. Vous vous positionnez comme spécialiste\n3. Vous pouvez facturer plus\n4. Le client a plus confiance\n\n**Comment choisir :**\nRépondez à ces questions :\n- Qu'aimez-vous faire ? (écrire, organiser, designer)\n- Que savez-vous déjà faire basiquement ?\n- Qu'est-ce qui a de la demande ? (cherchez sur Malt)\n\n**💡 Astuce :** Après avoir maîtrisé 1 service, vous pouvez en ajouter d'autres. Mais commencez avec UN."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Service → Résultat pour le Client",
+          "description": "Associez chaque service au bénéfice qu'il offre",
+          "pairs": [
+            { "left": "Articles de blog", "right": "Plus de visiteurs sur le site" },
+            { "left": "Posts de réseaux", "right": "Meilleure visibilité de la marque" },
+            { "left": "Emails marketing", "right": "Plus de ventes de produits" },
+            { "left": "Assistance virtuelle", "right": "Plus de temps pour le propriétaire" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💪 Votre Avantage Concurrentiel",
+        "content": "\"Mais il y a des milliers de freelances qui offrent la même chose...\"\n\nOui, mais vous avez un avantage que la plupart n'ont pas :\n\n**Vitesse avec l'IA**\n- Pendant que les autres prennent 4 heures pour un article\n- Vous le livrez en 1 heure (avec qualité)\n- Vous pouvez faire 4x plus de projets\n\n**Ou encore mieux :**\n- Vous facturez le même prix\n- Vous prenez le même temps\n- Mais vous utilisez le temps supplémentaire pour améliorer la qualité\n- Résultat : travail de meilleure qualité, même vitesse\n\n**Le client ne sait pas (et ne s'en soucie pas) que vous utilisez l'IA.**\nCe qui importe c'est qu'il reçoit :\n- Livraison rapide\n- Bonne qualité\n- Communication professionnelle\n- Problème résolu"
+      },
+      {
+        "type": "text",
+        "title": "📊 Demande Réelle : Ce Que Cherchent les Clients",
+        "content": "Basé sur les données de Malt et Upwork, voici les services les PLUS recherchés :\n\n**🥇 Top 5 pour débutants :**\n1. Rédaction de contenu (blogs, articles)\n2. Gestion de réseaux sociaux\n3. Design graphique simple (posts, bannières)\n4. Traduction\n5. Saisie de données et assistance virtuelle\n\n**💰 Prix moyens (France/Europe) :**\n- Article de blog (800 mots) : 15-40 €\n- Pack 10 posts de réseaux : 30-80 €\n- Traduction (1000 mots) : 20-50 €\n- Assistant virtuel (10 heures) : 50-150 €\n\n**📈 Croissance récente :**\n- Montage vidéo pour TikTok/Reels (+200%)\n- Création de carrousels LinkedIn (+150%)\n- Transcription de podcasts (+100%)\n\n**💡 Opportunité :** Nouveaux services = moins de concurrence"
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi est-il mieux de se spécialiser dans UN service au début ?",
+        "options": [
+          { "text": "Parce que vous gagnez plus d'argent immédiatement", "isCorrect": false },
+          {
+            "text": "Parce que c'est plus facile de créer un portfolio et de vous positionner comme expert",
+            "isCorrect": true
+          },
+          { "text": "Parce que les plateformes n'autorisent qu'un service", "isCorrect": false },
+          { "text": "Parce que les clients n'embauchent que des spécialistes", "isCorrect": false }
+        ],
+        "explanation": "Correct ! Se spécialiser permet de créer un portfolio plus fort et d'être vu comme expert, ce qui génère plus de confiance et vous permet de facturer plus."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Définissez Votre Service",
+          "sentence": "Mon service principal sera la [BLANK]. Je ne vais pas vendre 'IA', mais des [BLANK] pour le client. Mon avantage est que je peux livrer plus [BLANK] grâce aux outils que je maîtrise.",
+          "correctAnswers": ["rédaction", "résultats", "rapidement"],
+          "options": ["rédaction", "résultats", "rapidement", "design", "technologie", "pas cher"],
+          "explanation": "Excellent ! Vous avez compris que vous vendez des résultats (pas des outils) et que la vitesse est votre avantage concurrentiel."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 4",
+        "content": "**Ce que vous avez appris :**\n\n✅ **Ne vendez pas \"IA\"** - vendez des résultats\n→ Le client veut des problèmes résolus, pas de la technologie\n\n✅ **Services pour débutants :**\n→ Rédaction, réseaux sociaux, assistance, traduction\n\n✅ **Choisissez UN service pour commencer**\n→ Spécialisation = confiance = plus d'argent\n\n✅ **Votre avantage concurrentiel :**\n→ Vitesse et qualité grâce à l'IA\n→ Mais le client n'a pas besoin de savoir comment vous faites\n\n✅ **Formule du service :**\n→ [Ce que vous faites] + [Pour qui] + [Résultat]\n→ \"Je crée des articles de blog pour les entreprises tech qui attirent plus de visiteurs\"\n\n**🎯 Prochain module :**\nVous savez maintenant QUOI vendre. Apprenons COMMENT répondre aux offres de travail et gagner des projets."
+      }
+    ]
+  },
+  "module5": {
+    "title": "Comment Répondre aux Offres",
+    "description": "La bonne façon de postuler",
+    "icon": "MessageSquare",
+    "steps": [
+      {
+        "type": "text",
+        "title": "📨 Le Problème des Propositions Génériques",
+        "content": "Imaginez que vous êtes un client et vous recevez 50 propositions. Laquelle choisissez-vous ?\n\n**Proposition A :**\n\"Bonjour, je suis intéressé par votre projet. J'ai de l'expérience dans le domaine et je peux fournir un bon travail. J'attends votre réponse.\"\n\n**Proposition B :**\n\"Bonjour Marie, j'ai vu que vous cherchez des articles pour votre blog de nutrition. J'ai remarqué que votre public est composé de femmes de 30-45 ans intéressées par l'alimentation saine. J'ai de l'expérience en rédaction sur ce sujet - voici un exemple similaire : [lien]. Je peux livrer 3 articles de 1000 mots en 5 jours. Pouvons-nous discuter de l'approche ?\"\n\n**Qui gagne ?** Évidemment B.\n\n**90% des freelances envoient la proposition A.** C'est votre opportunité."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Structure de Proposition Gagnante",
+        "content": "Utilisez cette structure éprouvée :\n\n**1. ACCROCHE (2 lignes)**\n→ Mentionnez quelque chose de spécifique au projet\n→ Montrez que vous avez LU l'offre\n\n**2. CONNEXION (2-3 lignes)**\n→ Reliez votre expérience à ce qui est demandé\n→ Mentionnez un travail similaire que vous avez fait\n\n**3. SOLUTION (3-4 lignes)**\n→ Expliquez brièvement comment vous aborderez le travail\n→ Démontrez que vous comprenez le problème\n\n**4. PREUVE (1-2 lignes)**\n→ Lien vers un travail similaire\n→ Ou décrivez un résultat que vous avez obtenu\n\n**5. APPEL À L'ACTION (1-2 lignes)**\n→ Proposez une prochaine étape concrète\n→ \"Pouvons-nous planifier un appel de 15 min ?\"\n\n**Total : 10-15 lignes maximum.** Personne ne lit les longues propositions."
+      },
+      {
+        "type": "quiz",
+        "question": "Quelle est l'erreur la plus courante dans les propositions de freelances ?",
+        "options": [
+          { "text": "Être trop court", "isCorrect": false },
+          { "text": "Être générique et ne rien mentionner de spécifique au projet", "isCorrect": true },
+          { "text": "Facturer trop cher", "isCorrect": false },
+          { "text": "Ne pas avoir de portfolio", "isCorrect": false }
+        ],
+        "explanation": "Exact ! La plus grande erreur est d'envoyer des propositions génériques qui pourraient convenir à n'importe quel projet. La personnalisation est la clé."
+      },
+      {
+        "type": "text",
+        "title": "🚫 Erreurs Qui Tuent Votre Proposition",
+        "content": "**❌ Erreur 1 : Commencer en parlant de vous**\n\"Je suis un professionnel avec 5 ans d'expérience...\"\n→ Le client ne se soucie pas de VOTRE histoire, mais de SON problème\n\n**❌ Erreur 2 : Copier-coller**\nLes clients remarquent quand la proposition est générique\n→ Toujours personnalisez au moins les premières lignes\n\n**❌ Erreur 3 : Écrire trop**\n→ Maximum 150 mots\n→ Si vous avez besoin de plus, quelque chose ne va pas\n\n**❌ Erreur 4 : Ne pas inclure d'exemple**\n→ \"J'ai de l'expérience\" sans preuve = pas crédible\n→ Incluez toujours un lien ou une description concrète\n\n**❌ Erreur 5 : Mendier**\n→ \"S'il vous plaît, donnez-moi une chance\"\n→ \"J'ai vraiment besoin de ce travail\"\n→ Cela transmet le désespoir, pas le professionnalisme"
+      },
+      {
+        "type": "text",
+        "title": "🤖 Utiliser l'IA Pour Personnaliser",
+        "content": "Voici l'astuce pour être rapide ET personnalisé :\n\n**Étape 1 : Lisez l'offre du client**\nIdentifiez :\n- Nom du client (si visible)\n- Ce dont il a exactement besoin\n- Secteur/industrie\n- Problème qu'il veut résoudre\n\n**Étape 2 : Utilisez ce prompt**\n\"Agissez comme rédacteur de propositions freelance. Basé sur cette offre d'emploi : [collez l'offre], créez une proposition personnalisée en suivant cette structure : [collez la structure du module précédent]. Gardez maximum 150 mots. Ton professionnel mais amical.\"\n\n**Étape 3 : Personnalisez le résultat**\n- Ajustez le ton\n- Ajoutez votre exemple réel\n- Vérifiez que ça semble naturel\n\n**⚠️ N'ENVOYEZ JAMAIS le texte de l'IA sans le réviser.** Toujours personnalisez."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Éléments de Proposition",
+          "description": "Identifiez ce qui fonctionne et ce qui ne fonctionne pas",
+          "pairs": [
+            { "left": "Mentionner le nom du client", "right": "Bon - montre que vous avez lu" },
+            { "left": "Commencer par votre histoire personnelle", "right": "Mauvais - client veut une solution" },
+            { "left": "Inclure un lien vers un travail similaire", "right": "Bon - prouve vos capacités" },
+            { "left": "Écrire 500 mots", "right": "Mauvais - personne ne lit autant" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "📊 Combien de Propositions Envoyer",
+        "content": "Les mathématiques du freelance débutant :\n\n**Taux de conversion typique :**\n- Débutants : 5-10% (sur 10 propositions, 1 acceptée)\n- Avec expérience : 20-30%\n- Experts : 40-50%\n\n**Cela signifie :**\n- Pour obtenir 1 projet, envoyez ~10 propositions\n- Pour obtenir 3 projets/mois, envoyez ~30 propositions\n- = Environ 1 proposition/jour\n\n**Stratégie recommandée :**\n1. Consacrez 30 min/jour à chercher des projets\n2. Sélectionnez 2-3 qui correspondent à votre profil\n3. Créez une proposition personnalisée pour chacun\n4. Envoyez et enregistrez (utilisez un tableau simple)\n5. Révisez les réponses de la veille\n\n**💡 Qualité > Quantité**\n3 propositions excellentes > 10 propositions médiocres"
+      },
+      {
+        "type": "quiz",
+        "question": "Si votre taux de conversion est de 10%, combien de propositions devez-vous envoyer pour obtenir 2 projets ?",
+        "options": [
+          { "text": "5 propositions", "isCorrect": false },
+          { "text": "10 propositions", "isCorrect": false },
+          { "text": "20 propositions", "isCorrect": true },
+          { "text": "50 propositions", "isCorrect": false }
+        ],
+        "explanation": "Correct ! Avec 10% de conversion, 1 proposition sur 10 est acceptée. Pour 2 projets, vous avez besoin d'environ 20 propositions."
+      },
+      {
+        "type": "text",
+        "title": "💬 Après la Proposition : Suivi",
+        "content": "Vous avez envoyé la proposition. Et maintenant ?\n\n**Si le client répond avec des questions :**\n→ Répondez rapidement (moins de 24h)\n→ Soyez clair et direct\n→ Proposez une prochaine étape (appel, plus de détails)\n\n**Si le client ne répond pas (72h+) :**\n→ Envoyez UN message de suivi\n→ \"Bonjour [nom], je voulais savoir si vous avez eu l'opportunité de revoir ma proposition. Y a-t-il quelque chose que je puisse clarifier ?\"\n→ Maximum 1 suivi, n'insistez pas\n\n**Si le client dit NON :**\n→ Remerciez professionnellement\n→ \"Merci de m'avoir considéré. Si une autre opportunité se présente, je serai disponible.\"\n→ Ne discutez ou ne vous plaignez jamais\n\n**Si le client dit OUI :**\n→ Confirmez les détails par écrit\n→ Clarifiez les livrables, délais, prix\n→ Commencez le travail"
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Votre Stratégie de Propositions",
+          "sentence": "Je vais consacrer [BLANK] minutes par jour à chercher des projets. J'enverrai [BLANK] propositions personnalisées par jour. Chaque proposition aura maximum [BLANK] mots et inclura toujours un [BLANK] de travail similaire.",
+          "correctAnswers": ["30", "2-3", "150", "exemple"],
+          "options": ["30", "2-3", "150", "exemple", "60", "10", "500", "prix"],
+          "explanation": "Excellent ! Cette routine quotidienne vous positionne pour obtenir des projets de manière consistante."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 5",
+        "content": "**Ce que vous avez appris :**\n\n✅ **Propositions génériques = échec**\n→ 90% envoie la même chose, démarquez-vous en personnalisant\n\n✅ **Structure gagnante :**\n→ Accroche + Connexion + Solution + Preuve + CTA\n→ Maximum 150 mots\n\n✅ **Erreurs mortelles :**\n→ Commencer en parlant de vous\n→ Copier-coller\n→ Ne pas inclure d'exemple\n→ Mendier\n\n✅ **Utilisez l'IA pour accélérer :**\n→ Mais PERSONNALISEZ toujours le résultat\n\n✅ **Mathématiques :**\n→ 10% conversion typique\n→ 2-3 propositions/jour = résultats\n→ Qualité > Quantité\n\n**🎯 Prochain module :**\nVous savez maintenant comment obtenir le projet. Parlons de COMBIEN facturer."
+      }
+    ]
+  },
+  "module6": {
+    "title": "Premiers Prix",
+    "description": "Combien facturer sans peur",
+    "icon": "DollarSign",
+    "steps": [
+      {
+        "type": "text",
+        "title": "💸 La Peur de Facturer",
+        "content": "Le plus grand ennemi du freelance débutant : **la peur de facturer**.\n\n**Pensées courantes :**\n- \"Si je facture trop, on ne m'embauchera pas\"\n- \"Je n'ai pas d'expérience, je devrais facturer peu\"\n- \"N'importe quel argent vaut mieux que rien\"\n\n**Le problème de facturer trop peu :**\n1. Attire des clients problématiques\n2. Vous ne vous valorisez pas (et le client non plus)\n3. Vous avez besoin de nombreux projets pour survivre\n4. Vous vous épuisez rapidement (beaucoup de travail, peu de gain)\n\n**La vérité :**\nFacturer juste dès le début est MEILLEUR pour tout le monde.\n\nDans ce module vous allez apprendre à définir des prix avec confiance."
+      },
+      {
+        "type": "text",
+        "title": "📊 Comment Calculer Votre Prix",
+        "content": "Il existe 3 méthodes. Utilisez les 3 et faites la moyenne :\n\n**Méthode 1 : Par Heure (Base)**\n1. Combien voulez-vous gagner par mois ? Ex : 800 €\n2. Combien d'heures pouvez-vous travailler ? Ex : 80h\n3. Votre heure de base : 800 €/80 = 10 €/h\n4. Ajoutez 30% pour imprévus : 13 €/h\n\n**Méthode 2 : Par Marché**\n1. Cherchez 5-10 freelances similaires sur Malt\n2. Voyez combien ils facturent\n3. Votre prix : moyenne ou légèrement moins (étant nouveau)\n\n**Méthode 3 : Par Valeur**\n1. Combien cela vaut-il pour le client ?\n2. Un article qui génère 1000 € de ventes vaut 50-100 €\n3. Calculez la valeur, facturez un pourcentage\n\n**Prix final = Moyenne des 3 méthodes**"
+      },
+      {
+        "type": "quiz",
+        "question": "Si vous voulez gagner 600 €/mois et pouvez travailler 60 heures, quelle est votre heure de base (avant les 30%) ?",
+        "options": [
+          { "text": "5 €/heure", "isCorrect": false },
+          { "text": "10 €/heure", "isCorrect": true },
+          { "text": "15 €/heure", "isCorrect": false },
+          { "text": "20 €/heure", "isCorrect": false }
+        ],
+        "explanation": "Correct ! 600 € ÷ 60 heures = 10 €/heure. Ensuite vous ajouteriez 30% pour imprévus, arrivant à 13 €/heure."
+      },
+      {
+        "type": "text",
+        "title": "📋 Prix Référentiels (France/Europe 2024)",
+        "content": "Voici les fourchettes typiques pour débutants francophones :\n\n**✍️ Rédaction :**\n- Article de blog (800-1000 mots) : 15-40 €\n- Pack 10 posts réseaux sociaux : 30-80 €\n- Email marketing : 10-25 €\n\n**📱 Réseaux Sociaux :**\n- Gestion mensuelle basique : 100-250 €\n- Calendrier de contenu : 50-100 €\n- Design de posts (pack 10) : 40-80 €\n\n**🔤 Traduction :**\n- Par mot : 0.03-0.08 €\n- Document 1000 mots : 30-80 €\n\n**📧 Assistance Virtuelle :**\n- Par heure : 5-15 €\n- Pack 10 heures : 50-120 €\n\n**💡 Note :** Ces prix sont pour débutants. Avec expérience et bons avis, vous pouvez facturer 2-3x plus."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Stratégie de Prix Initiale",
+        "content": "Pour débutants absolus (0-3 premiers projets) :\n\n**Phase 1 : Investissement (projets 1-3)**\n→ Facturez 20-30% MOINS que le marché\n→ Objectif : obtenir des avis 5 étoiles\n→ Traitez chaque projet comme du \"marketing\"\n\n**Phase 2 : Marché (projets 4-10)**\n→ Montez au prix moyen du marché\n→ Vous avez déjà des avis pour justifier\n→ Commencez à refuser les projets qui paient trop peu\n\n**Phase 3 : Premium (projet 10+)**\n→ Facturez 10-20% AU-DESSUS du marché\n→ Votre portfolio et avis vous soutiennent\n→ Concentrez-vous sur des clients de qualité\n\n**⚠️ Ne facturez JAMAIS moins que votre heure de base.**\nSi le projet ne couvre pas votre minimum, refusez poliment."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "📊 Phase → Stratégie de Prix",
+          "description": "Associez chaque phase à la bonne stratégie",
+          "pairs": [
+            { "left": "Projets 1-3", "right": "20-30% sous marché (investissement)" },
+            { "left": "Projets 4-10", "right": "Prix moyen du marché" },
+            { "left": "Projet 10+", "right": "10-20% au-dessus du marché" },
+            { "left": "N'importe quelle phase", "right": "Jamais en dessous de votre heure minimale" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💬 Comment Négocier le Prix",
+        "content": "Le client dit : \"Votre prix est trop cher.\"\n\n**❌ Mauvaises réponses :**\n- \"OK, je baisse le prix\" (perte de respect)\n- \"C'est le minimum que je puisse facturer\" (pas d'argument)\n- \"Si vous n'aimez pas, cherchez un autre\" (agressif)\n\n**✅ Bonnes réponses :**\n\n**Option 1 : Justifier**\n\"Je comprends votre point. Mon prix reflète [qualité/vitesse/expérience]. Cependant, je peux ajuster la portée. Que diriez-vous si au lieu de 5 articles nous en faisons 3 pour X € ?\"\n\n**Option 2 : Offrir une alternative**\n\"Pour ce budget, je peux offrir [version réduite]. Si vous préférez le pack complet, ce serait [prix original].\"\n\n**Option 3 : Rester ferme (avec tact)**\n\"J'apprécie que vous partagiez votre budget. Malheureusement mon prix minimum pour ce type de travail est X €. Si à l'avenir il y a un autre projet, je serai disponible.\"\n\n**La clé :** Ne baissez jamais le prix sans réduire la portée."
+      },
+      {
+        "type": "quiz",
+        "question": "Si un client dit que votre prix est cher, quelle est la meilleure réponse ?",
+        "options": [
+          { "text": "Baisser le prix immédiatement", "isCorrect": false },
+          { "text": "Lui dire de chercher un autre freelance", "isCorrect": false },
+          { "text": "Offrir de réduire la portée du travail pour ajuster le prix", "isCorrect": true },
+          { "text": "Ignorer le message", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Offrir des alternatives montre de la flexibilité sans dévaloriser votre travail. Ne baissez jamais le prix sans réduire la portée."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Votre Plan de Prix",
+          "sentence": "Mon heure de base est [BLANK] € (après les 30%). Pour mes 3 premiers projets, je vais facturer [BLANK]% moins pour obtenir des avis. Ensuite, je vais monter progressivement jusqu'à facturer [BLANK] du marché.",
+          "correctAnswers": ["13", "20-30", "au-dessus"],
+          "options": ["13", "20-30", "au-dessus", "5", "50", "égal"],
+          "explanation": "Parfait ! Vous avez une stratégie claire de prix qui évolue avec votre expérience."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 6",
+        "content": "**Ce que vous avez appris :**\n\n✅ **Facturer peu est une erreur**\n→ Attire de mauvais clients, vous épuise rapidement\n\n✅ **3 méthodes pour calculer le prix :**\n→ Par heure (revenu/heures × 1.3)\n→ Par marché (moyenne des concurrents)\n→ Par valeur (% du bénéfice pour le client)\n\n✅ **Stratégie en 3 phases :**\n→ 1-3 : Investissement (sous marché)\n→ 4-10 : Marché (prix moyen)\n→ 10+ : Premium (au-dessus du marché)\n\n✅ **Négociation :**\n→ Ne baissez jamais le prix sans réduire la portée\n→ Offrez des alternatives, gardez le respect\n\n**🎯 Prochain module :**\nVous avez maintenant défini votre prix. Apprenons ce qu'il faut faire APRÈS que le client accepte."
+      }
+    ]
+  },
+  "module7": {
+    "title": "Clôture et Livraison",
+    "description": "Du oui à l'argent sur le compte",
+    "icon": "CheckCircle",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🎉 Le Client a Dit Oui. Et Maintenant ?",
+        "content": "Félicitations ! Vous avez obtenu le projet. Mais le travail n'est pas terminé - il commence juste.\n\n**Les prochaines étapes sont cruciales :**\n1. Confirmer les détails par écrit\n2. Aligner les attentes\n3. Exécuter avec qualité\n4. Livrer professionnellement\n5. Obtenir l'avis\n\n**Erreurs courantes après le \"oui\" :**\n❌ Commencer à travailler sans confirmer les détails\n❌ Ne pas établir de date de livraison claire\n❌ Disparaître pendant l'exécution\n❌ Livrer sans explication\n\n**Dans ce module vous allez apprendre le processus professionnel de livraison.**"
+      },
+      {
+        "type": "text",
+        "title": "📝 Confirmation par Écrit",
+        "content": "AVANT de commencer à travailler, envoyez un message de confirmation :\n\n**Modèle de confirmation :**\n\n\"Bonjour [nom],\n\nJe confirme que nous avançons avec le projet. Pour m'assurer que j'ai tout bien compris :\n\n📌 **Livrables :**\n- [Liste exacte de ce que vous allez livrer]\n\n📅 **Date de livraison :**\n- [Date convenue]\n\n💰 **Investissement :**\n- [Prix convenu]\n\n❓ **Questions :**\n- [Toute question en suspens]\n\nSi tout est correct, je commence aujourd'hui. Y a-t-il quelque chose que vous souhaitez ajouter ou modifier ?\n\nCordialement,\n[Votre nom]\"\n\n**Pourquoi c'est important :**\n→ Évite les malentendus\n→ Protège les deux parties\n→ Démontre le professionnalisme"
+      },
+      {
+        "type": "quiz",
+        "question": "Pourquoi est-il important de confirmer les détails par écrit avant de commencer ?",
+        "options": [
+          { "text": "Pour paraître plus professionnel", "isCorrect": false },
+          { "text": "Pour éviter les malentendus et protéger les deux parties", "isCorrect": true },
+          { "text": "Parce que la plateforme l'exige", "isCorrect": false },
+          { "text": "Pour retarder le début du travail", "isCorrect": false }
+        ],
+        "explanation": "Correct ! La confirmation écrite crée de la clarté sur les attentes et sert de référence en cas de désaccord ultérieur."
+      },
+      {
+        "type": "text",
+        "title": "💬 Communication Pendant le Projet",
+        "content": "La communication pendant l'exécution est aussi importante que le travail lui-même.\n\n**Règles d'or :**\n\n**1. Mettez à jour de manière proactive**\n→ N'attendez pas que le client pose des questions\n→ Envoyez une mise à jour à 50% d'avancement\n→ \"Bonjour, j'en suis à la moitié. Tout va bien, je livre à la date prévue.\"\n\n**2. Répondez rapidement**\n→ Maximum 24 heures (idéalement moins)\n→ Si vous n'avez pas de réponse, signalez que vous regardez\n\n**3. Posez des questions AVANT, pas après**\n→ Si vous avez des doutes, demandez immédiatement\n→ Ne supposez pas - vérifiez\n\n**4. Signalez les problèmes tôt**\n→ S'il y a un retard, signalez-le à l'avance\n→ \"Un imprévu est survenu, la livraison sera retardée d'1 jour. Cela vous convient-il ?\"\n→ Ne disparaissez jamais et ne réapparaissez pas avec des excuses"
+      },
+      {
+        "type": "text",
+        "title": "📦 Comment Livrer Professionnellement",
+        "content": "La livraison est votre dernière impression. Rendez-la mémorable.\n\n**Modèle de message de livraison :**\n\n\"Bonjour [nom],\n\nC'est prêt ! 🎉\n\n📁 **Fichiers joints :**\n- [Liste des fichiers et formats]\n\n📝 **Notes sur la livraison :**\n- [Brève explication de ce que vous avez fait]\n- [Toute observation importante]\n\n🔄 **Prochaines étapes :**\n- Veuillez vérifier et me prévenir si vous avez besoin d'ajustements\n- J'ai inclus [X révisions] sans frais supplémentaires\n\nDes questions ? Je suis disponible.\n\nCordialement,\n[Votre nom]\"\n\n**Conseils supplémentaires :**\n✅ Livrez dans les formats demandés (ou demandez lesquels sont préférés)\n✅ Nommez les fichiers clairement (pas \"final_v3_FINAL.doc\")\n✅ Si c'est du texte, vérifiez l'orthographe avant d'envoyer"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Comportement de Livraison",
+          "description": "Identifiez ce qui est professionnel et ce qui ne l'est pas",
+          "pairs": [
+            { "left": "Envoyer une mise à jour à 50%", "right": "Professionnel - communication proactive" },
+            { "left": "Disparaître et livrer en retard", "right": "Non professionnel - nuit à la confiance" },
+            { "left": "Inclure des notes de livraison", "right": "Professionnel - facilite la révision" },
+            { "left": "Envoyer des fichiers sans explication", "right": "Non professionnel - génère des doutes" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "⭐ Obtenir l'Avis",
+        "content": "L'avis est votre paiement EXTRA. Sans avis, c'est difficile de grandir.\n\n**Quand demander :**\n→ Après que le client a approuvé la livraison\n→ Quand il confirme qu'il est satisfait\n→ PAS avant de livrer (semble désespéré)\n\n**Comment demander (modèle) :**\n\n\"Bonjour [nom],\n\nJe suis ravi que vous aimiez le résultat. 😊\n\nSi vous avez un moment, je vous serais très reconnaissant de laisser une évaluation sur notre travail ensemble. Votre feedback m'aide à m'améliorer et à me connecter avec plus de clients comme vous.\n\n[Lien vers le système d'avis de la plateforme]\n\nMerci encore pour votre confiance !\n\nCordialement,\n[Votre nom]\"\n\n**Si le client ne laisse pas d'avis :**\n→ Un rappel après 3-5 jours est acceptable\n→ N'insistez pas plus de 2 fois\n→ Certains clients ne laissent tout simplement pas d'avis"
+      },
+      {
+        "type": "quiz",
+        "question": "Quel est le meilleur moment pour demander un avis ?",
+        "options": [
+          { "text": "Avant de livrer le travail", "isCorrect": false },
+          { "text": "Avec la livraison du travail", "isCorrect": false },
+          { "text": "Après que le client approuve et confirme sa satisfaction", "isCorrect": true },
+          { "text": "Une semaine après la livraison", "isCorrect": false }
+        ],
+        "explanation": "Exact ! Demandez l'avis quand le client est satisfait et que l'expérience positive est fraîche. Trop tôt semble désespéré, trop tard ils oublient."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Votre Processus de Livraison",
+          "sentence": "Avant de commencer, je vais [BLANK] les détails par écrit. Pendant le projet, je vais envoyer des [BLANK] de manière proactive. En livrant, j'inclurai des [BLANK] expliquant le travail. Après l'approbation, je vais demander l'[BLANK].",
+          "correctAnswers": ["confirmer", "mises à jour", "notes", "avis"],
+          "options": ["confirmer", "mises à jour", "notes", "avis", "changer", "factures", "prix", "contrat"],
+          "explanation": "Parfait ! Ce processus professionnel vous différencie de la majorité des freelances et génère des clients satisfaits."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Résumé du Module 7",
+        "content": "**Ce que vous avez appris :**\n\n✅ **Confirmer par écrit :**\n→ Livrables, date, prix\n→ Avant de commencer à travailler\n\n✅ **Communication pendant :**\n→ Mises à jour proactives\n→ Réponses rapides\n→ Questions AVANT, pas après\n\n✅ **Livraison professionnelle :**\n→ Message explicatif\n→ Fichiers organisés\n→ Mentionner les révisions incluses\n\n✅ **Obtenir l'avis :**\n→ Demander après approbation\n→ Maximum 2 rappels\n→ Toujours remercier\n\n**🎯 Prochain module :**\nDernier module : Que faire après le premier projet ? Comment passer de débutant à professionnel."
+      }
+    ]
+  },
+  "module8": {
+    "title": "Prochaines Étapes",
+    "description": "De débutant à professionnel",
+    "icon": "TrendingUp",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🎓 Vous Avez Complété la Formation de Base",
+        "content": "Félicitations ! Vous avez atteint la fin des 8 modules fondamentaux.\n\n**Ce que vous savez maintenant :**\n✅ Qu'est-ce qu'être freelance\n✅ Où trouver des clients\n✅ Comment créer un profil qui vend\n✅ Quels services offrir\n✅ Comment écrire des propositions gagnantes\n✅ Combien facturer\n✅ Comment livrer professionnellement\n\n**Mais ce n'est que le début.**\n\nDans ce module final, nous allons parler de :\n- Que faire après le premier projet\n- Comment augmenter vos revenus\n- Les prochaines étapes de votre carrière de freelance"
+      },
+      {
+        "type": "text",
+        "title": "📈 Après le Premier Projet",
+        "content": "Votre premier projet terminé est une étape importante. Maintenant :\n\n**1. Célébrez (brièvement)**\n→ Reconnaissez votre accomplissement\n→ Vous avez gagné de l'argent grâce à votre travail\n→ C'est réel et précieux\n\n**2. Mettez à jour votre profil**\n→ Ajoutez le projet à votre portfolio\n→ Si possible, montrez le résultat\n→ Mettez à jour votre bio avec la nouvelle expérience\n\n**3. Demandez une référence**\n→ En plus de l'avis, demandez la permission de mentionner le client\n→ \"Puis-je mentionner que j'ai travaillé avec [entreprise] ?\"\n\n**4. Analysez ce qui a fonctionné**\n→ Comment avez-vous obtenu ce projet ?\n→ Quel type de proposition avez-vous envoyé ?\n→ Répétez ce qui a fonctionné\n\n**5. Cherchez le prochain**\n→ N'attendez pas - l'élan compte\n→ Envoyez de nouvelles propositions immédiatement"
+      },
+      {
+        "type": "quiz",
+        "question": "Après avoir complété votre premier projet, que devez-vous faire EN PREMIER ?",
+        "options": [
+          { "text": "Prendre des vacances", "isCorrect": false },
+          { "text": "Augmenter vos prix de 100%", "isCorrect": false },
+          { "text": "Mettre à jour votre profil et chercher le prochain projet", "isCorrect": true },
+          { "text": "Créer des profils sur toutes les plateformes", "isCorrect": false }
+        ],
+        "explanation": "Correct ! L'élan est important. Mettez à jour votre profil avec la nouvelle expérience et cherchez immédiatement le prochain projet."
+      },
+      {
+        "type": "text",
+        "title": "💰 Augmenter Vos Revenus",
+        "content": "L'évolution typique des revenus d'un freelance :\n\n**Mois 1-3 : Survie**\n→ 100-300 €/mois\n→ Focus : obtenir n'importe quel projet\n→ Construire portfolio et avis\n\n**Mois 4-6 : Stabilisation**\n→ 300-600 €/mois\n→ Focus : clients récurrents\n→ Augmenter progressivement les prix\n\n**Mois 7-12 : Croissance**\n→ 600-1500 €/mois\n→ Focus : refuser les mauvais projets\n→ Se spécialiser davantage\n\n**Année 2+ : Professionnalisation**\n→ 1500-3000+ €/mois\n→ Focus : clients premium\n→ Éventuellement s'étendre à Upwork (dollars)\n\n**Clés pour augmenter :**\n1. Augmentez les prix tous les 3-5 projets\n2. Refusez les clients problématiques\n3. Investissez dans l'apprentissage\n4. Construisez des relations à long terme"
+      },
+      {
+        "type": "text",
+        "title": "🎯 Les 5 Erreurs de la Première Année",
+        "content": "Évitez ces erreurs courantes des freelances en première année :\n\n**Erreur 1 : Ne pas augmenter les prix**\n→ Beaucoup continuent à facturer le prix débutant pendant des années\n→ Augmentez de 10-20% tous les 5 projets\n\n**Erreur 2 : Accepter tout**\n→ Les clients toxiques détruisent votre productivité\n→ Apprenez à dire \"non\" aux projets problématiques\n\n**Erreur 3 : Ne pas se spécialiser**\n→ \"Je fais de tout\" = personne ne vous embauche\n→ Spécialisez-vous progressivement\n\n**Erreur 4 : Dépendre d'une seule plateforme**\n→ Diversifiez : 2-3 sources de clients\n→ Construisez des relations directes\n\n**Erreur 5 : Ne pas apprendre continuellement**\n→ Le marché change rapidement\n→ Consacrez 2-3 heures/semaine à apprendre"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🎯 Erreur → Solution",
+          "description": "Associez chaque erreur à sa solution",
+          "pairs": [
+            { "left": "Ne pas augmenter les prix", "right": "+10-20% tous les 5 projets" },
+            { "left": "Accepter tout", "right": "Apprendre à refuser" },
+            { "left": "Ne pas se spécialiser", "right": "Choisir un créneau clair" },
+            { "left": "Une seule source", "right": "Diversifier les plateformes" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "🚀 Votre Plan d'Action",
+        "content": "Voici votre plan pour les 30 prochains jours :\n\n**Semaine 1 :**\n☐ Compléter le profil sur Malt (100%)\n☐ Créer 3 exemples de portfolio\n☐ Définir votre service principal\n☐ Envoyer les 5 premières propositions\n\n**Semaine 2 :**\n☐ Envoyer 2-3 propositions par jour\n☐ Ajuster selon le feedback\n☐ Obtenir le premier projet (ou continuer à essayer)\n\n**Semaine 3 :**\n☐ Exécuter le premier projet\n☐ Communication professionnelle\n☐ Livraison impeccable\n\n**Semaine 4 :**\n☐ Obtenir un avis\n☐ Mettre à jour le profil\n☐ Chercher le prochain projet\n☐ Analyser ce qui a fonctionné\n\n**Objectif du mois :** 1-2 projets complétés avec avis 5 étoiles."
+      },
+      {
+        "type": "text",
+        "title": "📚 Ressources Pour Continuer à Apprendre",
+        "content": "Votre éducation ne s'arrête pas ici. Ressources recommandées :\n\n**📖 À lire :**\n- \"The Win Without Pitching Manifesto\" - Blair Enns\n- \"Freelancing for Dummies\" (existe en français)\n- Blogs de Malt et Upwork\n\n**🎥 À regarder :**\n- Chaînes YouTube sur le freelance\n- Tutoriels d'outils d'IA\n- Webinaires des plateformes\n\n**👥 Communautés :**\n- Groupes Facebook de freelances\n- Communautés Discord\n- LinkedIn (suivez des freelances réussis)\n\n**🛠️ Outils :**\n- Notion/Trello pour l'organisation\n- Toggl pour suivre le temps\n- Grammarly pour vérifier les textes\n\n**💡 Règle :** Consacrez au moins 2 heures/semaine à apprendre quelque chose de nouveau lié à votre service."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "🎯 Votre Engagement",
+          "sentence": "Dans les 30 prochains jours, je vais créer mon profil complet sur [BLANK], envoyer [BLANK] propositions par jour, et obtenir mon premier [BLANK] avec avis 5 étoiles.",
+          "correctAnswers": ["Malt", "2-3", "projet"],
+          "options": ["Malt", "2-3", "projet", "Fiverr", "10", "client"],
+          "explanation": "Excellent ! Cet engagement spécifique et réalisable vous mènera à des résultats concrets en 30 jours."
+        }
+      },
+      {
+        "type": "text",
+        "title": "🏆 Félicitations ! Vous Avez Complété la Formation",
+        "content": "Vous avez terminé les 8 modules de la Formation Freelance pour Débutants.\n\n**Ce que vous avez accompli :**\n✅ Compris le monde du freelance\n✅ Connaissez les meilleures plateformes\n✅ Savez créer un profil qui vend\n✅ Défini quels services offrir\n✅ Maîtrisé l'art des propositions\n✅ Avez une stratégie de prix\n✅ Savez livrer professionnellement\n✅ Avez un plan d'action clair\n\n**Maintenant c'est à vous.**\n\nTout ce que vous avez appris ne fonctionne que si vous l'APPLIQUEZ.\n\nLa différence entre ceux qui gagnent de l'argent en freelance et ceux qui \"essayeront un jour\" est simple : L'UN AGIT.\n\n**Lequel allez-vous être ?**\n\n🚀 Succès dans votre parcours de freelance !"
+      }
+    ]
+  }
+}

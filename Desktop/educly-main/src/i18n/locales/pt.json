@@ -1,0 +1,2632 @@
+{
+  "chat": {
+    "title": "Chat Educy",
+    "practicing": "Praticando",
+    "loading": "Carregando...",
+    "greeting": {
+      "default": "Olá! 👋 Eu sou o EDI. Estou aqui para te ajudar a praticar o uso de ferramentas de IA. Como posso te ajudar hoje?",
+      "withTool": "Olá! 👋 Eu sou o EDI. Estou aqui para te ajudar a praticar {{tool}}. O que você gostaria de aprender ou testar?",
+      "restart": "Olá! 👋 Vamos recomeçar! Estou aqui para te ajudar a praticar {{tool}}. O que você gostaria de aprender?",
+      "restartDefault": "Olá! 👋 Vamos recomeçar! Como posso te ajudar com ferramentas de IA hoje?"
+    },
+    "input": {
+      "placeholder": "Digite sua pergunta sobre IA...",
+      "placeholderWithTool": "Pergunte sobre {{tool}}..."
+    },
+    "error": {
+      "title": "Erro no chat",
+      "notLoggedIn": "Você precisa estar logado para usar o chat",
+      "sendError": "Erro ao enviar mensagem"
+    },
+    "premium": {
+      "title": "Chat Educy Premium",
+      "description": "Desbloqueie o chat com IA para praticar o que você aprendeu nas aulas",
+      "unlock": "Desbloquear Acesso Premium",
+      "backToDashboard": "Voltar ao Dashboard",
+      "features": {
+        "unlimitedChat": {
+          "title": "Chat ilimitado",
+          "description": "Converse com a IA sem limites"
+        },
+        "guidedPractice": {
+          "title": "Prática guiada",
+          "description": "Pratique o que aprendeu nas aulas"
+        },
+        "instantResponses": {
+          "title": "Respostas instantâneas",
+          "description": "Tire dúvidas em tempo real"
+        }
+      }
+    },
+    "practiceWithAI": "Pratique com a IA",
+    "openChat": "Abrir Chat",
+    "description": "Tire dúvidas e pratique o que você aprendeu nas aulas com nosso assistente de IA",
+    "online": "Online agora",
+    "inputPlaceholder": "Digite sua pergunta..."
+  },
+  "challenge": {
+    "continueFromWhere": "Continue de onde parou",
+    "viewAll": "Ver todos",
+    "review": "Revisar",
+    "days": "dias",
+    "day": "Dia",
+    "week": "Semana",
+    "completed": "Concluído",
+    "aiDomination": "DOMÍNIO DE IA",
+    "level1": "NÍVEL 1",
+    "started": "Desafio iniciado!",
+    "goodLuck": "Boa sorte na sua jornada de aprendizado!",
+    "notFound": "Desafio não encontrado",
+    "aiTrails": "Trilhas de IA",
+    "challenge28Days": "Desafio 28 Dias",
+    "chooseAI": "Escolha uma IA para aprender:",
+    "trail": "Trilha",
+    "startChallenge": "Iniciar Desafio",
+    "starting": "Iniciando...",
+    "ais": "IAs",
+    "progress": "Progresso",
+    "viewTrail": "Ver trilha",
+    "aiChallenges": "Desafios de IA",
+    "master8AI": "Domine 8 IAs em 28 dias",
+    "master8AIDesc": "Cada desafio foi projetado para ensinar as principais ferramentas de IA do mercado: ChatGPT, Claude, DeepSeek, Gemini, NanoBanana, Lovable, Captions e ElevenLabs."
+  },
+  "dailyMissions": {
+    "title": "Missões Diárias",
+    "subtitle": "Ganhe XP e suba de nível"
+  },
+  "challenges": {
+    "iniciante-ia": {
+      "name": "Desafio Iniciante de IA",
+      "description": "Aprenda tudo sobre as 8 principais IAs do mercado em 28 dias de aprendizado intensivo e prático.",
+      "days": {
+        "1": { "title": "Introdução ao ChatGPT", "description": "Conheça o ChatGPT e suas capacidades fundamentais." },
+        "2": { "title": "Criando Prompts Eficazes", "description": "Aprenda a criar prompts poderosos." },
+        "3": { "title": "ChatGPT como Consultor", "description": "Use o ChatGPT como um consultor especialista." },
+        "4": { "title": "Projeto Prático ChatGPT", "description": "Aplique o que aprendeu em um projeto real." },
+        "5": { "title": "Introdução ao Claude", "description": "Conheça o Claude e seus diferenciais." },
+        "6": { "title": "Copywriting com Claude", "description": "Crie textos persuasivos com Claude." },
+        "7": { "title": "Projeto Prático Claude", "description": "Aplique o que aprendeu com Claude." },
+        "8": { "title": "Introdução ao DeepSeek", "description": "Conheça o DeepSeek e suas vantagens." },
+        "9": { "title": "Gerando Código com IA", "description": "Programação assistida por IA com DeepSeek." },
+        "10": { "title": "Projeto Prático DeepSeek", "description": "Aplique o que aprendeu com DeepSeek." },
+        "11": { "title": "Introdução ao Gemini", "description": "Conheça o Gemini do Google." },
+        "12": { "title": "Pesquisa com Gemini", "description": "Use o Gemini para pesquisas." },
+        "13": { "title": "Projeto Prático Gemini", "description": "Aplique o que aprendeu com Gemini." },
+        "14": { "title": "Introdução ao NanoBanana", "description": "Conheça a ferramenta de arte IA." },
+        "15": { "title": "Criando Arte com IA", "description": "Gere imagens impressionantes." },
+        "16": { "title": "Estilos e Técnicas", "description": "Domine estilos artísticos." },
+        "17": { "title": "Projeto Prático NanoBanana", "description": "Aplique o que aprendeu." },
+        "18": { "title": "Introdução ao Lovable", "description": "Conheça a plataforma no-code." },
+        "19": { "title": "Criando Landing Pages", "description": "Desenvolva landing pages." },
+        "20": { "title": "Sistemas Completos", "description": "Crie aplicações completas." },
+        "21": { "title": "Projeto Prático Lovable", "description": "Aplique o que aprendeu." },
+        "22": { "title": "Introdução ao Captions", "description": "Conheça a ferramenta de vídeo." },
+        "23": { "title": "Editando Vídeos com IA", "description": "Edição automatizada." },
+        "24": { "title": "Projeto Prático Captions", "description": "Aplique o que aprendeu." },
+        "25": { "title": "Introdução ao ElevenLabs", "description": "Conheça a ferramenta de voz." },
+        "26": { "title": "Clonagem de Voz", "description": "Crie clones de voz realistas." },
+        "27": { "title": "Text-to-Speech Avançado", "description": "Síntese de voz profissional." },
+        "28": { "title": "Projeto Prático ElevenLabs", "description": "Aplique o que aprendeu." }
+      }
+    },
+    "criando-sistema": {
+      "name": "Sua Trilha Personalizada",
+      "description": "Responda algumas perguntas e deixe a IA criar uma trilha de 28 dias perfeita para seus objetivos.",
+      "days": {
+        "1": { "title": "Definindo Sua Ideia", "description": "Brainstorm do seu projeto com ChatGPT" },
+        "2": { "title": "Validando o Conceito", "description": "Valide sua ideia com pesquisa de mercado" },
+        "3": { "title": "Planejamento Estratégico", "description": "Crie um plano de ação detalhado" },
+        "4": { "title": "Definindo Funcionalidades", "description": "Liste os recursos do seu produto" },
+        "5": { "title": "Estrutura de Conteúdo", "description": "Organize o conteúdo com IA" },
+        "6": { "title": "Criando Textos Base", "description": "Escreva os textos principais" },
+        "7": { "title": "Revisão Semana 1", "description": "Consolide o planejamento" },
+        "8": { "title": "Headlines e Títulos", "description": "Crie títulos impactantes com Claude" },
+        "9": { "title": "Copy de Vendas", "description": "Escreva textos persuasivos" },
+        "10": { "title": "Descrições de Produto", "description": "Descreva seus produtos/serviços" },
+        "11": { "title": "CTAs e Botões", "description": "Crie chamadas para ação eficientes" },
+        "12": { "title": "SEO e Meta Tags", "description": "Otimize para buscadores" },
+        "13": { "title": "FAQ e Suporte", "description": "Crie conteúdo de ajuda" },
+        "14": { "title": "Revisão Semana 2", "description": "Finalize todos os textos" },
+        "15": { "title": "Pesquisa de Mercado", "description": "Analise concorrentes com Gemini" },
+        "16": { "title": "Análise de Tendências", "description": "Identifique oportunidades" },
+        "17": { "title": "Validação Final", "description": "Confirme viabilidade do projeto" },
+        "18": { "title": "Setup do Projeto", "description": "Configure o ambiente no Lovable" },
+        "19": { "title": "Estrutura Base", "description": "Crie a estrutura principal" },
+        "20": { "title": "Páginas Principais", "description": "Desenvolva as páginas core" },
+        "21": { "title": "Funcionalidades Core", "description": "Implemente recursos essenciais" },
+        "22": { "title": "Design e UX", "description": "Refine a interface do usuário" },
+        "23": { "title": "Integrações", "description": "Conecte serviços externos" },
+        "24": { "title": "Testes e Ajustes", "description": "Teste e corrija problemas" },
+        "25": { "title": "Deploy e Lançamento", "description": "Publique seu produto" },
+        "26": { "title": "Criação de Vídeo Pitch", "description": "Crie vídeo promocional com Captions" },
+        "27": { "title": "Edição do Vídeo", "description": "Finalize a edição com IA" },
+        "28": { "title": "Locução do Pitch", "description": "Grave áudio profissional com ElevenLabs" }
+      }
+    },
+    "personalizado": {
+      "name": "Desafio Personalizado 28 Dias",
+      "description": "Escolha seu objetivo e receba um plano de aprendizado personalizado com as IAs certas para você."
+    }
+  },
+  "challengeDays": {
+    "chatgpt": {
+      "1": { "title": "Introdução ao ChatGPT", "description": "Conheça o ChatGPT e suas capacidades fundamentais." },
+      "2": {
+        "title": "Criando Prompts Eficazes",
+        "description": "Aprenda a criar prompts poderosos que geram resultados."
+      },
+      "3": {
+        "title": "ChatGPT para Produtividade",
+        "description": "Use o ChatGPT para aumentar sua produtividade diária."
+      },
+      "4": { "title": "Análise e Resumo de Textos", "description": "Domine técnicas de análise e síntese com IA." },
+      "5": { "title": "Criação de Conteúdo", "description": "Crie conteúdos incríveis com assistência da IA." },
+      "6": { "title": "ChatGPT para Emails", "description": "Escreva emails profissionais em segundos." },
+      "7": { "title": "Revisão da Semana 1", "description": "Consolide tudo que aprendeu na primeira semana." },
+      "8": { "title": "Técnicas de Role-Playing", "description": "Faça o ChatGPT assumir diferentes personas." },
+      "9": { "title": "Chain of Thought", "description": "Aprenda a técnica de raciocínio em cadeia." },
+      "10": { "title": "Few-Shot Learning", "description": "Ensine a IA com exemplos práticos." },
+      "11": { "title": "Formatação Avançada", "description": "Controle o formato das respostas da IA." },
+      "12": { "title": "ChatGPT para Pesquisa", "description": "Use IA para pesquisas mais eficientes." },
+      "13": { "title": "Brainstorming com IA", "description": "Gere ideias criativas com assistência." },
+      "14": { "title": "Revisão da Semana 2", "description": "Consolide as técnicas básicas aprendidas." },
+      "15": { "title": "GPT-4 vs GPT-4o", "description": "Entenda as diferenças entre os modelos." },
+      "16": { "title": "Custom Instructions", "description": "Personalize o comportamento do ChatGPT." },
+      "17": { "title": "Plugins e Extensões", "description": "Amplie as capacidades com ferramentas." },
+      "18": { "title": "Code Interpreter", "description": "Execute código e análise dados." },
+      "19": { "title": "DALL-E Integration", "description": "Crie imagens diretamente no chat." },
+      "20": { "title": "Voice Mode", "description": "Converse por voz com a IA." },
+      "21": { "title": "Revisão da Semana 3", "description": "Domine as técnicas intermediárias." },
+      "22": { "title": "Automações com IA", "description": "Crie fluxos de trabalho automatizados." },
+      "23": { "title": "ChatGPT API Basics", "description": "Introdução à API do ChatGPT." },
+      "24": { "title": "Integrando com Outras Ferramentas", "description": "Conecte ChatGPT a outras plataformas." },
+      "25": { "title": "Projeto Final: Parte 1", "description": "Inicie seu projeto de aplicação real." },
+      "26": { "title": "Projeto Final: Parte 2", "description": "Continue desenvolvendo seu projeto." },
+      "27": { "title": "Projeto Final: Parte 3", "description": "Finalize e teste seu projeto." },
+      "28": { "title": "Graduação ChatGPT", "description": "Celebre sua conquista e receba seu certificado!" }
+    },
+    "claude": {
+      "1": { "title": "Introdução ao Claude", "description": "Conheça o Claude e seus diferenciais." },
+      "2": { "title": "Claude para Análise", "description": "Use Claude para análises profundas." },
+      "3": { "title": "Artifacts do Claude", "description": "Domine a funcionalidade de Artifacts." },
+      "4": { "title": "Claude para Escrita", "description": "Crie textos de alta qualidade." }
+    },
+    "deepseek": {
+      "1": { "title": "Introdução ao DeepSeek", "description": "Conheça o DeepSeek e suas vantagens." },
+      "2": { "title": "DeepSeek para Código", "description": "Programação assistida por IA." }
+    },
+    "gemini": {
+      "1": { "title": "Introdução ao Gemini", "description": "Conheça o Gemini do Google." },
+      "2": { "title": "Gemini Multimodal", "description": "Trabalhe com texto e imagens." }
+    },
+    "nanobanana": {
+      "1": { "title": "Introdução ao NanoBanana", "description": "Conheça a ferramenta de arte IA." },
+      "2": { "title": "Criando Sua Primeira Arte", "description": "Gere imagens impressionantes." }
+    },
+    "lovable": {
+      "1": { "title": "Introdução ao Lovable", "description": "Conheça a plataforma no-code com IA." },
+      "2": { "title": "Criando Seu Primeiro App", "description": "Desenvolva um aplicativo completo." }
+    },
+    "captions": {
+      "1": { "title": "Introdução ao Captions", "description": "Conheça a ferramenta de vídeo IA." },
+      "2": { "title": "Editando Vídeos com IA", "description": "Edição automatizada de vídeos." }
+    },
+    "elevenlabs": {
+      "1": { "title": "Introdução ao ElevenLabs", "description": "Conheça a ferramenta de voz IA." },
+      "2": { "title": "Clonando Sua Voz", "description": "Crie clones de voz realistas." }
+    }
+  },
+  "lessonSteps": {
+    "chatgpt": {
+      "1": {
+        "1": {
+          "title": "O que é o ChatGPT?",
+          "content": "O ChatGPT é um modelo de linguagem desenvolvido pela OpenAI que pode entender e gerar texto de forma natural.\n\nEle foi treinado em bilhões de textos e pode ajudar você em diversas tarefas do dia a dia."
+        },
+        "2": {
+          "title": "Por que aprender ChatGPT?",
+          "content": "Aprender a usar o ChatGPT pode:\n\n• Aumentar sua produtividade em até 10x\n• Automatizar tarefas repetitivas\n• Gerar ideias criativas\n• Melhorar sua escrita"
+        },
+        "3": {
+          "title": "Quiz: Conceitos Básicos",
+          "question": "Qual é a principal função do ChatGPT?",
+          "options": [
+            { "text": "Assistente de IA conversacional", "isCorrect": true },
+            { "text": "Editor de planilhas", "isCorrect": false },
+            { "text": "Navegador de internet", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Anatomia de um Bom Prompt",
+          "content": "Um prompt eficaz tem 4 elementos:\n\n1. **Contexto**: Explique a situação\n2. **Instrução**: O que você quer\n3. **Formato**: Como quer a resposta\n4. **Exemplos**: Se necessário"
+        },
+        "2": {
+          "title": "Erros Comuns em Prompts",
+          "content": "Evite estes erros:\n\n❌ Prompts muito vagos\n❌ Falta de contexto\n❌ Instruções confusas\n❌ Expectativas irreales"
+        },
+        "3": {
+          "title": "Quiz: Prompts",
+          "question": "Qual elemento NÃO faz parte de um bom prompt?",
+          "options": [
+            { "text": "Contexto", "isCorrect": false },
+            { "text": "Senha pessoal", "isCorrect": true },
+            { "text": "Instrução clara", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "ChatGPT como Especialista",
+          "content": "Uma das técnicas mais poderosas é fazer o ChatGPT atuar como um especialista.\n\n**Exemplo de prompt:**\n\"Atue como um nutricionista. Crie um plano alimentar para uma pessoa que quer emagrecer.\"\n\nEssa técnica permite que você obtenha respostas mais profundas e contextualizadas."
+        },
+        "2": {
+          "title": "Consultoria de Negócios com IA",
+          "content": "Use o ChatGPT como consultor:\n\n• **Análise SWOT**: Peça análises completas\n• **Estratégias de Marketing**: Solicite planos detalhados\n• **Decisões de Negócio**: Obtenha perspectivas diferentes\n\n💡 *Quanto mais contexto você fornecer, melhores serão as respostas.*"
+        },
+        "3": {
+          "title": "Quiz: Consultoria",
+          "question": "Qual é a melhor prática ao usar ChatGPT como especialista?",
+          "options": [
+            { "text": "Fornecer contexto detalhado", "isCorrect": true },
+            { "text": "Usar prompts vagos", "isCorrect": false },
+            { "text": "Não dar exemplos", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Análise de Textos",
+          "content": "O ChatGPT pode analisar e resumir textos longos de forma eficiente.\n\n**Técnicas:**\n• Resumo executivo\n• Extração de pontos-chave\n• Análise de sentimento\n• Identificação de temas principais"
+        },
+        "2": {
+          "title": "Síntese de Informação",
+          "content": "Aprenda a sintetizar informação:\n\n1. **Copie o texto** que quer analisar\n2. **Peça um resumo** com pontos principais\n3. **Solicite conclusões** ou insights\n\n⚡ *Ideal para documentos, artigos ou relatórios longos.*"
+        },
+        "3": {
+          "title": "Quiz: Análise",
+          "question": "O que NÃO é uma técnica válida de análise com ChatGPT?",
+          "options": [
+            { "text": "Resumo executivo", "isCorrect": false },
+            { "text": "Gerar dados falsos", "isCorrect": true },
+            { "text": "Análise de sentimento", "isCorrect": false }
+          ]
+        }
+      },
+      "5": {
+        "1": {
+          "title": "Criando Conteúdo Original",
+          "content": "O ChatGPT é um excelente assistente para criar conteúdo.\n\n**Tipos de conteúdo:**\n• Artigos de blog\n• Posts para redes sociais\n• Scripts de vídeo\n• Newsletters\n• Descrições de produto"
+        },
+        "2": {
+          "title": "Otimizando Seu Conteúdo",
+          "content": "Para melhores resultados:\n\n✅ Defina seu público-alvo\n✅ Especifique o tom (formal, casual, divertido)\n✅ Indique o tamanho desejado\n✅ Peça variações\n\n🎯 *Sempre revise e personalize o conteúdo gerado.*"
+        },
+        "3": {
+          "title": "Quiz: Conteúdo",
+          "question": "O que você deve especificar para criar bom conteúdo?",
+          "options": [
+            { "text": "Público-alvo e tom", "isCorrect": true },
+            { "text": "Apenas o tema", "isCorrect": false },
+            { "text": "Nada específico", "isCorrect": false }
+          ]
+        }
+      },
+      "6": {
+        "1": {
+          "title": "Emails Profissionais",
+          "content": "Escreva emails perfeitos com IA:\n\n**Tipos de email:**\n• Apresentação profissional\n• Solicitação de reunião\n• Follow-up de vendas\n• Resposta a reclamações\n• Comunicação interna"
+        },
+        "2": {
+          "title": "Estrutura do Email Perfeito",
+          "content": "Elementos chave:\n\n1. **Assunto atrativo** - Breve e claro\n2. **Saudação apropriada** - Conforme o contexto\n3. **Corpo conciso** - Mensagem principal\n4. **Chamada para ação** - O que você espera\n5. **Despedida profissional**"
+        },
+        "3": {
+          "title": "Quiz: Emails",
+          "question": "Qual é o elemento mais importante de um email profissional?",
+          "options": [
+            { "text": "Assunto claro e chamada para ação", "isCorrect": true },
+            { "text": "Muitos emojis", "isCorrect": false },
+            { "text": "Texto muito longo", "isCorrect": false }
+          ]
+        }
+      },
+      "7": {
+        "1": {
+          "title": "Revisão: Semana 1",
+          "content": "Parabéns por completar a primeira semana! 🎉\n\n**O que você aprendeu:**\n• O que é ChatGPT e suas capacidades\n• Como criar prompts eficazes\n• Técnicas de especialista\n• Análise e síntese de textos\n• Criação de conteúdo\n• Redação de emails profissionais"
+        },
+        "2": {
+          "title": "Prática Consolidada",
+          "content": "Agora é hora de praticar:\n\n1. **Crie 3 prompts** usando técnica de especialista\n2. **Resuma um artigo** da sua área\n3. **Escreva um email** profissional\n\n💪 *A prática constante é a chave do domínio.*"
+        },
+        "3": {
+          "title": "Quiz: Revisão",
+          "question": "Qual é a chave para dominar o ChatGPT?",
+          "options": [
+            { "text": "Prática constante e bons prompts", "isCorrect": true },
+            { "text": "Usar sem contexto", "isCorrect": false },
+            { "text": "Copiar respostas sem revisar", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "deepseek": {
+      "1": {
+        "1": {
+          "title": "O que é DeepSeek?",
+          "content": "DeepSeek é uma IA especializada em programação e código.\n\n**Características:**\n• Geração de código\n• Debugging assistido\n• Explicação de código\n• Otimização de algoritmos"
+        },
+        "2": {
+          "title": "DeepSeek vs Outras IAs",
+          "content": "Vantagens do DeepSeek:\n\n✅ Especializado em código\n✅ Melhor compreensão de contexto técnico\n✅ Sugestões mais precisas\n✅ Suporte para múltiplas linguagens"
+        },
+        "3": {
+          "title": "Quiz: DeepSeek Básico",
+          "question": "Em que o DeepSeek se especializa?",
+          "options": [
+            { "text": "Programação e código", "isCorrect": true },
+            { "text": "Edição de imagens", "isCorrect": false },
+            { "text": "Música", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Gerando Código",
+          "content": "DeepSeek pode gerar código em múltiplas linguagens:\n\n• Python\n• JavaScript\n• TypeScript\n• Java\n• C++\n• E muitas mais..."
+        },
+        "2": {
+          "title": "Debugging com IA",
+          "content": "Use o DeepSeek para encontrar erros:\n\n1. **Cole seu código** com o erro\n2. **Descreva o problema** esperado\n3. **Peça explicação** e solução\n\n🐛 *O debugging nunca foi tão fácil.*"
+        },
+        "3": {
+          "title": "Quiz: Código",
+          "question": "O que DeepSeek pode fazer com seu código?",
+          "options": [
+            { "text": "Gerar, debugar e otimizar", "isCorrect": true },
+            { "text": "Apenas ler", "isCorrect": false },
+            { "text": "Apagar", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Otimização de Código",
+          "content": "DeepSeek pode melhorar seu código:\n\n• **Performance**: Algoritmos mais eficientes\n• **Legibilidade**: Código mais limpo\n• **Segurança**: Identificar vulnerabilidades\n• **Melhores práticas**: Padrões de design"
+        },
+        "2": {
+          "title": "Documentação Automática",
+          "content": "Gere documentação profissional:\n\n• Comentários de código\n• Arquivos README\n• Documentação de API\n• Guias de uso\n\n📝 *Documentar nunca foi tão simples.*"
+        },
+        "3": {
+          "title": "Quiz: Otimização",
+          "question": "Quais aspectos DeepSeek pode melhorar no seu código?",
+          "options": [
+            { "text": "Performance, legibilidade e segurança", "isCorrect": true },
+            { "text": "Apenas a cor", "isCorrect": false },
+            { "text": "A fonte", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "claude": {
+      "1": {
+        "1": {
+          "title": "Conhecendo Claude",
+          "content": "Claude é uma IA criada pela Anthropic, conhecida por:\n\n• Respostas mais reflexivas\n• Melhor compreensão de contexto longo\n• Foco em segurança\n• Excelente para análise profunda"
+        },
+        "2": {
+          "title": "Diferenças do ChatGPT",
+          "content": "Claude se destaca em:\n\n✅ Textos mais longos e coerentes\n✅ Análise mais detalhada\n✅ Menor tendência a alucinar\n✅ Melhor para escrita criativa\n\n🎭 *Cada IA tem suas forças.*"
+        },
+        "3": {
+          "title": "Quiz: Claude Básico",
+          "question": "Em que Claude se destaca comparado a outras IAs?",
+          "options": [
+            { "text": "Análise profunda e textos longos", "isCorrect": true },
+            { "text": "Gerar imagens", "isCorrect": false },
+            { "text": "Editar vídeos", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Claude para Análise",
+          "content": "Use Claude para análise profunda:\n\n• Documentos extensos\n• Contratos e legais\n• Pesquisa acadêmica\n• Análise de mercado"
+        },
+        "2": {
+          "title": "Técnicas de Análise",
+          "content": "Maximize a análise:\n\n1. **Faça upload do documento** completo\n2. **Faça perguntas específicas**\n3. **Peça comparações** e conclusões\n4. **Solicite resumos** executivos"
+        },
+        "3": {
+          "title": "Quiz: Análise",
+          "question": "Para que tipo de documentos Claude é ideal?",
+          "options": [
+            { "text": "Documentos extensos e complexos", "isCorrect": true },
+            { "text": "Apenas imagens", "isCorrect": false },
+            { "text": "Arquivos de áudio", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Artifacts do Claude",
+          "content": "Os Artifacts são uma função única do Claude:\n\n• Gera código executável\n• Cria visualizações\n• Documentos interativos\n• Protótipos rápidos"
+        },
+        "2": {
+          "title": "Usando Artifacts",
+          "content": "Como aproveitar Artifacts:\n\n1. **Peça para criar** um componente visual\n2. **Claude gera** o código\n3. **Visualize em tempo real**\n4. **Itere e melhore**\n\n🚀 *De ideia a protótipo em minutos.*"
+        },
+        "3": {
+          "title": "Quiz: Artifacts",
+          "question": "O que você pode criar com Artifacts do Claude?",
+          "options": [
+            { "text": "Código executável e visualizações", "isCorrect": true },
+            { "text": "Apenas texto simples", "isCorrect": false },
+            { "text": "Nada interativo", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Escrita com Claude",
+          "content": "Claude é excelente para escrita:\n\n• **Copywriting**: Textos persuasivos\n• **Conteúdo longo**: Artigos completos\n• **Criatividade**: Histórias e roteiros\n• **Profissional**: Relatórios e propostas"
+        },
+        "2": {
+          "title": "Técnicas de Escrita",
+          "content": "Para melhores resultados:\n\n✅ Defina o estilo e tom\n✅ Especifique a audiência\n✅ Dê exemplos de referência\n✅ Peça múltiplas versões\n\n✍️ *Claude é seu co-escritor ideal.*"
+        },
+        "3": {
+          "title": "Quiz: Escrita",
+          "question": "O que você deve definir para uma boa escrita com Claude?",
+          "options": [
+            { "text": "Estilo, tom e audiência", "isCorrect": true },
+            { "text": "Apenas o tema", "isCorrect": false },
+            { "text": "Nada específico", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "gemini": {
+      "1": {
+        "1": {
+          "title": "Conhecendo Gemini",
+          "content": "Gemini é a IA do Google, integrada com seus serviços:\n\n• Busca em tempo real\n• Integração com Workspace\n• Capacidades multimodais\n• Acesso a informação atualizada"
+        },
+        "2": {
+          "title": "Gemini no Ecossistema Google",
+          "content": "Gemini se integra com:\n\n• **Gmail**: Redação de emails\n• **Docs**: Escrita assistida\n• **Sheets**: Análise de dados\n• **Search**: Buscas aprimoradas"
+        },
+        "3": {
+          "title": "Quiz: Gemini Básico",
+          "question": "Qual é a vantagem única do Gemini?",
+          "options": [
+            { "text": "Integração com serviços Google", "isCorrect": true },
+            { "text": "É mais barato", "isCorrect": false },
+            { "text": "Só funciona offline", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Gemini Multimodal",
+          "content": "Gemini pode processar múltiplos tipos de conteúdo:\n\n• **Texto**: Conversação natural\n• **Imagens**: Análise visual\n• **Documentos**: PDFs e mais\n• **Código**: Assistência técnica"
+        },
+        "2": {
+          "title": "Análise de Imagens",
+          "content": "Use Gemini para analisar imagens:\n\n1. **Faça upload da imagem**\n2. **Faça perguntas** sobre ela\n3. **Peça descrições** detalhadas\n4. **Extraia informações** relevantes\n\n📸 *A IA que vê e entende.*"
+        },
+        "3": {
+          "title": "Quiz: Multimodal",
+          "question": "Que tipos de conteúdo Gemini pode processar?",
+          "options": [
+            { "text": "Texto, imagens e documentos", "isCorrect": true },
+            { "text": "Apenas texto", "isCorrect": false },
+            { "text": "Apenas áudio", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Projeto: Relatório",
+          "content": "Crie relatório de tendências com plano de ação:\n\n1. **Identifique tendências do mercado**\n2. **Analise dados com Gemini**\n3. **Gere insights**\n4. **Crie recomendações acionáveis**"
+        },
+        "2": {
+          "title": "Finalizando",
+          "content": "Transforme seu relatório em apresentação executiva:\n\n📊 Resumo visual\n📈 Métricas chave\n🎯 Recomendações estratégicas\n📋 Próximos passos"
+        },
+        "3": {
+          "title": "Quiz: Relatórios",
+          "question": "Por que dividir em etapas?",
+          "options": [
+            { "text": "Permite refinar cada parte com qualidade", "isCorrect": true },
+            { "text": "É obrigatório para Gemini", "isCorrect": false },
+            { "text": "Economiza créditos", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "nanobanana": {
+      "1": {
+        "1": {
+          "title": "O que é NanoBanana?",
+          "content": "NanoBanana é uma ferramenta de IA para geração de arte:\n\n• Imagens a partir de texto\n• Estilos artísticos variados\n• Alta qualidade visual\n• Uso comercial permitido"
+        },
+        "2": {
+          "title": "Primeiros Passos",
+          "content": "Como começar com NanoBanana:\n\n1. **Descreva sua imagem** com detalhes\n2. **Especifique o estilo** (realista, cartoon, etc.)\n3. **Gere e ajuste**\n4. **Baixe em alta resolução**"
+        },
+        "3": {
+          "title": "Quiz: NanoBanana",
+          "question": "Que tipo de conteúdo NanoBanana gera?",
+          "options": [
+            { "text": "Imagens artísticas a partir de texto", "isCorrect": true },
+            { "text": "Vídeos", "isCorrect": false },
+            { "text": "Música", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Criando Arte com IA",
+          "content": "Técnicas para melhores resultados:\n\n• **Prompts detalhados**: Descreva cores, luz, estilo\n• **Referências**: Mencione artistas ou estilos\n• **Iteração**: Gere múltiplas versões\n• **Refinamento**: Ajuste até a perfeição"
+        },
+        "2": {
+          "title": "Estilos Artísticos",
+          "content": "Explore diferentes estilos:\n\n🎨 Realista\n🖌️ Aquarela\n✏️ Desenho a lápis\n🌈 Arte digital\n🎭 Abstrato\n\n*Experimente para encontrar seu estilo.*"
+        },
+        "3": {
+          "title": "Quiz: Arte",
+          "question": "O que torna um prompt de imagem mais eficaz?",
+          "options": [
+            { "text": "Detalhes de cor, luz e estilo", "isCorrect": true },
+            { "text": "Uma única palavra", "isCorrect": false },
+            { "text": "Sem descrição", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Estilos e Técnicas",
+          "content": "O NanoBanana domina diversos estilos artísticos. Você pode criar desde óleos clássicos até cyberpunk futurista.\n\n**Estilos Populares:**\n• Cyberpunk / Sci-fi\n• Anime / Mangá\n• Pintura a óleo (Oil Painting)\n• 3D Render / Pixar Style\n• Fotorealismo"
+        },
+        "2": {
+          "title": "Modificadores de Estilo",
+          "content": "Para aplicar um estilo, use modificadores no final do seu prompt:\n\n• \"...em estilo de Van Gogh\"\n• \"...iluminação cinematográfica, 8k\"\n• \"...design plano, minimalista\"\n\n🎨 *A ordem das palavras importa: o que vem primeiro tem mais peso.*"
+        },
+        "3": {
+          "title": "Quiz: Estilos",
+          "question": "Qual é a melhor forma de definir um estilo artístico no NanoBanana?",
+          "options": [
+            { "text": "Usar modificadores específicos no prompt", "isCorrect": true },
+            { "text": "Escrever o prompt em maiúsculas", "isCorrect": false },
+            { "text": "Não é possível mudar o estilo", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Projeto Prático",
+          "content": "É hora de criar sua obra-prima! \n\n**Sua Missão:**\nCrie uma imagem de um \"Astronauta montando um cavalo em Marte\" mas em 3 estilos diferentes:\n1. Realista\n2. Cartoon\n3. Futurista"
+        },
+        "2": {
+          "title": "Refining Resultados",
+          "content": "Se o resultado não for perfeito:\n\n1. **Ajuste o Prompt**: Seja mais específico\n2. **Use Seed**: Para manter a consistência\n3. **Itere**: Gere várias versões\n\n🚀 *A prática leva à perfeição.*"
+        },
+        "3": {
+          "title": "Quiz: Projeto Final",
+          "question": "O que você deve fazer se a imagem gerada não for o que esperava?",
+          "options": [
+            { "text": "Ajustar o prompt e ser mais específico", "isCorrect": true },
+            { "text": "Desinstalar a ferramenta", "isCorrect": false },
+            { "text": "Esperar 24 horas", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "lovable": {
+      "1": {
+        "1": {
+          "title": "O que é Lovable?",
+          "content": "Lovable é uma plataforma no-code com IA que permite criar aplicações web completas:\n\n• Sem precisar programar\n• Descreva o que você quer\n• A IA constrói seu app\n• Deploy instantâneo"
+        },
+        "2": {
+          "title": "Seu Primeiro App",
+          "content": "Passos para criar seu primeiro app:\n\n1. **Descreva sua ideia** claramente\n2. **A IA gera** o código\n3. **Visualize** em tempo real\n4. **Itere e melhore** com prompts\n5. **Publique** com um clique"
+        },
+        "3": {
+          "title": "Quiz: Lovable",
+          "question": "O que você pode criar com Lovable sem programar?",
+          "options": [
+            { "text": "Aplicações web completas", "isCorrect": true },
+            { "text": "Apenas documentos de texto", "isCorrect": false },
+            { "text": "Nada funcional", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Funcionalidades do Lovable",
+          "content": "Lovable pode criar:\n\n• **Landing pages**\n• **Dashboards**\n• **Apps com banco de dados**\n• **Autenticação de usuários**\n• **APIs e integrações**"
+        },
+        "2": {
+          "title": "Melhores Práticas",
+          "content": "Para melhores resultados:\n\n✅ Descreva o design desejado\n✅ Especifique funcionalidades\n✅ Dê exemplos visuais\n✅ Itere passo a passo\n\n🚀 *De ideia a produto em horas.*"
+        },
+        "3": {
+          "title": "Quiz: Desenvolvimento",
+          "question": "Qual é a melhor forma de usar Lovable?",
+          "options": [
+            { "text": "Descrever claramente e iterar", "isCorrect": true },
+            { "text": "Prompts muito vagos", "isCorrect": false },
+            { "text": "Sem especificar design", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Sistemas Completos",
+          "content": "Com Lovable você pode criar sistemas completos:\n\n• **Cadastro de usuários**\n• **Listagem de dados**\n• **Busca avançada**\n• **Dashboard administrativo**\n• **Autenticação segura**"
+        },
+        "2": {
+          "title": "Integrações",
+          "content": "Funcionalidades avançadas:\n\n📧 Emails automáticos\n📊 Exportação de dados\n🔍 Filtros avançados\n🔗 APIs externas\n\n*Tudo sem escrever código.*"
+        },
+        "3": {
+          "title": "Quiz: Sistemas",
+          "question": "O que o Lovable configura automaticamente?",
+          "options": [
+            { "text": "Banco de dados, autenticação e APIs", "isCorrect": true },
+            { "text": "Apenas formulários", "isCorrect": false },
+            { "text": "Apenas visual", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Projeto: Sua Aplicação",
+          "content": "Escolha seu projeto final:\n\n• **Landing page** para seu negócio\n• **Sistema de gestão** completo\n• **Dashboard** de analytics\n• **Catálogo** de produtos\n\n🎯 *Aplique tudo o que aprendeu.*"
+        },
+        "2": {
+          "title": "Finalizando",
+          "content": "Complete seu projeto:\n\n✅ Refine o design\n✅ Teste funcionalidades\n✅ Deploy automático\n✅ Compartilhe sua URL\n\n🚀 *De ideia a produção em minutos.*"
+        },
+        "3": {
+          "title": "Quiz: Projeto",
+          "question": "Melhor forma de usar o Lovable?",
+          "options": [
+            { "text": "Descrever detalhes e iterar", "isCorrect": true },
+            { "text": "Pedido genérico único", "isCorrect": false },
+            { "text": "Não especificar layout", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "captions": {
+      "1": {
+        "1": {
+          "title": "O que é Captions?",
+          "content": "Captions é uma ferramenta de IA para edição de vídeo:\n\n• Legendas automáticas\n• Edição assistida por IA\n• Efeitos profissionais\n• Ideal para criadores de conteúdo"
+        },
+        "2": {
+          "title": "Primeiros Passos",
+          "content": "Como começar com Captions:\n\n1. **Faça upload do seu vídeo**\n2. **A IA analisa** o conteúdo\n3. **Gera legendas** automaticamente\n4. **Edite e personalize**\n5. **Exporte** em alta qualidade"
+        },
+        "3": {
+          "title": "Quiz: Captions",
+          "question": "Qual função principal Captions oferece?",
+          "options": [
+            { "text": "Legendas e edição de vídeo com IA", "isCorrect": true },
+            { "text": "Edição de fotos", "isCorrect": false },
+            { "text": "Criação de música", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Edição Avançada",
+          "content": "Funções avançadas do Captions:\n\n• **Cortes automáticos** de silêncios\n• **Zoom dinâmico** em partes chave\n• **Transições** profissionais\n• **Música de fundo** sincronizada"
+        },
+        "2": {
+          "title": "Criando Conteúdo Viral",
+          "content": "Dicas para conteúdo que engaja:\n\n🎬 Hook nos primeiros 3 segundos\n📱 Formato vertical para redes\n💬 Legendas sempre visíveis\n🎵 Música trending\n\n*Captions faz tudo isso automaticamente.*"
+        },
+        "3": {
+          "title": "Quiz: Vídeo",
+          "question": "O que Captions faz para melhorar seus vídeos?",
+          "options": [
+            { "text": "Cortes, zooms e transições automáticas", "isCorrect": true },
+            { "text": "Apenas adiciona texto", "isCorrect": false },
+            { "text": "Nada automático", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "Conhecendo o Captions",
+          "content": "Edição de vídeo com IA:\n\n• **Legendas automáticas**\n• **Smart Cut** - cortes inteligentes\n• **Eye Contact** - ajuste de olhar\n• **Efeitos profissionais**"
+        },
+        "2": {
+          "title": "Edição Automática",
+          "content": "Fluxo de trabalho simples:\n\n1️⃣ Upload do vídeo\n2️⃣ Ajustes automáticos\n3️⃣ Exportar em alta qualidade\n\n*A IA faz o trabalho pesado.*"
+        },
+        "3": {
+          "title": "Quiz: Captions",
+          "question": "O que faz o Eye Contact?",
+          "options": [
+            { "text": "Ajusta o olhar para a câmera", "isCorrect": true },
+            { "text": "Adiciona emojis", "isCorrect": false },
+            { "text": "Remove pessoas", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Projeto: Vídeo Viral",
+          "content": "Crie seu vídeo viral:\n\n🎬 Gravação ou material existente\n✂️ Edição com Smart Cut\n💬 Legendas estilizadas\n🎵 Música trending"
+        },
+        "2": {
+          "title": "Publicando",
+          "content": "Finalize e publique:\n\n✅ Revise os cortes\n✅ Ajuste legendas\n✅ Exporte para cada rede\n✅ Publique e compartilhe\n\n📱 *Pronto para TikTok, Reels e YouTube.*"
+        },
+        "3": {
+          "title": "Quiz: Publicação",
+          "question": "Por que usar legendas sempre?",
+          "options": [
+            { "text": "Maioria vê vídeos sem som", "isCorrect": true },
+            { "text": "Apenas para surdos", "isCorrect": false },
+            { "text": "Ocupam espaço", "isCorrect": false }
+          ]
+        }
+      }
+    },
+    "elevenlabs": {
+      "1": {
+        "1": {
+          "title": "O que é o ElevenLabs?",
+          "content": "ElevenLabs é uma IA de síntese de voz avançada:\n\n• Vozes ultra realistas\n• Clonagem de voz\n• Múltiplos idiomas\n• Emoções e tons variados"
+        },
+        "2": {
+          "title": "Casos de Uso",
+          "content": "ElevenLabs é ideal para:\n\n🎙️ Podcasts e audiobooks\n📹 Narração de vídeos\n📱 Assistentes de voz\n🌍 Localização de conteúdo\n🎭 Personagens animados"
+        },
+        "3": {
+          "title": "Quiz: ElevenLabs",
+          "question": "Que tipo de conteúdo ElevenLabs gera?",
+          "options": [
+            { "text": "Áudio e voz sintetizada", "isCorrect": true },
+            { "text": "Imagens", "isCorrect": false },
+            { "text": "Vídeos", "isCorrect": false }
+          ]
+        }
+      },
+      "2": {
+        "1": {
+          "title": "Clonando Sua Voz",
+          "content": "O ElevenLabs pode clonar sua voz:\n\n1. **Grave amostras** da sua voz\n2. **A IA aprende** suas características\n3. **Gera áudio** com sua voz clonada\n4. **Use-a** para qualquer texto\n\n🎤 *Sua voz, multiplicada por IA.*"
+        },
+        "2": {
+          "title": "Vozes Profissionais",
+          "content": "Opções de voz:\n\n• **Vozes pré-desenhadas**: Biblioteca completa\n• **Vozes personalizadas**: Crie as suas\n• **Emoções**: Alegria, tristeza, empolgação\n• **Idiomas**: 29+ idiomas disponíveis"
+        },
+        "3": {
+          "title": "Quiz: Vozes",
+          "question": "O que você pode fazer com o ElevenLabs além de usar vozes pré-desenhadas?",
+          "options": [
+            { "text": "Clonar sua própria voz", "isCorrect": true },
+            { "text": "Apenas ouvir", "isCorrect": false },
+            { "text": "Editar imagens", "isCorrect": false }
+          ]
+        }
+      },
+      "3": {
+        "1": {
+          "title": "TTS Avançado",
+          "content": "Domine o text-to-speech:\n\n• **Controle de emoção**\n• **Pausas** (usando ---)\n• **Ênfase** (MAIÚSCULAS)\n• **Ritmo natural**"
+        },
+        "2": {
+          "title": "Produção Profissional",
+          "content": "Fluxo completo:\n\n1️⃣ Preparação do roteiro\n2️⃣ Formatação do texto\n3️⃣ Geração do áudio\n4️⃣ Edição e ajustes\n5️⃣ Exportação no formato desejado"
+        },
+        "3": {
+          "title": "Quiz: TTS",
+          "question": "Como adicionar ênfase em palavras?",
+          "options": [
+            { "text": "Usando letras MAIÚSCULAS", "isCorrect": true },
+            { "text": "Adicionando emojis", "isCorrect": false },
+            { "text": "Repetindo a palavra", "isCorrect": false }
+          ]
+        }
+      },
+      "4": {
+        "1": {
+          "title": "Projeto Final",
+          "content": "Crie uma intro de podcast profissional com sua voz clonada:\n\n🎙️ Escreva um roteiro engajador\n🎵 Adicione pausas adequadas\n✨ Aplique variações emocionais\n📤 Exporte em alta qualidade"
+        },
+        "2": {
+          "title": "Parabéns!",
+          "content": "🎉 Você completou o Desafio IA Iniciante!\n\nVocê aprendeu a usar 8 ferramentas poderosas de IA:\n• ChatGPT, Claude, DeepSeek, Gemini\n• NanoBanana, Lovable, Captions, ElevenLabs\n\nContinue praticando e explore outros desafios!"
+        },
+        "3": {
+          "title": "Quiz Final",
+          "question": "Como continuar evoluindo com IA?",
+          "options": [
+            { "text": "Praticar diariamente e explorar novas ferramentas", "isCorrect": true },
+            { "text": "Parar de estudar após o curso", "isCorrect": false },
+            { "text": "Usar apenas uma IA", "isCorrect": false }
+          ]
+        }
+      }
+    }
+  },
+  "difficulty": {
+    "iniciante": "Iniciante",
+    "intermediario": "Intermediário",
+    "avancado": "Avançado"
+  },
+  "pwa": {
+    "title": "Instalar Educy",
+    "description": "Acesse mais rápido direto da sua tela inicial!",
+    "install": "Instalar Agora",
+    "installApp": "Instalar App",
+    "installed": "Instalado",
+    "installTitle": "Instalar Educy",
+    "installDescription": "Siga os passos abaixo para instalar o app:",
+    "desktop": "Use o menu do navegador para instalar",
+    "ios": {
+      "step1": "Toque no botão de compartilhar",
+      "step2": "Selecione \"Adicionar à Tela de Início\"",
+      "stepTitle1": "Passo 1",
+      "stepTitle2": "Passo 2"
+    },
+    "android": {
+      "step1": "Toque no menu do navegador (⋮)",
+      "step2": "Selecione \"Instalar app\"",
+      "stepTitle1": "Passo 1",
+      "stepTitle2": "Passo 2"
+    }
+  },
+  "certificate": {
+    "obtained": "Certificado Obtido!",
+    "getCertificate": "Obter seu certificado",
+    "daysCompleted": "{{completed}} de {{total}} dias completados ({{percent}}%)",
+    "congratulations": "Parabéns! Você dominou este desafio!",
+    "almostThere": "Quase lá! Continue assim!",
+    "onTheRightPath": "Você está no caminho certo!",
+    "goodStart": "Bom começo! Continue aprendendo!",
+    "startJourney": "Comece sua jornada hoje!",
+    "viewCertificate": "Ver Certificado",
+    "title": "CERTIFICADO DE CONCLUSÃO",
+    "certifies": "Certificamos que",
+    "completed": "Completou com sucesso",
+    "daysLearning": "28 dias de aprendizado",
+    "earnedOn": "Conquistado em",
+    "download": "Baixar Certificado",
+    "shareTitle": "Meu Certificado Educy",
+    "shareText": "Completei o desafio {{challenge}} na Educy!",
+    "notFound": "Certificado não encontrado",
+    "myCertificate": "Meu Certificado",
+    "generating": "Gerando certificado...",
+    "congratsMessage": "Você completou o desafio com sucesso!",
+    "eliteCertificate": "Certificado de Elite",
+    "masterCertificate": "Certificado Nível Mestre",
+    "conquered": "Conquistado!",
+    "inProgress": "Em Progresso..."
+  },
+  "lessonComplete": {
+    "goodJob": "Bom trabalho!",
+    "dayXOfY": "Dia {{day}} de {{total}} completado",
+    "whatYouLearned": "O que você aprendeu:",
+    "keepPracticing": "Continue praticando e você dominará o {{tool}}! À medida que os modelos evoluem, continue experimentando.",
+    "nextDay": "Próximo Dia",
+    "backToChallenge": "Voltar ao Desafio",
+    "finishLesson": "Finalizar lição"
+  },
+  "dayLesson": {
+    "loading": "Carregando...",
+    "notFound": "Lição não encontrada",
+    "completePrevious": "Complete a etapa anterior para desbloquear",
+    "welcomeMessage": "Bem-vindo ao Dia {{day}} com {{tool}}!",
+    "toolDescription": "é uma ferramenta poderosa de IA.",
+    "lessonGoals": "Objetivos desta lição:",
+    "quizMainUse": "Qual é o uso principal do {{tool}}?",
+    "quizAnalyze": "Analise e selecione a opção correta",
+    "aiTool": "Ferramenta de IA",
+    "aiAssistant": "Assistente virtual inteligente",
+    "spreadsheetEdit": "Edição de planilhas",
+    "fallback": {
+      "week1Theme": "Fundamentos",
+      "week2Theme": "Técnicas Básicas",
+      "week3Theme": "Técnicas Intermediárias",
+      "week4Theme": "Aplicação Profissional",
+      "intro": "**Bem-vindo ao Dia {{day}}!** 🎯\n\nHoje você aprenderá sobre **{{tool}}** na Semana {{week}}: {{weekTheme}}.\n\n{{description}}\n\n⚠️ *Este conteúdo está em desenvolvimento. Aulas completas em breve!*",
+      "aboutTool": "Sobre {{tool}}",
+      "toolInfo": "**{{tool}}** é uma ferramenta poderosa de IA.\n\n{{description}}\n\n**Foco de hoje:** {{focusArea}}\n\n💡 *Pratique no Chat Educy para consolidar seu aprendizado!*",
+      "quizQuestion": "O que você aprendeu sobre {{tool}} hoje?",
+      "wrongOption": "Ferramenta de edição de imagem"
+    }
+  },
+  "common": {
+    "back": "Voltar",
+    "next": "Próximo",
+    "start": "Iniciar",
+    "continue": "Continuar",
+    "complete": "Concluir",
+    "login": "Entrar",
+    "signup": "Cadastrar",
+    "logout": "Sair",
+    "loading": "Carregando...",
+    "translating": "Traduzindo conteúdo...",
+    "error": "Ocorreu um erro",
+    "of": "de",
+    "progress": "Progresso",
+    "seeAll": "Ver tudo"
+  },
+  "quiz": {
+    "selectAllAnswers": "Selecione todas as respostas corretas",
+    "selectOneOption": "Selecione uma opção",
+    "verify": "Verificar",
+    "perfect": "Excelente!",
+    "youGotAll": "Você acertou todas!",
+    "almostRight": "Quase lá!",
+    "youGotXofY": "Você acertou {{correct}} de {{total}} respostas corretas.",
+    "incorrect": "Incorreto",
+    "incorrectAnswer": "Resposta incorreta",
+    "correctAnswer": "Resposta correta!",
+    "tryAgainNext": "Tente novamente na próxima!",
+    "correct": "Correto!",
+    "wellDone": "Você dominou este conceito. Continue assim!",
+    "correctAnswerWas": "A resposta correta era:",
+    "correctWas": "A resposta correta era",
+    "continue": "Continuar",
+    "tryAgain": "Tentar Novamente",
+    "submit": "Verificar Resposta",
+    "hint": "Dica 1",
+    "readCarefully": "Leia as opções com atenção. A resposta está relacionada ao conceito principal.",
+    "selectAllCorrect": "Selecione TODAS as opções corretas. Nem mais, nem menos.",
+    "mustAnswerCorrectly": "Acerte para continuar",
+    "askAIHelp": "Pedir ajuda ao EDI 🤖"
+  },
+  "lessonUI": {
+    "taskCompleted": "Tarefa concluída",
+    "yourAnswer": "Sua resposta:",
+    "repeatTask": "Repetir tarefa"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "Conceitos fundamentais de {{tool}}",
+    "practicalTechniques": "Técnicas práticas de uso",
+    "dailyApplication": "Como aplicar no dia a dia"
+  },
+  "lesson": {
+    "locked": "Bloqueado",
+    "completed": "Concluído",
+    "startNow": "Começar agora",
+    "noContent": "Conteúdo ainda não disponível para esta fase.",
+    "checkAnswer": "Verificar Resposta",
+    "tryAgain": "Tentar Novamente",
+    "tryAgainFeedback": "Ops! Tente novamente.",
+    "correctAnswer": "Parabéns! Resposta correta!",
+    "phaseCompleted": "Fase concluída com sucesso!",
+    "loading": "Carregando...",
+    "close": "Fechar",
+    "continue": "CONTINUAR",
+    "verify": "VERIFICAR",
+    "stepTypes": {
+      "learn": "📚 Aprender",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Prática",
+      "simulator": "🤖 Simulador"
+    },
+    "quiz": {
+      "correct": "Correto!",
+      "incorrect": "Tente novamente",
+      "askEdi": "Pedir ajuda à EDI",
+      "hint": "💡 Dica",
+      "excellent": "Excelente!",
+      "almostThere": "Quase lá!",
+      "masteredConcept": "Você dominou este conceito. Continue assim!",
+      "hintReread": "Releia as opções. A resposta correta está relacionada ao conceito principal.",
+      "hintOrder": "Pense na ordem lógica: ação → objeto → detalhes.",
+      "hintReview": "Volte ao conteúdo anterior e revise os conceitos.",
+      "hintAskEdi": "A EDI pode ajudar! Clique no botão abaixo.",
+      "getCorrectToContinue": "Acerte para continuar"
+    },
+    "practical": {
+      "instructions": "Clique nas palavras para montar o prompt correto:",
+      "yourAnswer": "Sua resposta:",
+      "available": "Palavras disponíveis:"
+    },
+    "chat": {
+      "aiReady": "Pronto para ajudar",
+      "sendPlaceholder": "Digite sua mensagem...",
+      "aiResponse": "Excelente exemplo! Percebeu como eu processei sua entrada? Agora que testamos na prática, clique em 'CONTINUAR' abaixo para avançarmos."
+    },
+    "ediChat": {
+      "title": "EDI",
+      "subtitle": "Seu Assistente de IA",
+      "online": "Pronto para te ajudar",
+      "loginRequired": "Faça login para conversar com o EDI.",
+      "premiumRequired": "Desbloqueie o acesso premium para conversar com o EDI!",
+      "error": "Erro ao conectar. Tente novamente.",
+      "rateLimited": "Muitas mensagens! Aguarde um momento...",
+      "creditsExhausted": "Créditos esgotados. Entre em contato.",
+      "placeholder": "Fale com o EDI..."
+    },
+    "textParts": {
+      "part": "Parte",
+      "of": "de",
+      "nextPart": "Próxima parte",
+      "previousPart": "Parte anterior",
+      "showPrevious": "Ver partes anteriores",
+      "hidePrevious": "Ocultar partes anteriores",
+      "allRead": "Todo conteúdo lido"
+    },
+    "matchWords": {
+      "instructions": "Conecte cada item da esquerda com seu par correto à direita!",
+      "matched": "pares conectados",
+      "reset": "Recomeçar"
+    },
+    "findError": {
+      "title": "Encontre o Erro",
+      "instruction": "Clique na parte do prompt que contém o erro:",
+      "correct": "Excelente! Você encontrou o erro!",
+      "incorrect": "Não é esse o erro. Tente novamente!",
+      "hint": "Dica: Procure por algo que está vago, ambíguo ou que poderia ser mais específico no prompt."
+    },
+    "selectIncorrect": {
+      "title": "Encontre os Erros",
+      "instruction": "Selecione as opções que estão INCORRETAS.",
+      "correct": "Perfeito! Você identificou corretamente as opções erradas!",
+      "incorrect": "Ainda não... Revise sua seleção!",
+      "selected": "Selecionadas:",
+      "hasCorrect": "Você selecionou algo que está CERTO. Lembre-se: queremos as opções ERRADAS.",
+      "needMore": "Selecione mais opções incorretas.",
+      "tooMany": "Você selecionou opções demais.",
+      "hint": "Dica: Pense no que você aprendeu sobre boas práticas. O que vai CONTRA esses princípios?"
+    },
+    "ediMotivation": {
+      "almostDone": "Falta pouco! 🎯 Você está quase lá!",
+      "halfway": "Metade concluída! 💪 Continue assim!",
+      "greatJob": "Excelente trabalho! ✨ Você está arrasando!",
+      "keepGoing": "Não desista agora! 🔥 Você consegue!",
+      "finalStretch": "Reta final! ⚡ Mais um pouquinho!",
+      "encouragement": "Eu acredito em você! 💖 Vamos juntos!",
+      "yourAssistant": "seu assistente",
+      "almostDoneDay": "Está quase acabando o dia {{day}}! 🎯 {{phrase}}",
+      "halfwayDay": "Metade do dia {{day}} concluída! 💪 {{phrase}}",
+      "finalStretchDay": "Reta final do dia {{day}}! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Você está indo muito bem!",
+          "Continue assim, você é incrível!",
+          "Falta pouquinho, você consegue!",
+          "Quase lá, não desista!",
+          "Você está arrasando!"
+        ],
+        "halfway": [
+          "Você está mandando bem!",
+          "Metade já era, continue firme!",
+          "Excelente progresso!",
+          "Você é demais!",
+          "Continua que tá lindo!"
+        ],
+        "finalStretch": [
+          "O final está próximo!",
+          "Você já chegou tão longe!",
+          "Última etapa, vai com tudo!",
+          "Finalize com chave de ouro!",
+          "Quase na linha de chegada!"
+        ]
+      }
+    },
+    "promptTrainer": {
+      "subtitle": "Treine seu prompt com o EDI",
+      "challenge": "🎯 Desafio:",
+      "criteria": "Critérios de sucesso:",
+      "startMessage": "Escreva seu prompt para começar!",
+      "completed": "Prompt aprovado! Parabéns! 🎉",
+      "placeholder": "Digite seu prompt aqui...",
+      "attempts": "Tentativas",
+      "showHint": "Ver dica",
+      "hideHint": "Esconder dica",
+      "showExample": "Ver exemplo de prompt",
+      "hideExample": "Esconder exemplo"
+    }
+  },
+  "landing": {
+    "badge": "Aprenda IA de Forma Divertida e Práctica",
+    "title": "Domine IA com",
+    "subtitle": "Trilhas Interativas",
+    "description": "Transforme sua carreira dominando as principais ferramentas de IA do mercado através de trilhas práticas e gamificadas",
+    "ctaPrimary": "Começar Agora - Grátis",
+    "ctaSecondary": "Ver Como Funciona",
+    "feature1": "100% Prático",
+    "feature2": "Certificado",
+    "feature3": "Gamificado",
+    "stat1": "Ferramentas IA",
+    "stat2": "Estudantes",
+    "stat3": "Taxa de Conclusão",
+    "nav": {
+      "home": "Início",
+      "about": "Sobre",
+      "programs": "Programas",
+      "testimonials": "Depoimentos",
+      "plan": "Plano",
+      "contact": "Contato",
+      "login": "Entrar",
+      "startNow": "Começar Agora"
+    },
+    "hero": {
+      "badge": "Formando líderes em IA no mundo todo",
+      "title": "Domine a",
+      "titleHighlight": "Inteligência Artificial",
+      "titleEnd": "e Transforme sua Carreira",
+      "subtitle": "Aprenda as ferramentas de IA mais poderosas do mercado com cursos práticos, mentoria personalizada e uma comunidade global de mais de 50.000 profissionais.",
+      "cta": "Começar Grátis",
+      "demo": "Ver Demonstração",
+      "students": "estudantes",
+      "rating": "avaliação",
+      "countries": "países"
+    },
+    "features": {
+      "sectionLabel": "Por que escolher a Educy",
+      "title": "Sua jornada para o futuro começa aqui",
+      "subtitle": "Oferecemos a melhor experiência de aprendizado em IA, combinando teoria e prática com suporte contínuo para garantir seu sucesso.",
+      "curriculum": {
+        "title": "Currículo de Vanguarda",
+        "description": "Conteúdo atualizado constantemente com as últimas tendências e ferramentas de IA do mercado."
+      },
+      "mentoring": {
+        "title": "Mentoria Personalizada",
+        "description": "Acompanhamento individual com especialistas para acelerar seu aprendizado e desenvolvimento."
+      },
+      "community": {
+        "title": "Comunidade Global",
+        "description": "Conecte-se com mais de 50.000 profissionais de IA no mundo todo e amplie sua rede."
+      },
+      "certification": {
+        "title": "Certificação Reconhecida",
+        "description": "Certificados valorizados por empresas líderes que comprovam suas habilidades em IA."
+      },
+      "practical": {
+        "title": "Aprendizado Prático",
+        "description": "Projetos reais e hands-on para aplicar o conhecimento desde o primeiro dia."
+      },
+      "career": {
+        "title": "Carreira Acelerada",
+        "description": "Suporte de carreira com acesso a vagas exclusivas e preparação para entrevistas."
+      }
+    },
+    "programs": {
+      "sectionLabel": "Nossos Programas",
+      "title": "Escolha seu caminho de aprendizado",
+      "subtitle": "Programas estruturados para todos os níveis, do iniciante ao especialista em IA.",
+      "popular": "Mais Popular",
+      "startNow": "Começar Agora",
+      "beginner": "Iniciante",
+      "intermediate": "Intermediário",
+      "advanced": "Avançado",
+      "fundamentals": {
+        "title": "Fundamentos de IA",
+        "description": "Comece sua jornada em Inteligência Artificial do zero. Aprenda conceitos fundamentais e suas primeiras ferramentas.",
+        "duration": "4 semanas",
+        "highlights": [
+          "Introdução à IA e Machine Learning",
+          "Primeiros passos com ChatGPT",
+          "Automação básica de tarefas",
+          "Certificado de conclusão"
+        ]
+      },
+      "machineLearning": {
+        "title": "Machine Learning Avançado",
+        "description": "Domine técnicas avançadas de ML e crie modelos preditivos poderosos para resolver problemas complexos.",
+        "duration": "8 semanas",
+        "highlights": [
+          "Algoritmos de ML supervisionado",
+          "Redes neurais e Deep Learning",
+          "Processamento de linguagem natural",
+          "Projetos práticos reais"
+        ]
+      },
+      "deepLearning": {
+        "title": "Deep Learning e Redes Neurais",
+        "description": "Torne-se especialista em Deep Learning e construa arquiteturas neurais de ponta.",
+        "duration": "12 semanas",
+        "highlights": [
+          "CNNs e arquiteturas avançadas",
+          "Transformers e LLMs",
+          "Visão computacional",
+          "Mentoria 1:1 com especialistas"
+        ]
+      }
+    },
+    "stats": {
+      "students": "Estudantes",
+      "countries": "Países",
+      "satisfaction": "Satisfação",
+      "partners": "Empresas Parceiras"
+    },
+    "testimonials": {
+      "sectionLabel": "Depoimentos",
+      "title": "O que dizem nossos alunos",
+      "subtitle": "Milhares de profissionais já transformaram suas carreiras com a Educly. Veja o que eles têm a dizer.",
+      "items": [
+        {
+          "name": "Maria Silva",
+          "role": "Cientista de Dados",
+          "country": "Brasil",
+          "text": "A Educly transformou minha carreira. Em 3 meses saí do zero para cientista de dados em uma grande empresa de tecnologia. O suporte dos mentores foi fundamental."
+        },
+        {
+          "name": "João Santos",
+          "role": "Gerente de Produto",
+          "country": "Portugal",
+          "text": "O conteúdo prático e atualizado me permitiu aplicar IA no meu trabalho imediatamente. A comunidade é incrível e o networking valeu cada centavo."
+        },
+        {
+          "name": "Ana García",
+          "role": "Engenheira de ML",
+          "country": "México",
+          "text": "Depois de completar o programa avançado, recebi 3 ofertas de emprego. A qualidade do ensino e a certificação fizeram toda a diferença no meu currículo."
+        },
+        {
+          "name": "Carlos Fernández",
+          "role": "Fundador de Startup",
+          "country": "Argentina",
+          "text": "Usei o conhecimento da Educly para criar minha startup de IA. A mentoria me ajudou a entender como aplicar ML em problemas reais de negócio."
+        }
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Alcance Global",
+      "title": "Presentes em todo o mundo",
+      "subtitle": "A Educly conecta profissionais de IA em mais de 150 países, criando uma rede global de conhecimento e oportunidades.",
+      "regions": {
+        "latinAmerica": "América Latina",
+        "europe": "Europa",
+        "northAmerica": "América do Norte",
+        "asiaOceania": "Ásia e Oceania"
+      },
+      "features": {
+        "languages": {
+          "title": "12 Idiomas",
+          "description": "Conteúdo disponível em múltiplos idiomas"
+        },
+        "support": {
+          "title": "Suporte 24/7",
+          "description": "Atendimento global a qualquer hora"
+        },
+        "community": {
+          "title": "Comunidade Global",
+          "description": "Networking com profissionais do mundo todo"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para dominar a IA e transformar sua carreira?",
+      "subtitle": "Junte-se a mais de 50.000 profissionais que já estão construindo o futuro com inteligência artificial.",
+      "startFree": "Começar Grátis",
+      "talkConsultant": "Falar com Consultor",
+      "guarantee": "Garantia de 30 dias",
+      "installments": "Até 12x",
+      "benefits": [
+        "Acesso vitalício ao conteúdo",
+        "Atualizações gratuitas para sempre",
+        "Comunidade exclusiva de profissionais",
+        "Certificados reconhecidos pelo mercado",
+        "Suporte dedicado 24/7",
+        "Garantia de satisfação de 30 dias"
+      ]
+    },
+    "footer": {
+      "description": "A plataforma líder em educação de Inteligência Artificial, formando os profissionais do futuro.",
+      "contact": "Contato",
+      "programs": "Programas",
+      "resources": "Recursos",
+      "company": "Empresa",
+      "legal": "Legal",
+      "links": {
+        "aiFundamentals": "Fundamentos de IA",
+        "machineLearning": "Machine Learning",
+        "deepLearning": "Deep Learning",
+        "aiForBusiness": "IA para Negócios",
+        "blog": "Blog",
+        "webinars": "Webinars",
+        "ebooks": "E-books",
+        "community": "Comunidade",
+        "aboutUs": "Sobre Nós",
+        "careers": "Carreiras",
+        "partnerships": "Parcerias",
+        "contact": "Contato",
+        "terms": "Termos de Uso",
+        "privacy": "Privacidade",
+        "cookies": "Cookies"
+      },
+      "copyright": "Todos os direitos reservados.",
+      "madeWith": "Feito com ❤️ para a comunidade global de IA"
+    },
+    "pricing": {
+      "title": "Desbloqueie seu potencial agora",
+      "subtitle": "Comece sua jornada de aprendizado em IA hoje com um investimento único",
+      "offerBadge": "OFERTA DE HOJE",
+      "productName": "Acesso Completo à Trilha de IA",
+      "pricePrefix": "POR APENAS",
+      "perDay": "por dia",
+      "ctaButton": "GARANTIR MEU ACESSO AGORA",
+      "securePayment": "Pagamento Seguro via Stripe",
+      "quizDiscountNotice": "🎁 QUER UM DESCONTO MAIOR? COMPLETE O QUIZ ABAIXO!",
+      "quizBadge": "ACESSO EXCLUSIVO",
+      "quizTitle": "Avance sua carreira com habilidades de IA",
+      "quizSubtitle": "Descubra sua trilha personalizada com um valor especial de lançamento.",
+      "quizButton": "Acessar quiz e liberar desconto"
+    },
+    "quiz": {
+      "link": {
+        "name": "Acessar quiz"
+      },
+      "url": "https://start.educly.app/portuguese"
+    }
+  },
+  "auth": {
+    "title": "Acesse sua Conta",
+    "loginTab": "Entrar",
+    "signupTab": "Cadastrar",
+    "email": "Email",
+    "emailPlaceholder": "seu@email.com",
+    "password": "Senha",
+    "passwordPlaceholder": "Sua senha",
+    "confirmPassword": "Confirmar Senha",
+    "confirmPasswordPlaceholder": "Confirme sua senha",
+    "loginButton": "Entrar",
+    "signupButton": "Cadastrar",
+    "loginSuccess": "Login realizado com sucesso!",
+    "signupSuccess": "Conta criada com sucesso!",
+    "passwordMismatch": "As senhas não coincidem",
+    "passwordTooShort": "A senha deve ter pelo menos 6 caracteres",
+    "loginError": "Erro ao fazer login",
+    "signupError": "Usuário já registrado",
+    "fullName": "Nome Completo",
+    "fullNamePlaceholder": "Digite seu nome completo",
+    "nameRequired": "Por favor, informe seu nome completo",
+    "rememberMe": "Mantenha conectado",
+    "forgotPassword": "Esqueceu a senha?",
+    "resetPasswordTitle": "Recuperar Senha",
+    "resetPasswordDesc": "Digite seu e-mail abaixo e enviaremos um link para redefinir sua senha.",
+    "emailRequired": "Por favor, digite seu e-mail.",
+    "emailSent": "E-mail enviado!",
+    "checkEmailReset": "Verifique sua caixa de entrada para redefinir a senha.",
+    "error": "Erro",
+    "invalidResetLink": "Link inválido ou expirado",
+    "invalidResetLinkDesc": "O link de recuperação de senha expirou ou é inválido. Por favor, solicite um novo link.",
+    "backToLogin": "Voltar para o login",
+    "createNewPassword": "Crie sua nova senha",
+    "createNewPasswordDesc": "Digite sua nova senha abaixo.",
+    "newPassword": "Nova senha",
+    "passwordMinLength": "Mínimo de 6 caracteres",
+    "updatePasswordButton": "Atualizar senha",
+    "passwordUpdated": "Senha atualizada!",
+    "passwordUpdatedDesc": "Sua senha foi alterada com sucesso.",
+    "redirectingDashboard": "Redirecionando para o dashboard..."
+  },
+  "dashboard": {
+    "title": "Domine as Principais Ferramentas de IA",
+    "subtitle": "Trilhas práticas e interativas para você aprender fazendo",
+    "availableTrails": "Ferramentas IA",
+    "startedTrails": "Trilhas Iniciadas",
+    "completedPhases": "Fases Concluídas",
+    "overallProgress": "Progresso geral",
+    "startTrail": "Iniciar Trilha",
+    "continueTrail": "Continuar",
+    "ctaTitle": "Acompanhe Seu Progresso",
+    "ctaDescription": "Veja todas as suas trilhas em um só lugar",
+    "ctaButton": "Ver Meu Progresso",
+    "greeting": "Olá",
+    "welcomeBack": "Continue sua jornada de aprendizado",
+    "myJourney": "Sua Jornada IA",
+    "trailsStarted": "Trilhas",
+    "daysCompleted": "Dias concluídos",
+    "student": "Aluno"
+  },
+  "progress": {
+    "title": "Seu progresso na Educly",
+    "subtitle": "Acompanhe sua evolução nas trilhas",
+    "total": "Progresso Total",
+    "phasesCompleted": "{{completed}} de {{total}} fases concluídas"
+  },
+  "trailCard": {
+    "startButton": "Começar",
+    "day": "Dia"
+  },
+  "onboardingQuiz": {
+    "title": "Vamos Personalizar Sua Jornada!",
+    "subtitle": "Responda algumas perguntas para criarmos o plano perfeito para você",
+    "progress": "Pergunta {{current}} de {{total}}",
+    "nextButton": "Próximo",
+    "finishButton": "Finalizar",
+    "backButton": "Voltar",
+    "selectOption": "Selecione uma opção",
+    "selectOptionDesc": "Por favor, escolha uma resposta antes de continuar.",
+    "quizComplete": "Quiz completo! ✨",
+    "generatingPlan": "Seu plano personalizado está sendo gerado...",
+    "diagnosticBadge": "Quiz de Diagnóstico",
+    "personalizeTitle": "Vamos personalizar seu",
+    "personalizeSubtitle": "plano de aprendizado",
+    "q1": {
+      "question": "Qual seu objetivo principal com IA?",
+      "opt1": "Gerar Renda Extra",
+      "opt2": "Aumentar Produtividade",
+      "opt3": "Escalar Negócios",
+      "opt4": "Criar Automações"
+    },
+    "q2": {
+      "question": "Qual sua experiência com IA?",
+      "opt1": "Nunca usei",
+      "opt2": "Uso básico",
+      "opt3": "Uso frequente",
+      "opt4": "Uso avançado"
+    },
+    "q3": {
+      "question": "Quanto tempo pode dedicar por dia?",
+      "opt1": "15-30 minutos",
+      "opt2": "1 hora",
+      "opt3": "2+ horas",
+      "opt4": "Tempo flexível"
+    },
+    "q4": {
+      "question": "Em qual área quer aplicar IA?",
+      "opt1": "Marketing e Vendas",
+      "opt2": "Criação de Conteúdo",
+      "opt3": "Desenvolvimento",
+      "opt4": "Uso Geral"
+    }
+  },
+  "plan": {
+    "title": "Meu Progresso",
+    "backButton": "Voltar ao Dashboard",
+    "subtitle": "Acompanhe sua evolução em todas as trilhas da Educly",
+    "overallProgress": "Progresso Geral",
+    "phases": "fases",
+    "completedTrails": "Trilhas Concluídas",
+    "inProgressTrails": "Trilhas em Andamento",
+    "availableTrails": "Trilhas Disponíveis",
+    "completed": "Concluída",
+    "inProgress": "Em andamento",
+    "notStarted": "Não iniciada",
+    "completedSection": "✓ Trilhas Concluídas",
+    "inProgressSection": "→ Trilhas em Andamento",
+    "availableSection": "Trilhas Disponíveis",
+    "progress": "Progresso",
+    "startTrailButton": "Começar Trilha"
+  },
+  "trail": {
+    "backButton": "Voltar ao Dashboard",
+    "trailTitle": "Trilha {{name}}",
+    "progress": "Progresso",
+    "phasesCompleted": "{{completed}}/{{total}} fases concluídas",
+    "loading": "Carregando trilha...",
+    "notFound": "Trilha não encontrada",
+    "congratulations": "Parabéns! Desafio Concluído!",
+    "congratsMessage": "Você dominou {{name}}! Continue explorando outras trilhas.",
+    "exploreButton": "Explorar Mais Trilhas",
+    "challenge": "Desafio de 28 Dias",
+    "days": "dias",
+    "dayLabel": "Dia",
+    "nextUp": "Próximo",
+    "week1": "Semana 1: Fundamentos",
+    "week2": "Semana 2: Técnicas Básicas",
+    "week3": "Semana 3: Técnicas Intermediárias",
+    "week4": "Semana 4: Aplicação Profissional"
+  },
+  "phase": {
+    "phaseTitle": "Fase {{number}}",
+    "taskTitle": "Tarefa Prática",
+    "completeButton": "Concluir Fase",
+    "nextPhaseButton": "Próxima Fase",
+    "congratsTitle": "🎉 Parabéns!",
+    "congratsMessage": "Você completou a Fase {{number}}!",
+    "unlockMessage": "A próxima fase foi desbloqueada.",
+    "lockedMessage": "Complete a fase anterior primeiro",
+    "taskCheckbox": "Completei a tarefa prática acima"
+  },
+  "video": {
+    "lockedTitle": "🔒 Vídeo Bloqueado",
+    "lockedMessage": "Complete todas as fases da trilha ChatGPT para desbloquear este conteúdo.",
+    "unlockButton": "Ir para ChatGPT"
+  },
+  "thankYou": {
+    "badge": "Bem-vindo à Educly",
+    "title": "Obrigado!",
+    "subtitle": "Bem-vindo ao futuro da inteligência artificial",
+    "description": "Sua jornada de transformação digital começa agora",
+    "ctaButton": "Começar Minha Trilha",
+    "benefit1Title": "Aprenda no seu ritmo",
+    "benefit1Desc": "Acesse quando e onde quiser",
+    "benefit2Title": "Certificados",
+    "benefit2Desc": "Reconhecidos pelo mercado",
+    "benefit3Title": "Comunidade",
+    "benefit3Desc": "Aprenda com outros alunos",
+    "stat1": "Trilhas de IA",
+    "stat2": "Fases Práticas",
+    "stat3": "Grátis",
+    "whatYouGet": "O que você vai receber"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ops! Página não encontrada",
+    "button": "Voltar ao Início"
+  },
+  "hero": {
+    "title": "Academia de IA",
+    "subtitle": "Domine as principais ferramentas de Inteligência Artificial"
+  },
+  "metrics": {
+    "availableTrails": "Trilhas Disponíveis",
+    "startedTrails": "Trilhas Iniciadas",
+    "completedPhases": "Fases Concluídas"
+  },
+  "jobs": {
+    "title": "Vagas de Hoje!",
+    "subtitle": "Oportunidades disponíveis para você",
+    "applyButton": "Aplicar",
+    "perHour": "/hora",
+    "noJobs": "Não há vagas disponíveis no momento",
+    "noJobsDesc": "Novas oportunidades serão adicionadas em breve!",
+    "premium": {
+      "title": "🔐 Área Premium",
+      "unlockedTitle": "🔓 Área Premium",
+      "subtitle": "Vagas Exclusivas de Trabalho Remoto",
+      "description": "Acesse oportunidades de trabalho remoto com IA das melhores plataformas",
+      "unlockButton": "Desbloquear Acesso",
+      "accessButton": "Ver Vagas"
+    }
+  },
+  "aiTools": {
+    "chatgpt": {
+      "name": "ChatGPT",
+      "description": "Assistente de IA conversacional da OpenAI para produtividade e criação de conteúdo",
+      "phases": {
+        "1": {
+          "title": "Introdução ao ChatGPT",
+          "description": "Descubra a ferramenta de IA conversacional mais popular do mundo e seus principais recursos.",
+          "task": "Explore a interface do ChatGPT e tenha sua primeira conversa com a IA."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a criar prompts eficientes para obter melhores respostas da IA.",
+          "task": "Crie 5 prompts diferentes e compare as respostas obtidas."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique com casos de uso reais do ChatGPT no dia a dia.",
+          "task": "Complete 3 desafios práticos usando técnicas avançadas de prompt."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto completo usando o ChatGPT como assistente.",
+          "task": "Crie um documento profissional completo com a ajuda da IA."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine técnicas avançadas e integrações do ChatGPT.",
+          "task": "Implemente uma automação ou fluxo de trabalho usando o ChatGPT."
+        }
+      }
+    },
+    "claude": {
+      "name": "Claude",
+      "description": "IA avançada da Anthropic especializada em análise e raciocínio complexo",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Claude",
+          "description": "Descubra o Claude da Anthropic e seus diferenciais em relação a outras IAs.",
+          "task": "Explore a interface do Claude e teste suas capacidades de análise."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar os comandos e recursos únicos do Claude.",
+          "task": "Experimente diferentes tipos de análise e compare resultados."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique análise complexa e raciocínio estruturado com o Claude.",
+          "task": "Complete análise de documentos e resolva problemas lógicos."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto de análise profunda com a assistência do Claude.",
+          "task": "Crie uma análise detalhada de um tópico complexo."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos avançados como Artifacts e projetos colaborativos.",
+          "task": "Implemente um fluxo de trabalho avançado usando o Claude."
+        }
+      }
+    },
+    "deepseek": {
+      "name": "DeepSeek",
+      "description": "IA open-source chinesa com excelente raciocínio e custo-benefício",
+      "phases": {
+        "1": {
+          "title": "Introdução ao DeepSeek",
+          "description": "Descubra o DeepSeek e suas vantagens como alternativa open-source.",
+          "task": "Acesse o DeepSeek e explore seus recursos básicos."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a otimizar prompts para o DeepSeek.",
+          "task": "Teste diferentes tipos de prompts e analise as respostas."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique casos de uso reais com o DeepSeek.",
+          "task": "Complete desafios de programação e análise de dados."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto usando o DeepSeek para tarefas específicas.",
+          "task": "Crie uma solução completa para um problema real."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Explore integrações via API e uso avançado do DeepSeek.",
+          "task": "Implemente uma integração ou automação com o DeepSeek."
+        }
+      }
+    },
+    "gemini": {
+      "name": "Gemini",
+      "description": "IA multimodal do Google com integração nativa ao ecossistema Google",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Gemini",
+          "description": "Descubra o Gemini do Google e suas capacidades multimodais.",
+          "task": "Explore o Gemini e teste seus recursos com texto e imagem."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar comandos multimodais no Gemini.",
+          "task": "Crie prompts combinando texto, imagens e outros formatos."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique análise de imagens e integração com o Google Workspace.",
+          "task": "Complete tarefas usando o Gemini integrado ao Google."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto multimodal com o Gemini.",
+          "task": "Crie um projeto combinando análise de texto e imagem."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine integrações avançadas e a API do Gemini.",
+          "task": "Implemente uma solução usando o Gemini no seu fluxo de trabalho."
+        }
+      }
+    },
+    "grok": {
+      "name": "Grok",
+      "description": "IA da xAI com acesso em tempo real ao X (Twitter) e estilo único",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Grok",
+          "description": "Conheça o Grok da xAI e seu acesso em tempo real às redes sociais.",
+          "task": "Explore o Grok e teste suas funcionalidades únicas."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar o Grok para análise de tendências.",
+          "task": "Faça análises de tendências e assuntos em alta."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique análise de dados em tempo real com o Grok.",
+          "task": "Complete análises de eventos e tendências atuais."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto de análise de redes sociais.",
+          "task": "Crie um relatório de análise de tendências."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos avançados do Grok para pesquisa.",
+          "task": "Implemente um sistema de monitoramento de tendências."
+        }
+      }
+    },
+    "midjourney": {
+      "name": "Midjourney",
+      "description": "Ferramenta líder em geração de imagens artísticas por IA",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Midjourney",
+          "description": "Conheça o Midjourney e seus recursos de criação de imagens.",
+          "task": "Acesse o Discord do Midjourney e gere sua primeira imagem."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda os comandos básicos e parâmetros do Midjourney.",
+          "task": "Crie 5 imagens usando diferentes estilos e parâmetros."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique técnicas avançadas de prompt para imagens.",
+          "task": "Complete desafios de criação com estilos específicos."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto visual completo com o Midjourney.",
+          "task": "Crie uma série de imagens coerentes para um projeto."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine técnicas profissionais e fluxos de trabalho avançados.",
+          "task": "Implemente um fluxo de trabalho de criação visual profissional."
+        }
+      }
+    },
+    "runway": {
+      "name": "Runway",
+      "description": "Plataforma de IA para edição e geração de vídeos profissionais",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Runway",
+          "description": "Conheça o Runway e suas ferramentas de edição de vídeo com IA.",
+          "task": "Explore a interface do Runway e suas principais ferramentas."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar as ferramentas básicas de edição.",
+          "task": "Edite um vídeo usando as ferramentas de IA do Runway."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique geração e edição avançada de vídeos.",
+          "task": "Complete projetos de edição usando múltiplas ferramentas."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um vídeo completo usando recursos do Runway.",
+          "task": "Crie um vídeo profissional do início ao fim."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine Gen-2 e recursos avançados de geração de vídeo.",
+          "task": "Implemente um fluxo de trabalho de produção de vídeo com IA."
+        }
+      }
+    },
+    "captions": {
+      "name": "Captions.ai",
+      "description": "Crie vídeos profissionais com legendas automáticas e edição por IA",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Captions.ai",
+          "description": "Conheça a ferramenta de legendas automáticas e edição de vídeo por IA.",
+          "task": "Explore a interface do Captions.ai e adicione legendas ao seu primeiro vídeo."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a personalizar legendas e estilos visuais.",
+          "task": "Crie legendas personalizadas com diferentes estilos."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique edição avançada e recursos de IA.",
+          "task": "Complete projetos de edição com efeitos e transições."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um vídeo completo para redes sociais.",
+          "task": "Crie um vídeo otimizado para Instagram ou TikTok."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos avançados e automações.",
+          "task": "Implemente um fluxo de trabalho de produção de conteúdo."
+        }
+      }
+    },
+    "perplexity": {
+      "name": "Perplexity",
+      "description": "Motor de busca com IA que fornece respostas precisas com fontes",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Perplexity",
+          "description": "Conheça o Perplexity e sua abordagem única de busca com IA.",
+          "task": "Explore o Perplexity e faça suas primeiras pesquisas."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a otimizar pesquisas e usar filtros.",
+          "task": "Realize pesquisas complexas e compare com buscadores tradicionais."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique pesquisa acadêmica e verificação de fatos.",
+          "task": "Complete pesquisas com validação de múltiplas fontes."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um relatório de pesquisa completo.",
+          "task": "Crie um documento de pesquisa usando o Perplexity."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos Pro e integrações avançadas.",
+          "task": "Implemente um sistema de pesquisa para seu trabalho."
+        }
+      }
+    },
+    "suno": {
+      "name": "Suno",
+      "description": "Plataforma de IA para criação de músicas originais completas",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Suno",
+          "description": "Conheça o Suno e suas capacidades de criação musical.",
+          "task": "Explore o Suno e crie sua primeira música."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a criar prompts para diferentes gêneros musicais.",
+          "task": "Crie músicas em 3 gêneros diferentes."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique criação de letras e melodias personalizadas.",
+          "task": "Complete desafios de criação musical temática."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva uma música completa com letra original.",
+          "task": "Crie uma música profissional para um projeto."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos avançados e produção musical.",
+          "task": "Implemente um fluxo de trabalho de produção musical com IA."
+        }
+      }
+    },
+    "elevenlabs": {
+      "name": "ElevenLabs",
+      "description": "A tecnologia de síntese de voz mais realista do mercado",
+      "phases": {
+        "1": {
+          "title": "Introdução ao ElevenLabs",
+          "description": "Conheça o ElevenLabs e sua tecnologia de síntese de voz.",
+          "task": "Explore a plataforma e gere sua primeira narração."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a configurar vozes e ajustar parâmetros.",
+          "task": "Crie narrações com diferentes vozes e emoções."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique clonagem de voz e personalização.",
+          "task": "Complete projetos de dublagem e narração."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um projeto de áudio completo.",
+          "task": "Crie um podcast ou audiobook com o ElevenLabs."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine API e integrações para produção.",
+          "task": "Implemente um sistema de geração de áudio automatizado."
+        }
+      }
+    },
+    "recraft": {
+      "name": "Recraft",
+      "description": "Gerador de imagens com controle preciso sobre design e estilo",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Recraft",
+          "description": "Conheça o Recraft e seu controle preciso sobre geração de imagens.",
+          "task": "Explore a interface e crie suas primeiras imagens."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar controles de estilo e composição.",
+          "task": "Crie imagens com diferentes estilos e controles."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique criação de assets para design.",
+          "task": "Complete projetos de criação de ícones e ilustrações."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um kit de design completo.",
+          "task": "Crie uma identidade visual usando o Recraft."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos profissionais de design.",
+          "task": "Implemente um fluxo de trabalho de design com IA."
+        }
+      }
+    },
+    "pika-labs": {
+      "name": "Pika Labs",
+      "description": "Gerador de vídeos curtos com IA de alta qualidade",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Pika Labs",
+          "description": "Conheça o Pika Labs e suas capacidades de geração de vídeo.",
+          "task": "Explore a plataforma e gere seu primeiro vídeo."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a criar prompts eficientes para vídeos.",
+          "task": "Crie vídeos com diferentes estilos e movimentos."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique técnicas de animação e efeitos.",
+          "task": "Complete desafios de criação de vídeos temáticos."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um vídeo completo para redes sociais.",
+          "task": "Crie um vídeo promocional ou artístico."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine recursos avançados e fluxos de trabalho de vídeo.",
+          "task": "Implemente um processo de produção de vídeo com IA."
+        }
+      }
+    },
+    "leonardo-ai": {
+      "name": "Leonardo AI",
+      "description": "Plataforma completa para geração de imagens e assets de jogos",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Leonardo AI",
+          "description": "Conheça o Leonardo AI e suas ferramentas de criação visual.",
+          "task": "Explore a plataforma e gere suas primeiras imagens."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a usar os modelos e configurações do Leonardo.",
+          "task": "Crie imagens usando diferentes modelos e estilos."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique criação de assets e personagens.",
+          "task": "Complete projetos de criação de personagens e cenários."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva um conjunto de assets para um projeto.",
+          "task": "Crie uma coleção de imagens coerentes."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine Canvas, Realtime Gen e recursos Pro.",
+          "task": "Implemente um fluxo de trabalho profissional de criação visual."
+        }
+      }
+    },
+    "lovable": {
+      "name": "Lovable",
+      "description": "Crie aplicações web completas usando apenas linguagem natural",
+      "phases": {
+        "1": {
+          "title": "Introdução ao Lovable",
+          "description": "Conheça o Lovable e como criar apps sem código.",
+          "task": "Explore a interface e crie seu primeiro projeto."
+        },
+        "2": {
+          "title": "Primeiros Comandos",
+          "description": "Aprenda a descrever interfaces e funcionalidades.",
+          "task": "Crie páginas e componentes usando prompts."
+        },
+        "3": {
+          "title": "Desafios Guiados",
+          "description": "Pratique criação de funcionalidades complexas.",
+          "task": "Complete desafios de criação de features."
+        },
+        "4": {
+          "title": "Projeto Prático",
+          "description": "Desenvolva uma aplicação web completa.",
+          "task": "Crie um app funcional do zero."
+        },
+        "5": {
+          "title": "Aplicação Avançada",
+          "description": "Domine integrações, banco de dados e deploy.",
+          "task": "Publique um app completo com backend."
+        }
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Sequência semanal",
+    "subtitle": "Mantenha o hábito de aprendizado",
+    "streakDays": "Dias",
+    "days": {
+      "mon": "Seg",
+      "tue": "Ter",
+      "wed": "Qua",
+      "thu": "Qui",
+      "fri": "Sex",
+      "sat": "Sáb",
+      "sun": "Dom"
+    }
+  },
+  "personalizedBrief": {
+    "title": "Trilha Personalizada",
+    "subtitle": "Seu caminho único",
+    "questions": {
+      "goal": "Qual é seu objetivo principal com IA?",
+      "level": "Qual é seu nível atual com IA?",
+      "time": "Quanto tempo por dia você pode dedicar?",
+      "interest": "Qual área mais te interessa?",
+      "specificProject": "Tem algo específico em mente?"
+    },
+    "options": {
+      "work": "Melhorar entregas no trabalho",
+      "extraIncome": "Gerar renda extra",
+      "business": "Criar meu próprio negócio",
+      "curiosity": "Curiosidade / aprendizado",
+      "never": "Nunca usei IA antes",
+      "basic": "Uso básico (ChatGPT ocasional)",
+      "intermediate": "Intermediário (uso várias IAs)",
+      "15min": "15 minutos",
+      "30min": "30 minutos",
+      "1hour": "1 hora ou mais",
+      "text": "Texto e escrita",
+      "code": "Programação / apps",
+      "image": "Imagens e arte",
+      "video": "Vídeo e áudio",
+      "yes": "Sim, tenho um projeto",
+      "no": "Não, quero explorar"
+    },
+    "describeProject": "Descreva seu projeto:",
+    "projectPlaceholder": "Ex: Quero criar um site para minha loja de roupas...",
+    "generating": "Gerando trilha...",
+    "generateTrail": "Gerar Minha Trilha",
+    "success": "Trilha criada!",
+    "successDescription": "Sua trilha personalizada de 28 dias está pronta!",
+    "loginRequired": "Por favor, faça login para continuar",
+    "errorGenerating": "Erro ao gerar trilha. Tente novamente."
+  },
+  "personalizedTrail": {
+    "title": "Sua Trilha Personalizada",
+    "progress": "{{completed}}/{{total}} dias completos",
+    "notFound": "Trilha não encontrada",
+    "createNew": "Criar nova trilha"
+  },
+  "personalizedLesson": {
+    "title": "Lição Personalizada",
+    "dayTitle": "Dia {{day}}: {{focus}}",
+    "todayTask": "Sua Tarefa de Hoje",
+    "taskIntro": "Hoje trabalharemos com {{tool}} para desenvolver habilidades em: {{focus}}.",
+    "taskDescription": "Esta ferramenta ajudará você a alcançar seus objetivos de forma prática e eficiente.",
+    "exerciseTitle": "Exercício Prático:",
+    "exerciseNote": "Esta atividade foi projetada especificamente para seu objetivo. Complete-a para avançar na trilha.",
+    "markComplete": "Marcar como Concluído",
+    "completeNote": "Quando terminar a tarefa, clique em Concluir para marcar este dia como feito e desbloquear o próximo.",
+    "dayComplete": "Dia Concluído!",
+    "greatWork": "Excelente trabalho! Continue assim para alcançar seus objetivos.",
+    "nextDay": "Próximo Dia",
+    "viewTrail": "Ver Trilha Completa",
+    "continue": "Continuar",
+    "complete": "Concluir Dia"
+  },
+  "assistants": {
+    "title": "Assistentes IA",
+    "subtitle": "Escolha seu assistente especializado",
+    "dashboardDesc": "4 IAs especializadas para diferentes tarefas: ensino, prompts, planejamento e criação de imagens.",
+    "access": "Acessar Assistentes",
+    "online": "Online",
+    "inputPlaceholder": "Digite sua mensagem...",
+    "info": {
+      "title": "Como funcionam os Assistentes",
+      "description": "Cada assistente foi treinado para uma especialidade diferente. Escolha o mais adequado para sua necessidade e converse de forma natural."
+    },
+    "specialist": {
+      "name": "IA Especialista",
+      "description": "Explicações profundas e didáticas sobre qualquer conceito de IA",
+      "greeting": "Olá! 👋 Sou a IA Especialista da Educly. Estou aqui para te ensinar e explicar qualquer conceito sobre inteligência artificial de forma clara e didática. O que você gostaria de aprender hoje?"
+    },
+    "promptCreator": {
+      "name": "IA Criadora de Prompts",
+      "description": "Gera prompts completos e estruturados para qualquer ferramenta de IA",
+      "greeting": "Olá! 👋 Sou a IA Criadora de Prompts da Educly. Minha especialidade é criar prompts perfeitos e estruturados para você usar em qualquer ferramenta de IA. Qual prompt você precisa criar?"
+    },
+    "planner": {
+      "name": "IA de Planejamento",
+      "description": "Cria planos de ação, estratégias e frameworks práticos",
+      "greeting": "Olá! 👋 Sou a IA de Planejamento da Educly. Posso te ajudar a criar planos de ação detalhados, estratégias passo a passo e frameworks práticos. Qual é seu objetivo ou projeto?"
+    },
+    "creative": {
+      "name": "IA Criativa",
+      "description": "Gera imagens incríveis com inteligência artificial",
+      "greeting": "Olá! 👋 Sou a IA Criativa da Educly. Posso criar imagens incríveis para você! Descreva o que você quer ver e eu vou gerar a imagem na hora. 🎨 O que você gostaria de criar?"
+    }
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Online",
+    "greeting": "Oi! 👋 Eu sou o EDI, seu assistente aqui na Educly! Tô muito feliz em te ajudar! Me conta, o que você quer saber?",
+    "placeholder": "Digite sua pergunta...",
+    "error": "Erro ao enviar mensagem"
+  },
+  "freelancer": {
+    "title": "Trilha Freelancer",
+    "subtitle": "Ganhe dinheiro com IA",
+    "dashboardDesc": "Aprenda estratégias comprovadas para se tornar um freelancer de sucesso usando ferramentas de IA.",
+    "headerDesc": "Domine as habilidades para ganhar dinheiro como freelancer com IA",
+    "modules": "Módulos de Aprendizado",
+    "access": "Acessar Trilha",
+    "tipsTitle": "Dicas de Especialistas",
+    "tipsDesc": "Cada módulo inclui dicas práticas de freelancers de sucesso que já ganham dinheiro com IA.",
+    "beginnerFriendly": "Para Iniciantes",
+    "heroTitle": "Seu primeiro ganho como freelancer",
+    "heroDescription": "8 módulos práticos para começar a ganhar dinheiro online, mesmo sem experiência prévia.",
+    "clickToStart": "Clique em um módulo para começar",
+    "modulesCount": "módulos",
+    "module": "Módulo",
+    "steps": "passos",
+    "comingSoon": "Em breve",
+    "moduleInDevelopment": "Este módulo está em desenvolvimento",
+    "totalModules": "Módulos totais",
+    "totalSteps": "Passos totais",
+    "practical": "Prático",
+    "language": "Idioma",
+    "premium": {
+      "title": "Trilha Freelancer Premium",
+      "description": "Desbloqueie o conteúdo exclusivo para se tornar um freelancer de IA de sucesso",
+      "features": {
+        "strategies": "Estratégias comprovadas de vendas",
+        "clients": "Como conquistar seus primeiros clientes",
+        "pricing": "Precificação e negociação",
+        "platforms": "Melhores plataformas para freelancers"
+      }
+    },
+    "modulesList": {
+      "1": {
+        "title": "Fundamentos do Freelancer",
+        "description": "Mentalidade e primeiros passos para começar"
+      },
+      "2": {
+        "title": "Criando Seu Portfólio",
+        "description": "Monte um portfólio irresistível com IA"
+      },
+      "3": {
+        "title": "Encontrando Clientes",
+        "description": "Estratégias para conseguir seus primeiros jobs"
+      },
+      "4": {
+        "title": "Precificação Estratégica",
+        "description": "Como cobrar pelo seu trabalho com IA"
+      },
+      "5": {
+        "title": "Networking e Parcerias",
+        "description": "Construa sua rede de contatos profissionais"
+      },
+      "6": {
+        "title": "Propostas Vencedoras",
+        "description": "Escreva propostas que convertem"
+      },
+      "7": {
+        "title": "Escalando Seu Negócio",
+        "description": "Do freelancer solo ao empreendedor"
+      },
+      "8": {
+        "title": "Automatização com IA",
+        "description": "Use IA para multiplicar sua produtividade"
+      }
+    },
+    "lesson": {
+      "tagLearn": "APRENDER",
+      "tagChallenge": "DESAFIO",
+      "continue": "CONTINUAR",
+      "tryAgain": "Tentar de novo",
+      "moduleComplete": "Módulo Concluído!",
+      "moduleCompleteDesc": "Você dominou todos os conceitos desta etapa.",
+      "backToModules": "VOLTAR A MÓDULOS"
+    }
+  },
+  "contactPage": {
+    "title": "Entre em Contato",
+    "subtitle": "Escolha a melhor forma de falar conosco",
+    "aiChat": {
+      "title": "Suporte via Chat IA",
+      "description": "Receba respostas instantâneas sobre nossa plataforma, preços e cursos com nosso assistente inteligente.",
+      "button": "Abrir Chat IA",
+      "available": "Disponível 24/7"
+    },
+    "humanSupport": {
+      "title": "Atendimento Humanizado",
+      "description": "Para assistência mais personalizada, dúvidas complexas ou parcerias comerciais, entre em contato por email.",
+      "button": "Enviar Email",
+      "copyEmail": "Copiar Email",
+      "emailCopied": "Email copiado!",
+      "openGmail": "Abrir no Gmail",
+      "responseTime": "Resposta em até 24-48 horas"
+    },
+    "refund": {
+      "title": "Solicitar Reembolso",
+      "description": "Política de reembolso de 30 dias. Envie sua solicitação por email com os dados da compra.",
+      "button": "Solicitar Reembolso",
+      "responseTime": "Processamento em até 48 horas"
+    },
+    "feedback": {
+      "title": "Reportar Bug ou Sugestão",
+      "description": "Encontrou um erro ou tem uma ideia para melhorar a plataforma? Adoramos ouvir nossos usuários!",
+      "button": "Enviar Feedback",
+      "responseTime": "Resposta em até 48 horas"
+    },
+    "aiCapabilities": {
+      "title": "O que nosso chat IA pode ajudar",
+      "item1": "Informações sobre as 8 ferramentas de IA (ChatGPT, Claude, Gemini, etc.)",
+      "item2": "Preços e planos de assinatura",
+      "item3": "Detalhes do desafio de 28 dias",
+      "item4": "Como a plataforma funciona",
+      "item5": "Processo de certificação",
+      "item6": "Requisitos técnicos"
+    }
+  },
+  "tutorial": {
+    "next": "Próximo",
+    "finish": "Começar!",
+    "dashboard": {
+      "welcome": "Oi! 👋 Eu sou o EDI, seu assistente aqui na Educly! Tô muito feliz em te conhecer! Deixa eu te mostrar tudo por aqui!",
+      "streak": "Olha que legal! 🔥 Aqui você acompanha sua sequência de estudos! Quanto mais dias seguidos você estudar, mais sua streak cresce!",
+      "chat": "Aqui tá o Chat Educly! 🤖 Pode me chamar a qualquer hora pra tirar dúvidas ou praticar o que aprendeu nas aulas!",
+      "assistants": "Os Assistentes são IAs super especializadas! ✨ Cada um sabe fazer algo diferente - criar imagens, textos, e muito mais!",
+      "freelancer": "Quer ganhar dinheiro com IA? 💰 Aqui você aprende a trabalhar como freelancer e conseguir seus primeiros clientes!",
+      "challenges": "E aqui estão todos os desafios! 🏆 Tem vários temas legais pra você escolher. Qual te anima mais?",
+      "activeChallenge": "Esse é o seu desafio de 28 dias! 🎯 Cada dia tem uma aula incrível sobre IA. Vamos aprender juntos?",
+      "finish": "Prontinho! 🎉 Agora você já conhece a Educly! Se precisar de mim, é só chamar! Bora começar sua jornada?"
+    },
+    "challenge": {
+      "welcome": "Oba, você veio pro desafio! 🚀 Sou o EDI e vou te explicar como funcionam os 28 dias de aprendizado aqui!",
+      "trophy": "Olha que lindo! 🏆 Esse é seu troféu! Complete todos os 28 dias e ganhe um certificado exclusivo da Educly!",
+      "tabs": "Aqui você escolhe como ver seu progresso! 📊 Por 'Trilhas de IA' ou pelo 'Desafio 28 Dias' completo!",
+      "daysBar": "Esta barra mostra todos os 28 dias! 📅 Os verdes você já completou, o brilhante é o atual!",
+      "dayCard": "Clica em qualquer dia desbloqueado pra começar! 📚 Cada aula tem conteúdo rico e exercícios práticos!",
+      "finish": "Agora é com você! 💪 Um dia de cada vez e em 28 dias você será expert! Bora começar?"
+    },
+    "freelancer": {
+      "welcome": "Eiii, você quer ganhar dinheiro com IA? 💰 Sou o EDI e vou te mostrar como virar freelancer de sucesso!",
+      "modules": "Esses são os módulos de aprendizado! 📚 Cada card ensina algo essencial: posicionamento, precificação, negociação!",
+      "moduleClick": "Clica num módulo pra abrir o conteúdo! 🎯 Tem teoria, frameworks práticos e casos reais de sucesso!",
+      "finish": "Agora explora os módulos! 🚀 Com essas técnicas você consegue seus primeiros clientes. Bora faturar!"
+    },
+    "assistants": {
+      "welcome": "Chegou nos Assistentes! 🤖 Sou o EDI! Aqui você tem IAs especializadas pra te ajudar em tudo!",
+      "cards": "Cada card é um assistente diferente! 🎨 Tem criador de prompts, planejador de projetos, gerador de imagens e mais!",
+      "cardClick": "Clica num assistente pra conversar! 💬 Eles vão te ajudar a resolver problemas reais do dia a dia!",
+      "finish": "Agora escolhe um e testa! ✨ Cada um tem personalidade única. Divirta-se explorando!"
+    }
+  },
+  "legal": {
+    "email": "E-mail",
+    "website": "Site",
+    "termsOfUse": {
+      "title": "Termos de Uso – Educly",
+      "lastUpdated": "Última atualização: Janeiro de 2025",
+      "intro": "Ao acessar, instalar ou utilizar o aplicativo Educly, o usuário declara que leu, compreendeu e concorda integralmente com os presentes Termos de Uso. Caso não concorde com qualquer condição aqui prevista, deverá interromper imediatamente o uso da plataforma.",
+      "sections": {
+        "about": {
+          "title": "1. Sobre o Educly",
+          "content": "O Educly é uma plataforma digital que oferece conteúdos educacionais e informativos por meio de aplicativo e/ou ambiente online, operando sob o modelo de assinatura recorrente, podendo incluir período de teste pago (paid trial), conforme apresentado no momento da contratação."
+        },
+        "acceptance": {
+          "title": "2. Aceitação dos Termos",
+          "content": "A utilização do Educly e a contratação de qualquer plano implicam a aceitação integral destes Termos de Uso, bem como da Política de Privacidade disponível na plataforma. Ao ingressar no aplicativo, o usuário reconhece que está aderindo a um serviço de assinatura recorrente, com cobranças automáticas, conforme as condições informadas no momento da compra."
+        },
+        "account": {
+          "title": "3. Cadastro e Responsabilidade do Usuário",
+          "intro": "3.1. O usuário compromete-se a fornecer informações verdadeiras, completas e atualizadas no momento do cadastro.",
+          "responsibility": "3.2. O usuário é o único responsável por:",
+          "items": [
+            "Manter a confidencialidade de seus dados de acesso",
+            "Todas as atividades realizadas em sua conta"
+          ],
+          "disclaimer": "3.3. O Educly não se responsabiliza por acessos indevidos decorrentes de negligência do usuário."
+        },
+        "plans": {
+          "title": "4. Planos, Assinatura e Paid Trial",
+          "items": [
+            "4.1. O acesso aos conteúdos do Educly ocorre mediante assinatura recorrente, com cobranças automáticas no método de pagamento informado pelo usuário.",
+            "4.2. Alguns planos podem incluir um paid trial, caracterizado por um valor inicial reduzido e conversão automática para a assinatura recorrente ao final do período informado no momento da contratação, salvo solicitação de cancelamento dentro das regras previstas neste termo.",
+            "4.3. Todas as informações relativas a valores, periodicidade, duração do trial e renovação automática são apresentadas de forma clara antes da confirmação da compra."
+          ]
+        },
+        "refund": {
+          "title": "5. Política de Reembolso e Cancelamento",
+          "trialRefund": {
+            "title": "5.1. Reembolso do Paid Trial",
+            "content": "O usuário poderá solicitar reembolso exclusivamente dos valores pagos referentes ao paid trial, no prazo de até 30 dias, contados a partir da data da primeira cobrança do paid trial."
+          },
+          "howToRefund": {
+            "title": "5.2. Forma de solicitação de reembolso",
+            "content": "O pedido de reembolso do paid trial deverá ser realizado exclusivamente por meio dos canais oficiais de atendimento do Educly."
+          },
+          "cancellation": {
+            "title": "5.3. Cancelamento ou pausa da assinatura",
+            "content1": "O usuário poderá solicitar o cancelamento ou a pausa da assinatura a qualquer momento. Para que a solicitação produza efeito antes da próxima cobrança, é necessário que o pedido seja realizado com antecedência mínima de 48 horas em relação à data programada do débito.",
+            "content2": "Caso a solicitação seja realizada após esse prazo, ela passará a valer a partir do próximo ciclo de cobrança, permanecendo o acesso ativo ao conteúdo até o término do período já pago.",
+            "content3": "A solicitação de cancelamento ou pausa deverá ser feita exclusivamente por meio do e-mail oficial:",
+            "content4": "Solicitações realizadas por outros canais não serão consideradas válidas para fins de cancelamento.",
+            "content5": "Os valores pagos referentes à assinatura recorrente não são reembolsáveis. Ao confirmar a contratação, o usuário reconhece que o acesso ao conteúdo é disponibilizado imediatamente após a confirmação do pagamento e que está aderindo a um modelo de assinatura recorrente."
+          },
+          "processing": {
+            "title": "5.4. Processamento financeiro",
+            "content": "Os reembolsos do paid trial, quando aprovados, serão processados de acordo com as regras da operadora de pagamento e do método utilizado pelo usuário. O Educly não se responsabiliza por prazos ou procedimentos operacionais de terceiros."
+          }
+        },
+        "acceptableUse": {
+          "title": "6. Uso Adequado da Plataforma",
+          "intro": "É vedado ao usuário:",
+          "items": [
+            "Copiar, reproduzir, distribuir ou comercializar os conteúdos do Educly sem autorização",
+            "Compartilhar acesso da conta com terceiros",
+            "Utilizar a plataforma para fins ilegais, fraudulentos ou contrários à boa-fé"
+          ],
+          "consequence": "O descumprimento destas regras poderá resultar em suspensão ou cancelamento da conta, sem direito a reembolso."
+        },
+        "ip": {
+          "title": "7. Propriedade Intelectual",
+          "content": "Todo o conteúdo disponibilizado no Educly, incluindo textos, vídeos, imagens, áudios, marcas, logotipos, layouts e materiais digitais, é protegido por direitos autorais e pertence ao Educly ou a seus licenciadores, sendo vedado qualquer uso não autorizado."
+        },
+        "liability": {
+          "title": "8. Limitação de Responsabilidade",
+          "content": "O conteúdo disponibilizado pelo Educly possui caráter educacional e informativo. Não há garantia de resultados específicos, sendo o usuário o único responsável pela aplicação das informações obtidas por meio da plataforma."
+        },
+        "modifications": {
+          "title": "9. Alterações dos Termos",
+          "content": "O Educly poderá alterar estes Termos de Uso a qualquer momento. O uso continuado da plataforma após eventuais alterações implica concordância com os novos termos."
+        },
+        "law": {
+          "title": "10. Legislação Aplicável e Foro",
+          "content": "Estes Termos de Uso são regidos pelas leis da República Federativa do Brasil, ficando eleito o foro do domicílio do consumidor, conforme o Código de Defesa do Consumidor, para dirimir quaisquer controvérsias."
+        },
+        "contact": {
+          "title": "11. Contato",
+          "intro": "Dúvidas, solicitações de reembolso do paid trial ou pedidos de cancelamento ou pausa da assinatura deverão ser realizados exclusivamente por meio do e-mail oficial:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "title": "Política de Privacidade – Educly",
+      "lastUpdated": "Última atualização: Janeiro de 2025",
+      "intro": "A presente Política de Privacidade descreve como o Educly coleta, utiliza, armazena, compartilha e protege os dados pessoais dos usuários que acessam e utilizam a plataforma, em conformidade com a legislação aplicável, especialmente a Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD). Ao utilizar o aplicativo Educly, o usuário declara que leu, compreendeu e concorda com esta Política de Privacidade.",
+      "sections": {
+        "collection": {
+          "title": "1. Dados Coletados",
+          "intro": "O Educly poderá coletar os seguintes dados pessoais, conforme a interação do usuário com a plataforma:",
+          "directData": {
+            "title": "1.1. Dados fornecidos diretamente pelo usuário",
+            "items": [
+              "Nome",
+              "Endereço de e-mail",
+              "Dados de cadastro e login",
+              "Informações fornecidas em comunicações com o suporte"
+            ]
+          },
+          "paymentData": {
+            "title": "1.2. Dados de pagamento",
+            "content1": "Os dados de pagamento são processados exclusivamente por operadoras e plataformas de pagamento terceiras, certificadas e seguras.",
+            "content2": "O Educly não armazena dados sensíveis de cartão de crédito, como número completo, código de segurança ou validade."
+          },
+          "autoData": {
+            "title": "1.3. Dados coletados automaticamente",
+            "items": [
+              "Endereço IP",
+              "Informações sobre dispositivo, sistema operacional e versão do aplicativo",
+              "Registros de acesso, data e horário de uso",
+              "Dados de navegação e interação com a plataforma"
+            ]
+          }
+        },
+        "usage": {
+          "title": "2. Finalidade do Uso dos Dados",
+          "intro": "Os dados coletados são utilizados para as seguintes finalidades:",
+          "items": [
+            "Viabilizar o acesso e funcionamento do aplicativo",
+            "Gerenciar assinaturas, cobranças e acesso ao conteúdo",
+            "Processar solicitações de reembolso do paid trial",
+            "Atender solicitações de cancelamento ou pausa de assinatura",
+            "Enviar comunicações operacionais e administrativas",
+            "Melhorar a experiência do usuário e a qualidade dos serviços",
+            "Cumprir obrigações legais e regulatórias"
+          ]
+        },
+        "legalBasis": {
+          "title": "3. Base Legal para o Tratamento dos Dados",
+          "intro": "O tratamento dos dados pessoais pelo Educly ocorre com base nas seguintes hipóteses legais previstas na LGPD:",
+          "items": [
+            "Execução de contrato ou de procedimentos preliminares",
+            "Cumprimento de obrigação legal ou regulatória",
+            "Consentimento do titular, quando aplicável",
+            "Legítimo interesse, respeitados os direitos e liberdades do usuário"
+          ]
+        },
+        "sharing": {
+          "title": "4. Compartilhamento de Dados",
+          "intro": "O Educly poderá compartilhar dados pessoais apenas quando necessário, com:",
+          "items": [
+            "Plataformas de pagamento e operadoras financeiras",
+            "Prestadores de serviços tecnológicos e de hospedagem",
+            "Ferramentas de análise, métricas e suporte",
+            "Autoridades públicas, mediante obrigação legal ou ordem judicial"
+          ],
+          "disclaimer": "O compartilhamento ocorre sempre dentro dos limites legais e contratuais, visando a prestação adequada dos serviços."
+        },
+        "security": {
+          "title": "5. Armazenamento e Segurança dos Dados",
+          "content1": "O Educly adota medidas técnicas e organizacionais razoáveis para proteger os dados pessoais contra acessos não autorizados, perda, uso indevido, alteração ou divulgação.",
+          "content2": "Os dados são armazenados apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política ou conforme exigido por lei."
+        },
+        "rights": {
+          "title": "6. Direitos do Usuário",
+          "intro": "Nos termos da LGPD, o usuário poderá, a qualquer momento, solicitar:",
+          "items": [
+            "Confirmação da existência de tratamento de dados",
+            "Acesso aos seus dados pessoais",
+            "Correção de dados incompletos, inexatos ou desatualizados",
+            "Exclusão de dados, quando aplicável",
+            "Informação sobre o compartilhamento de dados",
+            "Revogação de consentimento, quando aplicável"
+          ],
+          "howTo": "As solicitações deverão ser realizadas por meio do e-mail oficial:"
+        },
+        "communications": {
+          "title": "7. Comunicações",
+          "intro": "O Educly poderá enviar comunicações relacionadas:",
+          "items": ["À conta do usuário", "À assinatura e cobranças", "A atualizações operacionais e legais"],
+          "optOut": "O usuário poderá optar por não receber comunicações promocionais, quando aplicável."
+        },
+        "cookies": {
+          "title": "8. Uso de Cookies e Tecnologias Semelhantes",
+          "intro": "O Educly poderá utilizar cookies e tecnologias semelhantes para:",
+          "items": [
+            "Melhorar a funcionalidade do aplicativo",
+            "Analisar métricas de uso",
+            "Aprimorar a experiência do usuário"
+          ],
+          "disclaimer": "O uso dessas tecnologias respeita a legislação aplicável e as configurações do dispositivo do usuário."
+        },
+        "changes": {
+          "title": "9. Alterações desta Política",
+          "content1": "Esta Política de Privacidade poderá ser atualizada a qualquer momento.",
+          "content2": "Alterações relevantes serão comunicadas por meio do aplicativo ou canais oficiais.",
+          "content3": "O uso continuado da plataforma após as alterações implica concordância com a nova versão."
+        },
+        "contact": {
+          "title": "10. Contato",
+          "intro": "Em caso de dúvidas, solicitações ou exercício de direitos relacionados à privacidade e proteção de dados, o usuário deverá entrar em contato exclusivamente por meio do e-mail:"
+        }
+      }
+    },
+    "cookiesPolicy": {
+      "title": "Política de Cookies",
+      "lastUpdated": "Última atualização: Janeiro de 2025",
+      "sections": {
+        "whatAreCookies": {
+          "title": "1. O que são Cookies?",
+          "content": "Cookies são pequenos arquivos de texto armazenados em seu dispositivo quando você visita nosso site. Eles nos ajudam a lembrar suas preferências e melhorar sua experiência."
+        },
+        "howWeUse": {
+          "title": "2. Como Usamos Cookies",
+          "intro": "Utilizamos cookies para:",
+          "items": [
+            "Manter você conectado",
+            "Lembrar suas preferências de idioma",
+            "Analisar o uso da plataforma",
+            "Melhorar o desempenho do site",
+            "Personalizar conteúdo"
+          ]
+        },
+        "types": {
+          "title": "3. Tipos de Cookies",
+          "intro": "Utilizamos os seguintes tipos:",
+          "items": [
+            "Cookies essenciais - necessários para funcionamento",
+            "Cookies de preferências - lembram suas escolhas",
+            "Cookies de análise - nos ajudam a melhorar",
+            "Cookies de marketing - para conteúdo relevante"
+          ]
+        },
+        "thirdParty": {
+          "title": "4. Cookies de Terceiros",
+          "content": "Alguns cookies são colocados por serviços de terceiros, como Google Analytics, para análise de uso e melhoria contínua da plataforma."
+        },
+        "managing": {
+          "title": "5. Gerenciando Cookies",
+          "content": "Você pode gerenciar cookies nas configurações do seu navegador. Note que desabilitar alguns cookies pode afetar a funcionalidade do site."
+        },
+        "consequences": {
+          "title": "6. Consequências da Recusa",
+          "content": "Se você recusar cookies não essenciais, algumas funcionalidades podem não estar disponíveis, mas o serviço básico continuará funcionando."
+        },
+        "consent": {
+          "title": "7. Consentimento",
+          "content": "Ao continuar usando nosso site, você consente com o uso de cookies conforme descrito nesta política."
+        },
+        "changes": {
+          "title": "8. Alterações nesta Política",
+          "content": "Podemos atualizar esta política periodicamente. Alterações serão publicadas nesta página com a data de atualização."
+        },
+        "contact": {
+          "title": "9. Contato",
+          "intro": "Para dúvidas sobre cookies:"
+        }
+      }
+    }
+  },
+  "upsell": {
+    "features": "O que você terá acesso:",
+    "cta": "Desbloquear Agora",
+    "back": "Voltar para o Dashboard",
+    "freelancer": {
+      "title": "Área Freelancer",
+      "headline": "Conteúdo Exclusivo",
+      "subtitle": "Desbloqueie recursos avançados",
+      "description": "Acesse vagas exclusivas de trabalho em IA e aplique o que você aprendeu nas trilhas.",
+      "feature1": "Vagas de trabalho remoto em IA",
+      "feature2": "Filtro por categoria e experiência",
+      "feature3": "Novas vagas adicionadas semanalmente",
+      "feature4": "Link direto para candidatura"
+    },
+    "ai_hub": {
+      "title": "Hub de IA",
+      "headline": "Conteúdo Exclusivo",
+      "subtitle": "Desbloqueie recursos avançados",
+      "description": "Desbloqueie o Hub de IA com assistentes especializados para criar imagens, prompts e tirar dúvidas.",
+      "feature1": "IA para criar imagens profissionais",
+      "feature2": "Assistente de criação de prompts",
+      "feature3": "Tire dúvidas com IA especializada",
+      "feature4": "Acesso ilimitado aos assistentes"
+    }
+  },
+  "update": {
+    "newVersionAvailable": "Nova versão disponível!",
+    "clickToUpdate": "Clique para obter as últimas melhorias.",
+    "updateNow": "Atualizar Agora",
+    "autoReloadIn": "Atualizando automaticamente em {{seconds}}s...",
+    "offlineReady": "App pronto para uso offline"
+  },
+  "profile": {
+    "photoUpdated": "Foto atualizada!",
+    "student": "Estudante",
+    "level": "Nível",
+    "toNextLevel": "para o Nv. ",
+    "medals": "Medalhas",
+    "courses": "Cursos",
+    "securityFinance": "Segurança & Financeiro",
+    "changePassword": "Alterar Senha",
+    "resetPassword": "Redefinir Senha",
+    "billingHistory": "Histórico de Cobrança",
+    "billingStatement": "Extrato de Pagamento",
+    "trackBilling": "Acompanhe seu histórico financeiro.",
+    "paid": "PAGO",
+    "active": "Ativo",
+    "accountDetails": "Detalhes da Conta",
+    "email": "E-mail",
+    "fullName": "Nome Completo",
+    "saveChanges": "Salvar Alterações",
+    "updateSuccess": "Perfil atualizado!",
+    "achievements": "Conquistas",
+    "unlockedMedals": "de {{total}} medalhas desbloqueadas",
+    "viewAll": "Ver todas",
+    "sendResetLink": "Enviaremos um link de redefinição para",
+    "sendRecoverEmail": "Enviar E-mail de Recuperação",
+    "noPayments": "Nenhum pagamento encontrado.",
+    "days": "Dias"
+  }
+}

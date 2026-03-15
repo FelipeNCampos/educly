@@ -1,0 +1,517 @@
+{
+  "challenge": {
+    "week": "Tydzień",
+    "day": "Dzień",
+    "days": "dni",
+    "completed": "Ukończone",
+    "viewAll": "Zobacz wszystko",
+    "continueFromWhere": "Kontynuuj od miejsca, w którym skończyłeś",
+    "aiDomination": "Opanowanie AI",
+    "level1": "Poziom 1",
+    "started": "Wyzwanie rozpoczęte!",
+    "goodLuck": "Powodzenia w nauce!",
+    "notFound": "Nie znaleziono wyzwania",
+    "aiTrails": "Ścieżki AI",
+    "challenge28Days": "Wyzwanie 28 Dni",
+    "chooseAI": "Wybierz AI do nauki:",
+    "trail": "Ścieżka",
+    "startChallenge": "Rozpocznij Wyzwanie",
+    "starting": "Uruchamianie...",
+    "ais": "AI",
+    "progress": "Postęp",
+    "review": "Przegląd",
+    "viewTrail": "Zobacz ścieżkę",
+    "aiChallenges": "Wyzwania AI",
+    "master8AI": "Opanuj 8 AI w 28 dni",
+    "master8AIDesc": "Każde wyzwanie zostało zaprojektowane, aby nauczyć Cię najważniejszych narzędzi AI na rynku."
+  },
+  "personalizedTrail": {
+    "title": "Twoja Spersonalizowana Ścieżka",
+    "progress": "{{completed}}/{{total}} dni ukończonych",
+    "notFound": "Nie znaleziono ścieżki.",
+    "createNew": "Utwórz nową ścieżkę"
+  },
+  "personalizedLesson": {
+    "title": "Spersonalizowana Lekcja",
+    "dayTitle": "Dzień {{day}}",
+    "todayTask": "Dzisiejsze zadanie",
+    "taskIntro": "Czego się nauczysz",
+    "taskDescription": "Opis zadania",
+    "exerciseTitle": "Ćwiczenie praktyczne",
+    "exerciseNote": "Ukończ to ćwiczenie, aby utrwalić naukę",
+    "markComplete": "Oznacz jako ukończone",
+    "completeNote": "Świetnie ci poszło dzisiaj!",
+    "dayComplete": "Dzień ukończony!",
+    "greatWork": "Świetna robota! Robisz postępy!",
+    "nextDay": "Następny dzień",
+    "viewTrail": "Zobacz ścieżkę",
+    "continue": "Kontynuuj",
+    "complete": "Ukończ"
+  },
+  "landing": {
+    "nav": {
+      "home": "Strona główna",
+      "about": "O nas",
+      "programs": "Programy",
+      "testimonials": "Opinie",
+      "plan": "Cennik",
+      "contact": "Kontakt",
+      "login": "Zaloguj się",
+      "startNow": "Zacznij teraz"
+    },
+    "hero": {
+      "badge": "Szkolimy liderów AI na całym świecie",
+      "title": "Opanuj",
+      "titleHighlight": "Sztuczną Inteligencję",
+      "titleEnd": "i Zmień Swoją Karierę",
+      "subtitle": "Naucz się najpotężniejszych narzędzi AI na rynku dzięki praktycznym kursom, spersonalizowanemu mentoringowi i globalnej społeczności ponad 50 000 profesjonalistów.",
+      "cta": "Zacznij za darmo",
+      "demo": "Zobacz demo",
+      "students": "studentów",
+      "rating": "ocena",
+      "countries": "krajów"
+    },
+    "features": {
+      "sectionLabel": "Dlaczego wybrać Educly",
+      "title": "Twoja podróż do przyszłości zaczyna się tutaj",
+      "subtitle": "Oferujemy najlepsze doświadczenie nauki AI, łącząc teorię i praktykę z ciągłym wsparciem.",
+      "curriculum": {
+        "title": "Nowoczesny program",
+        "description": "Stale aktualizowana treść z najnowszymi trendami i narzędziami AI."
+      },
+      "mentoring": {
+        "title": "Spersonalizowany mentoring",
+        "description": "Indywidualne wsparcie specjalistów przyspieszające naukę."
+      },
+      "community": {
+        "title": "Globalna społeczność",
+        "description": "Połącz się z ponad 50 000 profesjonalistów AI na całym świecie."
+      },
+      "certification": {
+        "title": "Uznawany certyfikat",
+        "description": "Certyfikaty cenione przez wiodące firmy."
+      },
+      "practical": {
+        "title": "Praktyczna nauka",
+        "description": "Prawdziwe projekty i praktyczne doświadczenie od pierwszego dnia."
+      },
+      "career": {
+        "title": "Przyspieszenie kariery",
+        "description": "Wsparcie kariery z dostępem do ekskluzywnych ofert pracy."
+      }
+    },
+    "programs": {
+      "sectionLabel": "Nasze programy",
+      "title": "Wybierz swoją ścieżkę nauki",
+      "subtitle": "Ustrukturyzowane programy dla wszystkich poziomów, od początkującego do specjalisty AI.",
+      "popular": "Najpopularniejszy",
+      "startNow": "Zacznij teraz",
+      "beginner": "Początkujący",
+      "intermediate": "Średniozaawansowany",
+      "advanced": "Zaawansowany",
+      "fundamentals": {
+        "title": "Podstawy AI",
+        "description": "Rozpocznij swoją przygodę ze Sztuczną Inteligencją od zera. Poznaj podstawowe pojęcia i swoje pierwsze narzędzia.",
+        "duration": "4 tygodnie",
+        "highlights": [
+          "Wprowadzenie do AI i Machine Learning",
+          "Pierwsze kroki z ChatGPT",
+          "Podstawowa automatyzacja zadań",
+          "Certyfikat ukończenia"
+        ]
+      },
+      "machineLearning": {
+        "title": "Zaawansowane Machine Learning",
+        "description": "Opanuj zaawansowane techniki ML i twórz potężne modele predykcyjne do rozwiązywania złożonych problemów.",
+        "duration": "8 tygodni",
+        "highlights": [
+          "Nadzorowane algorytmy ML",
+          "Sieci neuronowe i Deep Learning",
+          "Przetwarzanie języka naturalnego",
+          "Prawdziwe projekty praktyczne"
+        ]
+      },
+      "deepLearning": {
+        "title": "Deep Learning i sieci neuronowe",
+        "description": "Zostań specjalistą Deep Learning i buduj najnowocześniejsze architektury neuronowe.",
+        "duration": "12 tygodni",
+        "highlights": [
+          "CNN i zaawansowane architektury",
+          "Transformers i LLM",
+          "Widzenie komputerowe",
+          "Mentoring 1:1 ze specjalistami"
+        ]
+      }
+    },
+    "pricing": {
+      "badge": "Cennik",
+      "title": "Wybierz swój plan",
+      "subtitle": "Rozpocznij swoją podróż z AI już dziś",
+      "week1": "PLAN 1 TYDZIEŃ",
+      "week4": "PLAN 4 TYGODNIE",
+      "week12": "PLAN 12 TYGODNI",
+      "mostPopular": "NAJPOPULARNIEJSZY",
+      "from": "Z",
+      "for": "ZA",
+      "perDay": "dziennie",
+      "getMyPlan": "WYBIERZ PLAN",
+      "note": "Osoby korzystające z planu 12-tygodniowego osiągają podwójne wyniki w porównaniu do 4 tygodni."
+    },
+    "testimonials": {
+      "sectionLabel": "Opinie",
+      "title": "Co mówią nasi studenci",
+      "subtitle": "Tysiące profesjonalistów już zmieniło swoje kariery z Educly.",
+      "items": [
+        {
+          "name": "Maria Silva",
+          "role": "Data Scientist",
+          "country": "Brazylia",
+          "text": "Educly zmieniło moją karierę. W 3 miesiące przeszłam od początkującej do data scientist w dużej firmie technologicznej."
+        },
+        {
+          "name": "João Santos",
+          "role": "Product Manager",
+          "country": "Portugalia",
+          "text": "Praktyczne i aktualne treści pozwoliły mi natychmiast zastosować AI w mojej pracy."
+        },
+        {
+          "name": "Ana García",
+          "role": "ML Engineer",
+          "country": "Meksyk",
+          "text": "Po ukończeniu zaawansowanego programu otrzymałam 3 oferty pracy."
+        },
+        {
+          "name": "Carlos Fernández",
+          "role": "Startup Founder",
+          "country": "Argentyna",
+          "text": "Wykorzystałem wiedzę z Educly do stworzenia mojego startupu AI."
+        }
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Globalny zasięg",
+      "title": "Obecni na całym świecie",
+      "subtitle": "Educly łączy profesjonalistów AI w ponad 150 krajach.",
+      "regions": {
+        "latinAmerica": "Ameryka Łacińska",
+        "europe": "Europa",
+        "northAmerica": "Ameryka Północna",
+        "asiaOceania": "Azja i Oceania"
+      },
+      "features": {
+        "languages": {
+          "title": "12 języków",
+          "description": "Treści dostępne w wielu językach"
+        },
+        "support": {
+          "title": "Wsparcie 24/7",
+          "description": "Globalna obsługa o każdej porze"
+        },
+        "community": {
+          "title": "Globalna społeczność",
+          "description": "Networking z profesjonalistami z całego świata"
+        }
+      }
+    },
+    "stats": {
+      "students": "Studentów",
+      "countries": "Krajów",
+      "satisfaction": "Satysfakcji",
+      "partners": "Firm partnerskich"
+    },
+    "cta": {
+      "title": "Gotowy opanować AI i zmienić swoją karierę?",
+      "subtitle": "Dołącz do ponad 50 000 profesjonalistów, którzy już budują przyszłość ze sztuczną inteligencją.",
+      "startFree": "Zacznij za darmo",
+      "talkConsultant": "Porozmawiaj z konsultantem",
+      "guarantee": "30 dni gwarancji",
+      "installments": "Do 12 rat",
+      "benefits": [
+        "Dożywotni dostęp do treści",
+        "Darmowe aktualizacje na zawsze",
+        "Ekskluzywna społeczność profesjonalistów",
+        "Uznawane na rynku certyfikaty",
+        "Dedykowane wsparcie 24/7",
+        "30-dniowa gwarancja zwrotu"
+      ]
+    },
+    "footer": {
+      "description": "Wiodąca platforma edukacji w dziedzinie Sztucznej Inteligencji, kształcąca profesjonalistów przyszłości.",
+      "contact": "Kontakt",
+      "programs": "Programy",
+      "resources": "Zasoby",
+      "company": "Firma",
+      "legal": "Prawne",
+      "links": {
+        "aiFundamentals": "Podstawy AI",
+        "machineLearning": "Machine Learning",
+        "deepLearning": "Deep Learning",
+        "aiForBusiness": "AI dla biznesu",
+        "blog": "Blog",
+        "webinars": "Webinary",
+        "ebooks": "E-booki",
+        "community": "Społeczność",
+        "aboutUs": "O nas",
+        "careers": "Kariera",
+        "partnerships": "Partnerstwa",
+        "contact": "Kontakt",
+        "terms": "Regulamin",
+        "privacy": "Prywatność",
+        "cookies": "Cookies"
+      },
+      "copyright": "Wszelkie prawa zastrzeżone.",
+      "madeWith": "Stworzone z ❤️ dla globalnej społeczności AI"
+    }
+  },
+  "common": {
+    "back": "Wstecz",
+    "next": "Dalej",
+    "start": "Rozpocznij",
+    "continue": "Kontynuuj",
+    "complete": "Ukończ",
+    "login": "Zaloguj się",
+    "signup": "Zarejestruj się",
+    "logout": "Wyloguj się",
+    "loading": "Ładowanie...",
+    "translating": "Tłumaczenie treści...",
+    "error": "Wystąpił błąd",
+    "of": "z"
+  },
+  "quiz": {
+    "selectAllAnswers": "Zaznacz wszystkie prawidłowe odpowiedzi",
+    "verify": "Sprawdź",
+    "perfect": "Doskonale!",
+    "youGotAll": "Wszystkie poprawne!",
+    "almostRight": "Prawie dobrze!",
+    "youGotXofY": "Masz {{correct}} z {{total}} poprawnych odpowiedzi.",
+    "incorrect": "Niepoprawnie",
+    "tryAgainNext": "Spróbuj ponownie następnym razem!",
+    "correct": "Poprawnie!",
+    "wellDone": "Świetna robota! Tak trzymaj!",
+    "correctAnswerWas": "Prawidłowa odpowiedź to:"
+  },
+  "lessonUI": {
+    "taskCompleted": "Zadanie ukończone",
+    "yourAnswer": "Twoja odpowiedź:",
+    "repeatTask": "Powtórz zadanie"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "Podstawowe koncepcje {{tool}}",
+    "practicalTechniques": "Praktyczne techniki użycia",
+    "dailyApplication": "Jak stosować w codziennym życiu"
+  },
+  "lesson": {
+    "locked": "Zablokowane",
+    "completed": "Ukończone",
+    "startNow": "Rozpocznij teraz",
+    "noContent": "Treść jeszcze niedostępna.",
+    "checkAnswer": "Sprawdź Odpowiedź",
+    "tryAgain": "Spróbuj Ponownie",
+    "tryAgainFeedback": "Ups! Spróbuj ponownie.",
+    "correctAnswer": "Gratulacje! Prawidłowa odpowiedź!",
+    "phaseCompleted": "Faza zakończona pomyślnie!",
+    "loading": "Ładowanie...",
+    "close": "Zamknij",
+    "continue": "KONTYNUUJ",
+    "verify": "SPRAWDŹ",
+    "stepTypes": {
+      "learn": "📚 Nauka",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Praktyka",
+      "simulator": "🤖 Symulator"
+    },
+    "quiz": {
+      "correct": "Poprawnie!",
+      "incorrect": "Spróbuj ponownie",
+      "askEdi": "Poproś EDI o pomoc",
+      "hint": "💡 Wskazówka",
+      "excellent": "Doskonale!",
+      "almostThere": "Prawie!",
+      "masteredConcept": "Opanowałeś tę koncepcję. Tak trzymaj!",
+      "hintReread": "Przeczytaj opcje ponownie. Prawidłowa odpowiedź jest powiązana z główną koncepcją.",
+      "hintOrder": "Pomyśl o logicznej kolejności: akcja → obiekt → szczegóły.",
+      "hintReview": "Wróć do poprzedniej treści i przejrzyj koncepcje.",
+      "hintAskEdi": "EDI może ci pomóc! Kliknij przycisk poniżej.",
+      "getCorrectToContinue": "Odpowiedz poprawnie, aby kontynuować"
+    },
+    "practical": {
+      "instructions": "Kliknij słowa, aby zbudować właściwy prompt:",
+      "yourAnswer": "Twoja odpowiedź:",
+      "available": "Dostępne słowa:"
+    },
+    "chat": {
+      "aiReady": "Gotowy do pomocy",
+      "sendPlaceholder": "Wpisz swoją wiadomość...",
+      "aiResponse": "Doskonały przykład! Zauważyłeś, jak przetworzyłem twoje dane wejściowe? Teraz, gdy przetestowaliśmy to w praktyce, kliknij 'KONTYNUUJ', aby przejść dalej."
+    },
+    "textParts": {
+      "part": "Część",
+      "of": "z",
+      "nextPart": "Następna część",
+      "previousPart": "Poprzednia część",
+      "showPrevious": "Pokaż poprzednie części",
+      "hidePrevious": "Ukryj poprzednie części",
+      "allRead": "Cała treść przeczytana"
+    },
+    "matchWords": {
+      "instructions": "Połącz każdy element po lewej stronie z odpowiednim po prawej!",
+      "matched": "par połączonych",
+      "reset": "Zacznij od nowa"
+    },
+    "promptTrainer": {
+      "subtitle": "Trenuj swój prompt z EDI",
+      "challenge": "🎯 Wyzwanie:",
+      "criteria": "Kryteria sukcesu:",
+      "startMessage": "Napisz swój prompt, aby zacząć!",
+      "completed": "Prompt zatwierdzony! Gratulacje! 🎉",
+      "placeholder": "Wpisz swój prompt tutaj...",
+      "attempts": "Próby",
+      "showHint": "Pokaż podpowiedź",
+      "hideHint": "Ukryj podpowiedź",
+      "showExample": "Pokaż przykład promptu",
+      "hideExample": "Ukryj przykład"
+    },
+    "ediMotivation": {
+      "almostDone": "Prawie skończone! 🎯 Już prawie!",
+      "halfway": "Połowa drogi! 💪 Tak trzymaj!",
+      "greatJob": "Świetna robota! ✨ Fantastycznie ci idzie!",
+      "keepGoing": "Nie poddawaj się teraz! 🔥 Dasz radę!",
+      "finalStretch": "Finisz! ⚡ Jeszcze trochę!",
+      "encouragement": "Wierzę w ciebie! 💖 Razem damy radę!",
+      "yourAssistant": "twój asystent",
+      "almostDoneDay": "Dzień {{day}} prawie skończony! 🎯 {{phrase}}",
+      "halfwayDay": "Połowa dnia {{day}}! 💪 {{phrase}}",
+      "finalStretchDay": "Finisz dnia {{day}}! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Świetnie ci idzie!",
+          "Tak trzymaj, jesteś super!",
+          "Prawie tam, dasz radę!",
+          "Nie poddawaj się!",
+          "Jesteś niesamowity!"
+        ],
+        "halfway": [
+          "Super ci idzie!",
+          "Połowa drogi, nie odpuszczaj!",
+          "Świetny postęp!",
+          "Jesteś niesamowity!",
+          "Tak trzymaj!"
+        ],
+        "finalStretch": [
+          "Koniec blisko!",
+          "Zaszedłeś tak daleko!",
+          "Ostatni zryw, daj z siebie wszystko!",
+          "Zakończ z klasą!",
+          "Prawie na mecie!"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Tygodniowa seria",
+    "subtitle": "Utrzymaj nawyk nauki",
+    "days": {
+      "mon": "pon",
+      "tue": "wt",
+      "wed": "śr",
+      "thu": "czw",
+      "fri": "pt",
+      "sat": "sob",
+      "sun": "ndz"
+    }
+  },
+  "auth": {
+    "title": "Zaloguj się do konta",
+    "loginTab": "Logowanie",
+    "signupTab": "Rejestracja",
+    "email": "E-mail",
+    "emailPlaceholder": "your@email.com",
+    "password": "Hasło",
+    "passwordPlaceholder": "Twoje hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "confirmPasswordPlaceholder": "Potwierdź hasło",
+    "loginButton": "Zaloguj się",
+    "signupButton": "Zarejestruj się",
+    "loginSuccess": "Logowanie pomyślne!",
+    "signupSuccess": "Konto utworzone pomyślnie!",
+    "passwordMismatch": "Hasła nie są zgodne",
+    "passwordTooShort": "Hasło musi mieć co najmniej 6 znaków",
+    "loginError": "Błąd logowania",
+    "signupError": "Błąd rejestracji",
+    "fullName": "Pełne imię i nazwisko",
+    "fullNamePlaceholder": "Wpisz swoje pełne imię i nazwisko",
+    "nameRequired": "Proszę podać swoje pełne imię i nazwisko"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Online",
+    "greeting": "Cześć! 👋 Jestem EDI, Twój asystent w Educly! Bardzo cieszę się, że mogę Ci pomóc! Co chciałbyś wiedzieć?",
+    "placeholder": "Wpisz swoje pytanie...",
+    "error": "Błąd wysyłania wiadomości"
+  },
+  "freelancer": {
+    "title": "Ścieżka Freelancera",
+    "subtitle": "Zarabiaj z AI",
+    "dashboardDesc": "Naucz się sprawdzonych strategii, aby zostać skutecznym freelancerem korzystającym z narzędzi AI.",
+    "headerDesc": "Opanuj umiejętności zarabiania jako freelancer AI",
+    "modules": "Moduły Nauki",
+    "access": "Wejdź na Ścieżkę",
+    "tipsTitle": "Porady Ekspertów",
+    "tipsDesc": "Każdy moduł zawiera praktyczne wskazówki od freelancerów, którzy już zarabiają na AI.",
+    "premium": { "title": "Premium Ścieżka Freelancera", "description": "Odblokuj ekskluzywne treści, aby zostać odnoszącym sukcesy freelancerem AI", "features": { "strategies": "Sprawdzone strategie sprzedaży", "clients": "Jak zdobyć pierwszych klientów", "pricing": "Wycena i negocjacje", "platforms": "Najlepsze platformy dla freelancerów" } },
+    "modulesList": { "1": { "title": "Podstawy Freelancingu", "description": "Nastawienie i pierwsze kroki" }, "2": { "title": "Tworzenie Portfolio", "description": "Stwórz nieodparte portfolio z AI" }, "3": { "title": "Znajdowanie Klientów", "description": "Strategie na pierwsze zlecenia" }, "4": { "title": "Strategiczne Wycenianie", "description": "Jak wyceniać pracę z AI" }, "5": { "title": "Networking i Partnerstwa", "description": "Buduj sieć kontaktów" }, "6": { "title": "Zwycięskie Oferty", "description": "Pisz oferty, które konwertują" }, "7": { "title": "Skalowanie Biznesu", "description": "Od freelancera do przedsiębiorcy" }, "8": { "title": "Automatyzacja z AI", "description": "Użyj AI do zwiększenia produktywności" } }
+  },
+  "contactPage": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Wybierz najlepszy sposób kontaktu",
+    "aiChat": {
+      "title": "Wsparcie AI Chat",
+      "description": "Uzyskaj natychmiastowe odpowiedzi o platformie, cenach i kursach od naszego inteligentnego asystenta.",
+      "button": "Otwórz AI Chat",
+      "available": "Dostępne 24/7"
+    },
+    "humanSupport": {
+      "title": "Wsparcie ludzi",
+      "description": "Dla bardziej spersonalizowanej pomocy, złożonych pytań lub partnerstw biznesowych, skontaktuj się przez email.",
+      "button": "Wyślij Email",
+      "copyEmail": "Kopiuj Email",
+      "emailCopied": "Email skopiowany!",
+      "openGmail": "Otwórz w Gmail",
+      "responseTime": "Odpowiedź w ciągu 24-48 godzin"
+    },
+    "aiCapabilities": {
+      "title": "W czym może pomóc nasz AI chat",
+      "item1": "Informacje o 8 narzędziach AI (ChatGPT, Claude, Gemini, itp.)",
+      "item2": "Ceny i plany subskrypcji",
+      "item3": "Szczegóły wyzwania 28-dniowego",
+      "item4": "Jak działa platforma",
+      "item5": "Proces certyfikacji",
+      "item6": "Wymagania techniczne"
+    }
+  },
+  "upsell": {
+    "features": "Do czego uzyskasz dostęp:",
+    "cta": "Odblokuj Teraz",
+    "back": "Powrót do Panelu",
+    "freelancer": {
+      "title": "Strefa Freelancera",
+      "headline": "Ekskluzywna Treść",
+      "subtitle": "Odblokuj zaawansowane funkcje",
+      "description": "Uzyskaj dostęp do ekskluzywnych ofert pracy w AI i zastosuj to, czego się nauczyłeś.",
+      "feature1": "Zdalne oferty pracy w AI",
+      "feature2": "Filtrowanie według kategorii i doświadczenia",
+      "feature3": "Nowe oferty dodawane co tydzień",
+      "feature4": "Bezpośredni link do aplikacji"
+    },
+    "ai_hub": {
+      "title": "Hub AI",
+      "headline": "Ekskluzywna Treść",
+      "subtitle": "Odblokuj zaawansowane funkcje",
+      "description": "Odblokuj Hub AI ze specjalistycznymi asystentami do tworzenia obrazów, promptów i uzyskiwania odpowiedzi.",
+      "feature1": "AI do tworzenia profesjonalnych obrazów",
+      "feature2": "Asystent tworzenia promptów",
+      "feature3": "Uzyskaj odpowiedzi od specjalistycznego AI",
+      "feature4": "Nieograniczony dostęp do asystentów"
+    }
+  }
+}

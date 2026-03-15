@@ -1,0 +1,124 @@
+
+/* Configuração da Raiz */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+/* Reset de Seleção e Scrollbar para parecer App */
+::selection {
+  background-color: #5865f2;
+  color: white;
+}
+
+/* Scrollbar estilo Discord */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #1e1f22;
+  border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #1a1b1e;
+}
+
+/* Logo e Animações */
+=======
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+>>>>>>> a3dfd408a50ed8114d7cfaf77ffa9c5c1dce291d
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Glow adaptado para o Blurple do Discord */
+.logo:hover {
+  filter: drop-shadow(0 0 2em rgba(88, 101, 242, 0.45));
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.45));
+=======
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+>>>>>>> a3dfd408a50ed8114d7cfaf77ffa9c5c1dce291d
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+/* Utilitários de Card */
+.card {
+  padding: 2em;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+/* Modo escuro para o card padrão */
+.dark .card {
+  background-color: #2b2d31;
+}
+
+.read-the-docs {
+  color: #949ba4; /* Cor de texto secundário do Discord */
+  font-size: 0.9em;
+  margin-top: 2rem;
+}
+
+/* Ajustes de tipografia global */
+h1 {
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  transition: filter 0.2s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+=======
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+

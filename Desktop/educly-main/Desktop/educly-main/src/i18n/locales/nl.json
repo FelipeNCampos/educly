@@ -1,0 +1,517 @@
+{
+  "challenge": {
+    "week": "Week",
+    "day": "Dag",
+    "days": "dagen",
+    "completed": "Voltooid",
+    "viewAll": "Alles bekijken",
+    "continueFromWhere": "Ga verder waar je gebleven was",
+    "aiDomination": "AI Beheersing",
+    "level1": "Niveau 1",
+    "started": "Uitdaging gestart!",
+    "goodLuck": "Succes met je leerreis!",
+    "notFound": "Uitdaging niet gevonden",
+    "aiTrails": "AI Paden",
+    "challenge28Days": "28 Dagen Uitdaging",
+    "chooseAI": "Kies een AI om te leren:",
+    "trail": "Pad",
+    "startChallenge": "Start Uitdaging",
+    "starting": "Starten...",
+    "ais": "AI's",
+    "progress": "Voortgang",
+    "review": "Beoordelen",
+    "viewTrail": "Bekijk pad",
+    "aiChallenges": "AI Uitdagingen",
+    "master8AI": "Beheers 8 AI's in 28 dagen",
+    "master8AIDesc": "Elke uitdaging is ontworpen om je de belangrijkste AI-tools op de markt te leren."
+  },
+  "personalizedTrail": {
+    "title": "Jouw Gepersonaliseerde Pad",
+    "progress": "{{completed}}/{{total}} dagen voltooid",
+    "notFound": "Pad niet gevonden.",
+    "createNew": "Nieuw pad maken"
+  },
+  "personalizedLesson": {
+    "title": "Gepersonaliseerde Les",
+    "dayTitle": "Dag {{day}}",
+    "todayTask": "Taak van vandaag",
+    "taskIntro": "Wat je gaat leren",
+    "taskDescription": "Taakbeschrijving",
+    "exerciseTitle": "Praktische Oefening",
+    "exerciseNote": "Voltooi deze oefening om je leren te versterken",
+    "markComplete": "Markeer als voltooid",
+    "completeNote": "Je hebt het vandaag geweldig gedaan!",
+    "dayComplete": "Dag voltooid!",
+    "greatWork": "Geweldig werk! Je maakt vooruitgang!",
+    "nextDay": "Volgende dag",
+    "viewTrail": "Bekijk pad",
+    "continue": "Doorgaan",
+    "complete": "Voltooien"
+  },
+  "landing": {
+    "nav": {
+      "home": "Home",
+      "about": "Over ons",
+      "programs": "Programma's",
+      "testimonials": "Testimonials",
+      "plan": "Abonnement",
+      "contact": "Contact",
+      "login": "Inloggen",
+      "startNow": "Nu beginnen"
+    },
+    "hero": {
+      "badge": "AI-leiders opleiden over de hele wereld",
+      "title": "Beheers",
+      "titleHighlight": "Kunstmatige Intelligentie",
+      "titleEnd": "en Transformeer Je Carrière",
+      "subtitle": "Leer de krachtigste AI-tools op de markt met praktische cursussen, persoonlijke mentoring en een wereldwijde community van meer dan 50.000 professionals.",
+      "cta": "Gratis beginnen",
+      "demo": "Demo bekijken",
+      "students": "studenten",
+      "rating": "beoordeling",
+      "countries": "landen"
+    },
+    "features": {
+      "sectionLabel": "Waarom Educly kiezen",
+      "title": "Je reis naar de toekomst begint hier",
+      "subtitle": "Wij bieden de beste AI-leerervaring, die theorie en praktijk combineert met continue ondersteuning.",
+      "curriculum": {
+        "title": "Modern curriculum",
+        "description": "Voortdurend bijgewerkte content met de nieuwste AI-trends en tools."
+      },
+      "mentoring": {
+        "title": "Persoonlijke mentoring",
+        "description": "Individuele begeleiding door specialisten om je leerproces te versnellen."
+      },
+      "community": {
+        "title": "Wereldwijde community",
+        "description": "Verbind met meer dan 50.000 AI-professionals wereldwijd."
+      },
+      "certification": {
+        "title": "Erkend certificaat",
+        "description": "Certificaten gewaardeerd door toonaangevende bedrijven."
+      },
+      "practical": {
+        "title": "Praktisch leren",
+        "description": "Echte projecten en praktische ervaring vanaf dag één."
+      },
+      "career": {
+        "title": "Carrière-boost",
+        "description": "Carrièreondersteuning met toegang tot exclusieve banen."
+      }
+    },
+    "programs": {
+      "sectionLabel": "Onze programma's",
+      "title": "Kies je leerpad",
+      "subtitle": "Gestructureerde programma's voor alle niveaus, van beginner tot AI-specialist.",
+      "popular": "Meest populair",
+      "startNow": "Nu beginnen",
+      "beginner": "Beginner",
+      "intermediate": "Gemiddeld",
+      "advanced": "Gevorderd",
+      "fundamentals": {
+        "title": "AI-basis",
+        "description": "Begin je AI-reis vanaf nul. Leer fundamentele concepten en je eerste tools.",
+        "duration": "4 weken",
+        "highlights": [
+          "Introductie tot AI en Machine Learning",
+          "Eerste stappen met ChatGPT",
+          "Basis taakautomatisering",
+          "Certificaat van voltooiing"
+        ]
+      },
+      "machineLearning": {
+        "title": "Gevorderde Machine Learning",
+        "description": "Beheers geavanceerde ML-technieken en creëer krachtige voorspellingsmodellen.",
+        "duration": "8 weken",
+        "highlights": [
+          "Supervised ML-algoritmen",
+          "Neurale netwerken en Deep Learning",
+          "Natural language processing",
+          "Echte praktische projecten"
+        ]
+      },
+      "deepLearning": {
+        "title": "Deep Learning en neurale netwerken",
+        "description": "Word een Deep Learning-specialist en bouw geavanceerde neurale architecturen.",
+        "duration": "12 weken",
+        "highlights": [
+          "CNN's en geavanceerde architecturen",
+          "Transformers en LLM's",
+          "Computer vision",
+          "1:1 mentoring met specialisten"
+        ]
+      }
+    },
+    "pricing": {
+      "badge": "Prijzen",
+      "title": "Kies je plan",
+      "subtitle": "Begin vandaag je AI-leerreis",
+      "week1": "1 WEEK PLAN",
+      "week4": "4 WEKEN PLAN",
+      "week12": "12 WEKEN PLAN",
+      "mostPopular": "MEEST POPULAIR",
+      "from": "VAN",
+      "for": "VOOR",
+      "perDay": "per dag",
+      "getMyPlan": "NEEM MIJN PLAN",
+      "note": "Mensen die het 12-weken plan gebruiken krijgen dubbele resultaten vergeleken met 4 weken."
+    },
+    "testimonials": {
+      "sectionLabel": "Testimonials",
+      "title": "Wat onze studenten zeggen",
+      "subtitle": "Duizenden professionals hebben hun carrière al getransformeerd met Educly.",
+      "items": [
+        {
+          "name": "Maria Silva",
+          "role": "Data Scientist",
+          "country": "Brazilië",
+          "text": "Educly heeft mijn carrière getransformeerd. In 3 maanden ging ik van beginner naar data scientist bij een groot techbedrijf."
+        },
+        {
+          "name": "João Santos",
+          "role": "Product Manager",
+          "country": "Portugal",
+          "text": "De praktische en actuele content stelde me in staat om AI direct in mijn werk toe te passen."
+        },
+        {
+          "name": "Ana García",
+          "role": "ML Engineer",
+          "country": "Mexico",
+          "text": "Na het afronden van het gevorderde programma ontving ik 3 baanaanbiedingen."
+        },
+        {
+          "name": "Carlos Fernández",
+          "role": "Startup Founder",
+          "country": "Argentinië",
+          "text": "Ik heb Educly-kennis gebruikt om mijn AI-startup te creëren."
+        }
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Wereldwijd bereik",
+      "title": "Aanwezig over de hele wereld",
+      "subtitle": "Educly verbindt AI-professionals in meer dan 150 landen.",
+      "regions": {
+        "latinAmerica": "Latijns-Amerika",
+        "europe": "Europa",
+        "northAmerica": "Noord-Amerika",
+        "asiaOceania": "Azië & Oceanië"
+      },
+      "features": {
+        "languages": {
+          "title": "12 talen",
+          "description": "Content beschikbaar in meerdere talen"
+        },
+        "support": {
+          "title": "24/7 ondersteuning",
+          "description": "Wereldwijde service op elk moment"
+        },
+        "community": {
+          "title": "Wereldwijde community",
+          "description": "Netwerken met professionals over de hele wereld"
+        }
+      }
+    },
+    "stats": {
+      "students": "Studenten",
+      "countries": "Landen",
+      "satisfaction": "Tevredenheid",
+      "partners": "Partnerbedrijven"
+    },
+    "cta": {
+      "title": "Klaar om AI te beheersen en je carrière te transformeren?",
+      "subtitle": "Sluit je aan bij meer dan 50.000 professionals die al de toekomst bouwen met kunstmatige intelligentie.",
+      "startFree": "Gratis beginnen",
+      "talkConsultant": "Praat met een consultant",
+      "guarantee": "30 dagen garantie",
+      "installments": "Tot 12 termijnen",
+      "benefits": [
+        "Levenslange toegang tot content",
+        "Gratis updates voor altijd",
+        "Exclusieve professionele community",
+        "Markterkende certificaten",
+        "Toegewijde 24/7 ondersteuning",
+        "30 dagen geld-terug-garantie"
+      ]
+    },
+    "footer": {
+      "description": "Het toonaangevende platform voor AI-onderwijs, dat de professionals van de toekomst opleidt.",
+      "contact": "Contact",
+      "programs": "Programma's",
+      "resources": "Bronnen",
+      "company": "Bedrijf",
+      "legal": "Juridisch",
+      "links": {
+        "aiFundamentals": "AI-basis",
+        "machineLearning": "Machine Learning",
+        "deepLearning": "Deep Learning",
+        "aiForBusiness": "AI voor bedrijven",
+        "blog": "Blog",
+        "webinars": "Webinars",
+        "ebooks": "E-books",
+        "community": "Community",
+        "aboutUs": "Over ons",
+        "careers": "Carrières",
+        "partnerships": "Partnerschappen",
+        "contact": "Contact",
+        "terms": "Gebruiksvoorwaarden",
+        "privacy": "Privacy",
+        "cookies": "Cookies"
+      },
+      "copyright": "Alle rechten voorbehouden.",
+      "madeWith": "Gemaakt met ❤️ voor de wereldwijde AI-community"
+    }
+  },
+  "common": {
+    "back": "Terug",
+    "next": "Volgende",
+    "start": "Start",
+    "continue": "Doorgaan",
+    "complete": "Voltooien",
+    "login": "Inloggen",
+    "signup": "Registreren",
+    "logout": "Uitloggen",
+    "loading": "Laden...",
+    "translating": "Inhoud wordt vertaald...",
+    "error": "Er is een fout opgetreden",
+    "of": "van"
+  },
+  "quiz": {
+    "selectAllAnswers": "Selecteer alle juiste antwoorden",
+    "verify": "Controleren",
+    "perfect": "Perfect!",
+    "youGotAll": "Je hebt ze allemaal goed!",
+    "almostRight": "Bijna goed!",
+    "youGotXofY": "Je hebt {{correct}} van de {{total}} goed.",
+    "incorrect": "Onjuist",
+    "tryAgainNext": "Probeer het de volgende keer opnieuw!",
+    "correct": "Correct!",
+    "wellDone": "Goed gedaan! Ga zo door!",
+    "correctAnswerWas": "Het juiste antwoord was:"
+  },
+  "lessonUI": {
+    "taskCompleted": "Taak voltooid",
+    "yourAnswer": "Jouw antwoord:",
+    "repeatTask": "Taak herhalen"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "Fundamentele concepten van {{tool}}",
+    "practicalTechniques": "Praktische gebruikstechnieken",
+    "dailyApplication": "Hoe toe te passen in het dagelijks leven"
+  },
+  "lesson": {
+    "locked": "Vergrendeld",
+    "completed": "Voltooid",
+    "startNow": "Nu starten",
+    "noContent": "Inhoud nog niet beschikbaar.",
+    "checkAnswer": "Antwoord Controleren",
+    "tryAgain": "Opnieuw Proberen",
+    "tryAgainFeedback": "Oeps! Probeer opnieuw.",
+    "correctAnswer": "Gefeliciteerd! Juist antwoord!",
+    "phaseCompleted": "Fase succesvol voltooid!",
+    "loading": "Laden...",
+    "close": "Sluiten",
+    "continue": "DOORGAAN",
+    "verify": "CONTROLEREN",
+    "stepTypes": {
+      "learn": "📚 Leren",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Praktijk",
+      "simulator": "🤖 Simulator"
+    },
+    "quiz": {
+      "correct": "Correct!",
+      "incorrect": "Probeer opnieuw",
+      "askEdi": "Vraag EDI om hulp",
+      "hint": "💡 Hint",
+      "excellent": "Uitstekend!",
+      "almostThere": "Bijna!",
+      "masteredConcept": "Je beheerst dit concept. Ga zo door!",
+      "hintReread": "Lees de opties opnieuw. Het juiste antwoord is gekoppeld aan het hoofdconcept.",
+      "hintOrder": "Denk aan de logische volgorde: actie → object → details.",
+      "hintReview": "Ga terug naar de vorige inhoud en bekijk de concepten.",
+      "hintAskEdi": "EDI kan je helpen! Klik op de knop hieronder.",
+      "getCorrectToContinue": "Beantwoord correct om door te gaan"
+    },
+    "practical": {
+      "instructions": "Klik op de woorden om de juiste prompt te bouwen:",
+      "yourAnswer": "Jouw antwoord:",
+      "available": "Beschikbare woorden:"
+    },
+    "chat": {
+      "aiReady": "Klaar om te helpen",
+      "sendPlaceholder": "Typ je bericht...",
+      "aiResponse": "Uitstekend voorbeeld! Heb je gezien hoe ik je invoer heb verwerkt? Nu we het in de praktijk hebben getest, klik op 'DOORGAAN' om verder te gaan."
+    },
+    "textParts": {
+      "part": "Deel",
+      "of": "van",
+      "nextPart": "Volgend deel",
+      "previousPart": "Vorig deel",
+      "showPrevious": "Vorige delen tonen",
+      "hidePrevious": "Vorige delen verbergen",
+      "allRead": "Alle inhoud gelezen"
+    },
+    "matchWords": {
+      "instructions": "Verbind elk item links met de juiste match rechts!",
+      "matched": "paren verbonden",
+      "reset": "Opnieuw beginnen"
+    },
+    "promptTrainer": {
+      "subtitle": "Train je prompt met EDI",
+      "challenge": "🎯 Uitdaging:",
+      "criteria": "Succescriteria:",
+      "startMessage": "Schrijf je prompt om te beginnen!",
+      "completed": "Prompt goedgekeurd! Gefeliciteerd! 🎉",
+      "placeholder": "Typ hier je prompt...",
+      "attempts": "Pogingen",
+      "showHint": "Toon hint",
+      "hideHint": "Verberg hint",
+      "showExample": "Toon promptvoorbeeld",
+      "hideExample": "Verberg voorbeeld"
+    },
+    "ediMotivation": {
+      "almostDone": "Bijna klaar! 🎯 Je bent er bijna!",
+      "halfway": "Halverwege! 💪 Ga zo door!",
+      "greatJob": "Geweldig werk! ✨ Je doet het fantastisch!",
+      "keepGoing": "Geef nu niet op! 🔥 Je kunt het!",
+      "finalStretch": "Laatste stuk! ⚡ Nog even!",
+      "encouragement": "Ik geloof in je! 💖 Samen gaan we ervoor!",
+      "yourAssistant": "je assistent",
+      "almostDoneDay": "Dag {{day}} is bijna voorbij! 🎯 {{phrase}}",
+      "halfwayDay": "Halverwege dag {{day}}! 💪 {{phrase}}",
+      "finalStretchDay": "Laatste stuk van dag {{day}}! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Je doet het geweldig!",
+          "Ga zo door, je bent geweldig!",
+          "Bijna daar, je kunt het!",
+          "Geef niet op!",
+          "Je bent fantastisch!"
+        ],
+        "halfway": [
+          "Je doet het super!",
+          "Halverwege, blijf sterk!",
+          "Uitstekende vooruitgang!",
+          "Je bent ongelooflijk!",
+          "Ga zo door!"
+        ],
+        "finalStretch": [
+          "Het einde is nabij!",
+          "Je bent zo ver gekomen!",
+          "Laatste zetje, geef alles!",
+          "Eindig in stijl!",
+          "Bijna bij de finish!"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Wekelijkse reeks",
+    "subtitle": "Houd de leergewoonte vast",
+    "days": {
+      "mon": "ma",
+      "tue": "di",
+      "wed": "wo",
+      "thu": "do",
+      "fri": "vr",
+      "sat": "za",
+      "sun": "zo"
+    }
+  },
+  "auth": {
+    "title": "Toegang tot uw account",
+    "loginTab": "Inloggen",
+    "signupTab": "Registreren",
+    "email": "E-mail",
+    "emailPlaceholder": "your@email.com",
+    "password": "Wachtwoord",
+    "passwordPlaceholder": "Uw wachtwoord",
+    "confirmPassword": "Wachtwoord bevestigen",
+    "confirmPasswordPlaceholder": "Bevestig uw wachtwoord",
+    "loginButton": "Inloggen",
+    "signupButton": "Registreren",
+    "loginSuccess": "Succesvol ingelogd!",
+    "signupSuccess": "Account succesvol aangemaakt!",
+    "passwordMismatch": "Wachtwoorden komen niet overeen",
+    "passwordTooShort": "Wachtwoord moet minimaal 6 tekens bevatten",
+    "loginError": "Inlogfout",
+    "signupError": "Registratiefout",
+    "fullName": "Volledige Naam",
+    "fullNamePlaceholder": "Voer uw volledige naam in",
+    "nameRequired": "Voer uw volledige naam in"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Online",
+    "greeting": "Hallo! 👋 Ik ben EDI, uw assistent hier bij Educly! Ik ben erg blij om u te helpen! Wat wilt u weten?",
+    "placeholder": "Typ uw vraag...",
+    "error": "Fout bij het verzenden van bericht"
+  },
+  "freelancer": {
+    "title": "Freelancer Leertraject",
+    "subtitle": "Verdien geld met AI",
+    "dashboardDesc": "Leer bewezen strategieën om een succesvolle freelancer te worden met AI-tools.",
+    "headerDesc": "Beheers de vaardigheden om als AI-freelancer geld te verdienen",
+    "modules": "Leermodules",
+    "access": "Ga naar Leertraject",
+    "tipsTitle": "Expertips",
+    "tipsDesc": "Elke module bevat praktische tips van succesvolle freelancers die al verdienen met AI.",
+    "premium": { "title": "Premium Freelancer Leertraject", "description": "Ontgrendel exclusieve content om een succesvolle AI-freelancer te worden", "features": { "strategies": "Bewezen verkoopstrategieën", "clients": "Hoe je je eerste klanten krijgt", "pricing": "Prijsstelling en onderhandeling", "platforms": "Beste platforms voor freelancers" } },
+    "modulesList": { "1": { "title": "Freelancer Basis", "description": "Mindset en eerste stappen om te beginnen" }, "2": { "title": "Portfolio Bouwen", "description": "Maak een onweerstaanbaar portfolio met AI" }, "3": { "title": "Klanten Vinden", "description": "Strategieën om je eerste opdrachten te krijgen" }, "4": { "title": "Strategische Prijsstelling", "description": "Hoe je AI-werk moet berekenen" }, "5": { "title": "Netwerken & Partnerschappen", "description": "Bouw je professionele netwerk" }, "6": { "title": "Winnende Voorstellen", "description": "Schrijf voorstellen die converteren" }, "7": { "title": "Business Schalen", "description": "Van solo freelancer naar ondernemer" }, "8": { "title": "AI Automatisering", "description": "Gebruik AI om productiviteit te vermenigvuldigen" } }
+  },
+  "contactPage": {
+    "title": "Neem Contact Op",
+    "subtitle": "Kies de beste manier om contact met ons op te nemen",
+    "aiChat": {
+      "title": "AI Chat Ondersteuning",
+      "description": "Krijg direct antwoord over ons platform, prijzen en cursussen van onze slimme assistent.",
+      "button": "Open AI Chat",
+      "available": "24/7 Beschikbaar"
+    },
+    "humanSupport": {
+      "title": "Menselijke Ondersteuning",
+      "description": "Voor meer persoonlijke hulp, complexe vragen of zakelijke partnerschappen, neem contact op via email.",
+      "button": "Stuur Email",
+      "copyEmail": "Kopieer Email",
+      "emailCopied": "Email gekopieerd!",
+      "openGmail": "Open in Gmail",
+      "responseTime": "Antwoord binnen 24-48 uur"
+    },
+    "aiCapabilities": {
+      "title": "Waar onze AI chat mee kan helpen",
+      "item1": "Informatie over onze 8 AI-tools (ChatGPT, Claude, Gemini, enz.)",
+      "item2": "Prijzen en abonnementsplannen",
+      "item3": "Details van de 28-daagse uitdaging",
+      "item4": "Hoe het platform werkt",
+      "item5": "Certificeringsproces",
+      "item6": "Technische vereisten"
+    }
+  },
+  "upsell": {
+    "features": "Waar je toegang tot krijgt:",
+    "cta": "Nu Ontgrendelen",
+    "back": "Terug naar Dashboard",
+    "freelancer": {
+      "title": "Freelancer Gebied",
+      "headline": "Exclusieve Inhoud",
+      "subtitle": "Ontgrendel geavanceerde functies",
+      "description": "Krijg toegang tot exclusieve AI-vacatures en pas toe wat je hebt geleerd.",
+      "feature1": "Remote AI-vacatures",
+      "feature2": "Filteren op categorie en ervaring",
+      "feature3": "Wekelijks nieuwe vacatures toegevoegd",
+      "feature4": "Directe sollicitatielink"
+    },
+    "ai_hub": {
+      "title": "AI-Hub",
+      "headline": "Exclusieve Inhoud",
+      "subtitle": "Ontgrendel geavanceerde functies",
+      "description": "Ontgrendel de AI-Hub met gespecialiseerde assistenten om afbeeldingen, prompts te maken en antwoorden te krijgen.",
+      "feature1": "AI voor professionele afbeeldingen",
+      "feature2": "Prompt-creatie assistent",
+      "feature3": "Krijg antwoorden van gespecialiseerde AI",
+      "feature4": "Onbeperkte toegang tot assistenten"
+    }
+  }
+}

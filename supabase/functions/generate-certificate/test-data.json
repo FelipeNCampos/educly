@@ -1,0 +1,215 @@
+{
+  "examples": [
+    {
+      "name": "Certificado Completo",
+      "description": "Exemplo com todos os campos preenchidos",
+      "data": {
+        "nome": "Matheus Felipe Sousa Santos",
+        "formacao": "Inteligência Artificial",
+        "nivel": "júnior",
+        "horas": 40,
+        "descricao": "Demonstrando excelência em aplicações práticas",
+        "cidade": "Granada",
+        "data": "15/02/2026",
+        "contribuicao": "em projetos reais de IA generativa",
+        "nomeResponsavel": "Prof. João Silva"
+      }
+    },
+    {
+      "name": "Certificado Mínimo",
+      "description": "Exemplo com apenas campos obrigatórios",
+      "data": {
+        "nome": "Maria Silva Santos",
+        "formacao": "ChatGPT Avançado",
+        "nivel": "pleno",
+        "horas": 20,
+        "cidade": "São Paulo",
+        "data": "16/02/2026"
+      }
+    },
+    {
+      "name": "Certificado Nível Sênior",
+      "description": "Exemplo de certificado nível sênior",
+      "data": {
+        "nome": "Carlos Eduardo Oliveira",
+        "formacao": "Engenharia de Prompts",
+        "nivel": "sênior",
+        "horas": 60,
+        "cidade": "Rio de Janeiro",
+        "data": "10/02/2026",
+        "contribuicao": "em desenvolvimento de soluções empresariais",
+        "nomeResponsavel": "Dra. Ana Paula Costa"
+      }
+    },
+    {
+      "name": "Certificado Formação Curta",
+      "description": "Curso de curta duração",
+      "data": {
+        "nome": "Juliana Rodrigues",
+        "formacao": "Midjourney para Iniciantes",
+        "nivel": "júnior",
+        "horas": 8,
+        "cidade": "Brasília",
+        "data": "14/02/2026",
+        "contribuicao": "com foco em design e criatividade"
+      }
+    },
+    {
+      "name": "Certificado Formação Intensiva",
+      "description": "Curso intensivo de longa duração",
+      "data": {
+        "nome": "Pedro Henrique Alves",
+        "formacao": "IA para Negócios",
+        "nivel": "pleno",
+        "horas": 120,
+        "cidade": "Belo Horizonte",
+        "data": "01/02/2026",
+        "contribuicao": "com aplicação em casos reais de mercado",
+        "nomeResponsavel": "Prof. Dr. Roberto Martins"
+      }
+    },
+    {
+      "name": "Certificado Nome Longo",
+      "description": "Testa nomes muito longos",
+      "data": {
+        "nome": "Ana Carolina Fernandes dos Santos e Silva",
+        "formacao": "Automação e Produtividade com Inteligência Artificial",
+        "nivel": "júnior",
+        "horas": 35,
+        "cidade": "Porto Alegre",
+        "data": "20/01/2026",
+        "contribuicao": "utilizando ferramentas modernas de automação"
+      }
+    },
+    {
+      "name": "Certificado Internacional",
+      "description": "Exemplo com cidade internacional",
+      "data": {
+        "nome": "Lucas Martins",
+        "formacao": "Machine Learning Fundamentals",
+        "nivel": "pleno",
+        "horas": 80,
+        "cidade": "Lisboa",
+        "data": "05/02/2026",
+        "contribuicao": "com projetos práticos",
+        "nomeResponsavel": "Prof. Miguel Sousa"
+      }
+    },
+    {
+      "name": "Certificado Data Recente",
+      "description": "Com data de hoje",
+      "data": {
+        "nome": "Fernanda Costa",
+        "formacao": "Criação de Imagens com IA",
+        "nivel": "júnior",
+        "horas": 15,
+        "cidade": "Curitiba",
+        "data": "16/02/2026"
+      }
+    }
+  ],
+  "testCases": [
+    {
+      "scenario": "Teste de Caracteres Especiais",
+      "data": {
+        "nome": "José da Silva Júnior",
+        "formacao": "IA & ChatGPT - Nível Avançado",
+        "nivel": "sênior",
+        "horas": 45,
+        "cidade": "São José dos Campos",
+        "data": "12/02/2026",
+        "contribuicao": "em soluções B2B & B2C"
+      }
+    },
+    {
+      "scenario": "Teste de Campos Vazios Opcionais",
+      "data": {
+        "nome": "Roberto Lima",
+        "formacao": "Deep Learning",
+        "nivel": "pleno",
+        "horas": 50,
+        "cidade": "Recife",
+        "data": "08/02/2026",
+        "contribuicao": "",
+        "nomeResponsavel": ""
+      }
+    },
+    {
+      "scenario": "Teste de Valores Extremos",
+      "data": {
+        "nome": "A",
+        "formacao": "IA",
+        "nivel": "júnior",
+        "horas": 1,
+        "cidade": "SP",
+        "data": "01/01/2026"
+      }
+    },
+    {
+      "scenario": "Teste de Texto Muito Longo",
+      "data": {
+        "nome": "Isabella Cristina Rodrigues Ferreira de Souza e Santos",
+        "formacao": "Especialização Avançada em Inteligência Artificial Generativa com Foco em Aplicações Empresariais",
+        "nivel": "sênior",
+        "horas": 240,
+        "cidade": "São Bernardo do Campo",
+        "data": "31/12/2025",
+        "contribuicao": "demonstrando conhecimentos profundos em diversos aspectos da inteligência artificial aplicados em contextos empresariais complexos e desafiadores",
+        "nomeResponsavel": "Prof. Dr. Alexandre Fernando Costa Santos Silva"
+      }
+    }
+  ],
+  "validationRules": {
+    "nome": {
+      "required": true,
+      "minLength": 3,
+      "maxLength": 100,
+      "pattern": "^[a-zA-ZÀ-ÿ\\s]+$"
+    },
+    "formacao": {
+      "required": true,
+      "minLength": 2,
+      "maxLength": 150
+    },
+    "nivel": {
+      "required": true,
+      "enum": ["júnior", "pleno", "sênior", "junior", "senior"]
+    },
+    "horas": {
+      "required": true,
+      "type": "number",
+      "min": 1,
+      "max": 500
+    },
+    "cidade": {
+      "required": true,
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "data": {
+      "required": true,
+      "pattern": "^\\d{2}/\\d{2}/\\d{4}$",
+      "example": "16/02/2026"
+    },
+    "contribuicao": {
+      "required": false,
+      "maxLength": 200
+    },
+    "nomeResponsavel": {
+      "required": false,
+      "maxLength": 100
+    }
+  },
+  "notes": {
+    "formato_data": "Sempre use o formato DD/MM/AAAA",
+    "nivel_valores": "Aceita 'júnior', 'pleno', 'sênior' (com ou sem acento)",
+    "nome_formato": "Nome completo do aluno, sem números ou caracteres especiais",
+    "horas_minimo": "Mínimo de 1 hora, máximo recomendado de 500 horas",
+    "contribuicao_opcional": "Campo opcional que complementa a descrição do certificado",
+    "responsavel_opcional": "Se não informado, usa apenas 'Educly - Educação digital'"
+  },
+  "curlExamples": {
+    "local": "curl -X POST 'http://localhost:54321/functions/v1/generate-certificate' -H 'Authorization: Bearer YOUR_TOKEN' -H 'Content-Type: application/json' -d @example-data.json",
+    "production": "curl -X POST 'https://seu-projeto.supabase.co/functions/v1/generate-certificate' -H 'Authorization: Bearer YOUR_TOKEN' -H 'Content-Type: application/json' -d '{\"nome\":\"Maria Silva\",\"formacao\":\"IA\",\"nivel\":\"júnior\",\"horas\":20,\"cidade\":\"SP\",\"data\":\"16/02/2026\"}'"
+  }
+}

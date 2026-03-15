@@ -1,0 +1,37 @@
+project_id = "pltumueyrflantxnqovl"
+
+[functions.generate-certificate]
+verify_jwt = true
+
+[functions.primer-webhook]
+verify_jwt = false
+
+[functions.send-bulk-emails]
+verify_jwt = false
+
+[functions.send-password-reset]
+verify_jwt = false
+
+[functions.send-welcome-email]
+verify_jwt = false
+
+[functions.resend-pending-emails]
+verify_jwt = false
+
+[functions.check-access-expiration]
+verify_jwt = false
+
+[functions.track-email-open]
+verify_jwt = false
+
+[functions.send-pending-welcome-batch]
+verify_jwt = false
+
+[functions.send-pending-thanks]
+verify_jwt = false
+
+[functions.send-incident-notification]
+verify_jwt = false
+
+[functions.admin-grant-access]
+verify_jwt = false

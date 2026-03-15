@@ -1,0 +1,858 @@
+{
+  "module1": {
+    "title": "El Mundo Freelancer",
+    "description": "Qué es un freelancer y cómo funciona este juego",
+    "icon": "Globe",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🌍 Bienvenido al Mundo Freelancer",
+        "content": "Antes de hablar de plataformas, propuestas o precios, necesitas entender algo fundamental:\n\n**¿Qué es realmente ser freelancer?**\n\nMuchas personas confunden freelancer con:\n- Un trabajo informal o temporal (\"trabajitos\" o trabajos esporádicos)\n- Alguien sin derechos laborales o estabilidad\n- Algo arriesgado o poco serio\n\n**La verdad es diferente.**\n\nUn freelancer es un profesional que ofrece sus servicios de forma independiente, sin contrato fijo de empleo con una empresa.\n\nEn lugar de tener UN jefe, puedes tener VARIOS clientes.\n\nEn lugar de un salario fijo, ganas por proyecto o tarea completada.\n\n**Y lo mejor:** con las herramientas de IA que ya conoces, puedes entregar resultados profesionales incluso siendo principiante, independientemente de dónde vivas en el mundo."
+      },
+      {
+        "type": "text",
+        "title": "🤔 Freelancer vs Empleado vs Trabajador Independiente",
+        "content": "Vamos aclarar las diferencias de una vez para cualquier país:\n\n**👔 Empleado con Contrato Fijo**\n- Tiene un empleador fijo\n- Horario definido por la empresa\n- Salario mensual garantizado\n- Beneficios (vacaciones, seguro, etc.) conforme a las leyes locales\n- Menos libertad, más estabilidad\n\n**🧑‍💼 Trabajador Independiente/Consultor**\n- Trabaja por cuenta propia\n- Puede tener contratos de largo plazo\n- Emite recibos o facturas a clientes\n- Responsable de sus propios impuestos\n- Más libertad, menos beneficios garantidos\n\n**💻 Freelancer**\n- Trabaja por proyecto o tarea específica\n- Múltiples clientes simultáneos\n- Flexibilidad total de horario\n- Puede trabajar desde cualquier parte del mundo\n- Ingresos variables según la demanda\n\n**Importante:** Un freelancer PUEDE estar registrado como trabajador independiente legalmente, pero no todo trabajador independiente trabaja en el modelo freelancer. La diferencia está en el MODELO de trabajo."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Conecta los Conceptos",
+          "description": "Une cada tipo de trabajador con su característica principal",
+          "pairs": [
+            { "left": "Empleado con Contrato", "right": "Salario fijo mensual garantizado" },
+            { "left": "Freelancer", "right": "Trabaja por proyecto específico" },
+            { "left": "Trabajador Independiente", "right": "Emite recibos/facturas propias" },
+            { "left": "Consultor", "right": "Ofrece experiencia especializada" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💰 ¿Cómo Ganan Dinero los Freelancers?",
+        "content": "Existen 3 formas principales de ganar dinero como freelancer:\n\n**1️⃣ Por Proyecto**\n- Precio cerrado por entrega completa\n- Ejemplo: \"Creo tu sitio web por $500\"\n- Ventaja: Sabes exactamente cuánto vas a ganar\n- Consideración: Si te demoras más de lo planeado, ganas menos por hora\n- Ideal para: Trabajos con alcance bien definido\n\n**2️⃣ Por Tarea**\n- Precio por cada tarea pequeña o unidad de trabajo\n- Ejemplo: \"$10 por cada artículo de blog de 500 palabras\"\n- Ventaja: Trabajo constante si hay demanda continua\n- Consideración: Necesitas volumen para ganar bien\n- Ideal para: Servicios repetitivos o en gran cantidad\n\n**3️⃣ Por Contrato Recurrente (Retainer)**\n- Valor fijo mensal por disponibilidad o paquete de horas\n- Ejemplo: \"$800/mes para gestionar tus redes sociales (hasta 20 horas)\"\n- Ventaja: Ingresos predecibles y estabilidad\n- Consideración: El cliente puede cancelar con aviso previo\n- Ideal para: Servicios continuos o mantenimiento\n\n**4️⃣ Por Hora (también común)**\n- Cobro basado en el tiempo real trabajado\n- Ejemplo: \"$25 por hora de trabajo\"\n- Ventaja: Justo para trabajos con alcance variable\n- Consideración: Requiere control preciso del tiempo\n- Ideal para: Trabajos difíciles de estimar\n\n**💡 Consejo para principiantes:** Comienza con proyectos o tareas pequeñas para ganar experiencia. Luego evoluciona a proyectos mayores y, cuando tengas clientes recurrentes, considera contratos mensuales."
+      },
+      {
+        "type": "quiz",
+        "question": "Un freelancer que cobra $500 por crear un sitio web completo está trabajando en el modelo de:",
+        "options": [
+          { "text": "Por tarea", "isCorrect": false },
+          { "text": "Por proyecto", "isCorrect": true },
+          { "text": "Por contrato recurrente", "isCorrect": false },
+          { "text": "Por salario fijo", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! Cobrar un valor fijo por una entrega completa (como un sitio web) es el modelo 'por proyecto'. Es diferente de cobrar por cada tarea pequeña, por hora, o tener un contrato mensual fijo."
+      },
+      {
+        "type": "text",
+        "title": "🏢 El Papel de las Plataformas de Freelancer",
+        "content": "Aquí viene una pregunta común de principiantes:\n\n**\"¿Dónde encuentro clientes?\"**\n\nLa respuesta más práctica para quien está comenzando: **Plataformas de Freelancer**\n\n**¿Qué son estas plataformas?**\nSon sitios web y aplicaciones que funcionan como mercados en línea, conectando freelancers con clientes que necesitan servicios. Actúan como intermediarios entre quien ofrece servicios y quien los necesita.\n\n**¿Cómo funcionan en la práctica?**\n1. El cliente publica un proyecto describiendo lo que necesita\n2. Freelancers interesados envían propuestas (presupuestos y explicaciones)\n3. El cliente analiza las propuestas y elige al freelancer que prefiera\n4. El trabajo se realiza, normalmente con seguimiento por la plataforma\n5. El pago es procesado por la plataforma, que garantiza la seguridad\n\n**¿Por qué usar plataformas como principiante?**\n- ✅ **Clientes listos para contratar:** No necesitas buscar clientes solo\n- ✅ **Pago garantizado:** La plataforma retiene el dinero y solo lo libera cuando el trabajo es aprobado\n- ✅ **Sistema de reputación:** Evaluaciones y reseñas crean confianza\n- ✅ **Soporte en caso de problemas:** Mediación en disputas\n- ✅ **Protección contra estafas:** Sistemas de verificación y seguridad\n\n**Consideraciones importantes:**\n- ⚠️ **Cobran comisión:** Normalmente entre el 5% y el 20% del valor del proyecto\n- ⚠️ **Competencia:** Compites con otros freelancers de todo el mundo\n- ⚠️ **Reglas específicas:** Cada plataforma tiene sus propias reglas\n\n**💡 Dato:** La comisión vale la pena al principio por la seguridad y acceso a clientes. Conforme ganes experiencia, puedes buscar clientes directamente también."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Completa las Frases",
+          "sentence": "Las plataformas de freelancer funcionan como [BLANK] entre clientes y profesionales. Ellas garantizan el [BLANK] y cobran una [BLANK] por cada trabajo. Esto ofrece [BLANK] especialmente para principiantes.",
+          "correctAnswers": ["intermediarios", "pago", "comisión", "seguridad"],
+          "options": [
+            "intermediarios",
+            "pago",
+            "comisión",
+            "seguridad",
+            "salario",
+            "contrato",
+            "empleadores",
+            "problemas"
+          ],
+          "explanation": "¡Perfecto! Las plataformas actúan como intermediarios seguros, garantizando que el freelancer reciba el pago y cobrando una comisión por el servicio. Esta estructura ofrece seguridad especialmente importante para quien está comenzando."
+        }
+      },
+      {
+        "type": "text",
+        "title": "🌎 Plataformas en Tu Idioma vs Internacionales",
+        "content": "Existen dos tipos principales de plataformas, cada una con sus características:\n\n**📍 Plataformas en Tu Idioma/Regionales**\nEstas son plataformas enfocadas en países o regiones específicas, normalmente en tu idioma nativo:\n\n**Ejemplos populares:**\n- **Workana** - Líder en América Latina, en español y portugués\n- **Freelancer.com** - Global, pero con versiones en varios idiomas\n- **SoyFreelancer** - Popular en México y América Latina\n- **Nubelo** (ahora parte de Freelancer.com) - Enfoque en España\n- **99Freelas** - En Brasil, en portugués\n- **Malt** - Popular en Francia y Europa francófona\n\n**✅ Ventajas de las plataformas regionales:**\n- Comunicación en tu idioma nativo (sin barreras lingüísticas)\n- Clientes de tu región o países cercanos\n- Pagos en moneda local (evita altas tasas de cambio)\n- Menos competencia con freelancers de todo el mundo\n- Entendimiento cultural compartido\n- Horarios de trabajo similares\n\n**⚠️ Consideraciones:**\n- Los salarios pueden ser menores que en plataformas internacionales\n- El volumen de proyectos puede ser menor\n- Depende del mercado de tu región\n\n**🌍 Plataformas Internacionales (Inglés)**\nEstas son plataformas globales donde el idioma principal es el inglés:\n\n**Ejemplos populares:**\n- **Upwork** - La mayor plataforma global de freelancers\n- **Fiverr** - Enfocada en servicios por precio fijo (\"gigs\")\n- **Toptal** - Para freelancers de élite (proceso selectivo riguroso)\n- **PeoplePerHour** - Popular en Europa y globalmente\n- **Guru** - Otra plataforma global establecida\n\n**✅ Ventajas de las plataformas internacionales:**\n- Clientes de todo el mundo (Estados Unidos, Europa, etc.)\n- Pagos en dólares estadounidenses o euros (monedas fuertes)\n- Mayor volumen de proyectos disponibles\n- Potencial para ganancias más altas\n- Acceso a empresas internacionales\n\n**⚠️ Consideraciones:**\n- Requiere inglés al menos intermedio\n- Competencia global intensa\n- Diferencias de huso horario pueden ser desafiantes\n- Procesos de pago pueden ser más complejos\n\n**💡 Recomendación estratégica para principiantes:**\nComienza en plataformas en tu idioma nativo para:\n1. Ganar experiencia práctica\n2. Construir un portafolio\n3. Conseguir tus primeras evaluaciones positivas\n4. Aprender el proceso sin barreras lingüísticas\n\nDespués de 3-6 meses y con algunas evaluaciones positivas, expande gradualmente a plataformas internacionales para aumentar tus ganancias. Muchos freelancers exitosos usan ambas: plataformas regionales para estabilidad e internacionales para crecimiento."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Cuál es la principal ventaja de comenzar en plataformas en tu idioma nativo para un principiante?",
+        "options": [
+          { "text": "Pagan más que las internacionales", "isCorrect": false },
+          { "text": "No cobran comisión", "isCorrect": false },
+          { "text": "Comunicación más fácil y menos competencia", "isCorrect": true },
+          { "text": "Tienen más proyectos disponibles", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! Para principiantes, comenzar en plataformas en tu idioma nativo facilita mucho la comunicación con clientes (sin barreras lingüísticas) y reduce la competencia, ya que no estás compitiendo con freelancers de todo el mundo. Esto aumenta tus posibilidades de conseguir los primeros proyectos."
+      },
+      {
+        "type": "text",
+        "title": "⚠️ Mitos Sobre Ser Freelancer que Necesitamos Desmentir",
+        "content": "Vamos a derribar algunos mitos comunes que impiden a muchas personas comenzar:\n\n**Mito 1: \"Necesito ser experto para comenzar\"**\n❌ **Falso.** Muchos clientes buscan tareas simples que cualquier persona organizada y dispuesta a aprender puede hacer. Ejemplos: entrada de datos, investigación básica, transcripción, creación de contenido simple. Las plataformas tienen proyectos para todos los niveles.\n\n**Mito 2: \"Es muy arriesgado, puedo no ganar nada\"**\n❌ **Parcialmente falso.** Como cualquier trabajo independiente, hay riesgos, pero con la estrategia correcta, puedes crear unos ingresos estables. Comenzando con proyectos pequeños y usando plataformas seguras, el riesgo es manejable. Muchos freelancers ganan más que en trabajos tradicionales.\n\n**Mito 3: \"Solo sirve para programadores y diseñadores\"**\n❌ **Falso y limitante.** Hay demanda para decenas de servicios diferentes:\n- Redacción y creación de contenido\n- Traducción y servicios lingüísticos\n- Asistencia virtual y administrativa\n- Marketing digital y redes sociales\n- Edición de video y audio\n- Consultoría en diversas áreas\n- Servicios de negocios\n- ¡Y mucho más!\n\n**Mito 4: \"Las plataformas se quedan con todo el dinero\"**\n❌ **Exagerado.** La comisión varía normalmente entre el 5% y el 20%, pero a cambio recibes:\n- Acceso a clientes que ya quieren contratar\n- Sistema de pago seguro\n- Protección contra impagos\n- Herramientas para gestionar proyectos\n- Visibilidad para tu perfil\n\n**Mito 5: \"Necesito invertir mucho dinero para comenzar\"**\n❌ **Falso.** Los requisitos básicos son:\n- Acceso a internet\n- Una computadora o dispositivo básico\n- Cuenta gratuita en las plataformas\n- Disposición para aprender\n\nNo necesitas oficina, equipos caros o cursos muy costosos para comenzar.\n\n**Mito 6: \"Voy a trabajar 24 horas al día\"**\n❌ **Falso.** Uno de los mayores beneficios del freelancing es la flexibilidad. Tú defines tus horarios. La disciplina es importante, pero tú controlas cuándo trabajas.\n\n**Mito 7: \"Es solo para jóvenes o personas solteras\"**\n❌ **Falso.** Personas de todas las edades, estados civiles y situaciones de vida trabajan como freelancers. La flexibilidad es especialmente valiosa para padres, cuidadores, o quienes tienen otras responsabilidades."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🎯 Mito vs Realidad",
+          "description": "Conecta cada mito con la realidad correspondiente",
+          "pairs": [
+            {
+              "left": "Necesito ser experto para comenzar",
+              "right": "Hay tareas simples para principiantes en todas las áreas"
+            },
+            { "left": "Solo para programadores y diseñadores", "right": "Demanda en decenas de áreas diferentes" },
+            { "left": "Las plataformas roban dinero", "right": "Cobran comisión justa por servicios y seguridad" },
+            { "left": "Necesito invertir mucho", "right": "Solo necesitas internet y computadora básica" },
+            { "left": "Voy a trabajar 24 horas", "right": "Tú defines tus propios horarios" },
+            { "left": "Solo para jóvenes", "right": "Para personas de todas las edades y situaciones" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "🚀 Tu Ventaja Secreta: Inteligencia Artificial",
+        "content": "Aquí está lo que realmente te diferencia de la mayoría de los freelancers principiantes:\n\n**Ya conoces herramientas de IA o estás dispuesto a aprender.**\n\nMientras muchos freelancers aún hacen todo manualmente, puedes usar la IA para ser más productivo, más rápido y entregar mejor calidad.\n\n**📝 Con herramientas de texto (ChatGPT, Claude, Gemini, etc.):**\n- **Escribir textos profesionales en minutos** en lugar de horas\n- **Crear propuestas personalizadas rápidamente** para cada cliente\n- **Responder correos y mensajes** de forma profesional y eficiente\n- **Traducir contenidos** instantáneamente entre idiomas\n- **Generar ideas y lluvia de ideas** para proyectos creativos\n- **Resumir documentos largos** en minutos\n- **Revisar y mejorar textos** ya escritos\n\n**🎨 Con herramientas de imagen y diseño:**\n- **Crear diseños básicos** sin ser diseñador profesional\n- **Editar fotos e imágenes** rápidamente\n- **Generar imágenes a partir de descripciones** para ilustrar contenidos\n- **Crear logotipos simples** y elementos visuales\n- **Producir maquetas y presentaciones** visuales\n\n**📊 Con IA para organización y productividad:**\n- **Organizar información** de clientes y proyectos\n- **Crear hojas de cálculo e informes** automáticamente\n- **Programar y planificar** tu trabajo\n- **Automatizar tareas repetitivas**\n- **Analizar datos** y extraer información valiosa\n\n**🎵 Con IA para audio y video:**\n- **Transcribir audio** automáticamente\n- **Traducir y agregar subtítulos** a videos\n- **Editar videos básicos** con herramientas simplificadas\n- **Crear voces en off** con voces sintetizadas\n\n**💡 ¿Qué significa esto en la práctica?**\n- **Velocidad 3-10 veces mayor** en muchas tareas\n- **Mejor calidad** con menos esfuerzo\n- **Capacidad de aceptar más proyectos** simultáneamente\n- **Menor cansancio mental** en trabajos repetitivos\n- **Más tiempo para pensar estratégicamente**\n\n**⚠️ Importante:** La IA es una HERRAMIENTA, no un sustituto. Tú aún necesitas:\n- Revisar y ajustar todo lo que la IA produce\n- Agregar tu toque humano y creativo\n- Garantizar la calidad final\n- Comunicarte profesionalmente con clientes\n- Entender el contexto y necesidades específicas\n\n**🎯 Estrategia inteligente:** Usa la IA para hacer el trabajo pesado y repetitivo, y concentra tu energía humana en lo que realmente importa: creatividad, estrategia, comunicación y garantía de calidad.\n\nEsto te coloca por delante del 80% de los freelancers que aún no han adoptado estas herramientas."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Por qué conocer herramientas de IA es una ventaja competitiva para un freelancer principiante?",
+        "options": [
+          { "text": "Porque las plataformas dan descuento a quienes usan IA", "isCorrect": false },
+          { "text": "Porque permite entregar más rápido y con mejor calidad", "isCorrect": true },
+          { "text": "Porque los clientes pagan más si usas IA", "isCorrect": false },
+          { "text": "Porque no necesitas aprender nada más", "isCorrect": false }
+        ],
+        "explanation": "¡Perfecto! La IA te permite ser significativamente más productivo: entregar trabajos más rápido, con mejor calidad consistente, y así aceptar más proyectos o enfocarte en mejorar cada entrega. Esto se traduce directamente en más ganancias y clientes más satisfechos."
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen Completo del Módulo 1",
+        "content": "Vamos a recapitular todo lo que aprendiste en este módulo fundamental:\n\n**✅ Qué es realmente ser freelancer:**\nUn profesional independiente que trabaja por proyecto o tarea específica para múltiples clientes, con flexibilidad de horario y lugar, e ingresos basados en la entrega de resultados.\n\n**✅ Diferencias claras entre modelos de trabajo:**\n- **Empleado con contrato fijo:** Salario garantizado, horarios fijos, menos flexibilidad\n- **Trabajador independiente/consultor:** Trabaja por cuenta propia, puede tener contratos largos\n- **Freelancer:** Trabaja por proyectos específicos, múltiples clientes, máxima flexibilidad\n\n**✅ Cómo los freelancers ganan dinero:**\n1. **Por proyecto:** Precio fijo por la entrega completa\n2. **Por tarea:** Precio por unidad de trabajo\n3. **Por contrato recurrente:** Valor mensual fijo\n4. **Por hora:** Basado en el tiempo trabajado\n\n**✅ El papel de las plataformas de freelancer:**\nIntermediarios que conectan freelancers con clientes, garantizan pagos seguros, ofrecen sistemas de reputación, y cobran una comisión (normalmente 5-20%) por estos servicios.\n\n**✅ Plataformas regionales vs internacionales:**\n- **Regionales/en tu idioma:** Comunicación fácil, menos competencia, moneda local\n- **Internacionales:** Potencial de ganancias mayores, más proyectos, pago en monedas fuertes\n\n**✅ Mitos desmentidos:**\n- No necesitas ser experto para comenzar\n- No es solo para programadores\n- Las plataformas no \"roban\" tu dinero\n- No necesitas grandes inversiones\n- Tú controlas tus horarios\n\n**✅ Tu ventaja competitiva con IA:**\nPuedes usar herramientas de inteligencia artificial para:\n- Ser 3-10 veces más productivo\n- Entregar mejor calidad con menos esfuerzo\n- Aceptar más proyectos\n- Dedicar más tiempo a lo que realmente importa\n\n**🎯 Próximo paso - Módulo 2:**\nAhora que entiendes qué es ser freelancer, vamos a explorar las principales plataformas en detalle y descubrir cuál es la mejor para TÍ comenzar, considerando tu idioma, habilidades y objetivos."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "🏆 Prueba Final del Módulo 1",
+          "sentence": "Un freelancer es un profesional [BLANK] que trabaja por [BLANK] o tarea para [BLANK] clientes. Las plataformas funcionan como [BLANK] que garantizan el [BLANK] y cobran una [BLANK]. Para principiantes, comenzar en plataformas en tu [BLANK] nativo ofrece comunicación más fácil y menos [BLANK].",
+          "correctAnswers": [
+            "independiente",
+            "proyecto",
+            "múltiples",
+            "intermediarios",
+            "pago",
+            "comisión",
+            "idioma",
+            "competencia"
+          ],
+          "options": [
+            "independiente",
+            "proyecto",
+            "múltiples",
+            "intermediarios",
+            "pago",
+            "comisión",
+            "idioma",
+            "competencia",
+            "contratado",
+            "salario",
+            "un",
+            "empleadores",
+            "problema",
+            "tasa",
+            "país",
+            "clientes"
+          ],
+          "explanation": "¡Excelente! Has dominado los conceptos fundamentales del mundo freelancer. Resumiendo: freelancers son independientes que trabajan por proyecto para múltiples clientes. Las plataformas son intermediarios que garantizan pagos seguros a cambio de una comisión. Para principiantes, comenzar en plataformas en tu idioma nativo es estratégico porque facilita la comunicación y reduce la competencia. ¡Estás listo para el próximo módulo!"
+        }
+      }
+    ]
+  },
+  "module2": {
+    "title": "Mapa de las Plataformas",
+    "description": "Dónde está el dinero realmente",
+    "icon": "Map",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🗺️ Las Plataformas de Freelancer - Tu Mapa hacia el Éxito",
+        "content": "Ahora que entiendes qué es ser freelancer, necesitas saber **dónde encontrar clientes de verdad**.\n\nExisten decenas de plataformas diferentes en todo el mundo, pero no todas son iguales. Algunas son mejores para principiantes, otras para profesionales experimentados. Algunas pagan en dólares o euros, otras en monedas locales. Algunas tienen mucha competencia, otras son nichos específicos.\n\n**En este módulo aprenderás detalladamente:**\n- Las 8-10 plataformas más importantes globalmente\n- Pros y contras específicos de cada una\n- Cómo elegir la plataforma correcta según tu nivel, idioma y habilidades\n- Cómo funcionan los pagos en diferentes plataformas\n- Estrategias para usar múltiples plataformas inteligentemente\n\n**⚠️ Importante:** NO necesitas estar en TODAS las plataformas. Es mucho mejor dominar completamente 1-2 plataformas que tener perfiles abandonados o mal llenados en 10 plataformas diferentes. Calidad es mejor que cantidad."
+      },
+      {
+        "type": "text",
+        "title": "🟢 Workana - La Plataforma Líder para Hispano y Lusohablantes",
+        "content": "**Workana** es la plataforma líder en América Latina y una de las mejores opciones para principiantes que hablan español o portugués.\n\n**🌎 Enfoque geográfico:**\nPrincipalmente América Latina (México, Brasil, Argentina, Colombia, Chile, etc.) y España.\n\n**💼 Tipos de proyectos más comunes:**\n- Redacción y contenido\n- Marketing digital y redes sociales\n- Traducción y servicios lingüísticos\n- Diseño gráfico\n- Asistencia virtual\n- Desarrollo web y programación\n\n**💰 Sistema de pago:**\n- Comisión: 10-15% (dependiendo del proyecto)\n- Métodos de retiro: PayPal, Payoneer, transferencia bancaria local\n- Monedas: Dólares americanos y monedas locales (pesos, reales)\n- Protección: Sistema de pago seguro (escrow)\n\n**✅ Ventajas para principiantes:**\n- Todo disponible en español y portugués\n- Clientes comprensivos con freelancers principiantes\n- Proyectos de todos los tamaños y precios\n- Puedes comenzar incluso sin portafolio extenso\n- Comunidad activa y recursos de aprendizaje\n- Sistema de reputación claro y progresivo\n\n**⚠️ Desventajas a considerar:**\n- Comisión relativamente alta (10-15%)\n- Límite de propuestas gratuitas mensuales\n- Algunos clientes ofrecen presupuestos muy bajos\n- Competencia aumentando en la plataforma\n\n**🎯 Consejos específicos para Workana:**\n- Completa 100% tu perfil antes de comenzar\n- Usa tus créditos gratuitos mensuales con sabiduría\n- Enfócate en proyectos con presupuesto definido\n- Construye especialización en un área específica\n- Pide evaluaciones después de cada proyecto concluido\n\n**💡 Ideal para:** Tu primer proyecto freelancer. Ganar experiencia práctica, construir portafolio y conseguir tus primeras evaluaciones positivas en tu idioma nativo."
+      },
+      {
+        "type": "text",
+        "title": "🌐 Upwork - El Gigante Global que Paga en Dólares",
+        "content": "**Upwork** es la plataforma más grande y conocida de freelancers del mundo. Aquí están los clientes con mayores presupuestos, incluyendo grandes empresas y startups internacionales.\n\n**🌎 Enfoque geográfico:**\nGlobal, con fuerte presencia en EE.UU., Europa, Australia y otros mercados desarrollados.\n\n**💼 Tipos de proyectos más comunes:**\n- Desarrollo de software y programación\n- Diseño UX/UI y diseño gráfico\n- Marketing digital y SEO\n- Redacción técnica y creativa\n- Consultoría empresarial\n- Servicios financieros y contables\n\n**💰 Sistema de pago:**\n- Comisión: Escalonada (20% para primeros $500 con un cliente, 10% hasta $10.000, 5% arriba)\n- Métodos de retiro: Transferencia bancaria directa, PayPal, Payoneer, wire transfer\n- Monedas: Principalmente dólares americanos (USD)\n- Protección: Sistema robusto de pago y disputas\n\n**✅ Ventajas principales:**\n- Acceso a clientes internacionales con buenos presupuestos\n- Pagos en dólares americanos (moneda fuerte)\n- Proyectos de alto valor y largo plazo\n- Sistema de protección muy bueno\n- Posibilidad de contratos de largo plazo (por hora o precio fijo)\n- Herramientas avanzadas de colaboración\n\n**⚠️ Desventajas importantes:**\n- Requiere inglés al menos intermedio-avanzado\n- Connects son pagados (compras créditos para enviar propuestas)\n- Competencia feroz con freelancers de todo el mundo\n- Proceso de aprobación de perfil puede ser riguroso\n- Comisión inicial alta (20%)\n\n**🎯 Consejos específicos para Upwork:**\n- Invierte tiempo creando un perfil excelente en inglés\n- Comienza con proyectos pequeños para construir reputación\n- Usa connects estratégicamente (proyectos bien elegidos)\n- Considera la suscripción Plus si lo usarás mucho\n- Enfócate en nichos específicos para destacarte\n\n**💡 Ideal para:** Después de 2-3 meses de experiencia. Cuando ya tienes algunas evaluaciones positivas y dominas el inglés básico para comunicación profesional."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Por qué Workana es mejor que Upwork para un principiante absoluto?",
+        "options": [
+          { "text": "Porque paga más por proyecto", "isCorrect": false },
+          { "text": "Porque no cobra comisión", "isCorrect": false },
+          { "text": "Porque está en tu idioma nativo y tiene menos competencia global", "isCorrect": true },
+          { "text": "Porque tiene más proyectos disponibles", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! Workana permite comenzar sin barrera de idioma (español/portugués) y con menos competencia internacional directa, lo que facilita mucho conseguir los primeros proyectos. Upwork tiene más proyectos, pero también mucha más competencia global."
+      },
+      {
+        "type": "text",
+        "title": "🎨 Fiverr - El Modelo Único de \"Gigs\" o Servicios Predefinidos",
+        "content": "**Fiverr** funciona de forma diferente a otras plataformas: TÚ creas ofertas de servicios predefinidas (llamadas \"gigs\") y los clientes te encuentran y compran directamente.\n\n**🌎 Cómo funciona el modelo Fiverr:**\n1. Creas \"gigs\" - son ofertas de servicio con precio fijo\n2. Optimizas cada gig con títulos, descripciones y palabras clave\n3. Clientes buscan servicios y compran tu gig\n4. Recibes la orden y entregas en el plazo combinado\n5. Sistema de evaluación y niveles (Seller Levels)\n\n**💼 Tipos de servicios más comunes:**\n- Diseño de logos e identidad visual\n- Redacción y traducción\n- Marketing digital y SEO\n- Video y animación\n- Música y audio\n- Programación y tecnología\n\n**💰 Sistema de pago:**\n- Comisión: 20% en todas las ventas\n- Métodos de retiro: PayPal, Payoneer, transferencia bancaria\n- Monedas: Dólares americanos principalmente\n- Sistema: Pago liberado 14 días después de entrega\n\n**✅ Ventajas del modelo Fiverr:**\n- No necesitas enviar propuestas - clientes vienen a ti\n- Puedes crear múltiples gigs para diferentes servicios\n- Pagos internacionales directos\n- Escalable (tu perfil trabaja 24/7)\n- Bueno para servicios repetitivos y bien definidos\n- Sistema de niveles que recompensa buenos vendedores\n\n**⚠️ Desventajas del modelo:**\n- Precios iniciales muy bajos ($5, $10, $20)\n- Competencia feroz en precio\n- Tarda para subir de nivel y cobrar más\n- Comisión de 20% es una de las más altas\n- Clientes pueden ser más exigentes por el precio bajo\n\n**🎯 Consejos específicos para Fiverr:**\n- Crea gigs específicos, no genéricos\n- Usa imágenes y videos de alta calidad en los gigs\n- Ofrece extras (gig extras) para aumentar el valor promedio\n- Responde rápido a mensajes\n- Entrega antes del plazo cuando sea posible\n\n**💡 Ideal para:** Servicios específicos, repetibles y bien definidos. Ejemplo: \"Creo 5 publicaciones para Instagram con copy y hashtags\" por $25."
+      },
+      {
+        "type": "text",
+        "title": "📍 Otras Plataformas Regionales y de Nicho Importantes",
+        "content": "Además de las grandes plataformas globales, existen plataformas regionales y de nicho que pueden ser excelentes opciones:\n\n**🇲🇽🇦🇷🌎 Plataformas Regionales Hispano-Lusófonas:**\n\n**SoyFreelancer (México y América Latina)**\n- Enfocada en el mercado mexicano y latinoamericano\n- Menos competencia que Workana\n- Proyectos principalmente en pesos mexicanos\n- Interfaz en español\n\n**Freelancer.com (versiones regionales)**\n- Plataforma global pero con fuerte presencia regional\n- Mezcla de proyectos locales e internacionales\n- Sistema de concursos (puedes mostrar trabajo antes)\n- Disponible en múltiples idiomas\n\n**GetNinjas (Brasil)**\n- Enfocado en servicios locales presenciales y online\n- Buena opción si dominas portugués\n- Pagos en reales brasileños\n\n**99Freelas (Brasil)**\n- Similar a Workana pero enfocada en Brasil\n- Proyectos en portugués\n- Comunidad brasileña activa\n\n**Malt (Francia y Europa francófona)**\n- Líder en Francia\n- Proyectos de mayor valor\n- Requiere francés fluido\n- Enfoque en profesionales experimentados\n\n**👔 Plataformas de Nicho Específico:**\n\n**Toptal**\n- Exclusiva para el mejor 3% de los freelancers\n- Proceso selectivo riguroso (pruebas y entrevistas)\n- Proyectos de alto valor\n- Enfoque en desarrollo, diseño y finanzas\n\n**SolidGigs**\n- Servicio de curaduría que envía las mejores vacantes\n- Pago mensual por el servicio\n- Ahorra tiempo en la búsqueda\n\n**💡 Estrategia inteligente:** Comienza en 1-2 plataformas regionales en tu idioma. Cuando tengas 5-10 evaluaciones positivas y experiencia, expande a Upwork para proyectos en dólares. Usa Fiverr para servicios estandarizados."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Conecta Plataforma con Característica",
+          "description": "Une cada plataforma con lo que la hace especial",
+          "pairs": [
+            { "left": "Workana", "right": "Líder para hispano y lusohablantes" },
+            { "left": "Upwork", "right": "Mayor plataforma global, paga en dólares" },
+            { "left": "Fiverr", "right": "Modelo de gigs/servicios predefinidos" },
+            { "left": "Freelancer.com", "right": "Sistema de concursos y proyectos" },
+            { "left": "Toptal", "right": "Exclusiva para top 3% de los freelancers" },
+            { "left": "Malt", "right": "Líder en el mercado francófono" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💳 Cómo Funcionan los Pagos en las Diferentes Plataformas",
+        "content": "Entender el flujo del dinero es fundamental para todo freelancer:\n\n**📊 Proceso estándar de pago:**\n\n**1. El cliente paga a la plataforma**\n- El dinero queda \"retenido\" en una cuenta segura (escrow)\n- Esto protege a ambos: cliente recibe trabajo, freelancer recibe pago\n- La plataforma actúa como intermediario financiero\n\n**2. Entregas el trabajo**\n- El cliente revisa y aprueba\n- O pide revisiones dentro del acuerdo\n- Plataformas tienen plazos para aprobación automática\n\n**3. La plataforma libera el pago**\n- Descuenta su comisión\n- Transfiere el valor neto a tu cuenta en la plataforma\n\n**4. Retiras el dinero**\n- **PayPal:** Más rápido, tasas variables, ampliamente aceptado\n- **Payoneer:** Tasas mejores, tarjeta prepago disponible\n- **Transferencia bancaria directa:** Más lento, puede tener tasas bancarias\n- **Cheque:** Opción en algunas plataformas/países (más lento)\n\n**💰 Comisiones comparadas:**\n- **Upwork:** 20% (primeros $500), 10% ($500-$10k), 5% (arriba)\n- **Fiverr:** 20% fijo en todo\n- **Workana:** 10-15% dependiendo del proyecto\n- **Freelancer.com:** 10% o $5 (lo que sea mayor)\n\n**⏱️ Plazos de liberación típicos:**\n- Después de aprobación del cliente: 1-5 días hábiles\n- Período de seguridad: 3-14 días dependiendo de la plataforma\n- Primer pago: Puede tardar más por verificación\n\n**⚠️ REGLA DE ORO IMPORTANTE:**\n- **NUNCA aceptes pagar fuera de la plataforma al inicio**\n- Es la forma más común de estafa contra freelancers\n- Pierdes toda protección de la plataforma\n- Solo considera pagos directos con clientes establecidos y confiables\n- La protección de la plataforma VALE la comisión, especialmente al comienzo"
+      },
+      {
+        "type": "quiz",
+        "question": "¿Por qué es peligroso aceptar pago fuera de la plataforma cuando eres principiante?",
+        "options": [
+          { "text": "Porque la plataforma puede expulsarte", "isCorrect": false },
+          { "text": "Porque pierdes la protección contra estafas e impagos", "isCorrect": true },
+          { "text": "Porque pagas más impuestos", "isCorrect": false },
+          { "text": "Porque el cliente no puede dejar evaluación", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! La principal razón es que pierdes toda la protección que la plataforma ofrece. Si el cliente no paga, no tendrás a quién reclamar o recurrir. La plataforma actúa como garantía de pago."
+      },
+      {
+        "type": "text",
+        "title": "🎯 ¿Qué Plataforma Elegir? Guía Paso a Paso",
+        "content": "Aquí está la recomendación detallada según tu nivel, idiomas y objetivos:\n\n**🟢 Nivel 1: Principiante Absoluto (0-3 meses de experiencia)**\n**Recomendación principal:**\n→ **Workana** como plataforma principal (o similar regional)\n→ Enfoque total en completar perfil y conseguir primeras evaluaciones\n\n**Opcional complementario:**\n→ **Fiverr** con 1-2 gigs muy específicos y bien hechos\n→ No intentes muchas plataformas al mismo tiempo\n\n**🎯 Objetivo del nivel:** Conseguir 3-5 proyectos concluidos con evaluaciones positivas.\n\n**🟡 Nivel 2: Principiante con Experiencia (3-6 meses, algunas evaluaciones)**\n**Recomendación principal:**\n→ Mantén Workana activo\n→ Crea perfil completo en **Upwork** (en inglés)\n→ Comienza a buscar clientes internacionales\n\n**Estrategia adicional:**\n→ Considera especializarte más\n→ Comienza a subir precios gradualmente\n\n**🎯 Objetivo del nivel:** Conseguir primer proyecto internacional, establecer nicho.\n\n**🔵 Nivel 3: Freelancer Establecido (6+ meses, portafolio sólido)**\n**Recomendación principal:**\n→ Enfoque en **Upwork** para proyectos premium\n→ Usa Workana para clientes recurrentes y regionales\n→ Optimiza Fiverr para servicios estandarizados\n\n**Expansión posible:**\n→ Plataformas de nicho (Toptal si calificas)\n→ Canales propios (sitio web, LinkedIn, red de contactos)\n\n**🎯 Objetivo del nivel:** Aumentar valor promedio por proyecto, crear ingresos estables.\n\n**🌍 Considerando tus idiomas:**\n- **Solo tu idioma nativo:** Enfócate 100% en plataformas regionales\n- **Idioma nativo + inglés básico:** Comienza regional, expande a Upwork después\n- **Inglés fluido:** Puedes comenzar directamente en Upwork\n\n**💡 Regla de oro definitiva:**\nNo intentes estar en todas las plataformas simultáneamente. Domina UNA primero, gana experiencia y evaluaciones, luego expande gradualmente. Calidad de presencia es mejor que cantidad de perfiles."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Tu Plan de Acción Personalizado",
+          "sentence": "Como principiante, voy a comenzar en [BLANK] porque está en mi [BLANK] nativo. Voy a enfocarme en conseguir mis primeros [BLANK] proyectos con evaluaciones positivas. Después de tener esa base, crearé perfil en [BLANK] para expandir al mercado internacional.",
+          "correctAnswers": ["Workana", "idioma", "3-5", "Upwork"],
+          "options": ["Workana", "idioma", "3-5", "Upwork", "Fiverr", "inglés", "10-15", "Freelancer"],
+          "explanation": "¡Perfecto! Esta es la ruta recomendada: dominar una plataforma en tu idioma nativo primero, construir una base sólida de experiencia y reputación, y solo entonces expandir al mercado internacional donde puedes ganar más."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen Completo del Módulo 2",
+        "content": "**Lo que aprendiste en este módulo esencial:**\n\n**✅ Las principales plataformas y sus modelos:**\n- **Workana** = Mejor para comenzar (tu idioma, América Latina/España)\n- **Upwork** = Para crecimiento internacional (dólares, clientes globales)\n- **Fiverr** = Modelo único (gigs predefinidos, clientes vienen a ti)\n- **Otras regionales** = Menos competencia, buen punto de partida\n\n**✅ Cómo funcionan los pagos:**\n- Siempre por la plataforma al inicio (protección contra estafas)\n- PayPal o Payoneer generalmente son las mejores opciones para retiros\n- La comisión vale la pena por la seguridad y acceso a clientes\n- Nunca aceptes pagos directos sin relación establecida\n\n**✅ Comisiones comparadas:**\n- Upwork: 20% → 10% → 5% (progresiva)\n- Fiverr: 20% fijo\n- Workana: 10-15%\n- Freelancer.com: 10% o $5 mínimo\n\n**✅ Tu estrategia personalizada:**\n1. **Fase 1:** Comienza en Workana (o similar en tu idioma)\n2. **Fase 2:** Consigue 5-10 evaluaciones positivas y experiencia\n3. **Fase 3:** Expande a Upwork para proyectos internacionales\n4. **Fase 4:** Usa Fiverr para servicios estandarizados\n\n**✅ Factores de elección:**\n- Tus idiomas (nativo + inglés = más opciones)\n- Tu nivel de experiencia\n- Tipo de servicios que ofreces\n- Objetivos de ganancia\n\n**🎯 Próximo módulo - Módulo 3:**\nAhora que sabes DÓNDE buscar clientes, vamos a aprender CÓMO crear un perfil que realmente VENDA y destaque entre miles de otros freelancers."
+      }
+    ]
+  },
+  "module3": {
+    "title": "Creando Tu Cuenta Correctamente",
+    "description": "Un perfil malo no recibe propuestas",
+    "icon": "UserPlus",
+    "steps": [
+      {
+        "type": "text",
+        "title": "👤 Tu Perfil es Tu Escaparate Digital",
+        "content": "Imagina que tu perfil de freelancer es como el escaparate de una tienda física. Cuando un cliente potencial visita una plataforma, ve decenas o cientos de perfiles. Tu perfil necesita destacar inmediatamente.\n\n**Si tu escaparate digital está:**\n- **Desorganizado o confuso** → Los clientes no entienden lo que ofreces\n- **Pareciendo amateur o incompleto** → Transmite falta de profesionalismo\n- **Genérico e igual a todos** → No sobresale en la multitud\n- **Sin elementos visuales atractivos** → No llama la atención\n\n**La matemática es simple:**\n**Perfil malo = Propuestas ignoradas = Cero proyectos = Cero dinero**\n**Perfil excelente = Más visualizaciones = Más propuestas aceptadas = Más proyectos = Más dinero**\n\n**En este módulo aprenderás paso a paso:**\n- Qué poner (y qué definitivamente NO poner) en cada sección de tu perfil\n- Cómo escribir un título que vende en menos de 3 segundos\n- Cómo crear una biografía que convierta visitantes en clientes\n- Estrategias para crear un portafolio impresionante incluso sin experiencia previa\n- Técnicas para conseguir tus primeras evaluaciones positivas rápidamente\n- Lista de verificación completa para comprobar si tu perfil está listo para ganar\n\n**La buena noticia:** Con las técnicas correctas que aprenderás aquí, es posible crear un perfil profesional y atractivo en 2-3 horas de trabajo enfocado, incluso si es tu primer perfil freelancer y no tienes experiencia formal anterior."
+      },
+      {
+        "type": "text",
+        "title": "🎯 El Título Profesional - Tu Primer Contacto con el Cliente",
+        "content": "El título de tu perfil es lo PRIMERO que cualquier cliente ve cuando encuentra tu perfil en una búsqueda. Tienes aproximadamente 3 segundos para convencerlo de continuar leyendo o hacer clic para saber más.\n\n**¿Por qué el título es tan importante?**\n- Aparece en resultados de búsqueda dentro de las plataformas\n- Se muestra cuando envías propuestas\n- Define inmediatamente las expectativas del cliente\n- Filtra clientes correctos para ti y tú para clientes correctos\n\n**❌ Títulos que NO funcionan (evítalos a toda costa):**\n- \"Freelancer buscando oportunidades\" → Parece desesperado, no dice nada\n- \"Estudiante con ganas de aprender\" → Se enfoca en ti, no en el cliente\n- \"Hago de todo un poco\" → Parece amateur, sin especialización\n- \"Profesional multidisciplinario\" → Muy vago, el cliente no sabe qué haces realmente\n- \"Trabajador independiente\" → Término muy genérico\n- \"Especialista en muchas áreas\" → Suena exagerado y poco creíble\n\n**✅ Títulos que VENDEN y funcionan (úsalos como inspiración):**\n- \"Redactor de contenido especializado en blogs de tecnología y SaaS\"\n- \"Diseñador gráfico para publicaciones en redes sociales y branding visual\"\n- \"Asistente virtual para organización de correos y agendamientos\"\n- \"Editor de video para YouTube, TikTok y Reels\"\n- \"Traductor profesional inglés-español para documentos técnicos\"\n- \"Especialista en marketing digital para pequeñas empresas\"\n- \"Desarrollador WordPress para sitios responsivos y optimizados\"\n\n**📝 La fórmula ganadora para crear tu título:**\n**[Lo que haces específicamente] + [Para quién/nicho específico] + [Beneficio o especialización opcional]**\n\n**Ejemplos de la fórmula en acción:**\n1. **Lo que haces:** \"Redactor de contenido\"\n2. **Para quién:** \"para startups de tecnología\"\n3. **Beneficio/especialización:** \"especializado en SEO y conversión\"\n**Título final:** \"Redactor de contenido para startups de tecnología | SEO y conversión\"\n\n**💡 Dato práctico con IA:**\nUsa herramientas como ChatGPT para generar opciones:\n\"Dame 10 opciones de título profesional para un freelancer que ofrece [tu servicio]. Los títulos deben ser específicos, incluir un nicho o tipo de cliente, y tener máximo 60 caracteres. Ejemplo de formato: 'Redactor de contenido para blogs de viajes y turismo'.\"\n\n**🔍 Prueba tu título:**\nPídele a un amigo: \"Mirando solo este título, ¿sabrían exactamente lo que hago y para quién?\" Si la respuesta es no, refínalo."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Qué título es más efectivo para un freelancer principiante queriendo destacarse?",
+        "options": [
+          { "text": "Estudiante universitario buscando experiencia inicial", "isCorrect": false },
+          { "text": "Redactor de contenido especializado en blogs de tecnología para startups", "isCorrect": true },
+          { "text": "Hago de todo: diseño, textos, videos, y mucho más", "isCorrect": false },
+          { "text": "Profesional creativo, proactivo y dedicado", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! Un título específico como 'Redactor de contenido especializado en blogs de tecnología para startups' dice exactamente lo que haces (redacción), tu nicho (tecnología), y tu cliente ideal (startups). Esto hace que clientes buscando exactamente eso te encuentren fácilmente, mientras filtra clientes que no son ideales."
+      },
+      {
+        "type": "text",
+        "title": "📝 La Biografía que Convierte - Tu Historia de Ventas",
+        "content": "Tu biografía (o descripción del perfil) es donde cuentas tu historia profesional y convences al cliente de que eres la persona correcta para el trabajo. Esta no es tu biografía personal, es tu biografía de VENTAS.\n\n**La biografía perfecta responde 4 preguntas cruciales en las primeras 150-200 palabras:**\n\n**1. ¿Qué haces EXACTAMENTE?**\nNo seas vago. En lugar de \"hago marketing\", di:\n\"Creo estrategias de contenido para redes sociales que aumentan el engagement en un 40%.\"\n\n**2. ¿Para QUIÉN haces esto?**\nEspecifica tu cliente ideal:\n\"Trabajo principalmente con pequeñas empresas del sector de bienestar y coaches que quieren expandir su alcance online.\"\n\n**3. ¿Qué RESULTADOS entregas?**\nEnfócate en beneficios, no solo en tareas:\n\"Mis clientes normalmente ven un aumento del 30% en el tráfico del sitio y un 25% más de leads en 3 meses.\"\n\n**4. ¿CÓMO trabajas?**\nDescribe tu proceso o enfoque único:\n\"Uso un enfoque basado en datos, analizando métricas clave antes de crear contenido personalizado.\"\n\n**📋 Estructura recomendada para biografía ganadora:**\n\n**Párrafo 1 (Gancho + Lo que haces + Para quién):** 3-4 líneas\nComienza con una afirmación fuerte sobre el valor que ofreces. Luego, di exactamente qué haces y para quién.\n\n**Párrafo 2 (Resultados + Cómo trabajas):** 3-4 líneas\nMenciona resultados concretos (incluso si son objetivos que ayudas a alcanzar). Describe brevemente tu metodología.\n\n**Párrafo 3 (Por qué elegirte + Llamada a la acción):** 2-3 líneas\nDestaca 1-2 diferenciadores. Termina con una invitación clara al siguiente paso.\n\n**📝 Ejemplo completo de biografía efectiva:**\n\n\"Ayudo a marcas de productos naturales a conectarse con su audiencia a través de contenido auténtico en redes sociales. Me especializo en crear estrategias de contenido para Instagram y TikTok que aumentan el engagement y construyen comunidades leales.\n\nCon un enfoque centrado en la autenticidad y storytelling, mis clientes normalmente ven un crecimiento del 40-60% en seguidores comprometidos dentro de los primeros 2 meses. Trabajo de cerca con cada cliente para entender sus valores y traducirlos en contenido que resuena.\n\nSoy apasionado por ayudar a marcas con propósito a brillar online. ¿Conversamos sobre cómo puedo ayudar a tu marca a crecer?\"\n\n**❌ Errores comunes a evitar en la biografía:**\n- Enfocarse demasiado en ti (\"Soy apasionado por...\", \"Desde niño yo...\")\n- Listar 20 habilidades diferentes (parece que no eres bueno en nada específico)\n- Textos genéricos que podrían ser de cualquier freelancer\n- Mentir o exagerar experiencia\n- Escribir párrafos muy largos (divídelos en bloques cortos)\n- Olvidar incluir una llamada a la acción\n\n**💡 Dato de IA para biografía:**\n\"Actúa como un copywriter especializado en perfiles freelancer. Crea una biografía para un freelancer que ofrece [tu servicio] para [tu nicho]. La biografía debe: 1) Comenzar con un gancho fuerte, 2) Especificar exactamente qué hace y para quién, 3) Mencionar resultados o beneficios, 4) Incluir una llamada a la acción. Usa tono profesional pero acogedor.\""
+      },
+      {
+        "type": "text",
+        "title": "🚫 Lo que NUNCA Debe Poner en Tu Perfil - Errores que Destruyen Credibilidad",
+        "content": "Algunos errores en perfiles de freelancers son tan graves que prácticamente garantizan que no serás contratado. Vamos a cubrir todo lo que debes evitar:\n\n**❌ FOTOS INADECUADAS (Uno de los errores más comunes):**\n- **Selfies con filtros de Instagram/Snapchat** → Parece poco profesional\n- **Fotos de fiesta, playa o eventos sociales** → No es el contexto adecuado\n- **Sin foto alguna** → Parece perfil falso o que está escondiendo algo\n- **Foto con otras personas** → ¿Quién eres tú?\n- **Foto de baja calidad, oscura o pixelada** → Transmite descuido\n- **Foto con expresión facial inadecuada** → Sonrisa exagerada, cara seria, etc.\n- **Usar logos o imágenes en lugar de tu foto** → Las plataformas son para personas\n\n**✅ SOLUCIÓN para foto profesional (sin gastar dinero):**\n- Usa tu celular con buena luz natural (cerca de una ventana durante el día)\n- Fondo neutro y limpio (pared lisa, sin distracciones)\n- Vístete como si fuera para una reunión de trabajo casual\n- Sonríe naturalmente, mirando a la cámara\n- Foto de la cintura para arriba o solo rostro\n- Pídele a alguien que tome la foto o usa un trípode simple\n\n**❌ INFORMACIÓN PERSONAL EXCESIVA O INAPROPIADA:**\n- \"Soy madre/padre de 3 hijos y trabajo en casa\" → Información irrelevante\n- \"Estoy desempleado hace 6 meses y necesito ingresos\" → Enfoque erróneo\n- \"Necesito dinero urgentemente para [razón personal]\" → Desesperación\n- Detalles sobre problemas de salud, situación familiar complicada, etc.\n- Opiniones políticas, religiosas o controversias\n\n**✅ SOLUCIÓN:** Mantén el enfoque 100% en lo profesional. El cliente quiere saber cómo puedes resolver su problema, no tu historia personal.\n\n**❌ DESESPERACIÓN O FALTA DE CONFIANZA:**\n- \"Acepto cualquier tipo de trabajo\" → Parece desesperado\n- \"Precios súper bajos, el más barato del mercado\" → Desvaloriza tu trabajo\n- \"Puedo comenzar INMEDIATAMENTE, 24 horas al día\" → Parece poco selectivo\n- \"Por favor dame una oportunidad, soy nuevo pero aprendo rápido\" → Pidiendo en lugar de ofreciendo\n- \"¿Necesitas algo? ¡Estoy disponible!\" → Genérico y poco confiable\n\n**✅ SOLUCIÓN:** Comunica valor y confianza. \"Ofrezco [servicio] especializado para [nicho] que resulta en [beneficio].\"\n\n**❌ MENTIRAS O EXAGEROS:**\n- \"10 años de experiencia\" (cuando tienes 6 meses) → Puede descubrirse\n- \"Especialista en...\" (cuando estás aprendiendo) → Expectativas irreales\n- Portafolio con trabajos de otras personas → Fraude claro\n- Certificaciones falsas o inventadas → Consecuencias graves\n- Números falsos de resultados → Difícil de sostener\n\n**✅ SOLUCIÓN:** Sé honesto sobre tu nivel. \"Me estoy especializando en...\" o \"Con experiencia en proyectos como...\" es mucho más creíble que mentiras.\n\n**❌ LENGUAJE NO PROFESIONAL:**\n- Jerga excesiva o lenguaje muy casual\n- Errores gramaticales o ortográficos graves\n- Emojis excesivos (1-2 está bien, 10 es demasiado)\n- Texto TODO EN MAYÚSCULAS (parece que estás gritando)\n- Abreviaturas de internet (tú, xq, td, etc.)\n\n**✅ SOLUCIÓN:** Usa lenguaje profesional pero accesible. Revisa tu texto o usa herramientas como Grammarly.\n\n**💡 Regla general:** Si tienes dudas si debes incluir algo, pregúntate: \"¿Esto ayuda al cliente a entender cómo puedo resolver su problema?\" Si la respuesta es no, no lo incluyas."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Elementos del Perfil - Pon a Prueba Tu Conocimiento",
+          "description": "Identifica lo que es bueno (✅) y lo que es malo (❌) en un perfil freelancer",
+          "pairs": [
+            {
+              "left": "Foto profesional con fondo neutro y buena iluminación",
+              "right": "✅ Bueno - transmite profesionalismo y confianza"
+            },
+            {
+              "left": "Título genérico: 'Freelancer versátil que hace de todo'",
+              "right": "❌ Malo - no comunica valor específico"
+            },
+            {
+              "left": "Biografía enfocada en los resultados para el cliente",
+              "right": "✅ Bueno - muestra que entiendes las necesidades del cliente"
+            },
+            {
+              "left": "'Necesito urgentemente este trabajo para pagar mis cuentas'",
+              "right": "❌ Malo - transmite desesperación y enfoque erróneo"
+            },
+            { "left": "Especialización clara en un nicho específico", "right": "✅ Bueno - te posiciona como experto" },
+            {
+              "left": "Lista de 15 habilidades diferentes sin profundidad",
+              "right": "❌ Malo - parece superficial en todas"
+            },
+            {
+              "left": "Llamada a la acción clara al final de la biografía",
+              "right": "✅ Bueno - guía al cliente al siguiente paso"
+            },
+            {
+              "left": "Selfie con filtro de animal de Instagram",
+              "right": "❌ Malo - parece amateur y poco profesional"
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "📁 El Problema del Portafolio - Soluciones para Quienes No Tienen Experiencia",
+        "content": "\"Pero no tengo trabajos anteriores para mostrar...\"\n\nEsta es la objeción más común y comprensible de freelancers principiantes. La buena noticia: existen soluciones efectivas que funcionan.\n\n**¿Por qué el portafolio es importante?**\n- Prueba tus habilidades en la práctica, no solo en palabras\n- Da confianza al cliente sobre lo que puede esperar\n- Muestra tu estilo y enfoque\n- Diferenciador competitivo importante\n\n**🎯 Estrategia 1: Crea Proyectos Ficticios de Alta Calidad**\nEsta es la solución más efectiva para principiantes. La idea no es engañar, sino demostrar capacidad.\n\n**Paso a paso para crear proyectos ficticios:**\n1. **Elige 3-4 tipos de trabajo** que realmente quieras ofrecer\n2. **Inventa un cliente ficticio** con nombre, industria y desafíos realistas\n3. **Crea un brief (descripción) del proyecto** como si fuera real\n4. **Ejecuta el trabajo completo** siguiendo ese brief\n5. **Documenta el proceso y resultado** con explicaciones\n\n**📝 Ejemplo detallado para redactor:**\n- **Cliente ficticio:** \"EcoFit\" - marca de ropa deportiva sostenible\n- **Desafío:** Necesitan aumentar el tráfico orgánico del blog\n- **Brief:** Crear 3 artículos de blog sobre: 1) Beneficios del ejercicio al aire libre, 2) Cómo elegir ropa deportiva sostenible, 3) Rutina de ejercicios para principiantes\n- **Resultado:** Crea los 3 artículos completos (800-1000 palabras cada uno)\n- **Presentación:** Incluye título, introducción, cuerpo, conclusión, llamada a la acción\n\n**🎯 Estrategia 2: Ofrece Trabajo Pro Bono o Con Descuento**\n- Ofrece tu servicio a 1-2 amigos, familiares o pequeños negocios\n- Pide permiso para usar como ejemplo en tu portafolio\n- Ideal para ganar experiencia real y referencias\n\n**🎯 Estrategia 3: Participa en Proyectos Personales o Colaborativos**\n- Crea un blog personal sobre un tema que dominas\n- Participa en proyectos open source (para desarrolladores)\n- Crea contenido para tus propias redes sociales profesionalmente\n\n**🎯 Estrategia 4: Usa Trabajos Académicos o Personales Relevantes**\n- Trabajos de la universidad o cursos (si son relevantes)\n- Proyectos personales que demuestren tus habilidades\n- Contenido que creaste por hobby pero con calidad profesional\n\n**💡 Dato de Oro con IA:**\nUsa herramientas de IA para acelerar la creación de proyectos ficticios:\n\n**Ejemplo de prompt para ChatGPT:**\n\"Actúa como un gerente de proyecto creando un brief ficticio para un freelancer. Crea un proyecto completo para un redactor de contenido con:\n1. Nombre de la empresa ficticia y sector\n2. Desafío u objetivo de negocio\n3. Público objetivo detallado\n4. 3-4 temas específicos para artículos\n5. Tono de voz y requisitos de estilo\n6. Métricas de éxito deseadas\"\n\nDespués, usa ese brief para crear el contenido real. Documenta tanto el brief como tu ejecución.\n\n**📊 Cómo presentar proyectos en el portafolio:**\nPara cada proyecto en el portafolio, incluye:\n1. **Título del proyecto**\n2. **Cliente (o 'Proyecto de Ejemplo' si es ficticio)**\n3. **Desafío/Objetivo** (qué necesitaba resolverse)\n4. **Tu solución** (qué hiciste)\n5. **Resultado/Impacto** (si aplica)\n6. **Muestras del trabajo** (imágenes, textos, enlaces)\n7. **Testimonio** (si tienes, aunque sea informal)\n\n**⚠️ Importante:** Si usas proyectos ficticios, puedes mencionar \"Proyecto de ejemplo\" o \"Trabajo conceptual\" para ser transparente. El enfoque está en la calidad del trabajo, no en el origen."
+      },
+      {
+        "type": "quiz",
+        "question": "Si eres un freelancer principiante sin experiencia previa, ¿cuál es el mejor enfoque para crear un portafolio?",
+        "options": [
+          { "text": "Esperar hasta conseguir tu primer cliente real para tener algo que mostrar", "isCorrect": false },
+          { "text": "Copiar trabajos de otros freelancers y presentarlos como tuyos", "isCorrect": false },
+          { "text": "Crear proyectos ficticios de alta calidad que demuestren tus habilidades", "isCorrect": true },
+          { "text": "Dejar la sección de portafolio vacía y confiar solo en la biografía", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! Proyectos ficticios bien ejecutados demuestran tus habilidades tan efectivamente como proyectos reales para clientes. La calidad del trabajo es lo que importa para el cliente, no necesariamente si el proyecto fue pagado. Este enfoque muestra proactividad y profesionalismo."
+      },
+      {
+        "type": "text",
+        "title": "⭐ Las Primeras Evaluaciones - La Moneda Más Valiosa del Freelancer",
+        "content": "Las evaluaciones (reviews, ratings) son la moneda del mundo freelancer. Sin evaluaciones, es extremadamente difícil conseguir proyectos, especialmente como principiante. Los clientes miran las evaluaciones como prueba social de que eres confiable y competente.\n\n**¿Por qué las primeras evaluaciones son tan críticas?**\n- **Prueba social:** Muestra que otros confiaron en ti y quedaron satisfechos\n- **Reducción de riesgo:** El cliente se siente más seguro contratando a alguien con historial\n- **Diferenciación:** En plataformas con muchos freelancers, las evaluaciones te destacan\n- **Algoritmo:** Muchas plataformas favorecen perfiles con buenas evaluaciones en las búsquedas\n\n**🎯 Estrategia de 4 Pasos para Conquistar tus Primeras Evaluaciones:**\n\n**Paso 1: Posiciónate estratégicamente con precios iniciales**\n- Ofrece precios 20-30% por debajo del mercado para tus PRIMEROS 2-3 proyectos solamente\n- Comunica claramente que es un \"precio de lanzamiento\" u \"oferta para nuevos clientes\"\n- Objetivo: Remover la barrera de riesgo para el primer cliente\n- **Importante:** Esto es una INVERSIÓN estratégica, no tu precio permanente\n\n**Paso 2: Supera expectativas deliberadamente**\n- Entrega MÁS valor del que prometiste:\n  - Si prometiste 3 artículos, entrega 4 (o un bono)\n  - Si el plazo era 7 días, entrega en 5\n  - Incluye insights extras o recomendaciones no solicitadas\n  - Presenta el trabajo de forma impecable (bien formateado, sin errores)\n- **Por qué funciona:** Los clientes que reciben más de lo que esperan quedan encantados y más propensos a dejar evaluaciones entusiastas\n\n**Paso 3: Sé ejemplar en la comunicación**\n- Responde mensajes rápidamente (dentro de unas horas)\n- Sé educado, profesional y positivo en todas las interacciones\n- Haz preguntas para entender completamente las necesidades\n- Mantén al cliente actualizado sobre el progreso\n- Agradece por la oportunidad genuinamente\n- **Resultado:** Los clientes se sienten valorados y atendidos, no solo como una transacción\n\n**Paso 4: Pide la evaluación en el momento correcto y de la forma correcta**\n- **Momento:** Después de que el cliente confirme satisfacción con la entrega\n- **Forma:** Educada, profesional y poniendo el enfoque en el valor para ti\n\n**📝 Plantilla de mensaje para pedir evaluación:**\n\"Hola [Nombre del Cliente],\n\n¡Me alegra mucho que te haya gustado el trabajo entregado! 😊\n\nSi tienes un momento, agradecería enormemente si pudieras dejar una evaluación sobre nuestra colaboración. Tu feedback es extremadamente valioso para mi crecimiento como profesional y me ayuda a conectar con más clientes increíbles como tú.\n\n[Aquí puedes incluir el enlace directo para dejar evaluación, si aplica]\n\nMuchas gracias nuevamente por la oportunidad de trabajar juntos.\n\nAtentamente,\n[Tu Nombre]\"\n\n**🎯 Estrategias avanzadas para conseguir evaluaciones:**\n- **Ofrece un pequeño bono** después de la evaluación (ej: checklist relacionado)\n- **Pide feedback específico** (\"¿Qué fue lo que más te gustó del proceso?\")\n- **Facilita el proceso** explicando cómo dejar la evaluación\n- **Seguimiento educado** si no responden en 3-5 días (solo una vez)\n\n**⚠️ Qué NO hacer al pedir evaluaciones:**\n- Pedir antes de la entrega o aprobación\n- Insistir o presionar al cliente\n- Ofrecer pago por evaluaciones (contra las reglas de las plataformas)\n- Pedir a amigos que creen perfiles falsos para evaluarte (puede resultar en expulsión)\n- Fingir ser otra persona para auto-evaluarte\n\n**💡 Dato importante:** Algunos clientes simplemente no dejan evaluaciones, y eso es normal. No lo tomes personal. Enfócate en hacer un trabajo excelente para los que sí dejan."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Tu Estrategia de Evaluaciones - Completa los Espacios",
+          "sentence": "Para conseguir mis primeras evaluaciones, voy a ofrecer precios [BLANK] en los primeros [BLANK] proyectos como inversión estratégica. Voy a entregar [BLANK] valor del que prometí para superar expectativas. Después de aprobación, voy a [BLANK] la evaluación de forma educada y profesional.",
+          "correctAnswers": ["reducidos", "2-3", "más", "pedir"],
+          "options": [
+            "reducidos",
+            "2-3",
+            "más",
+            "pedir",
+            "altos",
+            "5-10",
+            "menos",
+            "exigir",
+            "medios",
+            "10+",
+            "igual",
+            "ignorar"
+          ],
+          "explanation": "¡Perfecto! Esta estrategia comprobada te posiciona para el éxito: precios reducidos inicialmente eliminan la barrera para primeros clientes, entregar más valor crea encanto, y pedir la evaluación en el momento correcto maximiza tus posibilidades de conseguir evaluaciones positivas que atraerán más clientes en el futuro."
+        }
+      },
+      {
+        "type": "text",
+        "title": "✅ Lista de Verificación Completa del Perfil Perfecto - No Saltees Ningún Ítem",
+        "content": "Antes de comenzar a enviar propuestas para proyectos, verifica cuidadosamente CADA ítem de esta lista. Un perfil 100% completo tiene significativamente más probabilidades de éxito.\n\n**📷 SECCIÓN FOTO/PRESENTACIÓN VISUAL:**\n☐ **Foto profesional:** Buena calidad, iluminación adecuada, fondo neutro\n☐ **Vestimenta apropiada:** Como si fuera para una reunión de trabajo\n☐ **Expresión facial:** Sonrisa natural y mirando a la cámara\n☐ **Solo tú:** Sin otras personas, animales o distracciones en el cuadro\n☐ **Formato correcto:** Generalmente cuadrado, optimizado para las plataformas\n\n**📝 SECCIÓN TÍTULO E IDENTIFICACIÓN:**\n☐ **Título específico:** Comunica claramente qué haces y para quién\n☐ **Incluye nicho/especialización:** No es genérico\n☐ **Tamaño adecuado:** 40-60 caracteres idealmente\n☐ **Sin clichés:** Evita \"especialista\", \"gurú\", \"ninja\" a menos que realmente aplique\n☐ **Palabras clave relevantes:** Incluye términos que los clientes buscan\n\n**📄 SECCIÓN BIOGRAFÍA/DESCRIPCIÓN:**\n☐ **Estructura clara:** Párrafos cortos y bien organizados\n☐ **Gancho fuerte:** Primera línea captura atención\n☐ **Explica qué haces:** Específico, no vago\n☐ **Define cliente ideal:** Para quién trabajas mejor\n☐ **Menciona resultados/beneficios:** Enfoque en el valor para el cliente\n☐ **Incluye diferencial:** Qué te hace único\n☐ **Llamada a la acción clara:** Invitación al siguiente paso\n☐ **Sin errores:** Gramática y ortografía impecables\n☐ **Tono adecuado:** Profesional pero accesible\n\n**📁 SECCIÓN PORTAFOLIO/HABILIDADES:**\n☐ **Mínimo 3 ejemplos:** Proyectos completos bien presentados\n☐ **Variedad dentro del nicho:** Muestra rango de habilidades\n☐ **Descripciones completas:** Contexto, desafío, solución, resultado\n☐ **Calidad visual:** Imágenes/muestras bien presentadas\n☐ **Habilidades listadas:** Las principales para tu servicio\n☐ **Nivel de habilidad honesto:** No exageres\n\n**🎓 SECCIÓN EXPERIENCIA/EDUCACIÓN (si aplica):**\n☐ **Experiencia relevante:** Incluso si no es como freelancer\n☐ **Logros medibles:** Resultados cuantificables cuando sea posible\n☐ **Educación/certificaciones:** Cualquier entrenamiento relevante\n☐ **Proyectos notables:** Destaca trabajos importantes\n\n**⚙️ SECCIÓN CONFIGURACIONES TÉCNICAS:**\n☐ **Disponibilidad actualizada:** Horarios realistas\n☐ **Tarifa horaria/proyecto definida:** Precios claros (o rango)\n☐ **Métodos de pago configurados:** Todos los que aceptas\n☐ **Idiomas definidos:** Con nivel de competencia honesto\n☐ **Ubicación/zona horaria correcta:** Importante para clientes internacionales\n☐ **Perfil 100% completo:** Barra de progreso de la plataforma al máximo\n\n**🔗 SECCIÓN ENLACES Y CONTACTOS (si está permitido):**\n☐ **Sitio web/portafolio externo:** Si tienes\n☐ **LinkedIn actualizado:** Perfil profesional completo\n☐ **Otras plataformas:** Enlaces a otros perfiles relevantes\n☐ **Solo enlaces profesionales:** Nada personal o irrelevante\n\n**✅ VERIFICACIÓN FINAL:**\n☐ **Pide feedback:** Muestra a 1-2 personas y pide opinión honesta\n☐ **Prueba en diferentes dispositivos:** Ve cómo aparece en celular y computadora\n☐ **Verifica enlaces:** Todos funcionando correctamente\n☐ **Actualiza regularmente:** El perfil no es estático, mejóralo con el tiempo\n\n**⏱️ Tiempo estimado para completar todo:** 2-4 horas de trabajo enfocado. Este tiempo es una INVERSIÓN que retornará muchas veces en proyectos conseguidos."
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen Completo del Módulo 3 - Tu Perfil de Éxito",
+        "content": "**🎉 ¡Felicidades! Completaste el módulo más importante para tu inicio como freelancer. Aquí está todo lo que aprendiste resumido:**\n\n**✅ La mentalidad correcta:** Tu perfil es tu ESCAPARATE DIGITAL. Debe vender tus servicios antes incluso de conversar con un cliente.\n\n**✅ El título perfecto:**\n- Específico + Nicho + Beneficio\n- Ejemplo: \"Redactor de contenido para startups de tecnología | SEO y conversión\"\n- Fórmula: [Lo que haces] + [Para quién] + [Especialización]\n\n**✅ La biografía que convierte:**\n- Responde: ¿Qué haces? ¿Para quién? ¿Qué resultados? ¿Cómo?\n- Estructura: Gancho → Qué haces/para quién → Resultados/cómo → Diferencial → Llamada a la acción\n- Enfoque 100% en el cliente y en los beneficios para él\n\n**✅ Lo que NUNCA poner:**\n- Fotos no profesionales (selfies con filtro, fotos sociales)\n- Información personal excesiva o irrelevante\n- Lenguaje de desesperación (\"necesito trabajo\", \"acepto cualquier cosa\")\n- Mentiras o exageros sobre experiencia\n- Texto genérico que podría ser de cualquier persona\n\n**✅ Solución para portafolio sin experiencia:**\n- Crea proyectos ficticios de alta calidad\n- Documéntalos como si fueran reales (brief, ejecución, resultado)\n- Sé transparente de que son ejemplos, no clientes pagados\n- Usa IA para acelerar la creación de briefs y contenido\n- Alternativas: trabajos pro bono, proyectos personales, trabajos académicos\n\n**✅ Estrategia para primeras evaluaciones:**\n- Precios reducidos para 2-3 primeros proyectos (inversión)\n- Entrega MÁS de lo que prometiste (supera expectativas)\n- Comunicación ejemplar en todo el proceso\n- Pide la evaluación en el momento correcto, de forma educada\n- Plantilla profesional para pedir evaluaciones\n\n**✅ Lista de verificación completa:**\n- 7 secciones principales para verificar\n- Cada ítem contribuye a la credibilidad general\n- Perfil 100% completo tiene muchas más probabilidades\n- Inversión de 2-4 horas que vale cada minuto\n\n**🎯 PRÓXIMO PASSO - Módulo 4:**\nAhora que tu perfil está (o pronto estará) perfecto y listo para ganar, vamos al siguiente desafío: descubrir EXACTAMENTE QUÉ servicios puedes ofrecer como principiante, cómo posicionarlos, y cómo usar tu ventaja secreta (IA) para destacarte de la competencia.\n\n**💡 Recuerda:** Un perfil excelente es tu fundación. Todo lo que viene después (propuestas, clientes, proyectos, dinero) depende de que esta base sea sólida. No saltes etapas o intentes atajos aquí - hazlo bien desde la primera vez."
+      }
+    ]
+  },
+  "module4": {
+    "title": "Qué Puedo Vender",
+    "description": "No vendes IA, vendes ayuda",
+    "icon": "ShoppingBag",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🤔 El Error Más Común de los Principiantes",
+        "content": "Muchos freelancers principiantes cometen este error:\n\n❌ \"Vendo servicios de IA\"\n❌ \"Uso ChatGPT para crear contenido\"\n\n**¿Por qué esto no funciona?**\n\nLos clientes no quieren \"IA\". Ellos quieren:\n- Más ventas\n- Menos trabajo\n- Problemas resueltos\n- Tiempo libre\n\n**La IA es la HERRAMIENTA, no el PRODUCTO.**\n\n**Mentalidad correcta:**\nVendes RESULTADOS. La IA es solo cómo los logras."
+      },
+      {
+        "type": "text",
+        "title": "📋 Servicios Para Principiantes",
+        "content": "Servicios que puedes ofrecer HOY:\n\n**✍️ Redacción de Contenido**\n- Artículos de blog\n- Publicaciones para redes sociales\n- Correos de marketing\n\n**📱 Gestión de Redes Sociales**\n- Calendario de contenido\n- Creación de publicaciones\n- Análisis básico\n\n**📧 Asistencia Virtual**\n- Organizar correos\n- Agendar reuniones\n- Investigaciones online\n\n**🔤 Traducción Simple**\n- Textos de sitios web\n- Subtítulos de videos\n- Documentos\n\n**💡 Todos pueden ser acelerados con IA.**"
+      },
+      {
+        "type": "quiz",
+        "question": "¿Cuál es la forma correcta de presentar tu servicio?",
+        "options": [
+          { "text": "Uso ChatGPT para escribir tus textos", "isCorrect": false },
+          { "text": "Creo contenido que atrae más clientes para tu negocio", "isCorrect": true },
+          { "text": "Soy experto en inteligencia artificial", "isCorrect": false },
+          { "text": "Automatizo tu marketing con IA", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! El cliente quiere resultados (más clientes). La herramienta es secundaria."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Elige UN Servicio Para Comenzar",
+        "content": "Error común: querer ofrecer TODO.\n\n**❌ Malo:**\n\"Ofrezco redacción, diseño, videos, traducciones...\"\n\n**✅ Bueno:**\n\"Me especializo en crear artículos de blog para empresas de tecnología.\"\n\n**¿Por qué funciona?**\n- Portafolio más fácil de crear\n- Te posiciona como especialista\n- Puedes cobrar más\n- Más confianza del cliente\n\n**Cómo elegir:**\n- ¿Qué te gusta hacer?\n- ¿Qué ya sabes hacer?\n- ¿Qué tiene demanda?"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🔗 Conecta Servicio → Beneficio",
+          "description": "Une cada servicio con el beneficio real para el cliente",
+          "pairs": [
+            { "left": "Escribir artículos de blog", "right": "Aumentar tráfico del sitio" },
+            { "left": "Crear publicaciones para Instagram", "right": "Aumentar engagement" },
+            { "left": "Producir correos de marketing", "right": "Generar más ventas" },
+            { "left": "Organizar bandeja de correos", "right": "Recuperar tiempo perdido" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💪 Tu Ventaja Competitiva",
+        "content": "\"Pero hay miles de freelancers ofreciendo lo mismo...\"\n\n**Tu ventaja: Velocidad con IA**\n- Mientras otros tardan 4 horas\n- Tú entregas en 1 hora (con calidad)\n- Puedes hacer 4x más proyectos\n\n**El cliente no sabe (ni le importa) que usas IA.**\nLe importa que recibe:\n- Entrega rápida\n- Buena calidad\n- Comunicación profesional\n- Problema resuelto"
+      },
+      {
+        "type": "text",
+        "title": "📊 Demanda Real del Mercado",
+        "content": "**🥇 Top 5 servicios más buscados:**\n1. Redacción de contenido\n2. Gestión de redes sociales\n3. Diseño gráfico simple\n4. Traducción\n5. Asistencia virtual\n\n**💰 Precios promedio (global):**\n- Artículo de blog: $25-80\n- 10 publicaciones en redes: $100-250\n- Traducción (1000 palabras): $50-150\n- Asistente virtual (10h): $80-200\n\n**🚀 Crecimiento reciente:**\n- Edición de video para TikTok/Reels\n- Creación de carruseles para LinkedIn\n- Transcripción de podcasts"
+      },
+      {
+        "type": "quiz",
+        "question": "¿Por qué especializarse en UN servicio al inicio?",
+        "options": [
+          { "text": "Porque ganas más dinero inmediato", "isCorrect": false },
+          { "text": "Porque creas portafolio fuerte y pareces experto", "isCorrect": true },
+          { "text": "Porque plataformas limitan servicios", "isCorrect": false },
+          { "text": "Porque clientes solo contratan especialistas", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! La especialización crea un portafolio fuerte y te posiciona como experto, generando más confianza."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Define Tu Servicio",
+          "sentence": "Mi servicio principal será [BLANK]. No voy a vender 'IA', voy a vender [BLANK] para el cliente.",
+          "correctAnswers": ["redacción", "resultados"],
+          "options": ["redacción", "resultados", "diseño", "soluciones", "traducción", "beneficios"]
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen del Módulo 4",
+        "content": "**Lo que aprendiste:**\n\n✅ **No vendas \"IA\"** - vende resultados\n✅ **Servicios para principiantes:** redacción, redes sociales, asistencia, traducción\n✅ **Elige UN servicio** para comenzar\n✅ **Tu ventaja:** velocidad y calidad con IA\n✅ **Fórmula:** [Lo que haces] + [Para quién] + [Resultado]\n\n**Próximo módulo:** Cómo responder a vacantes y ganar proyectos."
+      }
+    ]
+  },
+  "module5": {
+    "title": "Cómo Responder a Vacantes",
+    "description": "La forma correcta de postularse",
+    "icon": "MessageSquare",
+    "steps": [
+      {
+        "type": "text",
+        "title": "📨 El Problema de las Propuestas Genéricas",
+        "content": "Imagina que eres un cliente y recibes 50 propuestas para un proyecto. ¿Cuál elegirías?\n\n**Propuesta A (GENÉRICA):**\n\"Hola, estoy interesado en su proyecto. Tengo experiencia en el área y puedo entregar un buen trabajo. Espero su respuesta.\"\n\n**Propuesta B (PERSONALIZADA):**\n\"Hola María, vi que buscas artículos para tu blog de nutrición. Noté que tu público objetivo son mujeres de 30-45 años interesadas en alimentación saludable. Tengo experiencia escribiendo sobre ese tema - aquí está un ejemplo similar. Puedo entregar 3 artículos de 1000 palabras en 5 días. ¿Podemos conversar sobre el enfoque?\"\n\n**¿Cuál gana?** Obviamente la B.\n\n**La realidad:** 90% de los freelancers envían propuestas como la A. Esta es tu gran oportunidad de destacarte."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Estructura de Propuesta Ganadora",
+        "content": "Usa esta estructura probada y comprobada para tus propuestas:\n\n**1. GANCHO (1-2 líneas)**\n→ Menciona algo específico del proyecto del cliente\n→ Muestra que LEÍSTE la oferta con atención\n\n**2. CONEXIÓN (2-3 líneas)**\n→ Relaciona tu experiencia con lo que el cliente necesita\n→ Menciona un trabajo similar que ya hiciste\n\n**3. SOLUCIÓN (3-4 líneas)**\n→ Explica brevemente cómo abordarías el trabajo\n→ Demuestra que entiendes el problema del cliente\n\n**4. PRUEBA (1-2 líneas)**\n→ Incluye enlace a trabajo similar en tu portafolio\n→ O describe un resultado concreto que ya lograste\n\n**5. LLAMADA A LA ACCIÓN (1-2 líneas)**\n→ Propón un próximo paso concreto\n→ \"¿Podemos agendar una llamada rápida de 15 minutos?\"\n\n**📏 Tamaño ideal:** Total de 10-15 líneas (máximo 150 palabras). Nadie lee propuestas largas."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Cuál es el error más común en propuestas de freelancers?",
+        "options": [
+          { "text": "Ser muy corto y directo", "isCorrect": false },
+          { "text": "Ser genérico y no mencionar nada específico del proyecto", "isCorrect": true },
+          { "text": "Cobrar un precio muy alto", "isCorrect": false },
+          { "text": "No tener un portafolio extenso", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! El mayor error es enviar propuestas genéricas que podrían servir para cualquier proyecto. La personalización es la clave para destacarse."
+      },
+      {
+        "type": "text",
+        "title": "🚫 5 Erros Que Destruyen Tu Propuesta",
+        "content": "**❌ Error 1: Comenzar hablando de ti**\n\"Soy un profesional con 5 años de experiencia en el área...\"\n→ El cliente no quiere saber TU historia, quiere saber cómo resuelve SU problema\n\n**❌ Error 2: Copiar y pegar la misma propuesta**\nLos clientes notan cuando reciben propuestas genéricas\n→ Siempre personaliza al menos las primeras 2-3 líneas\n\n**❌ Error 3: Escribir demasiado**\n→ Máximo 150 palabras (10-15 líneas)\n→ Si necesitas escribir más, algo está mal en tu enfoque\n\n**❌ Error 4: No incluir ejemplo o prueba**\n→ \"Tengo experiencia\" sin prueba = no es creíble\n→ Siempre incluye un enlace o descripción concreta\n\n**❌ Error 5: Parecer desesperado**\n→ \"Por favor, dame una oportunidad\"\n→ \"Realmente necesito este trabajo\"\n→ Esto transmite falta de confianza, no profesionalismo"
+      },
+      {
+        "type": "text",
+        "title": "🤖 Usando IA Para Personalizar Rápidamente",
+        "content": "Aquí está el truco para ser rápido Y personalizado al mismo tiempo:\n\n**Paso 1: Lee cuidadosamente la oferta del cliente**\nIdentifica:\n- Nombre del cliente (si está visible)\n- Qué necesita exactamente\n- Sector/industria del cliente\n- Problema específico que quiere resolver\n\n**Paso 2: Usa este prompt con IA**\n\"Actúa como un redactor especializado en propuestas freelancer. Basándote en esta oferta de trabajo: [pega aquí la oferta], crea una propuesta personalizada siguiendo esta estructura: 1) Gancho mencionando algo específico, 2) Conexión con experiencia, 3) Solución propuesta, 4) Prueba con ejemplo, 5) Llamada a la acción. Mantén máximo 150 palabras. Tono profesional pero amigable.\"\n\n**Paso 3: Personaliza el resultado de la IA**\n- Ajusta el tono para sonar más natural\n- Agrega tus ejemplos reales\n- Verifica que suene como tú\n- Corrige cualquier información errónea\n\n**⚠️ Importante:** NUNCA envíes el texto generado por la IA sin revisar y personalizar. El cliente quiere trabajar contigo, no con una IA."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Elementos de Propuesta",
+          "description": "Identifica lo que funciona y lo que no funciona en una propuesta",
+          "pairs": [
+            { "left": "Mencionar nombre del cliente", "right": "✅ Bueno - muestra atención a los detalles" },
+            { "left": "Comenzar con tu historia personal", "right": "❌ Malo - enfoque erróneo en el cliente" },
+            { "left": "Incluir enlace a trabajo similar", "right": "✅ Bueno - prueba concreta de capacidad" },
+            { "left": "Escribir 500+ palabras", "right": "❌ Malo - nadie tiene tiempo para leer" },
+            { "left": "Enfocarse en el problema del cliente", "right": "✅ Bueno - muestra comprensión" },
+            { "left": "Pedir desesperadamente el trabajo", "right": "❌ Malo - transmite inseguridad" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "📊 Cuántas Propuestas Necesitas Enviar",
+        "content": "La matemática realista del freelancer principiante:\n\n**📈 Tasas de conversión típicas:**\n- **Principiantes (0-3 meses):** 5-10% (1 proyecto cada 10-20 propuestas)\n- **Con alguna experiencia (3-6 meses):** 10-20%\n- **Experimentados (6+ meses):** 20-40%\n\n**📅 Qué significa esto en la práctica:**\n- Para conseguir **1 proyecto por mes**: envía 10-20 propuestas\n- Para conseguir **3 proyectos por mes**: envía 30-60 propuestas\n- Esto equivale aproximadamente a **1-2 propuestas por día**\n\n**🎯 Estrategia recomendada para principiantes:**\n1. **Dedica 30-45 minutos por día** a buscar proyectos adecuados\n2. **Selecciona 2-3 proyectos** que realmente combinen con tu perfil\n3. **Crea propuestas personalizadas** para cada uno (no copies/pegues)\n4. **Envía y registra** en una hoja de cálculo simple\n5. **Revisa respuestas** del día anterior\n\n**💡 Principio importante:** **Calidad > Cantidad**\n3 propuestas excelentes y bien personalizadas valen más que 10 propuestas genéricas y mal hechas."
+      },
+      {
+        "type": "quiz",
+        "question": "Si tu tasa de conversión es 10%, ¿cuántas propuestas necesitas enviar para conseguir 2 proyectos?",
+        "options": [
+          { "text": "5 propuestas (pocas)", "isCorrect": false },
+          { "text": "10 propuestas (solo 1 proyecto)", "isCorrect": false },
+          { "text": "20 propuestas (cálculo correcto)", "isCorrect": true },
+          { "text": "50 propuestas (exagerado)", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! Con 10% de conversión, significa que cada 10 propuestas enviadas, 1 es aceptada. Por lo tanto, para 2 proyectos, necesitas enviar aproximadamente 20 propuestas bien hechas."
+      },
+      {
+        "type": "text",
+        "title": "💬 Después de Enviar la Propuesta: Cómo Hacer Seguimiento",
+        "content": "Enviaste una propuesta excelente. ¿Qué hacer ahora?\n\n**📞 Si el cliente responde con preguntas:**\n→ Responde rápido (idealmente en menos de 24 horas)\n→ Sé claro, directo y profesional\n→ Propón un próximo paso concreto (llamada, más detalles)\n\n**⏳ Si el cliente no responde (después de 72 horas):**\n→ Envía UNA única mensaje de seguimiento\n→ Ejemplo: \"Hola [nombre], quería verificar si tuviste oportunidad de revisar mi propuesta. ¿Hay alguna duda que pueda aclarar?\"\n→ Máximo 1 seguimiento por proyecto\n\n**❌ Si el cliente dice NO:**\n→ Agradece profesionalmente\n→ \"Gracias por considerar mi propuesta. Si surge otra oportunidad en el futuro, estaré disponible.\"\n→ Nunca discutas, te quejes o pidas explicaciones\n\n**✅ Si el cliente dice SÍ:**\n→ Confirma TODOS los detalles por escrito\n→ Aclara: entregables, plazos, precio, formas de pago\n→ Define expectativas claras\n→ Comienza el trabajo con excelencia"
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Tu Estrategia de Propuestas",
+          "sentence": "Voy a dedicar [BLANK] minutos diarios a buscar proyectos. Enviaré [BLANK] propuestas personalizadas por día. Cada propuesta tendrá máximo [BLANK] palabras y siempre incluirá un [BLANK] de trabajo similar.",
+          "correctAnswers": ["30", "2-3", "150", "ejemplo"],
+          "options": ["30", "2-3", "150", "ejemplo", "60", "5", "300", "precio", "15", "10", "500", "contrato"],
+          "explanation": "¡Excelente! Esta rutina diaria consistente te posiciona para conseguir proyectos de forma predecible. La consistencia es más importante que la intensidad ocasional."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen del Módulo 5",
+        "content": "**Lo que aprendiste en este módulo:**\n\n✅ **Propuestas genéricas = fracaso garantido**\n→ 90% de los freelancers envían lo mismo, destáquese personalizando\n\n✅ **Estructura ganadora de 5 partes:**\n1. **Gancho** - Mención específica del proyecto\n2. **Conexión** - Tu experiencia relevante\n3. **Solución** - Cómo abordarás el trabajo\n4. **Prueba** - Ejemplo o resultado anterior\n5. **Llamada a la acción** - Próximo paso concreto\n\n✅ **Erros mortales a evitar:**\n→ Comenzar hablando sobre ti mismo\n→ Copiar y pegar propuestas genéricas\n→ No incluir ejemplos o pruebas\n→ Escribir textos muy largos\n→ Transmitir desesperación o inseguridad\n\n✅ **Usa IA inteligentemente:**\n→ Para acelerar el proceso de personalización\n→ Pero SIEMPRE revisa y personaliza el resultado\n→ El cliente te contrata a ti, no a una IA\n\n✅ **La matemática realista:**\n→ Tasa de conversión típica para principiantes: 5-10%\n→ Para 2 proyectos: envía ~20 propuestas bien hechas\n→ Calidad supera cantidad siempre\n\n✅ **Estrategia de seguimiento:**\n→ Responde rápido a preguntas\n→ Un seguimiento apenas si no hay respuesta\n→ Sé profesional tanto en el sí como en el no\n\n**🎯 Próximo módulo - Módulo 6:**\nYa sabes cómo conseguir el proyecto. Ahora vamos al siguiente desafío crucial: CUÁNTO cobrar sin miedo, cómo calcular tu precio justo, y cómo negociar cuando el cliente encuentra caro."
+      }
+    ]
+  },
+  "module6": {
+    "title": "Primeros Precios",
+    "description": "Cuánto cobrar sin miedo",
+    "icon": "DollarSign",
+    "steps": [
+      {
+        "type": "text",
+        "title": "💸 El Miedo de Cobrar - ¡Súperalo!",
+        "content": "El mayor obstáculo para freelancers principiantes no es falta de habilidad, es **miedo de cobrar lo que vale**.\n\n**Pensamientos que te sabotean:**\n- \"Si cobro mucho, no me van a contratar\"\n- \"No tengo experiencia, entonces debo cobrar poco\"\n- \"Cualquier dinero es mejor que nada\"\n- \"Voy a comenzar barato y luego aumento\"\n\n**El problema real de cobrar muy barato:**\n1. **Atrae clientes problemáticos** que no valoran tu trabajo\n2. **Tú no te valoras** y el cliente tampoco\n3. **Necesitas MUCHOS proyectos** para sobrevivir\n4. **Te agotas rápido** (mucho trabajo, poco retorno)\n5. **Crea expectativas malas** sobre tu valor\n\n**La verdad liberadora:**\nCobrar un precio justo desde el inicio es MEJOR para todos - para ti, para el cliente, y para tu carrera. En este módulo aprenderás a definir precios con confianza real."
+      },
+      {
+        "type": "text",
+        "title": "📊 3 Métodos Para Calcular Tu Precio Justo",
+        "content": "No existe una fórmula mágica, pero usar estos 3 métodos y hacer el promedio te da un precio realista:\n\n**💰 Método 1: Por Hora (Tu Base Realista)**\n1. ¿Cuánto quieres/NECESITAS ganar por mes? Ejemplo: $800\n2. ¿Cuántas horas REALMENTE puedes trabajar? Ejemplo: 80h (20h/semana)\n3. Tu hora base: $800 ÷ 80h = $10/hora\n4. **Agrega 30% para imprevistos:** $10 × 1.3 = $13/hora\n\n**🔄 Método 2: Por Mercado (Lo que otros cobran)**\n1. Busca 5-10 freelancers similares en tu plataforma\n2. Anota los precios que ellos cobran\n3. Calcula el promedio de esos valores\n4. **Tu precio:** promedio o ligeramente abajo (por ser nuevo)\n\n**🎯 Método 3: Por Valor (Lo que vale para el cliente)**\n1. ¿Cuánto VALOR crea tu trabajo para el cliente?\n2. Ejemplo: Un artículo que trae $1000 en ventas vale $50-100\n3. Calcula un porcentaje justo del valor creado\n4. **Enfoque:** Beneficio para el cliente, no tu costo\n\n**✨ Precio final recomendado:** Promedio de los 3 métodos + tu buen sentido"
+      },
+      {
+        "type": "quiz",
+        "question": "Si quieres ganar $600 por mes y puedes trabajar 60 horas mensuales, ¿cuál es tu hora base ANTES del 30% para imprevistos?",
+        "options": [
+          { "text": "$5 por hora (muy bajo)", "isCorrect": false },
+          { "text": "$10 por hora (cálculo correcto)", "isCorrect": true },
+          { "text": "$15 por hora (alto para inicio)", "isCorrect": false },
+          { "text": "$20 por hora (irreal para principiante)", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! $600 ÷ 60 horas = $10/hora. Este es tu mínimo antes de agregar 30% para imprevistos ($13/hora final). Nunca cobres menos que esto."
+      },
+      {
+        "type": "text",
+        "title": "📋 Precios Referenciales 2024 (Mercado Global)",
+        "content": "Estos son rangos REALISTAS para freelancers principiantes en 2024:\n\n**✍️ Redacción y Contenido:**\n- Artículo de blog (800-1000 palabras): $25-60\n- Paquete de 10 publicaciones para redes sociales: $80-150\n- Correo de marketing (1 unidad): $15-35\n- Copy para landing page: $50-120\n\n**📱 Gestión de Redes Sociales:**\n- Gestión mensual básica (1 plataforma): $150-300\n- Calendario de contenido mensual: $80-150\n- Diseño + copy (10 publicaciones): $120-250\n- Análisis de resultados mensual: $50-100\n\n**🔤 Traducción y Servicios Lingüísticos:**\n- Por palabra: $0.05-0.10\n- Documento de 1000 palabras: $50-100\n- Subtitulación de video (por minuto): $5-10\n- Revisión de textos (por palabra): $0.02-0.05\n\n**📧 Asistencia Virtual:**\n- Por hora: $8-18\n- Paquete de 10 horas: $90-180\n- Paquete mensual (20 horas): $200-400\n- Proyecto específico: $50-150\n\n**💡 Nota importante:** Estos son precios para PRINCIPIANTES. Con 6-12 meses de experiencia y buenas evaluaciones, puedes (y debes) cobrar 1.5x a 3x más."
+      },
+      {
+        "type": "text",
+        "title": "🎯 Estrategia Inteligente de Precios (3 Fases)",
+        "content": "Tu estrategia de precio debe evolucionar con tu experiencia:\n\n**🟡 Fase 1: Inversión (Primeros 1-3 proyectos)**\n- **Qué hacer:** Cobrar 20-30% MENOS que el promedio del mercado\n- **Por qué:** Eliminar barrera para primeros clientes\n- **Objetivo:** Conseguir evaluaciones de 5 estrellas\n- **Mentalidad:** Cada proyecto es marketing\n- **Duración:** Solo 2-3 proyectos, ¡no más!\n\n**🟢 Fase 2: Mercado (Proyectos 4-10)**\n- **Qué hacer:** Cobrar el precio PROMEDIO del mercado\n- **Por qué:** Ya tienes pruebas sociales (evaluaciones)\n- **Objetivo:** Estabilizar ingresos\n- **Mentalidad:** Valor justo por trabajo justo\n- **Acción:** Comenzar a rechazar proyectos mal pagados\n\n**🔵 Fase 3: Premium (Proyecto 11+)**\n- **Qué hacer:** Cobrar 10-20% ARRIBA del promedio\n- **Por qué:** Portafolio y evaluaciones respaldan\n- **Objetivo:** Aumentar calidad de vida\n- **Mentalidad:** Especialista, no principiante\n- **Enfoque:** Clientes que valoran calidad\n\n**⚠️ Regla de Oro:** NUNCA cobres menos que tu hora base calculada. Si un proyecto no cubre tu mínimo, rechaza educadamente."
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "📊 Fase → Estrategia de Precio",
+          "description": "Conecta cada fase de tu trayectoria con la estrategia correcta de precios",
+          "pairs": [
+            {
+              "left": "Proyectos 1-3 (inicio absoluto)",
+              "right": "20-30% abajo del mercado - inversión en reputación"
+            },
+            { "left": "Proyectos 4-10 (con evaluaciones)", "right": "Precio promedio del mercado - posición justa" },
+            {
+              "left": "Proyecto 11+ (experiencia comprobada)",
+              "right": "10-20% arriba del mercado - posición premium"
+            },
+            { "left": "Cualquier fase, cualquier proyecto", "right": "Nunca abajo de tu hora mínima calculada" },
+            { "left": "Cliente se queja del precio", "right": "Ofrecer alternativa manteniendo valor" },
+            { "left": "Proyecto mal pagado aparece", "right": "Rechazar educadamente - no vale el tiempo" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "💬 Cómo Negociar Precio Sin Perder Valor",
+        "content": "Situación común: cliente dice \"Tu precio está muy caro.\" ¿Qué hacer?\n\n**❌ Respuestas que DESTRUYEN tu valor:**\n- \"OK, puedo bajar el precio\" (inmediatamente)\n- \"Es el mínimo que puedo cobrar\" (sin argumentos)\n- \"Si no le gusta, busque a otro\" (agresivo)\n- \"Está bien, lo hago por su presupuesto\" (desesperación)\n\n**✅ Respuestas que MANTIENEN tu valor:**\n\n**Opción 1: Justificar con beneficios**\n\"Entiendo su preocupación con el presupuesto. Mi precio refleja [calidad garantizada, entrega rápida, experiencia específica]. Por ejemplo, mis clientes normalmente ven [resultado X]. ¿Puedo ajustar el alcance: en lugar de 5 artículos, hacemos 3 enfocados en los más importantes por $X?\"\n\n**Opción 2: Ofrecer alternativa inteligente**\n\"Para ese presupuesto, puedo ofrecer [versión reducida del servicio] que aún entrega resultado. Si prefiere el paquete completo con todos los beneficios, mantendría el precio original de $X.\"\n\n**Opción 3: Mantener firme con educación**\n\"Agradezco por compartir su presupuesto. Lamentablemente, $X es mi precio mínimo para este tipo de trabajo, considerando [calidad, tiempo, experiencia]. Si en el futuro tiene un proyecto con presupuesto compatible, estaré feliz de ayudar.\"\n\n**🎯 Principio de Oro de la Negociación:**\n**NUNCA bajes precio sin reducir alcance o valor entregado.** Precio menor = entrega menor. Mantén esta relación clara."
+      },
+      {
+        "type": "quiz",
+        "question": "Un cliente dice que tu precio está caro. ¿Cuál es la mejor respuesta?",
+        "options": [
+          { "text": "Bajar inmediatamente para no perder al cliente", "isCorrect": false },
+          { "text": "Decir que él debe buscar a alguien más barato", "isCorrect": false },
+          { "text": "Ofrecer reducir el alcance del trabajo (menos entregables)", "isCorrect": true },
+          { "text": "Ignorar y esperar que él cambie de idea", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! Ofrecer alternativas (como reducir alcance) muestra flexibilidad profesional SIN desvalorizar tu trabajo. Menos entregables por menos dinero es justo para ambos."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Tu Plan de Precios Personal",
+          "sentence": "Mi hora base calculada es $[BLANK] (incluyendo 30% para imprevistos). En mis primeros 3 proyectos, voy a cobrar aproximadamente [BLANK]% abajo del mercado. Después de conseguir evaluaciones, voy a subir gradualmente hasta cobrar [BLANK] del promedio del mercado.",
+          "correctAnswers": ["13", "20-30", "arriba"],
+          "options": ["13", "20-30", "arriba", "10", "50", "igual", "20", "5", "abajo"],
+          "explanation": "¡Excelente! Tienes una estrategia clara y progresiva: comienzas con precios competitivos para entrar al mercado, y luego subes conforme ganas experiencia y reputación."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen del Módulo 6 - Domina Tus Precios",
+        "content": "**🎉 ¡Felicidades! Ahora tienes herramientas para cobrar con confianza:**\n\n✅ **Superaste el miedo de cobrar:**\n- Cobrar barato atrae problemas, no soluciones\n- Precio justo beneficia a todos\n\n✅ **3 métodos para calcular tu precio:**\n1. **Por hora:** (Ganancia deseada ÷ Horas) × 1.3\n2. **Por mercado:** Promedio de competidores similares\n3. **Por valor:** Porcentaje del beneficio para cliente\n\n✅ **Precios referenciales REALISTAS 2024:**\n- Artículo blog: $25-60\n- Gestión redes sociales: $150-300/mes\n- Traducción: $0.05-0.10/palabra\n- Asistencia virtual: $8-18/hora\n\n✅ **Estrategia de 3 fases inteligente:**\n- **Fase 1 (proyectos 1-3):** 20-30% abajo (inversión)\n- **Fase 2 (proyectos 4-10):** Precio promedio (estabilidad)\n- **Fase 3 (proyecto 11+):** 10-20% arriba (premium)\n\n✅ **Negociación profesional:**\n- Nunca bajes precio sin reducir alcance\n- Justifica con beneficios\n- Ofrece alternativas\n- Mantén respeto mutuo\n\n✅ **Tu plan personal definido:**\n- Hora base calculada\n- Estrategia progresiva clara\n- Límites establecidos\n\n**🎯 PRÓXIMO MÓDULO - Módulo 7:**\nAhora que sabes CUÁNTO cobrar, vamos a lo que hacer DESPUÉS que el cliente acepta: cómo cerrar profesionalmente, entregar con excelencia, y garantizar evaluaciones positivas que atraerán más clientes."
+      }
+    ]
+  },
+  "module7": {
+    "title": "Cierre y Entrega",
+    "description": "Del sí al dinero en la cuenta",
+    "icon": "CheckCircle",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🎉 ¡El Cliente Dijo SÍ! Próximos Pasos Críticos",
+        "content": "¡Felicidades! Conseguiste tu primer proyecto (¡o uno más!). Pero atención: el trabajo REAL comienza AHORA.\n\n**Los próximos pasos determinan tu éxito:**\n1. **Confirmar todo por escrito** - Evita malentendidos\n2. **Alinear expectativas claras** - Ambos en la misma página\n3. **Ejecutar con excelencia** - Supera expectativas\n4. **Entregar profesionalmente** - La última impresión cuenta\n5. **Conseguir evaluación positiva** - Combustible para más proyectos\n\n**❌ Errores comunes que destruyen proyectos:**\n- Comenzar sin confirmación escrita\n- No definir plazo claro\n- Desaparecer durante la ejecución\n- Entregar sin explicación\n- No pedir evaluación\n\n**En este módulo:** Aprende el proceso PROFESIONAL del cierre a la entrega."
+      },
+      {
+        "type": "text",
+        "title": "📝 Confirmación por Escrito - Tu Protección",
+        "content": "ANTES de hacer cualquier trabajo, envía esta confirmación:\n\n**📋 Plantilla profesional de confirmación:**\n\n\"Hola [Nombre del Cliente],\n\n¡Excelente! Confirmo que seguimos adelante con el proyecto.\n\nPara garantizar alineamiento total, resumiré:\n\n📌 **Entregables:**\n- [Item 1 específico]\n- [Item 2 específico]\n- [Item 3 específico]\n\n📅 **Plazo de entrega:**\n- [Fecha específica] o [X días hábiles]\n\n💰 **Inversión:**\n- $[Valor total] (vía [plataforma/método])\n\n❓ **¿Dudas pendientes?**\n- [Cualquier punto que necesite aclarar]\n\nSi todo está correcto, comenzaré hoy/mañana. ¿Hay algo para ajustar?\n\nAtentamente,\n[Tu Nombre]\"\n\n**🎯 Por qué ESENCIAL:**\n- **Evita malentendidos** costosos\n- **Protege a ambas partes** en caso de disputa\n- **Demuestra profesionalismo** desde el inicio\n- **Sirve como contrato informal**"
+      },
+      {
+        "type": "quiz",
+        "question": "¿Por qué confirmar detalles por escrito ANTES de comenzar?",
+        "options": [
+          { "text": "Solo para parecer más organizado", "isCorrect": false },
+          { "text": "Para evitar malentendidos y proteger a ambos", "isCorrect": true },
+          { "text": "Porque todas las plataformas exigen", "isCorrect": false },
+          { "text": "Para ganar tiempo antes de comenzar", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! La confirmación escrita crea un registro claro, evita \"yo entendí esto, usted aquello\", y protege si hay desacuerdos después. Es tu primera defensa profesional."
+      },
+      {
+        "type": "text",
+        "title": "💬 Comunicación Durante el Proyecto - Mantén la Confianza",
+        "content": "La comunicación DURANTE el proyecto es tan crucial como la calidad del trabajo.\n\n**📊 4 Reglas de Oro de la Comunicación:**\n\n**1. Actualización Proactiva (No Reactiva)**\n→ No esperes que el cliente pregunte \"¿cómo va?\"\n→ Envía actualización al completar 50%\n→ Ejemplo: \"Hola [Nombre], estoy a la mitad del proyecto. Todo según lo planeado, entrego en la fecha acordada.\"\n\n**2. Respuesta Rápida (Pero No Inmediata)**\n→ Responde en hasta 24 horas (idealmente menos)\n→ Si necesitas investigar: \"Vi tu mensaje, vuelvo en [hora] con respuesta completa.\"\n→ No necesitas responder instantáneamente 24/7\n\n**3. Pregunta Temprano (No Adivines)**\n→ ¿Surge duda? PREGUNTA INMEDIATAMENTE\n→ Mejor preguntar 5 veces que equivocarse 1 vez\n→ \"Para garantizar que hago correctamente, ¿prefieres A o B?\"\n\n**4. ¿Problema? Avisa Temprano (No Ocultes)**\n→ ¿Retraso o problema? COMUNICA CON ANTICIPACIÓN\n→ \"Surgió un imprevisto, la entrega será mañana. ¿Está bien?\"\n→ El cliente valora honestidad proactiva"
+      },
+      {
+        "type": "text",
+        "title": "📦 Entrega Profesional - La Última Impresión",
+        "content": "La entrega es tu última oportunidad de impresionar. Hazla INOLVIDABLE.\n\n**🎁 Plantilla de Entrega Perfecta:**\n\n\"Hola [Nombre del Cliente],\n\n¡Tu proyecto está listo! 🎉\n\n📁 **Archivos incluídos:**\n- [Archivo1.ext] - [Descripción breve]\n- [Archivo2.ext] - [Descripción breve]\n\n📝 **Notas importantes sobre la entrega:**\n- [Explicación de lo que se hizo]\n- [Destacado de algo especial]\n- [Instrucciones de uso, si aplica]\n\n🔄 **Próximos pasos:**\n- Por favor, revisa cuando sea posible\n- Incluí [2-3] revisiones sin costo adicional\n- Estoy disponible para ajustes\n\n¿Dudas? ¡Estoy aquí para ayudar!\n\nAtentamente,\n[Tu Nombre]\"\n\n**✨ Consejos Extras para Excelencia:**\n✅ **Formato solicitado:** Entrega EXACTAMENTE como pidieron\n✅ **Nombres claros:** \"Artículo_Blog_Tecnología_V1.docx\" no \"final_final2_nuevo.doc\"\n✅ **Revisión triple:** Ortografía, gramática, formato\n✅ **Extras:** Checklist, instrucciones, consejos bono\n✅ **Organización:** Todo en una carpeta/archivo claro"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "✅ vs ❌ Comportamiento de Entrega",
+          "description": "Identifica prácticas profesionales vs. amateurs",
+          "pairs": [
+            { "left": "Enviar actualización a mitad del proyecto", "right": "✅ Proactivo - genera confianza" },
+            { "left": "Desaparecer y entregar atrasado sin aviso", "right": "❌ Amateur - destruye confianza" },
+            { "left": "Incluir notas explicativas en la entrega", "right": "✅ Profesional - facilita revisión" },
+            { "left": "Entregar solo archivos sin contexto", "right": "❌ Amateur - genera dudas" },
+            { "left": "Preguntar cuando tienes duda", "right": "✅ Inteligente - evita errores" },
+            { "left": "Adivinar lo que el cliente quiere", "right": "❌ Arriesgado - causa retrabajo" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "⭐ Cómo Conseguir Evaluaciones Positivas - Tu Combustible",
+        "content": "Las evaluaciones son la MONEDA del freelancer. Sin ellas, el crecimiento es lento.\n\n**🎯 Timing Perfecto para Pedir:**\n→ **DESPUÉS** de la aprobación final del cliente\n→ Cuando él expresa satisfacción\n→ **NUNCA** antes o durante la entrega\n\n**💌 Plantilla Elegante para Pedir Evaluación:**\n\n\"Hola [Nombre],\n\n¡Me alegra mucho que te haya gustado el resultado! 😊\n\nSi tienes un minuto, agradecería MUCHO si pudieras dejar una evaluación sobre nuestro trabajo. Tu feedback:\n- Me ayuda a mejorar continuamente\n- Me conecta con más clientes increíbles como tú\n- Valida la calidad del servicio\n\n[Aquí, si aplica: Enlace directo para dejar evaluación]\n\nMuchas gracias por la confianza y oportunidad!\n\nAtentamente,\n[Tu Nombre]\"\n\n**🔄 ¿Y si el cliente no responde?**\n- **Espera 3-5 días** después de pedir\n- **UN recordatorio educado:** \"Solo confirmando si recibiste mi mensaje sobre la evaluación?\"\n- **Máximo 2 contactos totales**\n- **Algunos simplemente no evalúan** - no insistas\n\n**🎁 Táctica Avanzada:** Ofrece algo pequeño después de la evaluación (checklist relacionado, consejo extra)."
+      },
+      {
+        "type": "quiz",
+        "question": "¿Cuándo es el MEJOR momento para pedir una evaluación?",
+        "options": [
+          { "text": "Junto con la entrega, para no olvidar", "isCorrect": false },
+          { "text": "Antes de entregar, para garantizar", "isCorrect": false },
+          { "text": "Después de que el cliente apruebe y exprese satisfacción", "isCorrect": true },
+          { "text": "Una semana después, para no parecer insistente", "isCorrect": false }
+        ],
+        "explanation": "¡Exacto! El momento perfecto es cuando el cliente está satisfecho (acaba de aprobar). La experiencia positiva está fresca, él ve valor en tu trabajo, y está más dispuesto a ayudar."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "📝 Tu Proceso de Entrega Perfecto",
+          "sentence": "Antes de comenzar, voy a [BLANK] todos los detalles por escrito. Durante el proyecto, enviaré [BLANK] proactivas. Al entregar, incluiré [BLANK] explicativas. Después de aprobación, pediré la [BLANK].",
+          "correctAnswers": ["confirmar", "actualizaciones", "notas", "evaluación"],
+          "options": [
+            "confirmar",
+            "actualizaciones",
+            "notas",
+            "evaluación",
+            "ignorar",
+            "facturas",
+            "precios",
+            "contrato",
+            "asumir",
+            "disculpas",
+            "problemas",
+            "extensión"
+          ],
+          "explanation": "¡Perfecto! Este proceso profesional te diferencia del 80% de los freelancers. Claridad + comunicación + organización = clientes satisfechos que regresan y recomiendan."
+        }
+      },
+      {
+        "type": "text",
+        "title": "📋 Resumen del Módulo 7 - Del SÍ al DINERO",
+        "content": "**🎉 Ahora dominas el proceso COMPLETO de entrega:**\n\n✅ **Confirmación por escrito (OBLIGATORIO):**\n- Entregables específicos\n- Plazo claro\n- Precio confirmado\n- Protección para ambos\n\n✅ **Comunicación durante el proyecto:**\n- Actualizaciones proactivas (50% hecho)\n- Respuestas rápidas (<24h)\n- Preguntas temprano, no adivinanzas\n- Problemas comunicados con anticipación\n\n✅ **Entrega profesional (IMPRESIONA):**\n- Plantilla con explicaciones\n- Archivos organizados y nombrados\n- Formato solicitado\n- Extras que encantan\n- Revisiones incluidas mencionadas\n\n✅ **Conseguir evaluaciones (CRECIMIENTO):**\n- Pedir DESPUÉS de aprobación y satisfacción\n- Plantilla educada y con razones\n- Máximo 2 contactos\n- Aceptar que algunos no evalúan\n\n✅ **Proceso completo internalizado:**\nConfirmación → Comunicación → Entrega → Evaluación\n\n**🎯 PRÓXIMO Y ÚLTIMO MÓDULO - Módulo 8:**\n¡Felicidades! Completaste casi toda la trayectoria. En el último módulo: qué hacer DESPUÉS del primer proyecto, cómo escalar de principiante a profesional, y tu plan de acción para los próximos 30 días."
+      }
+    ]
+  },
+  "module8": {
+    "title": "Próximos Pasos",
+    "description": "De principiante a profesional",
+    "icon": "TrendingUp",
+    "steps": [
+      {
+        "type": "text",
+        "title": "🎓 ¡Completaste la Trilla Básica!",
+        "content": "**¡FELICIDADES!** 🎉\n\nLlegaste al final de los 8 módulos fundamentales de la trilla freelancer para principiantes. Esto es un logro REAL.\n\n**📚 Todo el conocimiento que ahora tienes:**\n✅ **Fundamentos:** Qué realmente es ser freelancer\n✅ **Plataformas:** Dónde encontrar clientes confiables\n✅ **Perfil:** Cómo crear una presentación que venda\n✅ **Servicios:** Qué puedes ofrecer con valor\n✅ **Propuestas:** Cómo postularte y ganar proyectos\n✅ **Precios:** Cuánto cobrar con confianza\n✅ **Entrega:** Cómo ejecutar y entregar con excelencia\n✅ **Plan:** Tu ruta para los primeros resultados\n\n**⚠️ Importante:** Esto es solo el COMIENZO de tu trayectoria. Conocimiento sin acción no genera resultados.\n\n**En este módulo final:**\n- Qué hacer INMEDIATAMENTE después de tu primer proyecto\n- Cómo evolucionar de principiante a profesional\n- Tu plan de acción concreto para los próximos 30 días\n- Recursos para continuar creciendo"
+      },
+      {
+        "type": "text",
+        "title": "📈 Post-Proyecto: Qué Hacer DESPUÉS del Primer Sí",
+        "content": "Tu primer proyecto concluido es un HITO. Ahora, actúa estratégicamente:\n\n**1. CELEBRA (pero rápido)**\n→ Reconoce tu logro (¡primer dinero como freelancer!)\n→ Celebra de forma simple pero significativa\n→ Internaliza: \"¡Puedo hacer esto!\"\n\n**2. ACTUALIZA PERFIL INMEDIATAMENTE**\n→ Agrega el proyecto a tu portafolio\n→ Usa capturas (con permiso) o descripciones detalladas\n→ Actualiza tu biografía: \"Recientemente trabajé en [proyecto]...\"\n→ Si es posible, muestra RESULTADOS medibles\n\n**3. PIDE PERMISO PARA REFERENCIA**\n→ Además de la evaluación en la plataforma\n→ \"¿Puedo mencionar que trabajé contigo/tu empresa en mi portafolio?\"\n→ Muchos clientes permiten, también es marketing para ellos\n\n**4. ANALIZA LO QUE FUNCIONÓ**\n→ ¿Cómo conseguiste ESE proyecto específico?\n→ ¿Qué propuesta enviaste? Guárdala como plantilla\n→ ¿Qué palabras clave usaste? ¿El cliente mencionó algo específico?\n→ REPLICA lo que funcionó\n\n**5. MANTÉN EL MOMENTO**\n→ No pares - el impulso es valioso\n→ Envía MÁS propuestas INMEDIATAMENTE\n→ Usa la confianza recién adquirida"
+      },
+      {
+        "type": "quiz",
+        "question": "Después de completar tu PRIMER proyecto, ¿qué acción es MÁS estratégica?",
+        "options": [
+          { "text": "Tomar una semana de descanso total", "isCorrect": false },
+          { "text": "Duplicar tus precios inmediatamente", "isCorrect": false },
+          { "text": "Actualizar perfil con nueva experiencia y buscar próximo proyecto", "isCorrect": true },
+          { "text": "Crear perfiles en 10 plataformas diferentes", "isCorrect": false }
+        ],
+        "explanation": "¡Correcto! Capitalizar el momento actualizando tu perfil (ahora con experiencia REAL) y buscando el próximo proyecto mantiene el momentum. El primer proyecto prueba que puedes, el segundo consolida."
+      },
+      {
+        "type": "text",
+        "title": "💰 Evolución Realista de Ganancias (Primer Año)",
+        "content": "Entiende qué esperar y cómo progresar:\n\n**📊 Trayectoria típica del primer año:**\n\n**Meses 1-3: FASE DE SUPERVIVENCIA**\n→ **Ganancias:** $100-400/mes\n→ **Enfoque principal:** Conseguir CUALQUIER proyecto\n→ **Objetivo:** Construir portafolio y primeras evaluaciones\n→ **Mentalidad:** \"Estoy aprendiendo y probando que puedo\"\n\n**Meses 4-6: FASE DE ESTABILIZACIÓN**\n→ **Ganancias:** $400-800/mes\n→ **Enfoque principal:** Clientes recurrentes y referencias\n→ **Objetivo:** Estabilizar ingresos mensuales\n→ **Mentalidad:** \"Puedo entregar valor consistente\"\n\n**Meses 7-9: FASE DE CRECIMIENTO**\n→ **Ganancias:** $800-1,500/mes\n→ **Enfoque principal:** Especialización y nichos\n→ **Objetivo:** Aumentar valor por proyecto\n→ **Mentalidad:** \"Soy bueno en lo que hago\"\n\n**Meses 10-12: FASE DE PROFESIONALIZACIÓN**\n→ **Ganancias:** $1,500-3,000+/mes\n→ **Enfoque principal:** Clientes premium y proyectos mayores\n→ **Objetivo:** Trabajar menos, ganar más\n→ **Mentalidad:** \"Soy un profesional valorado\"\n\n**🔑 Claves para esta evolución:**\n1. **Aumenta precios gradualmente:** +10-20% cada 3-5 proyectos\n2. **Sé selectivo:** Aprende a decir NO a proyectos malos\n3. **Especialízate:** Nichos específicos pagan más\n4. **Automatiza:** Usa IA y herramientas para escalar\n5. **Construye relaciones:** Clientes felices regresan"
+      },
+      {
+        "type": "text",
+        "title": "🎯 5 Errores CRÍTICOS del Primer Año (¡Evítalos!)",
+        "content": "Aprende de los errores de quienes vinieron antes:\n\n**❌ Error 1: Congelar Precios de Principiante**\n→ **Problema:** Seguir cobrando $10/hora en el mes 12\n→ **Solución:** Aumenta 10-20% cada 3-5 proyectos\n→ **Por qué:** Tu experiencia aumenta, tu precio también debe\n\n**❌ Error 2: Aceptar TODO lo que Aparece**\n→ **Problema:** Clientes problemáticos consumen 80% de la energía\n→ **Solución:** Desarrolla criterios claros de aceptación\n→ **Por qué:** 20% de los clientes generan 80% de los problemas\n\n**❌ Error 3: Ser Generalista Para Siempre**\n→ **Problema:** \"Hago de todo\" = competencia con todos\n→ **Solución:** Elige un nicho y profundiza\n→ **Por qué:** Especialistas cobran 2-5x más que generalistas\n\n**❌ Error 4: Depender de UNA Plataforma**\n→ **Problema:** Si la plataforma cambia reglas, estás vulnerable\n→ **Solución:** Diversifica (2-3 plataformas + sitio propio)\n→ **Por qué:** No pongas todos los huevos en la misma canasta\n\n**❌ Error 5: Parar de Aprender**\n→ **Problema:** Mercado evoluciona, tú te quedas atrás\n→ **Solución:** Reserva 2-4 horas/semana para aprendizaje\n→ **Por qué:** Quien no se actualiza se vuelve obsoleto"
+      },
+      {
+        "type": "component",
+        "componentName": "MatchWords",
+        "props": {
+          "title": "🎯 Error Común → Solución Práctica",
+          "description": "Conecta cada error frecuente con su solución inteligente",
+          "pairs": [
+            { "left": "No aumentar precios nunca", "right": "Aumentar 10-20% cada 3-5 proyectos" },
+            { "left": "Aceptar cualquier cliente/proyecto", "right": "Desarrollar criterios claros de aceptación" },
+            { "left": "Ser generalista para siempre", "right": "Elegir y profundizar en un nicho específico" },
+            { "left": "Depender solo de una plataforma", "right": "Diversificar fuentes de clientes" },
+            { "left": "Parar de estudiar/aprender", "right": "Reservar 2-4 horas semanales para aprendizaje" },
+            { "left": "Trabajar 24/7 sin descanso", "right": "Establecer horarios y límites claros" }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "title": "🚀 Tu Plan de Acción para los Próximos 30 Días",
+        "content": "Aquí está tu ruta CONCRETA para el primer mes de acción:\n\n**📅 SEMANA 1: FUNDACIÓN SÓLIDA**\n☐ **Perfil 100% completo** en la plataforma principal\n☐ **Crear 3 ejemplos de portafolio** (aunque sean ficticios)\n☐ **Definir servicio principal** claramente\n☐ **Establecer precio base** calculado\n☐ **Enviar primeras 5-10 propuestas**\n\n**📅 SEMANA 2: GANANDO MOMENTO**\n☐ **Enviar 2-3 propuestas/día** (calidad sobre cantidad)\n☐ **Ajustar enfoque** basado en respuestas (o falta de ellas)\n☐ **Refinar plantillas** de propuesta\n☐ **Conseguir primer proyecto** (o continuar perseverando)\n\n**📅 SEMANA 3: EJECUCIÓN DE EXCELENCIA**\n☐ **Ejecutar proyecto** con máxima calidad\n☐ **Comunicación profesional** constante\n☐ **Superar expectativas** deliberadamente\n☐ **Entregar antes del plazo** si es posible\n\n**📅 SEMANA 4: CONSOLIDACIÓN Y PRÓXIMOS PASOS**\n☐ **Conseguir evaluación de 5 estrellas**\n☐ **Actualizar perfil** con nuevo proyecto\n☐ **Analizar aprendizajes** del mes\n☐ **Planear mes 2** con ajustes\n\n**🎯 Meta realista del mes 1:** 1-2 proyectos concluidos con evaluaciones positivas"
+      },
+      {
+        "type": "text",
+        "title": "📚 Recursos para Continuar Creciendo",
+        "content": "Tu trayectoria de aprendizaje NO termina aquí:\n\n**📖 Lectura Recomendada:**\n- **\"The Win Without Pitching Manifesto\"** - Blair Enns\n- **\"Company of One\"** - Paul Jarvis\n- **\"Deep Work\"** - Cal Newport (productividad)\n- **Blogs de las plataformas:** Workana, Upwork, Fiverr\n\n**🎥 Contenido en Video:**\n- **Canales YouTube:** Freelancer TV, The Futur\n- **Tutoriales específicos:** Herramientas de IA, SEO, diseño\n- **Webinars gratuitos** de las plataformas\n\n**👥 Comunidades y Networking:**\n- **Grupos Facebook:** Freelancers [tu país/idioma]\n- **Discord/Reddit:** Comunidades de freelancers\n- **LinkedIn:** Sigue freelancers exitosos en tu área\n- **Eventos locales:** Meetups, talleres (presenciales u online)\n\n**🛠️ Herramientas Esenciales:**\n- **Organización:** Notion, Trello, Asana\n- **Control de tiempo:** Toggl, Clockify\n- **Comunicación:** Slack, Zoom\n- **Productividad:** Grammarly, Calendly\n- **Finanzas:** Hojas de cálculo simples o Wave/QuickBooks\n\n**💡 Regla de Oro:** Reserva **2-4 horas por semana** para aprender algo nuevo relacionado con tu servicio o con el freelancing en general."
+      },
+      {
+        "type": "component",
+        "componentName": "FillBlanks",
+        "props": {
+          "title": "🎯 Tu Compromiso Personal",
+          "sentence": "En los próximos 30 días, voy a crear mi perfil completo en [BLANK], enviar [BLANK] propuestas personalizadas por día, y conseguir mi primer [BLANK] con evaluación positiva.",
+          "correctAnswers": ["Workana", "2-3", "proyecto"],
+          "options": [
+            "Workana",
+            "2-3",
+            "proyecto",
+            "Fiverr",
+            "5-10",
+            "cliente",
+            "Upwork",
+            "1",
+            "contrato",
+            "LinkedIn",
+            "10+",
+            "alianza"
+          ],
+          "explanation": "¡Excelente compromiso! Específico, medible, alcanzable. Workana es excelente para comenzar, 2-3 propuestas/día es sostenible, y tu primer proyecto es un hito transformador."
+        }
+      },
+      {
+        "type": "text",
+        "title": "🏆 ¡FELICIDADES! Completaste la Jornada Inicial",
+        "content": "**🎊 ¡CELEBRACIÓN MERECIDA!**\n\nAcabas de completar los 8 módulos de la **Trilla Freelancer para Principiantes**. Esto no es pequeño - invertiste tiempo y energía en tu propio futuro.\n\n**📊 TU NUEVO PATRIMONIO:**\n✅ **Claridad total** sobre qué es freelancing\n✅ **Mapa de las plataformas** - sabes dónde comenzar\n✅ **Perfil vendedor** - sabes cómo presentarte\n✅ **Servicios definidos** - sabes qué ofrecer\n✅ **Propuestas ganadoras** - sabes cómo conseguir proyectos\n✅ **Precios estratégicos** - sabes cuánto cobrar\n✅ **Proceso de entrega** - sabes cómo ejecutar\n✅ **Plan de acción** - sabes los próximos pasos\n\n**🎯 LA VERDAD CRUCIAL:**\nTodo lo que aprendiste solo tiene valor SI es aplicado. Conocimiento en teoría no paga cuentas.\n\n**⚡ LA ÚNICA DIFERENCIA** entre quien gana dinero como freelancer y quien \"algún día intentará\" es simple:\n\n**UNO ACTÚA. EL OTRO ESPERA.**\n\n**❓ ¿Cuál vas a ser?**\n- ¿La persona que aplica lo que aprendió?\n- ¿La persona que comienza HOY?\n- ¿La persona que transforma conocimiento en resultados?\n\n**🚀 TU MOMENTO ES AHORA.**\nNo esperes \"el momento perfecto\". No esperes \"más preparación\". No esperes \"más valor\".\n\n**El momento perfecto es cuando DECIDES comenzar.**\n\n**💪 TIENES TODO LO QUE NECESITAS:**\n- Conocimiento ✓\n- Herramientas ✓\n- Plan ✓\n- Capacidad ✓\n\n**🎉 ¡BUENA SUERTE EN TU TRAYECTORIA!**\nQue tu primer proyecto sea solo el inicio de una carrera increíble como freelancer profesional.\n\n**📞 RECUERDA:** No estás solo. Regresa a estos módulos cuando necesites. Ajusta conforme a tu experiencia. Y celebra CADA logro, por pequeño que parezca.\n\n**🌟 EL FUTURO DE TU TRABAJO ESTÁ EN TUS MANOS.**\n¡Ve a crear algo increíble!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "challenge": {
+    "week": "週",
+    "day": "日目",
+    "days": "日",
+    "completed": "完了",
+    "viewAll": "すべて表示",
+    "continueFromWhere": "続きから始める",
+    "aiDomination": "AIマスタリー",
+    "level1": "レベル1",
+    "started": "チャレンジ開始!",
+    "goodLuck": "学習の旅がんばってください!",
+    "notFound": "チャレンジが見つかりません",
+    "aiTrails": "AIパス",
+    "challenge28Days": "28日チャレンジ",
+    "chooseAI": "学ぶAIを選択:",
+    "trail": "パス",
+    "startChallenge": "チャレンジを開始",
+    "starting": "開始中...",
+    "ais": "AI",
+    "progress": "進捗",
+    "review": "レビュー",
+    "viewTrail": "パスを見る",
+    "aiChallenges": "AIチャレンジ",
+    "master8AI": "28日で8つのAIをマスター",
+    "master8AIDesc": "各チャレンジは市場の主要なAIツールを教えるように設計されています。"
+  },
+  "personalizedTrail": {
+    "title": "あなた専用のパス",
+    "progress": "{{completed}}/{{total}}日完了",
+    "notFound": "パスが見つかりません。",
+    "createNew": "新しいパスを作成"
+  },
+  "personalizedLesson": {
+    "title": "パーソナルレッスン",
+    "dayTitle": "{{day}}日目",
+    "todayTask": "今日のタスク",
+    "taskIntro": "学ぶこと",
+    "taskDescription": "タスクの説明",
+    "exerciseTitle": "実践練習",
+    "exerciseNote": "学習を強化するためにこの練習を完了してください",
+    "markComplete": "完了としてマーク",
+    "completeNote": "今日はよく頑張りました！",
+    "dayComplete": "日完了！",
+    "greatWork": "素晴らしい！進歩しています！",
+    "nextDay": "次の日へ",
+    "viewTrail": "パスを見る",
+    "continue": "続ける",
+    "complete": "完了"
+  },
+  "landing": {
+    "nav": {"home": "ホーム", "about": "概要", "programs": "機能", "testimonials": "ユーザーの声", "plan": "プラン", "contact": "お問い合わせ", "login": "ログイン", "startNow": "アプリをダウンロード"},
+    "hero": {"badge": "市場で最も完全なAIアプリ", "title": "マスターしよう", "titleHighlight": "人工知能", "titleEnd": "、スマホから直接", "subtitle": "インタラクティブな学習パス、実践演習、デジタル証明書でAIを学ぼう——すべてアプリ内で。20以上のAIツール、オフラインモード、ゲーミフィケーション。", "cta": "無料ダウンロード", "demo": "デモを見る", "students": "ダウンロード", "rating": "評価", "countries": "国"},
+    "features": {
+      "sectionLabel": "アプリの機能", "title": "必要なすべてがポケットに", "subtitle": "インタラクティブパス、AIアシスタント、リアルタイム進捗、証明書を備えた完全なアプリ。",
+      "curriculum": {"title": "インタラクティブ学習パス", "description": "ゲーミフィケーションされたパスと常に更新されるAIツールのコンテンツで学習。"},
+      "mentoring": {"title": "内蔵AIアシスタント", "description": "アプリ内のパーソナルAIアシスタントEDIからリアルタイムで回答を取得。"},
+      "community": {"title": "リアルタイム進捗", "description": "詳細なダッシュボード、ストリーク、学習統計で進捗を追跡。"},
+      "certification": {"title": "デジタル証明書", "description": "パスやチャレンジを完了して証明書を獲得。"},
+      "practical": {"title": "オフラインモード", "description": "レッスンをダウンロードしてインターネットなしで学習——どこでも学べる。"},
+      "career": {"title": "ゲーミフィケーション", "description": "XPを獲得、レベルアップ、バッジをアンロック、毎日の学習ストリークを維持。"}
+    },
+    "programs": {
+      "sectionLabel": "機能", "title": "アプリの機能を探索", "subtitle": "すべてのレベル向けの機能。", "popular": "人気No.1", "startNow": "アプリをダウンロード", "beginner": "初級", "intermediate": "中級", "advanced": "上級",
+      "fundamentals": {"title": "AI学習パス", "description": "アプリ内のインタラクティブでゲーミフィケーションされたパスでAIの旅を始めよう。", "duration": "4週間", "highlights": ["インタラクティブAIパス", "ChatGPT実践演習", "アプリでタスク自動化", "デジタル証明書"]},
+      "machineLearning": {"title": "上級チャレンジ", "description": "毎日の演習で28日間チャレンジに挑戦。", "duration": "28日間", "highlights": ["毎日のAIチャレンジ", "インタラクティブ演習", "ゲーミフィケーション進捗", "完了証明書"]},
+      "deepLearning": {"title": "パーソナルAIアシスタント", "description": "EDI、内蔵AIアシスタントで質問やプロンプト練習。", "duration": "無制限", "highlights": ["内蔵AIチャット", "プロンプトトレーナー", "リアルタイム回答", "アプリ内パーソナルサポート"]}
+    },
+    "pricing": {"badge": "料金", "title": "アプリの全機能をアンロック", "subtitle": "今日からAI学習を始めましょう", "week1": "1週間プラン", "week4": "4週間プラン", "week12": "12週間プラン", "mostPopular": "最も人気", "from": "定価", "for": "特価", "perDay": "1日あたり", "getMyPlan": "プランを取得", "note": "12週間プランを使用する人は2倍の結果を得られます。"},
+    "testimonials": {
+      "sectionLabel": "ユーザーの声", "title": "ユーザーの感想", "subtitle": "何千人もの人々がEduclyアプリでAIを学びました。",
+      "items": [
+        {"name": "マリア・シルバ", "role": "データサイエンティスト", "country": "ブラジル", "text": "Educlyアプリは私のAI学習を変えました。毎日バスで使い、3ヶ月で初めての仕事を手に入れました。"},
+        {"name": "ジョアン・サントス", "role": "プロダクトマネージャー", "country": "ポルトガル", "text": "アプリは素晴らしい——パスは実践的でオフラインで勉強できます。ゲーミフィケーションがモチベーションを維持します。"},
+        {"name": "アナ・ガルシア", "role": "MLエンジニア", "country": "メキシコ", "text": "アプリで複数のチャレンジを完了し、デジタル証明書が履歴書で大きな違いを生みました。"},
+        {"name": "カルロス・フェルナンデス", "role": "スタートアップ創業者", "country": "アルゼンチン", "text": "AIの最新情報を得るために毎日アプリを使っています。オフラインモードは旅行者に最適です。"}
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "グローバル展開", "title": "世界中に展開", "subtitle": "Educlyアプリは150カ国以上でダウンロードされています。",
+      "regions": {"latinAmerica": "ラテンアメリカ", "europe": "ヨーロッパ", "northAmerica": "北アメリカ", "asiaOceania": "アジア＆オセアニア"},
+      "features": {"languages": {"title": "15言語対応", "description": "プロフェッショナル翻訳で複数言語対応"}, "support": {"title": "24時間サポート", "description": "内蔵AIアシスタントとサポートチームがいつでも対応"}, "community": {"title": "アプリ内コミュニティ", "description": "世界中のユーザーとつながり進捗を共有"}}
+    },
+    "stats": {"students": "ダウンロード", "countries": "国", "satisfaction": "ストア評価", "partners": "AIツール"},
+    "cta": {
+      "title": "スマホから直接AIを学ぶ準備はできましたか？", "subtitle": "すでにEduclyアプリでAIをマスターしている50,000人以上のユーザーに参加しましょう。",
+      "startFree": "無料ダウンロード", "talkConsultant": "サポートに相談", "guarantee": "30日間保証", "installments": "最大12回払い",
+      "benefits": ["全パスへの完全アクセス", "無料アプリアップデート", "内蔵AIアシスタント", "デジタル証明書", "オフラインモード利用可能", "30日間返金保証"]
+    },
+    "footer": {
+      "description": "市場で最も完全なAIアプリ。スマホから直接実践的にAIを学ぼう。",
+      "contact": "お問い合わせ", "programs": "機能", "resources": "リソース", "company": "会社情報", "legal": "法的情報",
+      "links": {"aiFundamentals": "AI学習パス", "machineLearning": "28日間チャレンジ", "deepLearning": "AIアシスタント", "aiForBusiness": "デジタル証明書", "blog": "ブログ", "webinars": "チュートリアル", "ebooks": "ガイド", "community": "コミュニティ", "aboutUs": "会社概要", "careers": "採用情報", "partnerships": "パートナーシップ", "contact": "お問い合わせ", "terms": "利用規約", "privacy": "プライバシーポリシー", "cookies": "Cookieポリシー"},
+      "copyright": "全著作権所有。", "madeWith": "グローバルAIコミュニティのために❤️を込めて作成"
+    }
+  },
+  "common": {
+    "back": "戻る",
+    "next": "次へ",
+    "start": "開始",
+    "continue": "続ける",
+    "complete": "完了",
+    "login": "ログイン",
+    "signup": "登録",
+    "logout": "ログアウト",
+    "loading": "読み込み中...",
+    "translating": "コンテンツを翻訳中...",
+    "error": "エラーが発生しました",
+    "of": "/"
+  },
+  "quiz": {
+    "selectAllAnswers": "正しい回答をすべて選択してください",
+    "verify": "確認",
+    "perfect": "完璧！",
+    "youGotAll": "全問正解です！",
+    "almostRight": "もう少し！",
+    "youGotXofY": "{{total}}問中{{correct}}問正解です。",
+    "incorrect": "不正解",
+    "tryAgainNext": "次回また挑戦してください！",
+    "correct": "正解！",
+    "wellDone": "よくできました！この調子で！",
+    "correctAnswerWas": "正しい答えは："
+  },
+  "lessonUI": {
+    "taskCompleted": "タスク完了",
+    "yourAnswer": "あなたの回答：",
+    "repeatTask": "タスクを繰り返す"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "{{tool}}の基本概念",
+    "practicalTechniques": "実践的な使用テクニック",
+    "dailyApplication": "日常生活での活用方法"
+  },
+  "lesson": {
+    "locked": "ロック中",
+    "completed": "完了",
+    "startNow": "今すぐ開始",
+    "noContent": "コンテンツはまだ利用できません。",
+    "checkAnswer": "回答を確認",
+    "tryAgain": "もう一度",
+    "tryAgainFeedback": "おっと！もう一度試してください。",
+    "correctAnswer": "おめでとうございます！正解です！",
+    "phaseCompleted": "フェーズ完了！",
+    "loading": "読み込み中...",
+    "close": "閉じる",
+    "continue": "続ける",
+    "verify": "確認",
+    "stepTypes": {
+      "learn": "📚 学習",
+      "quiz": "❓ クイズ",
+      "practical": "⚡ 実践",
+      "simulator": "🤖 シミュレーター"
+    },
+    "quiz": {
+      "correct": "正解！",
+      "incorrect": "もう一度",
+      "askEdi": "EDIに助けを求める",
+      "hint": "💡 ヒント",
+      "excellent": "素晴らしい！",
+      "almostThere": "もう少し！",
+      "masteredConcept": "このコンセプトをマスターしました。その調子で！",
+      "hintReread": "選択肢をもう一度読んでください。正解は主要なコンセプトに関連しています。",
+      "hintOrder": "論理的な順序を考えてみてください：アクション → オブジェクト → 詳細。",
+      "hintReview": "前のコンテンツに戻ってコンセプトを復習してください。",
+      "hintAskEdi": "EDIがお手伝いできます！下のボタンをクリックしてください。",
+      "getCorrectToContinue": "続けるには正解してください"
+    },
+    "practical": {
+      "instructions": "正しいプロンプトを作成するには単語をクリックしてください：",
+      "yourAnswer": "あなたの回答：",
+      "available": "利用可能な単語："
+    },
+    "chat": {
+      "aiReady": "お手伝いの準備ができています",
+      "sendPlaceholder": "メッセージを入力...",
+      "aiResponse": "素晴らしい例です！私がどのように入力を処理したか気づきましたか？実践でテストしたので、'続ける'をクリックして先に進みましょう。"
+    },
+    "textParts": {
+      "part": "パート",
+      "of": "の",
+      "nextPart": "次のパート",
+      "previousPart": "前のパート",
+      "showPrevious": "前のパートを表示",
+      "hidePrevious": "前のパートを非表示",
+      "allRead": "すべてのコンテンツを読みました"
+    },
+    "matchWords": {
+      "instructions": "左側の各項目を右側の正しいペアに接続してください！",
+      "matched": "ペア接続済み",
+      "reset": "やり直す"
+    },
+    "promptTrainer": {
+      "subtitle": "EDIでプロンプトをトレーニング",
+      "challenge": "🎯 チャレンジ：",
+      "criteria": "成功基準：",
+      "startMessage": "プロンプトを書いて始めましょう！",
+      "completed": "プロンプト承認！おめでとうございます！🎉",
+      "placeholder": "ここにプロンプトを入力...",
+      "attempts": "試行回数",
+      "showHint": "ヒントを表示",
+      "hideHint": "ヒントを隠す",
+      "showExample": "プロンプト例を表示",
+      "hideExample": "例を隠す"
+    },
+    "ediMotivation": {
+      "almostDone": "もうすぐ完了！🎯 あと少しです！",
+      "halfway": "折り返し地点！💪 この調子で！",
+      "greatJob": "素晴らしい仕事！✨ 最高です！",
+      "keepGoing": "諦めないで！🔥 あなたならできる！",
+      "finalStretch": "ラストスパート！⚡ もう少し！",
+      "encouragement": "あなたを信じています！💖 一緒に頑張ろう！",
+      "yourAssistant": "あなたのアシスタント",
+      "almostDoneDay": "{{day}}日目がもうすぐ終わります！🎯 {{phrase}}",
+      "halfwayDay": "{{day}}日目の折り返し！💪 {{phrase}}",
+      "finalStretchDay": "{{day}}日目のラストスパート！⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "とても順調です！",
+          "この調子で、素晴らしい！",
+          "もうすぐ、できますよ！",
+          "諦めないで！",
+          "最高です！"
+        ],
+        "halfway": [
+          "素晴らしい進捗！",
+          "折り返し、頑張って！",
+          "優秀な進歩！",
+          "すごいです！",
+          "この調子で！"
+        ],
+        "finalStretch": [
+          "ゴールは目前！",
+          "ここまで来ました！",
+          "最後の追い込み！",
+          "カッコよく終わろう！",
+          "もうすぐゴール！"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "週間ストリーク",
+    "subtitle": "学習習慣を維持しましょう",
+    "days": {
+      "mon": "月",
+      "tue": "火",
+      "wed": "水",
+      "thu": "木",
+      "fri": "金",
+      "sat": "土",
+      "sun": "日"
+    }
+  },
+  "auth": {
+    "title": "アカウントにアクセス",
+    "loginTab": "ログイン",
+    "signupTab": "登録",
+    "email": "メール",
+    "emailPlaceholder": "your@email.com",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワードを入力",
+    "confirmPassword": "パスワード確認",
+    "confirmPasswordPlaceholder": "パスワードを確認",
+    "loginButton": "ログイン",
+    "signupButton": "登録",
+    "loginSuccess": "ログイン成功！",
+    "signupSuccess": "アカウント作成成功！",
+    "passwordMismatch": "パスワードが一致しません",
+    "passwordTooShort": "パスワードは6文字以上必要です",
+    "loginError": "ログインエラー",
+    "signupError": "登録エラー",
+    "fullName": "氏名",
+    "fullNamePlaceholder": "氏名を入力してください",
+    "nameRequired": "氏名を入力してください"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "オンライン",
+    "greeting": "こんにちは！👋 私は EDI です、Educly のアシスタントです！お手伝いできてとても嬉しいです！何を知りたいですか？",
+    "placeholder": "質問を入力してください...",
+    "error": "メッセージの送信中にエラーが発生しました"
+  },
+  "freelancer": {
+    "title": "フリーランサー学習コース",
+    "subtitle": "AIで稼ぐ",
+    "dashboardDesc": "AIツールを使って成功するフリーランサーになるための実証済みの戦略を学びましょう。",
+    "headerDesc": "AIフリーランサーとして稼ぐスキルをマスター",
+    "modules": "学習モジュール",
+    "access": "コースにアクセス",
+    "tipsTitle": "エキスパートのヒント",
+    "tipsDesc": "各モジュールには、すでにAIで稼いでいる成功したフリーランサーからの実践的なヒントが含まれています。",
+    "premium": {
+      "title": "プレミアムフリーランサー学習コース",
+      "description": "成功するAIフリーランサーになるための独占コンテンツをアンロック",
+      "features": {
+        "strategies": "実証済みの販売戦略",
+        "clients": "最初のクライアントの獲得方法",
+        "pricing": "価格設定と交渉",
+        "platforms": "フリーランサーに最適なプラットフォーム"
+      }
+    },
+    "modulesList": {
+      "1": {
+        "title": "フリーランスの基礎",
+        "description": "マインドセットと始めるための第一歩"
+      },
+      "2": {
+        "title": "ポートフォリオの構築",
+        "description": "AIで魅力的なポートフォリオを作成"
+      },
+      "3": {
+        "title": "クライアントの獲得",
+        "description": "最初の仕事を獲得するための戦略"
+      },
+      "4": {
+        "title": "戦略的な価格設定",
+        "description": "AIワークの料金設定方法"
+      },
+      "5": {
+        "title": "ネットワーキングとパートナーシップ",
+        "description": "プロフェッショナルなネットワークを構築"
+      },
+      "6": {
+        "title": "成功する提案書",
+        "description": "成約につながる提案書を書く"
+      },
+      "7": {
+        "title": "ビジネスの拡大",
+        "description": "ソロフリーランサーから起業家へ"
+      },
+      "8": {
+        "title": "AI自動化",
+        "description": "AIを使って生産性を倍増"
+      }
+    }
+  },
+  "contactPage": {
+    "title": "お問い合わせ",
+    "subtitle": "お問い合わせ方法をお選びください",
+    "aiChat": {
+      "title": "AIチャットサポート",
+      "description": "インテリジェントアシスタントが、プラットフォーム、料金、コースについて即座にお答えします。",
+      "button": "AIチャットを開く",
+      "available": "24時間対応"
+    },
+    "humanSupport": {
+      "title": "人間によるサポート",
+      "description": "より個別のサポート、複雑なご質問、ビジネスパートナーシップについては、メールでお問い合わせください。",
+      "button": "メールを送信",
+      "copyEmail": "メールをコピー",
+      "emailCopied": "メールをコピーしました！",
+      "openGmail": "Gmailで開く",
+      "responseTime": "24〜48時間以内に返信"
+    },
+    "aiCapabilities": {
+      "title": "AIチャットでできること",
+      "item1": "8つのAIツールについて（ChatGPT、Claude、Geminiなど）",
+      "item2": "料金と購読プラン",
+      "item3": "28日間チャレンジの詳細",
+      "item4": "プラットフォームの使い方",
+      "item5": "認定プロセス",
+      "item6": "技術要件"
+    }
+  },
+  "upsell": {
+    "features": "アクセスできる内容：",
+    "cta": "今すぐ解除",
+    "back": "ダッシュボードに戻る",
+    "freelancer": {
+      "title": "フリーランサーエリア",
+      "headline": "限定コンテンツ",
+      "subtitle": "高度な機能を解除",
+      "description": "AI分野の限定求人にアクセスし、学んだことを活用しましょう。",
+      "feature1": "リモートAI求人",
+      "feature2": "カテゴリと経験でフィルタリング",
+      "feature3": "毎週新しい求人を追加",
+      "feature4": "直接応募リンク"
+    },
+    "ai_hub": {
+      "title": "AIハブ",
+      "headline": "限定コンテンツ",
+      "subtitle": "高度な機能を解除",
+      "description": "画像、プロンプトを作成し、回答を得るための専門アシスタント付きAIハブを解除。",
+      "feature1": "プロフェッショナルな画像を作成するAI",
+      "feature2": "プロンプト作成アシスタント",
+      "feature3": "専門AIから回答を取得",
+      "feature4": "アシスタントへの無制限アクセス"
+    }
+  },
+  "legal": {
+    "email": "メール",
+    "website": "ウェブサイト",
+    "termsOfUse": {
+      "title": "利用規約 – Educly",
+      "lastUpdated": "最終更新: 2025年1月",
+      "intro": "Educlyアプリにアクセス、インストール、または使用することにより、ユーザーはこれらの利用規約を読み、理解し、完全に同意したことを宣言します。ここに記載されている条件に同意しない場合は、直ちにプラットフォームの使用を中止してください。",
+      "sections": {
+        "about": {
+          "title": "1. Educlyについて",
+          "content": "Educlyは、アプリおよび/またはオンライン環境を通じて教育・情報コンテンツを提供するデジタルプラットフォームであり、購入時に提示された有料トライアル期間を含む場合がある定期購読モデルで運営されています。"
+        },
+        "acceptance": {
+          "title": "2. 規約の承諾",
+          "content": "Educlyの使用および任意のプランへの加入は、これらの利用規約およびプラットフォームで利用可能なプライバシーポリシーの完全な承諾を意味します。アプリにアクセスすることで、ユーザーは購入時に通知された条件に従って、自動課金を伴う定期購読サービスに加入することを認めます。"
+        },
+        "account": {
+          "title": "3. 登録とユーザーの責任",
+          "intro": "3.1. ユーザーは登録時に真実で完全かつ最新の情報を提供することに同意します。",
+          "responsibility": "3.2. ユーザーは以下について単独で責任を負います：",
+          "items": [
+            "アクセス資格情報の機密性を維持すること",
+            "アカウントで行われるすべての活動"
+          ],
+          "disclaimer": "3.3. Educlyはユーザーの過失による不正アクセスについて責任を負いません。"
+        },
+        "plans": {
+          "title": "4. プラン、サブスクリプション、有料トライアル",
+          "items": [
+            "4.1. Educlyコンテンツへのアクセスは、ユーザーが指定した支払い方法への自動課金を伴う定期購読を通じて行われます。",
+            "4.2. 一部のプランには、初期金額が減額され、購入時に通知された期間の終了時に定期購読に自動変換される有料トライアルが含まれる場合があります。ただし、これらの規約で定められた規則に従ってキャンセル要求が行われた場合を除きます。",
+            "4.3. 価格、頻度、トライアル期間、自動更新に関するすべての情報は、購入確認前に明確に提示されます。"
+          ]
+        },
+        "refund": {
+          "title": "5. 返金およびキャンセルポリシー",
+          "trialRefund": {
+            "title": "5.1. 有料トライアルの返金",
+            "content": "ユーザーは、有料トライアルの最初の課金日から30日以内に、有料トライアルで支払った金額のみの返金を要求できます。"
+          },
+          "howToRefund": {
+            "title": "5.2. 返金の申請方法",
+            "content": "有料トライアルの返金要求は、Educlyの公式サポートチャネルを通じてのみ行う必要があります。"
+          },
+          "cancellation": {
+            "title": "5.3. サブスクリプションのキャンセルまたは一時停止",
+            "content1": "ユーザーはいつでもサブスクリプションのキャンセルまたは一時停止を要求できます。次回の課金前に要求を有効にするには、予定された引き落とし日の少なくとも48時間前までに要求する必要があります。",
+            "content2": "この期限後に要求された場合、次の請求サイクルから有効になり、既に支払い済みの期間が終了するまでコンテンツへのアクセスは維持されます。",
+            "content3": "キャンセルまたは一時停止の要求は、公式メールを通じてのみ行う必要があります：",
+            "content4": "他のチャネルを通じて行われた要求は、キャンセル目的では有効とみなされません。",
+            "content5": "定期購読で支払われた金額は返金されません。サブスクリプションを確認することで、ユーザーは支払い確認後すぐにコンテンツへのアクセスが提供され、定期購読モデルに加入していることを認めます。"
+          },
+          "processing": {
+            "title": "5.4. 財務処理",
+            "content": "承認された有料トライアルの返金は、支払いオペレーターおよびユーザーが使用した方法の規則に従って処理されます。Educlyは第三者の期限や運用手順について責任を負いません。"
+          }
+        },
+        "acceptableUse": {
+          "title": "6. プラットフォームの適切な使用",
+          "intro": "ユーザーは以下を禁止されています：",
+          "items": [
+            "許可なくEduclyコンテンツをコピー、複製、配布、または商業化すること",
+            "アカウントアクセスを第三者と共有すること",
+            "違法、詐欺的、または誠実さに反する目的でプラットフォームを使用すること"
+          ],
+          "consequence": "これらの規則に違反すると、返金なしにアカウントの停止またはキャンセルにつながる可能性があります。"
+        },
+        "ip": {
+          "title": "7. 知的財産",
+          "content": "Educlyで利用可能なすべてのコンテンツ（テキスト、ビデオ、画像、オーディオ、ブランド、ロゴ、レイアウト、デジタル素材を含む）は著作権で保護されており、Educlyまたはそのライセンサーに帰属し、無断使用は禁止されています。"
+        },
+        "liability": {
+          "title": "8. 責任の制限",
+          "content": "Educlyが提供するコンテンツは教育的・情報的な性質を持っています。特定の結果を保証するものではなく、プラットフォームを通じて得た情報の適用についてはユーザーが単独で責任を負います。"
+        },
+        "modifications": {
+          "title": "9. 規約の変更",
+          "content": "Educlyはこれらの利用規約をいつでも変更できます。変更後もプラットフォームを継続して使用することは、新しい規約への同意を意味します。"
+        },
+        "law": {
+          "title": "10. 準拠法および管轄",
+          "content": "これらの利用規約はブラジル連邦共和国の法律に準拠し、消費者保護法に従い、紛争解決のための管轄として消費者の居住地が選択されます。"
+        },
+        "contact": {
+          "title": "11. お問い合わせ",
+          "intro": "質問、有料トライアルの返金要求、またはサブスクリプションのキャンセルや一時停止の要求は、公式メールを通じてのみ行う必要があります："
+        }
+      }
+    }
+  }
+}

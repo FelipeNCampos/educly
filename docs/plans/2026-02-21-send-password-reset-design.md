@@ -1,0 +1,25 @@
+# Send Password Reset Design
+
+## Context
+- The recovery email handler currently enumerates `supabase.auth.admin.listUsers()` and inspects only the first page, so any account outside Supabase's default pagination (100 users) never receives a link.
+- The generated link is a `magiclink`, but the `/update-password` page only consumes `recovery` tokens, so the user always lands on the “invalid link” UI even when the backend performed its job.
+
+## Goals
+1. Always locate the requested user so we can read their preferred language/profile data.
+2. Generate a Supabase recovery link whose tokens satisfy the existing `UpdatePassword` logic (`type === 'recovery'` + hash tokens) so the page becomes usable.
+3. Keep sending the stylized email over SMTP with the current translation/template flow.
+
+## Proposed Design
+1. Replace the `listUsers()` call with `supabase.auth.admin.getUserByEmail(email)` (typical of Supabase admin SDKs). That single call returns the exact user, avoids pagination, and still lets us read `user.user_metadata` and the `profiles` table.
+   - Continue to query `profiles` for preferred language/full name by matching `id` from the admin payload.
+   - If the method returns `null`, log the attempt but still respond with success so we never leak existence, matching the current pattern.
+2. Switch the recovery link generation to use `supabase.auth.admin.generateLink({ type: 'recovery', ... })` instead of `magiclink`. The resulting link should embed the `access_token`, `refresh_token`, and `type=recovery` hash fragment that `UpdatePassword` already looks for, meaning the page can auto-establish a session and allow password updates.
+   - Keep `redirectTo: https://educly.lovable.app/update-password` so the front-end sees the same path and internal `hash` tokens.
+   - Confirm Supabase returns the action link under `linkData.properties.action_link` after requesting a recovery link; the existing email template can continue to use it.
+3. No changes to the SMTP template/code path are required; the existing `sendEmailViaSMTP` call remains the same.
+
+## Testing & Validation
+- Trigger a password reset via the `/auth` modal, then inspect the email link; it should open `/update-password` with `#access_token=...&type=recovery`. Visiting that page should let you set a new password and redirect to the dashboard.
+- Check logs to ensure lookups happen via `getUserByEmail`, and that failures still resolve to a success response (no seeming errors leaked to users).
+
+Does this reflect what you expect for Option 1 before I move on to planning/implementation?

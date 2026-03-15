@@ -1,0 +1,559 @@
+{
+  "challenge": {
+    "week": "週",
+    "day": "日目",
+    "days": "日",
+    "completed": "完了",
+    "viewAll": "すべて表示",
+    "continueFromWhere": "続きから始める",
+    "aiDomination": "AIマスタリー",
+    "level1": "レベル1",
+    "started": "チャレンジ開始!",
+    "goodLuck": "学習の旅がんばってください!",
+    "notFound": "チャレンジが見つかりません",
+    "aiTrails": "AIパス",
+    "challenge28Days": "28日チャレンジ",
+    "chooseAI": "学ぶAIを選択:",
+    "trail": "パス",
+    "startChallenge": "チャレンジを開始",
+    "starting": "開始中...",
+    "ais": "AI",
+    "progress": "進捗",
+    "review": "レビュー",
+    "viewTrail": "パスを見る",
+    "aiChallenges": "AIチャレンジ",
+    "master8AI": "28日で8つのAIをマスター",
+    "master8AIDesc": "各チャレンジは市場の主要なAIツールを教えるように設計されています。"
+  },
+  "personalizedTrail": {
+    "title": "あなた専用のパス",
+    "progress": "{{completed}}/{{total}}日完了",
+    "notFound": "パスが見つかりません。",
+    "createNew": "新しいパスを作成"
+  },
+  "personalizedLesson": {
+    "title": "パーソナルレッスン",
+    "dayTitle": "{{day}}日目",
+    "todayTask": "今日のタスク",
+    "taskIntro": "学ぶこと",
+    "taskDescription": "タスクの説明",
+    "exerciseTitle": "実践練習",
+    "exerciseNote": "学習を強化するためにこの練習を完了してください",
+    "markComplete": "完了としてマーク",
+    "completeNote": "今日はよく頑張りました！",
+    "dayComplete": "日完了！",
+    "greatWork": "素晴らしい！進歩しています！",
+    "nextDay": "次の日へ",
+    "viewTrail": "パスを見る",
+    "continue": "続ける",
+    "complete": "完了"
+  },
+  "landing": {
+    "nav": {
+      "home": "ホーム",
+      "about": "概要",
+      "programs": "プログラム",
+      "testimonials": "受講者の声",
+      "plan": "プラン",
+      "contact": "お問い合わせ",
+      "login": "ログイン",
+      "startNow": "今すぐ始める"
+    },
+    "hero": {
+      "badge": "世界中でAIリーダーを育成",
+      "title": "マスターしよう",
+      "titleHighlight": "人工知能",
+      "titleEnd": "、そしてキャリアを変革しよう",
+      "subtitle": "実践的なコース、パーソナライズされたメンタリング、50,000人以上の専門家からなるグローバルコミュニティで、市場で最も強力なAIツールを学びましょう。",
+      "cta": "無料で始める",
+      "demo": "デモを見る",
+      "students": "受講者",
+      "rating": "評価",
+      "countries": "国"
+    },
+    "features": {
+      "sectionLabel": "なぜEduclyを選ぶのか",
+      "title": "未来への旅はここから始まります",
+      "subtitle": "理論と実践を組み合わせ、継続的なサポートで成功を保証する、最高のAI学習体験を提供します。",
+      "curriculum": {
+        "title": "最先端カリキュラム",
+        "description": "最新のAIトレンドとツールで常に更新されるコンテンツ。"
+      },
+      "mentoring": {
+        "title": "パーソナルメンタリング",
+        "description": "専門家による個別フォローアップで学習を加速。"
+      },
+      "community": {
+        "title": "グローバルコミュニティ",
+        "description": "世界中の50,000人以上のAI専門家とつながる。"
+      },
+      "certification": {
+        "title": "認定資格",
+        "description": "大手企業に評価される証明書。"
+      },
+      "practical": {
+        "title": "実践的学習",
+        "description": "初日から実際のプロジェクトと実践経験。"
+      },
+      "career": {
+        "title": "キャリアアップ",
+        "description": "独占求人へのアクセスとキャリアサポート。"
+      }
+    },
+    "programs": {
+      "sectionLabel": "プログラム",
+      "title": "学習パスを選択",
+      "subtitle": "初心者からAIスペシャリストまで、すべてのレベル向けの構造化されたプログラム。",
+      "popular": "人気No.1",
+      "startNow": "今すぐ始める",
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級",
+      "fundamentals": {
+        "title": "AI基礎",
+        "description": "ゼロから人工知能の旅を始めましょう。基本概念と最初のツールを学びます。",
+        "duration": "4週間",
+        "highlights": [
+          "AIと機械学習の入門",
+          "ChatGPTの第一歩",
+          "基本タスクの自動化",
+          "修了証明書"
+        ]
+      },
+      "machineLearning": {
+        "title": "上級機械学習",
+        "description": "高度なML技術をマスターし、複雑な問題を解決する強力な予測モデルを作成します。",
+        "duration": "8週間",
+        "highlights": [
+          "教師あり学習アルゴリズム",
+          "ニューラルネットワークとディープラーニング",
+          "自然言語処理",
+          "実践プロジェクト"
+        ]
+      },
+      "deepLearning": {
+        "title": "ディープラーニングとニューラルネットワーク",
+        "description": "ディープラーニングの専門家になり、最先端のニューラルアーキテクチャを構築します。",
+        "duration": "12週間",
+        "highlights": [
+          "CNNと高度なアーキテクチャ",
+          "TransformersとLLM",
+          "コンピュータビジョン",
+          "専門家との1対1メンタリング"
+        ]
+      }
+    },
+    "pricing": {
+      "badge": "料金",
+      "title": "プランを選択",
+      "subtitle": "今日からAI学習の旅を始めましょう",
+      "week1": "1週間プラン",
+      "week4": "4週間プラン",
+      "week12": "12週間プラン",
+      "mostPopular": "最も人気",
+      "from": "定価",
+      "for": "特価",
+      "perDay": "1日あたり",
+      "getMyPlan": "プランを取得",
+      "note": "12週間プランを使用する人は、4週間の2倍の結果を得られます。"
+    },
+    "testimonials": {
+      "sectionLabel": "受講者の声",
+      "title": "受講者の感想",
+      "subtitle": "何千人もの専門家がEduclyでキャリアを変革しました。",
+      "items": [
+        {
+          "name": "マリア・シルバ",
+          "role": "データサイエンティスト",
+          "country": "ブラジル",
+          "text": "Educlyは私のキャリアを変えました。3ヶ月で初心者から大手テック企業のデータサイエンティストになりました。"
+        },
+        {
+          "name": "ジョアン・サントス",
+          "role": "プロダクトマネージャー",
+          "country": "ポルトガル",
+          "text": "実践的で最新のコンテンツのおかげで、すぐに仕事でAIを活用できました。"
+        },
+        {
+          "name": "アナ・ガルシア",
+          "role": "MLエンジニア",
+          "country": "メキシコ",
+          "text": "上級プログラムを修了後、3件の求人オファーを受けました。"
+        },
+        {
+          "name": "カルロス・フェルナンデス",
+          "role": "スタートアップ創業者",
+          "country": "アルゼンチン",
+          "text": "Educlyの知識を活用してAIスタートアップを立ち上げました。"
+        }
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "グローバル展開",
+      "title": "世界中に展開",
+      "subtitle": "Educlyは150カ国以上のAI専門家をつなげています。",
+      "regions": {
+        "latinAmerica": "ラテンアメリカ",
+        "europe": "ヨーロッパ",
+        "northAmerica": "北アメリカ",
+        "asiaOceania": "アジア＆オセアニア"
+      },
+      "features": {
+        "languages": {
+          "title": "12言語対応",
+          "description": "複数言語でコンテンツを提供"
+        },
+        "support": {
+          "title": "24時間サポート",
+          "description": "いつでもグローバルサービス"
+        },
+        "community": {
+          "title": "グローバルコミュニティ",
+          "description": "世界中の専門家とネットワーキング"
+        }
+      }
+    },
+    "stats": {
+      "students": "受講者",
+      "countries": "国",
+      "satisfaction": "満足度",
+      "partners": "パートナー企業"
+    },
+    "cta": {
+      "title": "AIをマスターしてキャリアを変革する準備はできましたか？",
+      "subtitle": "すでにAIで未来を築いている50,000人以上の専門家に参加しましょう。",
+      "startFree": "無料で始める",
+      "talkConsultant": "相談する",
+      "guarantee": "30日間保証",
+      "installments": "最大12回払い",
+      "benefits": [
+        "コンテンツへの生涯アクセス",
+        "永久無料アップデート",
+        "専門家限定コミュニティ",
+        "市場認定証明書",
+        "24時間専用サポート",
+        "30日間返金保証"
+      ]
+    },
+    "footer": {
+      "description": "未来の専門家を育成する、人工知能教育のリーディングプラットフォーム。",
+      "contact": "お問い合わせ",
+      "programs": "プログラム",
+      "resources": "リソース",
+      "company": "会社情報",
+      "legal": "法的情報",
+      "links": {
+        "aiFundamentals": "AI基礎",
+        "machineLearning": "機械学習",
+        "deepLearning": "ディープラーニング",
+        "aiForBusiness": "ビジネスAI",
+        "blog": "ブログ",
+        "webinars": "ウェビナー",
+        "ebooks": "電子書籍",
+        "community": "コミュニティ",
+        "aboutUs": "会社概要",
+        "careers": "採用情報",
+        "partnerships": "パートナーシップ",
+        "contact": "お問い合わせ",
+        "terms": "利用規約",
+        "privacy": "プライバシーポリシー",
+        "cookies": "Cookieポリシー"
+      },
+      "copyright": "全著作権所有。",
+      "madeWith": "グローバルAIコミュニティのために❤️を込めて作成"
+    }
+  },
+  "common": {
+    "back": "戻る",
+    "next": "次へ",
+    "start": "開始",
+    "continue": "続ける",
+    "complete": "完了",
+    "login": "ログイン",
+    "signup": "登録",
+    "logout": "ログアウト",
+    "loading": "読み込み中...",
+    "translating": "コンテンツを翻訳中...",
+    "error": "エラーが発生しました",
+    "of": "/"
+  },
+  "quiz": {
+    "selectAllAnswers": "正しい回答をすべて選択してください",
+    "verify": "確認",
+    "perfect": "完璧！",
+    "youGotAll": "全問正解です！",
+    "almostRight": "もう少し！",
+    "youGotXofY": "{{total}}問中{{correct}}問正解です。",
+    "incorrect": "不正解",
+    "tryAgainNext": "次回また挑戦してください！",
+    "correct": "正解！",
+    "wellDone": "よくできました！この調子で！",
+    "correctAnswerWas": "正しい答えは："
+  },
+  "lessonUI": {
+    "taskCompleted": "タスク完了",
+    "yourAnswer": "あなたの回答：",
+    "repeatTask": "タスクを繰り返す"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "{{tool}}の基本概念",
+    "practicalTechniques": "実践的な使用テクニック",
+    "dailyApplication": "日常生活での活用方法"
+  },
+  "lesson": {
+    "locked": "ロック中",
+    "completed": "完了",
+    "startNow": "今すぐ開始",
+    "noContent": "コンテンツはまだ利用できません。",
+    "checkAnswer": "回答を確認",
+    "tryAgain": "もう一度",
+    "tryAgainFeedback": "おっと！もう一度試してください。",
+    "correctAnswer": "おめでとうございます！正解です！",
+    "phaseCompleted": "フェーズ完了！",
+    "loading": "読み込み中...",
+    "close": "閉じる",
+    "continue": "続ける",
+    "verify": "確認",
+    "stepTypes": {
+      "learn": "📚 学習",
+      "quiz": "❓ クイズ",
+      "practical": "⚡ 実践",
+      "simulator": "🤖 シミュレーター"
+    },
+    "quiz": {
+      "correct": "正解！",
+      "incorrect": "もう一度",
+      "askEdi": "EDIに助けを求める",
+      "hint": "💡 ヒント",
+      "excellent": "素晴らしい！",
+      "almostThere": "もう少し！",
+      "masteredConcept": "このコンセプトをマスターしました。その調子で！",
+      "hintReread": "選択肢をもう一度読んでください。正解は主要なコンセプトに関連しています。",
+      "hintOrder": "論理的な順序を考えてみてください：アクション → オブジェクト → 詳細。",
+      "hintReview": "前のコンテンツに戻ってコンセプトを復習してください。",
+      "hintAskEdi": "EDIがお手伝いできます！下のボタンをクリックしてください。",
+      "getCorrectToContinue": "続けるには正解してください"
+    },
+    "practical": {
+      "instructions": "正しいプロンプトを作成するには単語をクリックしてください：",
+      "yourAnswer": "あなたの回答：",
+      "available": "利用可能な単語："
+    },
+    "chat": {
+      "aiReady": "お手伝いの準備ができています",
+      "sendPlaceholder": "メッセージを入力...",
+      "aiResponse": "素晴らしい例です！私がどのように入力を処理したか気づきましたか？実践でテストしたので、'続ける'をクリックして先に進みましょう。"
+    },
+    "textParts": {
+      "part": "パート",
+      "of": "の",
+      "nextPart": "次のパート",
+      "previousPart": "前のパート",
+      "showPrevious": "前のパートを表示",
+      "hidePrevious": "前のパートを非表示",
+      "allRead": "すべてのコンテンツを読みました"
+    },
+    "matchWords": {
+      "instructions": "左側の各項目を右側の正しいペアに接続してください！",
+      "matched": "ペア接続済み",
+      "reset": "やり直す"
+    },
+    "promptTrainer": {
+      "subtitle": "EDIでプロンプトをトレーニング",
+      "challenge": "🎯 チャレンジ：",
+      "criteria": "成功基準：",
+      "startMessage": "プロンプトを書いて始めましょう！",
+      "completed": "プロンプト承認！おめでとうございます！🎉",
+      "placeholder": "ここにプロンプトを入力...",
+      "attempts": "試行回数",
+      "showHint": "ヒントを表示",
+      "hideHint": "ヒントを隠す",
+      "showExample": "プロンプト例を表示",
+      "hideExample": "例を隠す"
+    },
+    "ediMotivation": {
+      "almostDone": "もうすぐ完了！🎯 あと少しです！",
+      "halfway": "折り返し地点！💪 この調子で！",
+      "greatJob": "素晴らしい仕事！✨ 最高です！",
+      "keepGoing": "諦めないで！🔥 あなたならできる！",
+      "finalStretch": "ラストスパート！⚡ もう少し！",
+      "encouragement": "あなたを信じています！💖 一緒に頑張ろう！",
+      "yourAssistant": "あなたのアシスタント",
+      "almostDoneDay": "{{day}}日目がもうすぐ終わります！🎯 {{phrase}}",
+      "halfwayDay": "{{day}}日目の折り返し！💪 {{phrase}}",
+      "finalStretchDay": "{{day}}日目のラストスパート！⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "とても順調です！",
+          "この調子で、素晴らしい！",
+          "もうすぐ、できますよ！",
+          "諦めないで！",
+          "最高です！"
+        ],
+        "halfway": [
+          "素晴らしい進捗！",
+          "折り返し、頑張って！",
+          "優秀な進歩！",
+          "すごいです！",
+          "この調子で！"
+        ],
+        "finalStretch": [
+          "ゴールは目前！",
+          "ここまで来ました！",
+          "最後の追い込み！",
+          "カッコよく終わろう！",
+          "もうすぐゴール！"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "週間ストリーク",
+    "subtitle": "学習習慣を維持しましょう",
+    "days": {
+      "mon": "月",
+      "tue": "火",
+      "wed": "水",
+      "thu": "木",
+      "fri": "金",
+      "sat": "土",
+      "sun": "日"
+    }
+  },
+  "auth": {
+    "title": "アカウントにアクセス",
+    "loginTab": "ログイン",
+    "signupTab": "登録",
+    "email": "メール",
+    "emailPlaceholder": "your@email.com",
+    "password": "パスワード",
+    "passwordPlaceholder": "パスワードを入力",
+    "confirmPassword": "パスワード確認",
+    "confirmPasswordPlaceholder": "パスワードを確認",
+    "loginButton": "ログイン",
+    "signupButton": "登録",
+    "loginSuccess": "ログイン成功！",
+    "signupSuccess": "アカウント作成成功！",
+    "passwordMismatch": "パスワードが一致しません",
+    "passwordTooShort": "パスワードは6文字以上必要です",
+    "loginError": "ログインエラー",
+    "signupError": "登録エラー",
+    "fullName": "氏名",
+    "fullNamePlaceholder": "氏名を入力してください",
+    "nameRequired": "氏名を入力してください"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "オンライン",
+    "greeting": "こんにちは！👋 私は EDI です、Educly のアシスタントです！お手伝いできてとても嬉しいです！何を知りたいですか？",
+    "placeholder": "質問を入力してください...",
+    "error": "メッセージの送信中にエラーが発生しました"
+  },
+  "freelancer": {
+    "title": "フリーランサー学習コース",
+    "subtitle": "AIで稼ぐ",
+    "dashboardDesc": "AIツールを使って成功するフリーランサーになるための実証済みの戦略を学びましょう。",
+    "headerDesc": "AIフリーランサーとして稼ぐスキルをマスター",
+    "modules": "学習モジュール",
+    "access": "コースにアクセス",
+    "tipsTitle": "エキスパートのヒント",
+    "tipsDesc": "各モジュールには、すでにAIで稼いでいる成功したフリーランサーからの実践的なヒントが含まれています。",
+    "premium": {
+      "title": "プレミアムフリーランサー学習コース",
+      "description": "成功するAIフリーランサーになるための独占コンテンツをアンロック",
+      "features": {
+        "strategies": "実証済みの販売戦略",
+        "clients": "最初のクライアントの獲得方法",
+        "pricing": "価格設定と交渉",
+        "platforms": "フリーランサーに最適なプラットフォーム"
+      }
+    },
+    "modulesList": {
+      "1": {
+        "title": "フリーランスの基礎",
+        "description": "マインドセットと始めるための第一歩"
+      },
+      "2": {
+        "title": "ポートフォリオの構築",
+        "description": "AIで魅力的なポートフォリオを作成"
+      },
+      "3": {
+        "title": "クライアントの獲得",
+        "description": "最初の仕事を獲得するための戦略"
+      },
+      "4": {
+        "title": "戦略的な価格設定",
+        "description": "AIワークの料金設定方法"
+      },
+      "5": {
+        "title": "ネットワーキングとパートナーシップ",
+        "description": "プロフェッショナルなネットワークを構築"
+      },
+      "6": {
+        "title": "成功する提案書",
+        "description": "成約につながる提案書を書く"
+      },
+      "7": {
+        "title": "ビジネスの拡大",
+        "description": "ソロフリーランサーから起業家へ"
+      },
+      "8": {
+        "title": "AI自動化",
+        "description": "AIを使って生産性を倍増"
+      }
+    }
+  },
+  "contactPage": {
+    "title": "お問い合わせ",
+    "subtitle": "お問い合わせ方法をお選びください",
+    "aiChat": {
+      "title": "AIチャットサポート",
+      "description": "インテリジェントアシスタントが、プラットフォーム、料金、コースについて即座にお答えします。",
+      "button": "AIチャットを開く",
+      "available": "24時間対応"
+    },
+    "humanSupport": {
+      "title": "人間によるサポート",
+      "description": "より個別のサポート、複雑なご質問、ビジネスパートナーシップについては、メールでお問い合わせください。",
+      "button": "メールを送信",
+      "copyEmail": "メールをコピー",
+      "emailCopied": "メールをコピーしました！",
+      "openGmail": "Gmailで開く",
+      "responseTime": "24〜48時間以内に返信"
+    },
+    "aiCapabilities": {
+      "title": "AIチャットでできること",
+      "item1": "8つのAIツールについて（ChatGPT、Claude、Geminiなど）",
+      "item2": "料金と購読プラン",
+      "item3": "28日間チャレンジの詳細",
+      "item4": "プラットフォームの使い方",
+      "item5": "認定プロセス",
+      "item6": "技術要件"
+    }
+  },
+  "upsell": {
+    "features": "アクセスできる内容：",
+    "cta": "今すぐ解除",
+    "back": "ダッシュボードに戻る",
+    "freelancer": {
+      "title": "フリーランサーエリア",
+      "headline": "限定コンテンツ",
+      "subtitle": "高度な機能を解除",
+      "description": "AI分野の限定求人にアクセスし、学んだことを活用しましょう。",
+      "feature1": "リモートAI求人",
+      "feature2": "カテゴリと経験でフィルタリング",
+      "feature3": "毎週新しい求人を追加",
+      "feature4": "直接応募リンク"
+    },
+    "ai_hub": {
+      "title": "AIハブ",
+      "headline": "限定コンテンツ",
+      "subtitle": "高度な機能を解除",
+      "description": "画像、プロンプトを作成し、回答を得るための専門アシスタント付きAIハブを解除。",
+      "feature1": "プロフェッショナルな画像を作成するAI",
+      "feature2": "プロンプト作成アシスタント",
+      "feature3": "専門AIから回答を取得",
+      "feature4": "アシスタントへの無制限アクセス"
+    }
+  }
+}

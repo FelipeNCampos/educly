@@ -1,0 +1,438 @@
+{
+  "challenge": {
+    "week": "Tydzień",
+    "day": "Dzień",
+    "days": "dni",
+    "completed": "Ukończone",
+    "viewAll": "Zobacz wszystko",
+    "continueFromWhere": "Kontynuuj od miejsca, w którym skończyłeś",
+    "aiDomination": "Opanowanie AI",
+    "level1": "Poziom 1",
+    "started": "Wyzwanie rozpoczęte!",
+    "goodLuck": "Powodzenia w nauce!",
+    "notFound": "Nie znaleziono wyzwania",
+    "aiTrails": "Ścieżki AI",
+    "challenge28Days": "Wyzwanie 28 Dni",
+    "chooseAI": "Wybierz AI do nauki:",
+    "trail": "Ścieżka",
+    "startChallenge": "Rozpocznij Wyzwanie",
+    "starting": "Uruchamianie...",
+    "ais": "AI",
+    "progress": "Postęp",
+    "review": "Przegląd",
+    "viewTrail": "Zobacz ścieżkę",
+    "aiChallenges": "Wyzwania AI",
+    "master8AI": "Opanuj 8 AI w 28 dni",
+    "master8AIDesc": "Każde wyzwanie zostało zaprojektowane, aby nauczyć Cię najważniejszych narzędzi AI na rynku."
+  },
+  "personalizedTrail": {
+    "title": "Twoja Spersonalizowana Ścieżka",
+    "progress": "{{completed}}/{{total}} dni ukończonych",
+    "notFound": "Nie znaleziono ścieżki.",
+    "createNew": "Utwórz nową ścieżkę"
+  },
+  "personalizedLesson": {
+    "title": "Spersonalizowana Lekcja",
+    "dayTitle": "Dzień {{day}}",
+    "todayTask": "Dzisiejsze zadanie",
+    "taskIntro": "Czego się nauczysz",
+    "taskDescription": "Opis zadania",
+    "exerciseTitle": "Ćwiczenie praktyczne",
+    "exerciseNote": "Ukończ to ćwiczenie, aby utrwalić naukę",
+    "markComplete": "Oznacz jako ukończone",
+    "completeNote": "Świetnie ci poszło dzisiaj!",
+    "dayComplete": "Dzień ukończony!",
+    "greatWork": "Świetna robota! Robisz postępy!",
+    "nextDay": "Następny dzień",
+    "viewTrail": "Zobacz ścieżkę",
+    "continue": "Kontynuuj",
+    "complete": "Ukończ"
+  },
+  "landing": {
+    "nav": {"home": "Strona główna", "about": "O nas", "programs": "Funkcje", "testimonials": "Opinie", "plan": "Cennik", "contact": "Kontakt", "login": "Zaloguj się", "startNow": "Pobierz aplikację"},
+    "hero": {"badge": "Najbardziej kompletna aplikacja AI na rynku", "title": "Opanuj", "titleHighlight": "Sztuczną Inteligencję", "titleEnd": "Prosto z Twojego Telefonu", "subtitle": "Ucz się AI z interaktywnymi ścieżkami, praktycznymi ćwiczeniami i cyfrowymi certyfikatami — wszystko w aplikacji. Dostęp do 20+ narzędzi AI, tryb offline i grywalizacja.", "cta": "Pobierz za darmo", "demo": "Zobacz demo", "students": "pobrań", "rating": "ocena", "countries": "krajów"},
+    "features": {
+      "sectionLabel": "Funkcje aplikacji", "title": "Wszystko czego potrzebujesz w kieszeni", "subtitle": "Kompletna aplikacja z interaktywnymi ścieżkami, asystentem AI, postępem w czasie rzeczywistym i certyfikatami.",
+      "curriculum": {"title": "Interaktywne ścieżki", "description": "Ucz się z grywalizowanymi ścieżkami i stale aktualizowaną treścią o najlepszych narzędziach AI."},
+      "mentoring": {"title": "Wbudowany asystent AI", "description": "Uzyskaj odpowiedzi w czasie rzeczywistym od EDI, twojego osobistego asystenta AI w aplikacji."},
+      "community": {"title": "Postęp w czasie rzeczywistym", "description": "Śledź swój postęp za pomocą szczegółowych paneli, serii i statystyk nauki."},
+      "certification": {"title": "Cyfrowe certyfikaty", "description": "Zdobywaj certyfikaty ukończając ścieżki i wyzwania."},
+      "practical": {"title": "Tryb offline", "description": "Pobierz lekcje i ucz się bez internetu — idealne do nauki w dowolnym miejscu."},
+      "career": {"title": "Grywalizacja", "description": "Zdobywaj XP, awansuj, odblokuj odznaki i utrzymuj codzienną serię nauki."}
+    },
+    "programs": {
+      "sectionLabel": "Funkcje", "title": "Odkryj funkcje aplikacji", "subtitle": "Funkcje zaprojektowane dla wszystkich poziomów.", "popular": "Najpopularniejszy", "startNow": "Pobierz aplikację", "beginner": "Początkujący", "intermediate": "Średniozaawansowany", "advanced": "Zaawansowany",
+      "fundamentals": {"title": "Ścieżki AI", "description": "Rozpocznij przygodę z AI dzięki interaktywnym i grywalizowanym ścieżkom w aplikacji.", "duration": "4 tygodnie", "highlights": ["Interaktywne ścieżki AI", "Praktyczne ćwiczenia z ChatGPT", "Automatyzacja zadań przez aplikację", "Cyfrowy certyfikat"]},
+      "machineLearning": {"title": "Zaawansowane wyzwania", "description": "Zanurz się w 28-dniowe wyzwania z codziennymi ćwiczeniami.", "duration": "28 dni", "highlights": ["Codzienne wyzwania AI", "Interaktywne ćwiczenia", "Grywalizowany postęp", "Certyfikaty ukończenia"]},
+      "deepLearning": {"title": "Osobisty asystent AI", "description": "Używaj EDI, wbudowanego asystenta AI, do pytań i treningu promptów.", "duration": "Bez limitu", "highlights": ["Wbudowany czat AI", "Trener promptów", "Odpowiedzi w czasie rzeczywistym", "Spersonalizowane wsparcie w aplikacji"]}
+    },
+    "pricing": {"badge": "Cennik", "title": "Odblokuj pełny potencjał aplikacji", "subtitle": "Rozpocznij swoją podróż z AI już dziś", "week1": "PLAN 1 TYDZIEŃ", "week4": "PLAN 4 TYGODNIE", "week12": "PLAN 12 TYGODNI", "mostPopular": "NAJPOPULARNIEJSZY", "from": "Z", "for": "ZA", "perDay": "dziennie", "getMyPlan": "WYBIERZ PLAN", "note": "Osoby korzystające z planu 12-tygodniowego osiągają podwójne wyniki."},
+    "testimonials": {
+      "sectionLabel": "Opinie", "title": "Co mówią nasi użytkownicy", "subtitle": "Tysiące osób nauczyło się już AI z aplikacją Educly.",
+      "items": [
+        {"name": "Maria Silva", "role": "Data Scientist", "country": "Brazylia", "text": "Aplikacja Educly zmieniła mój sposób nauki AI. Używam jej codziennie w autobusie i w 3 miesiące dostałam pierwszą pracę."},
+        {"name": "João Santos", "role": "Product Manager", "country": "Portugalia", "text": "Aplikacja jest niesamowita — ścieżki są praktyczne i mogę się uczyć offline. Grywalizacja utrzymuje moją motywację."},
+        {"name": "Ana García", "role": "ML Engineer", "country": "Meksyk", "text": "Ukończyłam kilka wyzwań przez aplikację i cyfrowe certyfikaty zrobiły ogromną różnicę w moim CV."},
+        {"name": "Carlos Fernández", "role": "Startup Founder", "country": "Argentyna", "text": "Codziennie używam aplikacji, aby być na bieżąco z AI. Tryb offline jest idealny dla osób często podróżujących."}
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Globalny zasięg", "title": "Obecni na całym świecie", "subtitle": "Aplikacja Educly została pobrana w ponad 150 krajach.",
+      "regions": {"latinAmerica": "Ameryka Łacińska", "europe": "Europa", "northAmerica": "Ameryka Północna", "asiaOceania": "Azja i Oceania"},
+      "features": {"languages": {"title": "15 języków", "description": "Aplikacja dostępna w wielu językach z profesjonalnym tłumaczeniem"}, "support": {"title": "Wsparcie 24/7", "description": "Wbudowany asystent AI i zespół wsparcia zawsze dostępny"}, "community": {"title": "Społeczność w aplikacji", "description": "Łącz się z użytkownikami z całego świata i dziel się postępami"}}
+    },
+    "stats": {"students": "Pobrań", "countries": "Krajów", "satisfaction": "Ocena sklepu", "partners": "Narzędzi AI"},
+    "cta": {
+      "title": "Gotowy uczyć się AI prosto z telefonu?", "subtitle": "Dołącz do ponad 50 000 użytkowników, którzy już opanowują AI z aplikacją Educly.",
+      "startFree": "Pobierz za darmo", "talkConsultant": "Porozmawiaj ze wsparciem", "guarantee": "30 dni gwarancji", "installments": "Do 12 rat",
+      "benefits": ["Pełny dostęp do wszystkich ścieżek", "Darmowe aktualizacje aplikacji", "Wbudowany asystent AI", "Cyfrowe certyfikaty", "Tryb offline dostępny", "30-dniowa gwarancja zwrotu"]
+    },
+    "footer": {
+      "description": "Najbardziej kompletna aplikacja AI na rynku. Ucz się AI praktycznie, prosto z telefonu.",
+      "contact": "Kontakt", "programs": "Funkcje", "resources": "Zasoby", "company": "Firma", "legal": "Prawne",
+      "links": {"aiFundamentals": "Ścieżki AI", "machineLearning": "28-dniowe wyzwania", "deepLearning": "Asystent AI", "aiForBusiness": "Cyfrowe certyfikaty", "blog": "Blog", "webinars": "Tutoriale", "ebooks": "Poradniki", "community": "Społeczność", "aboutUs": "O nas", "careers": "Kariera", "partnerships": "Partnerstwa", "contact": "Kontakt", "terms": "Regulamin", "privacy": "Prywatność", "cookies": "Cookies"},
+      "copyright": "Wszelkie prawa zastrzeżone.", "madeWith": "Stworzone z ❤️ dla globalnej społeczności AI"
+    }
+  },
+  "common": {
+    "back": "Wstecz",
+    "next": "Dalej",
+    "start": "Rozpocznij",
+    "continue": "Kontynuuj",
+    "complete": "Ukończ",
+    "login": "Zaloguj się",
+    "signup": "Zarejestruj się",
+    "logout": "Wyloguj się",
+    "loading": "Ładowanie...",
+    "translating": "Tłumaczenie treści...",
+    "error": "Wystąpił błąd",
+    "of": "z"
+  },
+  "quiz": {
+    "selectAllAnswers": "Zaznacz wszystkie prawidłowe odpowiedzi",
+    "verify": "Sprawdź",
+    "perfect": "Doskonale!",
+    "youGotAll": "Wszystkie poprawne!",
+    "almostRight": "Prawie dobrze!",
+    "youGotXofY": "Masz {{correct}} z {{total}} poprawnych odpowiedzi.",
+    "incorrect": "Niepoprawnie",
+    "tryAgainNext": "Spróbuj ponownie następnym razem!",
+    "correct": "Poprawnie!",
+    "wellDone": "Świetna robota! Tak trzymaj!",
+    "correctAnswerWas": "Prawidłowa odpowiedź to:"
+  },
+  "lessonUI": {
+    "taskCompleted": "Zadanie ukończone",
+    "yourAnswer": "Twoja odpowiedź:",
+    "repeatTask": "Powtórz zadanie"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "Podstawowe koncepcje {{tool}}",
+    "practicalTechniques": "Praktyczne techniki użycia",
+    "dailyApplication": "Jak stosować w codziennym życiu"
+  },
+  "lesson": {
+    "locked": "Zablokowane",
+    "completed": "Ukończone",
+    "startNow": "Rozpocznij teraz",
+    "noContent": "Treść jeszcze niedostępna.",
+    "checkAnswer": "Sprawdź Odpowiedź",
+    "tryAgain": "Spróbuj Ponownie",
+    "tryAgainFeedback": "Ups! Spróbuj ponownie.",
+    "correctAnswer": "Gratulacje! Prawidłowa odpowiedź!",
+    "phaseCompleted": "Faza zakończona pomyślnie!",
+    "loading": "Ładowanie...",
+    "close": "Zamknij",
+    "continue": "KONTYNUUJ",
+    "verify": "SPRAWDŹ",
+    "stepTypes": {
+      "learn": "📚 Nauka",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Praktyka",
+      "simulator": "🤖 Symulator"
+    },
+    "quiz": {
+      "correct": "Poprawnie!",
+      "incorrect": "Spróbuj ponownie",
+      "askEdi": "Poproś EDI o pomoc",
+      "hint": "💡 Wskazówka",
+      "excellent": "Doskonale!",
+      "almostThere": "Prawie!",
+      "masteredConcept": "Opanowałeś tę koncepcję. Tak trzymaj!",
+      "hintReread": "Przeczytaj opcje ponownie. Prawidłowa odpowiedź jest powiązana z główną koncepcją.",
+      "hintOrder": "Pomyśl o logicznej kolejności: akcja → obiekt → szczegóły.",
+      "hintReview": "Wróć do poprzedniej treści i przejrzyj koncepcje.",
+      "hintAskEdi": "EDI może ci pomóc! Kliknij przycisk poniżej.",
+      "getCorrectToContinue": "Odpowiedz poprawnie, aby kontynuować"
+    },
+    "practical": {
+      "instructions": "Kliknij słowa, aby zbudować właściwy prompt:",
+      "yourAnswer": "Twoja odpowiedź:",
+      "available": "Dostępne słowa:"
+    },
+    "chat": {
+      "aiReady": "Gotowy do pomocy",
+      "sendPlaceholder": "Wpisz swoją wiadomość...",
+      "aiResponse": "Doskonały przykład! Zauważyłeś, jak przetworzyłem twoje dane wejściowe? Teraz, gdy przetestowaliśmy to w praktyce, kliknij 'KONTYNUUJ', aby przejść dalej."
+    },
+    "textParts": {
+      "part": "Część",
+      "of": "z",
+      "nextPart": "Następna część",
+      "previousPart": "Poprzednia część",
+      "showPrevious": "Pokaż poprzednie części",
+      "hidePrevious": "Ukryj poprzednie części",
+      "allRead": "Cała treść przeczytana"
+    },
+    "matchWords": {
+      "instructions": "Połącz każdy element po lewej stronie z odpowiednim po prawej!",
+      "matched": "par połączonych",
+      "reset": "Zacznij od nowa"
+    },
+    "promptTrainer": {
+      "subtitle": "Trenuj swój prompt z EDI",
+      "challenge": "🎯 Wyzwanie:",
+      "criteria": "Kryteria sukcesu:",
+      "startMessage": "Napisz swój prompt, aby zacząć!",
+      "completed": "Prompt zatwierdzony! Gratulacje! 🎉",
+      "placeholder": "Wpisz swój prompt tutaj...",
+      "attempts": "Próby",
+      "showHint": "Pokaż podpowiedź",
+      "hideHint": "Ukryj podpowiedź",
+      "showExample": "Pokaż przykład promptu",
+      "hideExample": "Ukryj przykład"
+    },
+    "ediMotivation": {
+      "almostDone": "Prawie skończone! 🎯 Już prawie!",
+      "halfway": "Połowa drogi! 💪 Tak trzymaj!",
+      "greatJob": "Świetna robota! ✨ Fantastycznie ci idzie!",
+      "keepGoing": "Nie poddawaj się teraz! 🔥 Dasz radę!",
+      "finalStretch": "Finisz! ⚡ Jeszcze trochę!",
+      "encouragement": "Wierzę w ciebie! 💖 Razem damy radę!",
+      "yourAssistant": "twój asystent",
+      "almostDoneDay": "Dzień {{day}} prawie skończony! 🎯 {{phrase}}",
+      "halfwayDay": "Połowa dnia {{day}}! 💪 {{phrase}}",
+      "finalStretchDay": "Finisz dnia {{day}}! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Świetnie ci idzie!",
+          "Tak trzymaj, jesteś super!",
+          "Prawie tam, dasz radę!",
+          "Nie poddawaj się!",
+          "Jesteś niesamowity!"
+        ],
+        "halfway": [
+          "Super ci idzie!",
+          "Połowa drogi, nie odpuszczaj!",
+          "Świetny postęp!",
+          "Jesteś niesamowity!",
+          "Tak trzymaj!"
+        ],
+        "finalStretch": [
+          "Koniec blisko!",
+          "Zaszedłeś tak daleko!",
+          "Ostatni zryw, daj z siebie wszystko!",
+          "Zakończ z klasą!",
+          "Prawie na mecie!"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Tygodniowa seria",
+    "subtitle": "Utrzymaj nawyk nauki",
+    "days": {
+      "mon": "pon",
+      "tue": "wt",
+      "wed": "śr",
+      "thu": "czw",
+      "fri": "pt",
+      "sat": "sob",
+      "sun": "ndz"
+    }
+  },
+  "auth": {
+    "title": "Zaloguj się do konta",
+    "loginTab": "Logowanie",
+    "signupTab": "Rejestracja",
+    "email": "E-mail",
+    "emailPlaceholder": "your@email.com",
+    "password": "Hasło",
+    "passwordPlaceholder": "Twoje hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "confirmPasswordPlaceholder": "Potwierdź hasło",
+    "loginButton": "Zaloguj się",
+    "signupButton": "Zarejestruj się",
+    "loginSuccess": "Logowanie pomyślne!",
+    "signupSuccess": "Konto utworzone pomyślnie!",
+    "passwordMismatch": "Hasła nie są zgodne",
+    "passwordTooShort": "Hasło musi mieć co najmniej 6 znaków",
+    "loginError": "Błąd logowania",
+    "signupError": "Błąd rejestracji",
+    "fullName": "Pełne imię i nazwisko",
+    "fullNamePlaceholder": "Wpisz swoje pełne imię i nazwisko",
+    "nameRequired": "Proszę podać swoje pełne imię i nazwisko"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Online",
+    "greeting": "Cześć! 👋 Jestem EDI, Twój asystent w Educly! Bardzo cieszę się, że mogę Ci pomóc! Co chciałbyś wiedzieć?",
+    "placeholder": "Wpisz swoje pytanie...",
+    "error": "Błąd wysyłania wiadomości"
+  },
+  "freelancer": {
+    "title": "Ścieżka Freelancera",
+    "subtitle": "Zarabiaj z AI",
+    "dashboardDesc": "Naucz się sprawdzonych strategii, aby zostać skutecznym freelancerem korzystającym z narzędzi AI.",
+    "headerDesc": "Opanuj umiejętności zarabiania jako freelancer AI",
+    "modules": "Moduły Nauki",
+    "access": "Wejdź na Ścieżkę",
+    "tipsTitle": "Porady Ekspertów",
+    "tipsDesc": "Każdy moduł zawiera praktyczne wskazówki od freelancerów, którzy już zarabiają na AI.",
+    "premium": { "title": "Premium Ścieżka Freelancera", "description": "Odblokuj ekskluzywne treści, aby zostać odnoszącym sukcesy freelancerem AI", "features": { "strategies": "Sprawdzone strategie sprzedaży", "clients": "Jak zdobyć pierwszych klientów", "pricing": "Wycena i negocjacje", "platforms": "Najlepsze platformy dla freelancerów" } },
+    "modulesList": { "1": { "title": "Podstawy Freelancingu", "description": "Nastawienie i pierwsze kroki" }, "2": { "title": "Tworzenie Portfolio", "description": "Stwórz nieodparte portfolio z AI" }, "3": { "title": "Znajdowanie Klientów", "description": "Strategie na pierwsze zlecenia" }, "4": { "title": "Strategiczne Wycenianie", "description": "Jak wyceniać pracę z AI" }, "5": { "title": "Networking i Partnerstwa", "description": "Buduj sieć kontaktów" }, "6": { "title": "Zwycięskie Oferty", "description": "Pisz oferty, które konwertują" }, "7": { "title": "Skalowanie Biznesu", "description": "Od freelancera do przedsiębiorcy" }, "8": { "title": "Automatyzacja z AI", "description": "Użyj AI do zwiększenia produktywności" } }
+  },
+  "contactPage": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Wybierz najlepszy sposób kontaktu",
+    "aiChat": {
+      "title": "Wsparcie AI Chat",
+      "description": "Uzyskaj natychmiastowe odpowiedzi o platformie, cenach i kursach od naszego inteligentnego asystenta.",
+      "button": "Otwórz AI Chat",
+      "available": "Dostępne 24/7"
+    },
+    "humanSupport": {
+      "title": "Wsparcie ludzi",
+      "description": "Dla bardziej spersonalizowanej pomocy, złożonych pytań lub partnerstw biznesowych, skontaktuj się przez email.",
+      "button": "Wyślij Email",
+      "copyEmail": "Kopiuj Email",
+      "emailCopied": "Email skopiowany!",
+      "openGmail": "Otwórz w Gmail",
+      "responseTime": "Odpowiedź w ciągu 24-48 godzin"
+    },
+    "aiCapabilities": {
+      "title": "W czym może pomóc nasz AI chat",
+      "item1": "Informacje o 8 narzędziach AI (ChatGPT, Claude, Gemini, itp.)",
+      "item2": "Ceny i plany subskrypcji",
+      "item3": "Szczegóły wyzwania 28-dniowego",
+      "item4": "Jak działa platforma",
+      "item5": "Proces certyfikacji",
+      "item6": "Wymagania techniczne"
+    }
+  },
+  "upsell": {
+    "features": "Do czego uzyskasz dostęp:",
+    "cta": "Odblokuj Teraz",
+    "back": "Powrót do Panelu",
+    "freelancer": {
+      "title": "Strefa Freelancera",
+      "headline": "Ekskluzywna Treść",
+      "subtitle": "Odblokuj zaawansowane funkcje",
+      "description": "Uzyskaj dostęp do ekskluzywnych ofert pracy w AI i zastosuj to, czego się nauczyłeś.",
+      "feature1": "Zdalne oferty pracy w AI",
+      "feature2": "Filtrowanie według kategorii i doświadczenia",
+      "feature3": "Nowe oferty dodawane co tydzień",
+      "feature4": "Bezpośredni link do aplikacji"
+    },
+    "ai_hub": {
+      "title": "Hub AI",
+      "headline": "Ekskluzywna Treść",
+      "subtitle": "Odblokuj zaawansowane funkcje",
+      "description": "Odblokuj Hub AI ze specjalistycznymi asystentami do tworzenia obrazów, promptów i uzyskiwania odpowiedzi.",
+      "feature1": "AI do tworzenia profesjonalnych obrazów",
+      "feature2": "Asystent tworzenia promptów",
+      "feature3": "Uzyskaj odpowiedzi od specjalistycznego AI",
+      "feature4": "Nieograniczony dostęp do asystentów"
+    }
+  },
+  "legal": {
+    "email": "E-mail",
+    "website": "Strona internetowa",
+    "termsOfUse": {
+      "title": "Regulamin – Educly",
+      "lastUpdated": "Ostatnia aktualizacja: Styczeń 2025",
+      "intro": "Uzyskując dostęp, instalując lub korzystając z aplikacji Educly, użytkownik oświadcza, że przeczytał, zrozumiał i w pełni akceptuje niniejszy Regulamin. Jeśli nie zgadzasz się z jakimkolwiek warunkiem określonym tutaj, musisz natychmiast zaprzestać korzystania z platformy.",
+      "sections": {
+        "about": {
+          "title": "1. O Educly",
+          "content": "Educly to platforma cyfrowa oferująca treści edukacyjne i informacyjne za pośrednictwem aplikacji i/lub środowiska online, działająca w modelu subskrypcji cyklicznej, która może obejmować płatny okres próbny, jak przedstawiono w momencie zakupu."
+        },
+        "acceptance": {
+          "title": "2. Akceptacja Regulaminu",
+          "content": "Korzystanie z Educly i subskrybowanie dowolnego planu oznacza pełną akceptację niniejszego Regulaminu, a także Polityki Prywatności dostępnej na platformie. Wchodząc do aplikacji, użytkownik potwierdza, że subskrybuje usługę subskrypcji cyklicznej z automatycznymi opłatami, zgodnie z warunkami poinformowanymi w momencie zakupu."
+        },
+        "account": {
+          "title": "3. Rejestracja i Odpowiedzialność Użytkownika",
+          "intro": "3.1. Użytkownik zobowiązuje się do podania prawdziwych, pełnych i aktualnych informacji podczas rejestracji.",
+          "responsibility": "3.2. Użytkownik jest wyłącznie odpowiedzialny za:",
+          "items": [
+            "Zachowanie poufności danych dostępu",
+            "Wszystkie działania wykonane na jego koncie"
+          ],
+          "disclaimer": "3.3. Educly nie ponosi odpowiedzialności za nieautoryzowany dostęp wynikający z niedbalstwa użytkownika."
+        },
+        "plans": {
+          "title": "4. Plany, Subskrypcja i Płatny Okres Próbny",
+          "items": [
+            "4.1. Dostęp do treści Educly odbywa się poprzez subskrypcję cykliczną, z automatycznymi obciążeniami metody płatności wskazanej przez użytkownika.",
+            "4.2. Niektóre plany mogą obejmować płatny okres próbny, charakteryzujący się obniżoną kwotą początkową i automatyczną konwersją na subskrypcję cykliczną po zakończeniu okresu poinformowanego w momencie zakupu, chyba że zostanie złożony wniosek o anulowanie zgodnie z zasadami określonymi w niniejszym regulaminie.",
+            "4.3. Wszystkie informacje dotyczące cen, częstotliwości, czasu trwania okresu próbnego i automatycznego odnowienia są jasno przedstawione przed potwierdzeniem zakupu."
+          ]
+        },
+        "refund": {
+          "title": "5. Polityka Zwrotów i Anulowania",
+          "trialRefund": {
+            "title": "5.1. Zwrot Płatnego Okresu Próbnego",
+            "content": "Użytkownik może żądać zwrotu wyłącznie kwot zapłaconych za płatny okres próbny, w ciągu 30 dni od daty pierwszego obciążenia za płatny okres próbny."
+          },
+          "howToRefund": {
+            "title": "5.2. Jak Żądać Zwrotu",
+            "content": "Wniosek o zwrot płatnego okresu próbnego musi być złożony wyłącznie poprzez oficjalne kanały wsparcia Educly."
+          },
+          "cancellation": {
+            "title": "5.3. Anulowanie lub Wstrzymanie Subskrypcji",
+            "content1": "Użytkownik może w dowolnym momencie zażądać anulowania lub wstrzymania subskrypcji. Aby wniosek zadziałał przed kolejnym obciążeniem, musi być złożony co najmniej 48 godzin przed planowaną datą obciążenia.",
+            "content2": "Jeśli wniosek zostanie złożony po tym terminie, zacznie obowiązywać od następnego cyklu rozliczeniowego, a dostęp do treści pozostanie aktywny do końca już opłaconego okresu.",
+            "content3": "Wnioski o anulowanie lub wstrzymanie muszą być składane wyłącznie za pośrednictwem oficjalnego adresu e-mail:",
+            "content4": "Wnioski złożone innymi kanałami nie będą uznawane za ważne do celów anulowania.",
+            "content5": "Kwoty zapłacone za subskrypcję cykliczną nie podlegają zwrotowi. Potwierdzając subskrypcję, użytkownik potwierdza, że dostęp do treści jest udostępniany natychmiast po potwierdzeniu płatności i że subskrybuje model subskrypcji cyklicznej."
+          },
+          "processing": {
+            "title": "5.4. Przetwarzanie Finansowe",
+            "content": "Zatwierdzone zwroty płatnego okresu próbnego będą przetwarzane zgodnie z zasadami operatora płatności i metody użytej przez użytkownika. Educly nie ponosi odpowiedzialności za terminy lub procedury operacyjne stron trzecich."
+          }
+        },
+        "acceptableUse": {
+          "title": "6. Właściwe Korzystanie z Platformy",
+          "intro": "Użytkownikowi zabrania się:",
+          "items": [
+            "Kopiowania, reprodukowania, dystrybuowania lub komercjalizowania treści Educly bez autoryzacji",
+            "Udostępniania dostępu do konta osobom trzecim",
+            "Korzystania z platformy do celów nielegalnych, oszukańczych lub sprzecznych z dobrą wiarą"
+          ],
+          "consequence": "Naruszenie tych zasad może skutkować zawieszeniem lub anulowaniem konta, bez prawa do zwrotu."
+        },
+        "ip": {
+          "title": "7. Własność Intelektualna",
+          "content": "Wszystkie treści dostępne na Educly, w tym teksty, filmy, obrazy, dźwięki, marki, logo, układy i materiały cyfrowe, są chronione prawem autorskim i należą do Educly lub jej licencjodawców, jakiekolwiek nieautoryzowane użycie jest zabronione."
+        },
+        "liability": {
+          "title": "8. Ograniczenie Odpowiedzialności",
+          "content": "Treści dostarczane przez Educly mają charakter edukacyjny i informacyjny. Nie ma gwarancji konkretnych wyników, a użytkownik jest wyłącznie odpowiedzialny za zastosowanie informacji uzyskanych za pośrednictwem platformy."
+        },
+        "modifications": {
+          "title": "9. Zmiany Regulaminu",
+          "content": "Educly może zmienić niniejszy Regulamin w dowolnym momencie. Dalsze korzystanie z platformy po jakichkolwiek zmianach oznacza akceptację nowych warunków."
+        },
+        "law": {
+          "title": "10. Prawo Właściwe i Jurysdykcja",
+          "content": "Niniejszy Regulamin podlega prawu Federacyjnej Republiki Brazylii, z miejscem zamieszkania konsumenta wybranym jako jurysdykcja, zgodnie z Kodeksem Ochrony Konsumentów, do rozstrzygania wszelkich sporów."
+        },
+        "contact": {
+          "title": "11. Kontakt",
+          "intro": "Pytania, wnioski o zwrot płatnego okresu próbnego lub wnioski o anulowanie lub wstrzymanie subskrypcji muszą być składane wyłącznie za pośrednictwem oficjalnego adresu e-mail:"
+        }
+      }
+    }
+  }
+}

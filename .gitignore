@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+.DS_Store
+# Playwright
+playwright/.auth/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Playwright
+/playwright/.auth/
+/test-results/

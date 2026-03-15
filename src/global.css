@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --- MODO CLARO (LIGHT MODE) - TOTALMENTE BRANCO --- */
+
+    /* Fundo Branco Puro (#FFFFFF) */
+    --background: 0 0% 100%;
+
+    /* Texto Escuro (Mantido para legibilidade) */
+    --foreground: 222.2 84% 4.9%;
+
+    /* Cards Branco Puro */
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    /* Popovers Branco Puro */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Cor Primária (Laranja) Mantida */
+    --primary: 25 90% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Elementos Secundários: Cinza Neutro (Sem tom azul) */
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordas: Cinza Neutro Claro */
+    /* Ajustado para 90% para ser sutil, mas visível no fundo branco */
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+
+    --ring: 25 90% 55%;
+    --radius: 0.75rem;
+
+    /* Success */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    /* --- MODO ESCURO (DARK MODE) - MANTIDO ORIGINAL --- */
+
+    /* COR EXATA DO FUNDO DA DASHBOARD (#1A1F2C) */
+    --background: 223 25% 14%;
+
+    /* Texto Claro */
+    --foreground: 210 40% 98%;
+
+    /* COR DOS CARDS DA DASHBOARD (#222632) */
+    --card: 225 19% 16%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 225 19% 16%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 25 90% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 223 25% 18%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 223 25% 18%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 223 25% 18%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Bordas Escuras */
+    --border: 223 25% 20%;
+    --input: 223 25% 20%;
+    --ring: 25 90% 55%;
+
+    /* Success */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased transition-colors duration-300;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* Utilitários para cores de fundo dos ícones no modo escuro */
+.dark .bg-blue-50 { background-color: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.15); color: #60a5fa; }
+.dark .bg-purple-50 { background-color: rgba(168, 85, 247, 0.1); border-color: rgba(168, 85, 247, 0.15); color: #c084fc; }
+.dark .bg-red-50 { background-color: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.15); color: #f87171; }
+.dark .bg-orange-50 { background-color: rgba(249, 115, 22, 0.1); border-color: rgba(249, 115, 22, 0.15); color: #fb923c; }
+.dark .bg-emerald-50 { background-color: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.15); color: #34d399; }
+.dark .bg-yellow-50 { background-color: rgba(234, 179, 8, 0.1); border-color: rgba(234, 179, 8, 0.15); color: #facc15; }

@@ -1,0 +1,19 @@
+project_id = "pltumueyrflantxnqovl"
+
+[functions.primer-webhook]
+verify_jwt = false
+
+[functions.send-bulk-emails]
+verify_jwt = false
+
+[functions.send-password-reset]
+verify_jwt = false
+
+[functions.send-welcome-email]
+verify_jwt = false
+
+[functions.resend-pending-emails]
+verify_jwt = false
+
+[functions.check-access-expiration]
+verify_jwt = false

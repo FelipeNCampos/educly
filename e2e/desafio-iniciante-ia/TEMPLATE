@@ -1,0 +1,385 @@
+// TEMPLATE - Use isto como base para criar testes de novos dias
+// Copie este arquivo e renomeie como dia-X.spec.ts
+// Depois adapte o número do dia, tema e testes específicos
+
+import { test, expect } from '@playwright/test';
+import { DesafioInicianteIAHelper } from './helpers';
+
+/**
+ * Testes para Dia [X] do Desafio Iniciante de IA
+ * 
+ * Dia [X]: "[TEMA DO DIA]"
+ * 
+ * Objetivo: [DESCREVA BREVEMENTE O OBJETIVO DO DIA]
+ */
+
+test.describe('Dia [X] - [TEMA]', () => {
+  const DIA = [X]; // ← MUDE ISTO
+  
+  /**
+   * Teste 1: Carregamento
+   * 
+   * Valida que o dia carrega corretamente
+   */
+  test('deve carregar o Dia [X] do Desafio Iniciante de IA', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToChallenge(page);
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const isOnDay = await DesafioInicianteIAHelper.isOnDay(page, DIA);
+    expect(isOnDay).toBeTruthy();
+
+    const title = await DesafioInicianteIAHelper.getCurrentStepTitle(page);
+    expect(title).toBeTruthy();
+  });
+
+  /**
+   * Teste 2: Conteúdo Específico
+   * 
+   * Valida que o conteúdo correto do dia está presente
+   */
+  test('primeira lição deve ser sobre "[PRIMEIRO TÓPICO]"', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const title = await DesafioInicianteIAHelper.getCurrentStepTitle(page);
+    
+    // TODO: Adapte para o tema do seu dia
+    expect(title).toContain('[WORD_TO_EXPECT]');
+    
+    const content = page.locator('[role="article"]');
+    await expect(content).toBeVisible();
+  });
+
+  /**
+   * Teste 3: Navegação
+   * 
+   * Valida que consegue navegar entre passos
+   */
+  test('deve navegar através de todos os passos do Dia [X]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const initialProgress = await DesafioInicianteIAHelper.getProgress(page);
+    expect(initialProgress.currentStep).toBe(1);
+    expect(initialProgress.totalSteps).toBeGreaterThan(5);
+
+    // Navega alguns passos
+    for (let i = 1; i < Math.min(3, initialProgress.totalSteps); i++) {
+      const progress = await DesafioInicianteIAHelper.getProgress(page);
+      expect(progress.currentStep).toBe(i);
+
+      await DesafioInicianteIAHelper.readTextStep(page);
+
+      if (progress.currentStep < progress.totalSteps) {
+        await DesafioInicianteIAHelper.clickNextButton(page);
+      }
+    }
+
+    const finalProgress = await DesafioInicianteIAHelper.getProgress(page);
+    expect(finalProgress.currentStep).toBeGreaterThan(1);
+  });
+
+  /**
+   * Teste 4: [COMPONENTE ESPECÍFICO 1]
+   * 
+   * TODO: Descreva qual componente você está testando
+   * (ex: MatchWords, FillBlanks, PromptTrainer, etc)
+   */
+  test('deve completar exercício [NOME_COMPONENTE]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Navegue até encontrar o componente
+    let found = false;
+    for (let i = 0; i < 10; i++) {
+      const hasComponent = await page.locator('[data-testid="TODO"]').isVisible().catch(() => false);
+      
+      if (hasComponent) {
+        found = true;
+        break;
+      }
+
+      const progress = await DesafioInicianteIAHelper.getProgress(page);
+      if (progress.currentStep >= progress.totalSteps) break;
+
+      await DesafioInicianteIAHelper.clickNextButton(page);
+    }
+
+    if (found) {
+      // TODO: Implemente a interação com o componente
+      // Exemplos:
+      // await DesafioInicianteIAHelper.completeMatchWords(page);
+      // await DesafioInicianteIAHelper.interactWithFillBlanks(page, ['answer1', 'answer2']);
+      // await DesafioInicianteIAHelper.interactWithPromptTrainer(page, 'seu prompt');
+
+      // Verifique sucesso
+      // await expect(page.locator('text=Correto!')).toBeVisible();
+    }
+  });
+
+  /**
+   * Teste 5: [COMPONENTE ESPECÍFICO 2]
+   * 
+   * TODO: Adicione mais testes para componentes específicos
+   */
+  test('deve [DESCREVA O COMPORTAMENTO]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Implemente seu teste aqui
+    expect(true).toBe(true); // Placeholder
+  });
+
+  /**
+   * Teste 6: Progresso
+   * 
+   * Valida que a barra de progresso funciona
+   */
+  test('deve mostrar barra de progresso do Dia [X]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const progressBar = page.locator('[data-testid="lesson-progress"], [role="progressbar"]');
+    await expect(progressBar).toBeVisible();
+
+    const progress = await DesafioInicianteIAHelper.getProgress(page);
+    
+    expect(progress.currentStep).toBeGreaterThanOrEqual(1);
+    expect(progress.totalSteps).toBeGreaterThan(0);
+    expect(progress.currentStep).toBeLessThanOrEqual(progress.totalSteps);
+  });
+
+  /**
+   * Teste 7: Cobertura de Tópicos
+   * 
+   * Valida que os tópicos principais são abordados
+   */
+  test('conteúdo do Dia [X] deve cobrir tópicos principais', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const pageText = await page.locator('body').textContent();
+
+    // TODO: Adapte para os tópicos do seu dia
+    const expectedTopics = [
+      'TEMA1',
+      'TEMA2',
+      'TEMA3',
+    ];
+
+    expectedTopics.forEach(topic => {
+      expect(pageText?.toLowerCase()).toContain(topic.toLowerCase());
+    });
+  });
+
+  /**
+   * Teste 8: Performance
+   * 
+   * Valida que transições são rápidas
+   */
+  test('navegação entre passos deve ser rápida', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const startTime = Date.now();
+
+    for (let i = 0; i < 3; i++) {
+      await DesafioInicianteIAHelper.clickNextButton(page);
+      
+      const stepTitle = await DesafioInicianteIAHelper.getCurrentStepTitle(page);
+      expect(stepTitle).toBeTruthy();
+    }
+
+    const endTime = Date.now();
+    const totalTime = endTime - startTime;
+
+    // Todos os 3 passos devem ser rápidos
+    expect(totalTime).toBeLessThan(15000);
+  });
+
+  /**
+   * Teste 9: [COMPORTAMENTO ÚNICO]
+   * 
+   * TODO: Adicione teste específico para comportamento unique deste dia
+   */
+  test('deve [COMPORTAMENTO UNIQUE DO DIA]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Implemente
+    expect(true).toBe(true);
+  });
+
+  /**
+   * Teste 10: AppPromo
+   * 
+   * Valida que promoção do app aparece ao final
+   */
+  test('deve mostrar AppPromo ao final do Dia [X]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const progress = await DesafioInicianteIAHelper.getProgress(page);
+
+    // Navega até o final
+    while (progress.currentStep < progress.totalSteps) {
+      await DesafioInicianteIAHelper.clickNextButton(page);
+      
+      const newProgress = await DesafioInicianteIAHelper.getProgress(page);
+      if (newProgress.currentStep === progress.totalSteps) break;
+    }
+
+    const apppromo = page.locator('text=App, text=Educly');
+    
+    if (await apppromo.isVisible()) {
+      const downloadButton = page.locator('button:has-text("Baixar")');
+      await expect(downloadButton).toBeVisible();
+    }
+  });
+
+  /**
+   * Teste 11: Responsividade
+   * 
+   * Valida que interface é responsiva
+   */
+  test('interface do Dia [X] é responsiva', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const content = page.locator('[role="article"]');
+    await expect(content).toBeVisible();
+
+    await page.evaluate(() => {
+      document.querySelector('[role="article"]')?.scrollIntoView();
+    });
+
+    const title = await DesafioInicianteIAHelper.getCurrentStepTitle(page);
+    expect(title).toBeTruthy();
+  });
+
+  /**
+   * Teste 12: Completamento
+   * 
+   * Valida que o dia pode ser marcado como completo
+   */
+  test('deveria permitir completar o Dia [X]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const progress = await DesafioInicianteIAHelper.getProgress(page);
+
+    while (progress.currentStep < progress.totalSteps) {
+      await DesafioInicianteIAHelper.clickNextButton(page);
+    }
+
+    const hasCompleteBtn = await DesafioInicianteIAHelper.hasCompleteButton(page);
+    
+    if (hasCompleteBtn) {
+      await DesafioInicianteIAHelper.completeDay(page);
+
+      const completedMsg = page.locator('text=Parabéns, text=Concluído');
+      await expect(completedMsg).toBeVisible({ timeout: 10000 }).catch(() => {
+        // Tudo bem se não houver mensagem explícita
+      });
+    }
+  });
+
+  /**
+   * Teste 13: Persistência
+   * 
+   * Valida que progresso é mantido ao voltar
+   */
+  test('voltar ao desafio e retornar mantém progresso', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const initialProgress = await DesafioInicianteIAHelper.getProgress(page);
+    
+    for (let i = 0; i < 2; i++) {
+      await DesafioInicianteIAHelper.clickNextButton(page);
+    }
+
+    const progressBefore = await DesafioInicianteIAHelper.getProgress(page);
+
+    await DesafioInicianteIAHelper.backToChallenge(page);
+    await expect(page.locator('text=Desafio Iniciante de IA')).toBeVisible({ timeout: 10000 });
+
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    const progressAfter = await DesafioInicianteIAHelper.getProgress(page);
+    
+    expect(progressAfter.currentStep).toBeGreaterThanOrEqual(progressBefore.currentStep - 1);
+  });
+
+  /**
+   * Teste 14: [TESTE CUSTOMIZADO]
+   * 
+   * TODO: Adicione um teste unique para este dia, ou deixe como backup
+   */
+  test('deve validar comportamento unique do Dia [X]', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Implemente teste customizado
+    const content = page.locator('[role="article"]');
+    await expect(content).toBeVisible();
+  });
+});
+
+/**
+ * Testes de componentes específicos do Dia [X]
+ */
+test.describe('Dia [X] - Componentes Específicos', () => {
+  const DIA = [X];
+
+  /**
+   * TODO: Adicione testes específicos de componentes
+   * que aparecem apenas neste dia
+   */
+  test.skip('TODO: Adicione testes de componentes únicos', async ({ page }) => {
+    // Placeholder
+  });
+
+  /**
+   * Exemplo: Se houver um simulador, teste ele
+   */
+  test.skip('deve interagir com simulador (se houver)', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Implemente teste de simulador
+    // Se não houver, delete este teste
+  });
+
+  /**
+   * Exemplo: Se houver chat com IA
+   */
+  test.skip('deve permitir chat com EDI (se houver)', async ({ page }) => {
+    await DesafioInicianteIAHelper.navigateToDay(page, DIA);
+
+    // TODO: Implemente teste de chat
+    // Se não houver, delete este teste
+  });
+});
+
+/**
+ * DICAS PARA USAR ESTE TEMPLATE:
+ * 
+ * 1. Copie este arquivo:
+ *    cp TEMPLATE.spec.ts dia-X.spec.ts
+ * 
+ * 2. Substitua todos:
+ *    - [X] pelo número do dia
+ *    - [TEMA] pelo tema do dia
+ *    - TODO comentários com implementação real
+ * 
+ * 3. Estude o conteúdo do dia em pt-lessons.json:
+ *    Procure por "dayX" e veja os steps
+ * 
+ * 4. Adapte testes para componentes únicos:
+ *    - MatchWords
+ *    - FillBlanks
+ *    - PromptTrainer
+ *    - Componentes custom
+ * 
+ * 5. Rode para testar:
+ *    npx playwright test e2e/desafio-iniciante-ia/dia-X.spec.ts
+ * 
+ * 6. Veja em modo UI:
+ *    npx playwright test dia-X.spec.ts --ui
+ * 
+ * ESTRUTURA PADRÃO:
+ * - ~14 testes por dia
+ * - 1 test.describe() principal
+ * - 1-2 test.describe() opcionais para componentes específicos
+ * - Cada teste cobre um aspecto diferente
+ * - Usa helpers consistentemente
+ * 
+ * BOA SORTE! 🚀
+ */

@@ -1,0 +1,480 @@
+{
+  "challenge": {
+    "week": "周",
+    "day": "天",
+    "days": "天",
+    "completed": "已完成",
+    "viewAll": "查看全部",
+    "continueFromWhere": "从上次离开的地方继续",
+    "aiDomination": "AI精通",
+    "level1": "级别1",
+    "started": "挑战开始!",
+    "goodLuck": "祝您学习之旅顺利!",
+    "notFound": "未找到挑战",
+    "aiTrails": "AI路径",
+    "challenge28Days": "28天挑战",
+    "chooseAI": "选择要学习的AI:",
+    "trail": "路径",
+    "startChallenge": "开始挑战",
+    "starting": "启动中...",
+    "ais": "AI",
+    "progress": "进度",
+    "review": "复习",
+    "viewTrail": "查看路径",
+    "aiChallenges": "AI挑战",
+    "master8AI": "28天掌握8个AI",
+    "master8AIDesc": "每个挑战都旨在教您市场上最重要的AI工具。"
+  },
+  "personalizedTrail": {
+    "title": "您的个性化路径",
+    "progress": "{{completed}}/{{total}}天已完成",
+    "notFound": "未找到路径。",
+    "createNew": "创建新路径"
+  },
+  "personalizedLesson": {
+    "title": "个性化课程",
+    "dayTitle": "第{{day}}天",
+    "todayTask": "今日任务",
+    "taskIntro": "您将学到什么",
+    "taskDescription": "任务描述",
+    "exerciseTitle": "实践练习",
+    "exerciseNote": "完成此练习以巩固您的学习",
+    "markComplete": "标记为完成",
+    "completeNote": "您今天做得很棒！",
+    "dayComplete": "今日完成！",
+    "greatWork": "太棒了！您正在取得进步！",
+    "nextDay": "下一天",
+    "viewTrail": "查看路径",
+    "continue": "继续",
+    "complete": "完成"
+  },
+  "landing": {
+    "nav": {"home": "首页", "about": "关于我们", "programs": "功能", "testimonials": "用户评价", "plan": "套餐", "contact": "联系我们", "login": "登录", "startNow": "下载App"},
+    "hero": {"badge": "市场上最完整的AI应用", "title": "掌握", "titleHighlight": "人工智能", "titleEnd": "，直接从手机开始", "subtitle": "通过互动学习路径、实践练习和数字证书学习AI——全在App内。访问20+AI工具、离线模式和游戏化学习。", "cta": "免费下载", "demo": "观看演示", "students": "下载量", "rating": "评分", "countries": "国家"},
+    "features": {
+      "sectionLabel": "App功能", "title": "口袋里的一切所需", "subtitle": "一款完整的App，包含互动路径、AI助手、实时进度和证书——随时随地学习。",
+      "curriculum": {"title": "互动学习路径", "description": "通过游戏化路径和持续更新的内容学习市场上最好的AI工具。"},
+      "mentoring": {"title": "内置AI助手", "description": "从EDI获取实时答案，你在App中的个人AI助手。"},
+      "community": {"title": "实时进度", "description": "通过详细仪表板、连续学习天数和学习统计跟踪你的进步。"},
+      "certification": {"title": "数字证书", "description": "完成路径和挑战获得证书，证明你的AI技能。"},
+      "practical": {"title": "离线模式", "description": "下载课程离线学习——随时随地完美学习。"},
+      "career": {"title": "游戏化", "description": "获得XP，升级，解锁徽章，保持每日学习连续记录。"}
+    },
+    "programs": {
+      "sectionLabel": "功能", "title": "探索App功能", "subtitle": "为所有级别设计的功能。", "popular": "最受欢迎", "startNow": "下载App", "beginner": "初级", "intermediate": "中级", "advanced": "高级",
+      "fundamentals": {"title": "AI学习路径", "description": "在App中通过互动和游戏化路径开始你的AI之旅。", "duration": "4周", "highlights": ["互动AI路径", "ChatGPT实践练习", "通过App自动化任务", "数字证书"]},
+      "machineLearning": {"title": "进阶挑战", "description": "深入28天挑战，每日练习和进度追踪。", "duration": "28天", "highlights": ["每日AI挑战", "互动练习", "游戏化进度", "完成证书"]},
+      "deepLearning": {"title": "个人AI助手", "description": "使用EDI，你的内置AI助手，提问和练习提示词。", "duration": "无限", "highlights": ["内置AI聊天", "提示词训练器", "实时回答", "App内个性化支持"]}
+    },
+    "pricing": {"badge": "价格", "title": "解锁App全部潜力", "subtitle": "今天开始您的AI学习之旅", "week1": "1周计划", "week4": "4周计划", "week12": "12周计划", "mostPopular": "最受欢迎", "from": "原价", "for": "现价", "perDay": "每天", "getMyPlan": "获取我的计划", "note": "使用12周计划的人获得的效果是4周的两倍。"},
+    "testimonials": {
+      "sectionLabel": "用户评价", "title": "用户怎么说", "subtitle": "数千人已经通过Educly App学会了AI。",
+      "items": [
+        {"name": "玛丽亚·席尔瓦", "role": "数据科学家", "country": "巴西", "text": "Educly App改变了我学习AI的方式。我每天在公交上使用，3个月就获得了第一份工作。"},
+        {"name": "若昂·桑托斯", "role": "产品经理", "country": "葡萄牙", "text": "App太棒了——路径实用且可以离线学习。游戏化让我保持动力。"},
+        {"name": "安娜·加西亚", "role": "ML工程师", "country": "墨西哥", "text": "通过App完成了多个挑战，数字证书让我的简历脱颖而出。"},
+        {"name": "卡洛斯·费尔南德斯", "role": "创业者", "country": "阿根廷", "text": "我每天使用App更新AI知识。离线模式非常适合经常出差的人。"}
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "全球覆盖", "title": "遍布全球", "subtitle": "Educly App已在150多个国家被下载。",
+      "regions": {"latinAmerica": "拉丁美洲", "europe": "欧洲", "northAmerica": "北美洲", "asiaOceania": "亚洲和大洋洲"},
+      "features": {"languages": {"title": "15种语言", "description": "App支持多种语言专业翻译"}, "support": {"title": "24/7支持", "description": "内置AI助手和支持团队随时可用"}, "community": {"title": "App内社区", "description": "与全球用户连接分享进度"}}
+    },
+    "stats": {"students": "下载量", "countries": "国家", "satisfaction": "商店评分", "partners": "AI工具"},
+    "cta": {
+      "title": "准备好从手机直接学习AI了吗？", "subtitle": "加入超过50,000名已经用Educly App掌握AI的用户。",
+      "startFree": "免费下载", "talkConsultant": "联系支持", "guarantee": "30天保证", "installments": "最多12期付款",
+      "benefits": ["完全访问所有路径", "免费App更新", "内置AI助手", "数字证书", "离线模式可用", "30天满意保证"]
+    },
+    "footer": {
+      "description": "市场上最完整的AI应用。从手机直接实践学习AI。",
+      "contact": "联系方式", "programs": "功能", "resources": "资源", "company": "公司", "legal": "法律",
+      "links": {"aiFundamentals": "AI学习路径", "machineLearning": "28天挑战", "deepLearning": "AI助手", "aiForBusiness": "数字证书", "blog": "博客", "webinars": "教程", "ebooks": "指南", "community": "社区", "aboutUs": "关于我们", "careers": "职业机会", "partnerships": "合作伙伴", "contact": "联系我们", "terms": "使用条款", "privacy": "隐私政策", "cookies": "Cookie政策"},
+      "copyright": "版权所有。", "madeWith": "为全球AI社区用❤️打造"
+    }
+  },
+  "common": {
+    "back": "返回",
+    "next": "下一步",
+    "start": "开始",
+    "continue": "继续",
+    "complete": "完成",
+    "login": "登录",
+    "signup": "注册",
+    "logout": "退出",
+    "loading": "加载中...",
+    "translating": "正在翻译内容...",
+    "error": "发生错误",
+    "of": "/"
+  },
+  "quiz": {
+    "selectAllAnswers": "选择所有正确答案",
+    "verify": "验证",
+    "perfect": "完美！",
+    "youGotAll": "全部正确！",
+    "almostRight": "差一点！",
+    "youGotXofY": "您答对了{{total}}个中的{{correct}}个。",
+    "incorrect": "错误",
+    "tryAgainNext": "下次再试！",
+    "correct": "正确！",
+    "wellDone": "做得好！继续保持！",
+    "correctAnswerWas": "正确答案是："
+  },
+  "lessonUI": {
+    "taskCompleted": "任务完成",
+    "yourAnswer": "您的答案：",
+    "repeatTask": "重做任务"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "{{tool}}的基本概念",
+    "practicalTechniques": "实用使用技巧",
+    "dailyApplication": "如何在日常生活中应用"
+  },
+  "lesson": {
+    "locked": "已锁定",
+    "completed": "已完成",
+    "startNow": "立即开始",
+    "noContent": "内容暂不可用。",
+    "checkAnswer": "检查答案",
+    "tryAgain": "重试",
+    "tryAgainFeedback": "哎呀！请重试。",
+    "correctAnswer": "恭喜！回答正确！",
+    "phaseCompleted": "阶段成功完成！",
+    "loading": "加载中...",
+    "close": "关闭",
+    "continue": "继续",
+    "verify": "验证",
+    "stepTypes": {
+      "learn": "📚 学习",
+      "quiz": "❓ 测验",
+      "practical": "⚡ 实践",
+      "simulator": "🤖 模拟器"
+    },
+    "quiz": {
+      "correct": "正确！",
+      "incorrect": "再试一次",
+      "askEdi": "向EDI求助",
+      "hint": "💡 提示",
+      "excellent": "太棒了！",
+      "almostThere": "差一点！",
+      "masteredConcept": "你已经掌握了这个概念。继续保持！",
+      "hintReread": "重新阅读选项。正确答案与主要概念相关。",
+      "hintOrder": "想想逻辑顺序：动作 → 对象 → 细节。",
+      "hintReview": "回到之前的内容，复习概念。",
+      "hintAskEdi": "EDI可以帮助你！点击下面的按钮。",
+      "getCorrectToContinue": "回答正确才能继续"
+    },
+    "practical": {
+      "instructions": "点击单词来构建正确的提示：",
+      "yourAnswer": "你的答案：",
+      "available": "可用单词："
+    },
+    "chat": {
+      "aiReady": "准备帮助",
+      "sendPlaceholder": "输入你的消息...",
+      "aiResponse": "很棒的例子！你注意到我是如何处理你的输入的吗？现在我们已经在实践中测试过了，点击'继续'向前推进。"
+    },
+    "textParts": {
+      "part": "第",
+      "of": "共",
+      "nextPart": "下一部分",
+      "previousPart": "上一部分",
+      "showPrevious": "显示之前的部分",
+      "hidePrevious": "隐藏之前的部分",
+      "allRead": "已读完全部内容"
+    },
+    "matchWords": {
+      "instructions": "将左侧的每个项目与右侧的正确配对连接起来！",
+      "matched": "对已连接",
+      "reset": "重新开始"
+    },
+    "promptTrainer": {
+      "subtitle": "用EDI训练你的提示词",
+      "challenge": "🎯 挑战：",
+      "criteria": "成功标准：",
+      "startMessage": "写下你的提示词开始！",
+      "completed": "提示词已通过！恭喜！🎉",
+      "placeholder": "在这里输入你的提示词...",
+      "attempts": "尝试次数",
+      "showHint": "显示提示",
+      "hideHint": "隐藏提示",
+      "showExample": "显示提示词示例",
+      "hideExample": "隐藏示例"
+    },
+    "ediMotivation": {
+      "almostDone": "快完成了！🎯 你马上就到了！",
+      "halfway": "完成一半了！💪 继续加油！",
+      "greatJob": "做得很棒！✨ 你太厉害了！",
+      "keepGoing": "不要放弃！🔥 你可以的！",
+      "finalStretch": "冲刺阶段！⚡ 再坚持一下！",
+      "encouragement": "我相信你！💖 一起加油！",
+      "yourAssistant": "你的助手",
+      "almostDoneDay": "第{{day}}天快结束了！🎯 {{phrase}}",
+      "halfwayDay": "第{{day}}天过半了！💪 {{phrase}}",
+      "finalStretchDay": "第{{day}}天冲刺阶段！⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "你做得很棒！",
+          "继续加油，你很优秀！",
+          "快到了，你能行！",
+          "不要放弃！",
+          "你太强了！"
+        ],
+        "halfway": [
+          "你很棒！",
+          "已经一半了，坚持住！",
+          "进步很大！",
+          "你太厉害了！",
+          "继续保持！"
+        ],
+        "finalStretch": [
+          "终点就在眼前！",
+          "你已经走了这么远！",
+          "最后冲刺，全力以赴！",
+          "漂亮地结束吧！",
+          "马上到终点了！"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "每周连续",
+    "subtitle": "保持学习习惯",
+    "days": {
+      "mon": "周一",
+      "tue": "周二",
+      "wed": "周三",
+      "thu": "周四",
+      "fri": "周五",
+      "sat": "周六",
+      "sun": "周日"
+    }
+  },
+  "auth": {
+    "title": "访问您的账户",
+    "loginTab": "登录",
+    "signupTab": "注册",
+    "email": "电子邮件",
+    "emailPlaceholder": "your@email.com",
+    "password": "密码",
+    "passwordPlaceholder": "您的密码",
+    "confirmPassword": "确认密码",
+    "confirmPasswordPlaceholder": "确认您的密码",
+    "loginButton": "登录",
+    "signupButton": "注册",
+    "loginSuccess": "登录成功！",
+    "signupSuccess": "账户创建成功！",
+    "passwordMismatch": "密码不匹配",
+    "passwordTooShort": "密码必须至少6个字符",
+    "loginError": "登录错误",
+    "signupError": "注册错误",
+    "fullName": "全名",
+    "fullNamePlaceholder": "输入您的全名",
+    "nameRequired": "请输入您的全名"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "在线",
+    "greeting": "您好！👋 我是 EDI，Educly 的助手！很高兴为您服务！您想了解什么？",
+    "placeholder": "输入您的问题...",
+    "error": "发送消息时出错"
+  },
+  "freelancer": {
+    "title": "自由职业者学习路径",
+    "subtitle": "用AI赚钱",
+    "dashboardDesc": "学习经过验证的策略，使用AI工具成为成功的自由职业者。",
+    "headerDesc": "掌握作为AI自由职业者赚钱的技能",
+    "modules": "学习模块",
+    "access": "进入学习路径",
+    "tipsTitle": "专家建议",
+    "tipsDesc": "每个模块都包含已经在用AI赚钱的成功自由职业者的实用建议。",
+    "premium": {
+      "title": "高级自由职业者学习路径",
+      "description": "解锁独家内容，成为成功的AI自由职业者",
+      "features": {
+        "strategies": "经过验证的销售策略",
+        "clients": "如何获得第一批客户",
+        "pricing": "定价和谈判",
+        "platforms": "最佳自由职业平台"
+      }
+    },
+    "modulesList": {
+      "1": {
+        "title": "自由职业基础",
+        "description": "心态和入门第一步"
+      },
+      "2": {
+        "title": "打造作品集",
+        "description": "用AI创建令人无法抗拒的作品集"
+      },
+      "3": {
+        "title": "寻找客户",
+        "description": "获得第一批工作的策略"
+      },
+      "4": {
+        "title": "战略定价",
+        "description": "如何为您的AI工作定价"
+      },
+      "5": {
+        "title": "人脉与合作",
+        "description": "建立您的专业人脉网络"
+      },
+      "6": {
+        "title": "赢得提案",
+        "description": "撰写能够转化的提案"
+      },
+      "7": {
+        "title": "业务扩展",
+        "description": "从单独自由职业者到企业家"
+      },
+      "8": {
+        "title": "AI自动化",
+        "description": "使用AI成倍提高您的生产力"
+      }
+    }
+  },
+  "contactPage": {
+    "title": "联系我们",
+    "subtitle": "选择最佳的联系方式",
+    "aiChat": {
+      "title": "AI聊天支持",
+      "description": "通过我们的智能助手即时获取关于平台、价格和课程的答案。",
+      "button": "打开AI聊天",
+      "available": "全天候可用"
+    },
+    "humanSupport": {
+      "title": "人工客服",
+      "description": "如需更个性化的帮助、复杂问题或商业合作，请发送邮件联系我们。",
+      "button": "发送邮件",
+      "copyEmail": "复制邮箱",
+      "emailCopied": "邮箱已复制！",
+      "openGmail": "在Gmail中打开",
+      "responseTime": "24-48小时内回复"
+    },
+    "aiCapabilities": {
+      "title": "AI聊天可以帮助您",
+      "item1": "关于8种AI工具的信息（ChatGPT、Claude、Gemini等）",
+      "item2": "价格和订阅计划",
+      "item3": "28天挑战详情",
+      "item4": "平台使用方法",
+      "item5": "认证流程",
+      "item6": "技术要求"
+    }
+  },
+  "upsell": {
+    "features": "您将获得的访问权限：",
+    "cta": "立即解锁",
+    "back": "返回仪表板",
+    "freelancer": {
+      "title": "自由职业者区域",
+      "headline": "独家内容",
+      "subtitle": "解锁高级功能",
+      "description": "访问独家AI工作机会并应用您所学的知识。",
+      "feature1": "远程AI工作机会",
+      "feature2": "按类别和经验筛选",
+      "feature3": "每周添加新工作",
+      "feature4": "直接申请链接"
+    },
+    "ai_hub": {
+      "title": "AI中心",
+      "headline": "独家内容",
+      "subtitle": "解锁高级功能",
+      "description": "解锁AI中心，使用专业助手创建图像、提示词并获取答案。",
+      "feature1": "用于创建专业图像的AI",
+      "feature2": "提示词创建助手",
+      "feature3": "从专业AI获取答案",
+      "feature4": "无限访问助手"
+    }
+  },
+  "legal": {
+    "email": "电子邮件",
+    "website": "网站",
+    "termsOfUse": {
+      "title": "使用条款 – Educly",
+      "lastUpdated": "最后更新：2025年1月",
+      "intro": "通过访问、安装或使用Educly应用程序，用户声明已阅读、理解并完全同意本使用条款。如果您不同意此处规定的任何条件，必须立即停止使用平台。",
+      "sections": {
+        "about": {
+          "title": "1. 关于Educly",
+          "content": "Educly是一个通过应用程序和/或在线环境提供教育和信息内容的数字平台，采用定期订阅模式运营，可能包括购买时呈现的付费试用期。"
+        },
+        "acceptance": {
+          "title": "2. 接受条款",
+          "content": "使用Educly并订阅任何计划意味着完全接受本使用条款以及平台上提供的隐私政策。进入应用程序即表示用户确认其正在订阅具有自动扣费的定期订阅服务，条件如购买时所述。"
+        },
+        "account": {
+          "title": "3. 注册和用户责任",
+          "intro": "3.1. 用户同意在注册时提供真实、完整和最新的信息。",
+          "responsibility": "3.2. 用户对以下事项承担全部责任：",
+          "items": [
+            "维护其访问凭证的保密性",
+            "在其账户上执行的所有活动"
+          ],
+          "disclaimer": "3.3. Educly不对因用户疏忽导致的未授权访问负责。"
+        },
+        "plans": {
+          "title": "4. 计划、订阅和付费试用",
+          "items": [
+            "4.1. 访问Educly内容通过定期订阅进行，自动从用户指定的支付方式扣费。",
+            "4.2. 某些计划可能包括付费试用，特点是初始金额减少，并在购买时告知的期限结束时自动转换为定期订阅，除非在本条款规定的规则内提出取消请求。",
+            "4.3. 关于价格、频率、试用期限和自动续订的所有信息在购买确认前都会清楚呈现。"
+          ]
+        },
+        "refund": {
+          "title": "5. 退款和取消政策",
+          "trialRefund": {
+            "title": "5.1. 付费试用退款",
+            "content": "用户可以在付费试用首次扣费之日起30天内申请退还付费试用支付的金额。"
+          },
+          "howToRefund": {
+            "title": "5.2. 如何申请退款",
+            "content": "付费试用退款请求必须通过Educly的官方支持渠道进行。"
+          },
+          "cancellation": {
+            "title": "5.3. 取消或暂停订阅",
+            "content1": "用户可以随时请求取消或暂停订阅。为使请求在下次扣费前生效，必须在预定扣费日期前至少48小时提出。",
+            "content2": "如果在此期限后提出请求，将从下一个计费周期生效，内容访问权将保持到已付费期限结束。",
+            "content3": "取消或暂停请求必须通过官方电子邮件进行：",
+            "content4": "通过其他渠道提出的请求将不被视为有效的取消目的。",
+            "content5": "定期订阅支付的金额不予退还。确认订阅即表示用户确认内容访问权在支付确认后立即提供，并且其正在订阅定期订阅模式。"
+          },
+          "processing": {
+            "title": "5.4. 财务处理",
+            "content": "批准的付费试用退款将根据支付运营商和用户使用的方法的规则进行处理。Educly不对第三方的期限或操作程序负责。"
+          }
+        },
+        "acceptableUse": {
+          "title": "6. 平台的适当使用",
+          "intro": "禁止用户：",
+          "items": [
+            "未经授权复制、复制、分发或商业化Educly内容",
+            "与第三方共享账户访问权",
+            "将平台用于非法、欺诈或违反诚信原则的目的"
+          ],
+          "consequence": "违反这些规则可能导致账户暂停或取消，无权退款。"
+        },
+        "ip": {
+          "title": "7. 知识产权",
+          "content": "Educly上提供的所有内容，包括文本、视频、图像、音频、品牌、标志、布局和数字材料，均受版权保护，归Educly或其许可方所有，禁止任何未经授权的使用。"
+        },
+        "liability": {
+          "title": "8. 责任限制",
+          "content": "Educly提供的内容具有教育和信息性质。不保证特定结果，用户对通过平台获得的信息的应用承担全部责任。"
+        },
+        "modifications": {
+          "title": "9. 条款修改",
+          "content": "Educly可以随时修改本使用条款。在任何更改后继续使用平台即表示同意新条款。"
+        },
+        "law": {
+          "title": "10. 适用法律和管辖权",
+          "content": "本使用条款受巴西联邦共和国法律管辖，根据消费者保护法，选择消费者住所作为解决任何争议的管辖权。"
+        },
+        "contact": {
+          "title": "11. 联系方式",
+          "intro": "问题、付费试用退款请求或订阅取消或暂停请求必须通过官方电子邮件进行："
+        }
+      }
+    }
+  }
+}

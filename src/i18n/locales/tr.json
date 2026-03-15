@@ -1,0 +1,438 @@
+{
+  "challenge": {
+    "week": "Hafta",
+    "day": "Gün",
+    "days": "gün",
+    "completed": "Tamamlandı",
+    "viewAll": "Tümünü gör",
+    "continueFromWhere": "Kaldığınız yerden devam edin",
+    "aiDomination": "AI Ustalığı",
+    "level1": "Seviye 1",
+    "started": "Meydan okuma başladı!",
+    "goodLuck": "Öğrenme yolculuğunuzda başarılar!",
+    "notFound": "Meydan okuma bulunamadı",
+    "aiTrails": "AI Yolları",
+    "challenge28Days": "28 Gün Meydan Okuması",
+    "chooseAI": "Öğrenmek için bir AI seçin:",
+    "trail": "Yol",
+    "startChallenge": "Meydan Okumayı Başlat",
+    "starting": "Başlatılıyor...",
+    "ais": "AI'ler",
+    "progress": "İlerleme",
+    "review": "İnceleme",
+    "viewTrail": "Yolu gör",
+    "aiChallenges": "AI Meydan Okumaları",
+    "master8AI": "28 günde 8 AI'de ustalaşın",
+    "master8AIDesc": "Her meydan okuma, pazardaki en önemli AI araçlarını öğretmek için tasarlanmıştır."
+  },
+  "personalizedTrail": {
+    "title": "Kişiselleştirilmiş Yolunuz",
+    "progress": "{{completed}}/{{total}} gün tamamlandı",
+    "notFound": "Yol bulunamadı.",
+    "createNew": "Yeni yol oluştur"
+  },
+  "personalizedLesson": {
+    "title": "Kişiselleştirilmiş Ders",
+    "dayTitle": "Gün {{day}}",
+    "todayTask": "Bugünün görevi",
+    "taskIntro": "Ne öğreneceksiniz",
+    "taskDescription": "Görev açıklaması",
+    "exerciseTitle": "Pratik Alıştırma",
+    "exerciseNote": "Öğrenmenizi pekiştirmek için bu alıştırmayı tamamlayın",
+    "markComplete": "Tamamlandı olarak işaretle",
+    "completeNote": "Bugün harika iş çıkardınız!",
+    "dayComplete": "Gün tamamlandı!",
+    "greatWork": "Harika iş! İlerleme kaydediyorsunuz!",
+    "nextDay": "Sonraki gün",
+    "viewTrail": "Yolu gör",
+    "continue": "Devam et",
+    "complete": "Tamamla"
+  },
+  "landing": {
+    "nav": {"home": "Ana Sayfa", "about": "Hakkımızda", "programs": "Özellikler", "testimonials": "Görüşler", "plan": "Plan", "contact": "İletişim", "login": "Giriş Yap", "startNow": "Uygulamayı İndir"},
+    "hero": {"badge": "Piyasadaki en kapsamlı AI uygulaması", "title": "Ustalık Kazanın", "titleHighlight": "Yapay Zeka", "titleEnd": "Doğrudan Telefonunuzdan", "subtitle": "Etkileşimli rotalar, uygulamalı alıştırmalar ve dijital sertifikalarla AI öğrenin — hepsi uygulamada. 20+ AI aracı, çevrimdışı mod ve oyunlaştırma.", "cta": "Ücretsiz İndir", "demo": "Demo İzle", "students": "indirme", "rating": "değerlendirme", "countries": "ülke"},
+    "features": {
+      "sectionLabel": "Uygulama Özellikleri", "title": "İhtiyacınız Olan Her Şey Cebinizde", "subtitle": "Etkileşimli rotalar, AI asistan, gerçek zamanlı ilerleme ve sertifikalara sahip eksiksiz bir uygulama.",
+      "curriculum": {"title": "Etkileşimli Rotalar", "description": "Oyunlaştırılmış rotalar ve sürekli güncellenen AI araçları içeriğiyle öğrenin."},
+      "mentoring": {"title": "Yerleşik AI Asistan", "description": "Uygulamadaki kişisel AI asistanınız EDI'den gerçek zamanlı yanıtlar alın."},
+      "community": {"title": "Gerçek Zamanlı İlerleme", "description": "Ayrıntılı panolar, seriler ve öğrenme istatistikleriyle ilerlemenizi takip edin."},
+      "certification": {"title": "Dijital Sertifikalar", "description": "Rotaları ve zorlukları tamamlayarak sertifika kazanın."},
+      "practical": {"title": "Çevrimdışı Mod", "description": "Dersleri indirin ve internetsiz çalışın — her yerde öğrenmek için ideal."},
+      "career": {"title": "Oyunlaştırma", "description": "XP kazanın, seviye atlayın, rozetler açın ve günlük çalışma serinizi koruyun."}
+    },
+    "programs": {
+      "sectionLabel": "Özellikler", "title": "Uygulama özelliklerini keşfedin", "subtitle": "Tüm seviyeler için tasarlanmış özellikler.", "popular": "En Popüler", "startNow": "Uygulamayı İndir", "beginner": "Başlangıç", "intermediate": "Orta", "advanced": "İleri",
+      "fundamentals": {"title": "AI Rotaları", "description": "Uygulamada etkileşimli ve oyunlaştırılmış rotalarla AI yolculuğunuza başlayın.", "duration": "4 hafta", "highlights": ["Etkileşimli AI rotaları", "ChatGPT ile pratik alıştırmalar", "Uygulama ile görev otomasyonu", "Dijital sertifika"]},
+      "machineLearning": {"title": "Gelişmiş Zorluklar", "description": "Günlük alıştırmalarla 28 günlük zorluklara dalın.", "duration": "28 gün", "highlights": ["Günlük AI zorlukları", "Etkileşimli alıştırmalar", "Oyunlaştırılmış ilerleme", "Tamamlama sertifikaları"]},
+      "deepLearning": {"title": "Kişisel AI Asistan", "description": "EDI, yerleşik AI asistanınızla sorular sorun ve prompt pratik yapın.", "duration": "Sınırsız", "highlights": ["Yerleşik AI sohbet", "Prompt eğitmeni", "Gerçek zamanlı yanıtlar", "Uygulama içi kişiselleştirilmiş destek"]}
+    },
+    "pricing": {"badge": "Fiyatlandırma", "title": "Uygulamanın tüm potansiyelini açın", "subtitle": "AI öğrenme yolculuğunuza bugün başlayın", "week1": "1 HAFTALIK PLAN", "week4": "4 HAFTALIK PLAN", "week12": "12 HAFTALIK PLAN", "mostPopular": "EN POPÜLER", "from": "ESKİ", "for": "YENİ", "perDay": "günlük", "getMyPlan": "PLANIMI AL", "note": "12 haftalık plan kullananlar iki kat daha fazla sonuç elde eder."},
+    "testimonials": {
+      "sectionLabel": "Görüşler", "title": "Kullanıcılarımız ne diyor", "subtitle": "Binlerce kişi Educly uygulamasıyla AI öğrendi.",
+      "items": [
+        {"name": "Maria Silva", "role": "Veri Bilimci", "country": "Brezilya", "text": "Educly uygulaması AI öğrenme şeklimi değiştirdi. Her gün otobüste kullanıyorum ve 3 ayda ilk işimi buldum."},
+        {"name": "João Santos", "role": "Ürün Yöneticisi", "country": "Portekiz", "text": "Uygulama harika — rotalar pratik ve çevrimdışı çalışabiliyorum. Oyunlaştırma beni motive tutuyor."},
+        {"name": "Ana García", "role": "ML Mühendisi", "country": "Meksika", "text": "Uygulama üzerinden birçok zorluğu tamamladım ve dijital sertifikalar özgeçmişimde fark yarattı."},
+        {"name": "Carlos Fernández", "role": "Startup Kurucusu", "country": "Arjantin", "text": "AI'da güncel kalmak için her gün uygulamayı kullanıyorum. Çevrimdışı mod sık seyahat edenler için mükemmel."}
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Küresel Erişim", "title": "Dünya genelinde mevcut", "subtitle": "Educly uygulaması 150'den fazla ülkede indirildi.",
+      "regions": {"latinAmerica": "Latin Amerika", "europe": "Avrupa", "northAmerica": "Kuzey Amerika", "asiaOceania": "Asya ve Okyanusya"},
+      "features": {"languages": {"title": "15 Dil", "description": "Profesyonel çeviriyle çok dilde uygulama"}, "support": {"title": "7/24 Destek", "description": "Yerleşik AI asistan ve destek ekibi her zaman hazır"}, "community": {"title": "Uygulama İçi Topluluk", "description": "Dünya genelindeki kullanıcılarla bağlantı kurun ve ilerlemenizi paylaşın"}}
+    },
+    "stats": {"students": "İndirme", "countries": "Ülke", "satisfaction": "Mağaza Puanı", "partners": "AI Aracı"},
+    "cta": {
+      "title": "Telefonunuzdan doğrudan AI öğrenmeye hazır mısınız?", "subtitle": "Educly uygulamasıyla AI'da ustalaşan 50.000'den fazla kullanıcıya katılın.",
+      "startFree": "Ücretsiz İndir", "talkConsultant": "Destekle Konuş", "guarantee": "30 gün garanti", "installments": "12 taksit'e kadar",
+      "benefits": ["Tüm rotalara tam erişim", "Ücretsiz uygulama güncellemeleri", "Yerleşik AI asistan", "Dijital sertifikalar", "Çevrimdışı mod mevcut", "30 gün para iade garantisi"]
+    },
+    "footer": {
+      "description": "Piyasadaki en kapsamlı AI uygulaması. Telefonunuzdan doğrudan pratik AI öğrenin.",
+      "contact": "İletişim", "programs": "Özellikler", "resources": "Kaynaklar", "company": "Şirket", "legal": "Yasal",
+      "links": {"aiFundamentals": "AI Rotaları", "machineLearning": "28 Gün Zorlukları", "deepLearning": "AI Asistan", "aiForBusiness": "Dijital Sertifikalar", "blog": "Blog", "webinars": "Eğitimler", "ebooks": "Kılavuzlar", "community": "Topluluk", "aboutUs": "Hakkımızda", "careers": "Kariyer", "partnerships": "Ortaklıklar", "contact": "İletişim", "terms": "Kullanım Şartları", "privacy": "Gizlilik", "cookies": "Çerezler"},
+      "copyright": "Tüm hakları saklıdır.", "madeWith": "Küresel AI topluluğu için ❤️ ile yapıldı"
+    }
+  },
+  "common": {
+    "back": "Geri",
+    "next": "İleri",
+    "start": "Başla",
+    "continue": "Devam Et",
+    "complete": "Tamamla",
+    "login": "Giriş Yap",
+    "signup": "Kayıt Ol",
+    "logout": "Çıkış Yap",
+    "loading": "Yükleniyor...",
+    "translating": "İçerik çevriliyor...",
+    "error": "Bir hata oluştu",
+    "of": "/"
+  },
+  "quiz": {
+    "selectAllAnswers": "Tüm doğru cevapları seçin",
+    "verify": "Doğrula",
+    "perfect": "Mükemmel!",
+    "youGotAll": "Hepsini doğru bildiniz!",
+    "almostRight": "Neredeyse doğru!",
+    "youGotXofY": "{{total}} sorudan {{correct}} tanesini doğru bildiniz.",
+    "incorrect": "Yanlış",
+    "tryAgainNext": "Bir dahaki sefere tekrar deneyin!",
+    "correct": "Doğru!",
+    "wellDone": "Aferin! Böyle devam edin!",
+    "correctAnswerWas": "Doğru cevap şuydu:"
+  },
+  "lessonUI": {
+    "taskCompleted": "Görev tamamlandı",
+    "yourAnswer": "Cevabınız:",
+    "repeatTask": "Görevi tekrarla"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "{{tool}} temel kavramları",
+    "practicalTechniques": "Pratik kullanım teknikleri",
+    "dailyApplication": "Günlük hayatta nasıl uygulanır"
+  },
+  "lesson": {
+    "locked": "Kilitli",
+    "completed": "Tamamlandı",
+    "startNow": "Şimdi başla",
+    "noContent": "İçerik henüz mevcut değil.",
+    "checkAnswer": "Cevabı Kontrol Et",
+    "tryAgain": "Tekrar Dene",
+    "tryAgainFeedback": "Eyvah! Tekrar deneyin.",
+    "correctAnswer": "Tebrikler! Doğru cevap!",
+    "phaseCompleted": "Aşama başarıyla tamamlandı!",
+    "loading": "Yükleniyor...",
+    "close": "Kapat",
+    "continue": "DEVAM",
+    "verify": "DOĞRULA",
+    "stepTypes": {
+      "learn": "📚 Öğren",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Pratik",
+      "simulator": "🤖 Simülatör"
+    },
+    "quiz": {
+      "correct": "Doğru!",
+      "incorrect": "Tekrar dene",
+      "askEdi": "EDI'den yardım iste",
+      "hint": "💡 İpucu",
+      "excellent": "Mükemmel!",
+      "almostThere": "Neredeyse!",
+      "masteredConcept": "Bu kavramı kavradınız. Böyle devam edin!",
+      "hintReread": "Seçenekleri tekrar okuyun. Doğru cevap ana kavramla bağlantılı.",
+      "hintOrder": "Mantıksal sırayı düşünün: eylem → nesne → ayrıntılar.",
+      "hintReview": "Önceki içeriğe geri dönün ve kavramları gözden geçirin.",
+      "hintAskEdi": "EDI size yardımcı olabilir! Aşağıdaki düğmeye tıklayın.",
+      "getCorrectToContinue": "Devam etmek için doğru cevaplayın"
+    },
+    "practical": {
+      "instructions": "Doğru istemi oluşturmak için kelimelere tıklayın:",
+      "yourAnswer": "Cevabınız:",
+      "available": "Mevcut kelimeler:"
+    },
+    "chat": {
+      "aiReady": "Yardıma hazır",
+      "sendPlaceholder": "Mesajınızı yazın...",
+      "aiResponse": "Mükemmel örnek! Girdinizi nasıl işlediğimi fark ettiniz mi? Şimdi pratikte test ettiğimize göre, ilerlemek için 'DEVAM'a tıklayın."
+    },
+    "textParts": {
+      "part": "Bölüm",
+      "of": "toplam",
+      "nextPart": "Sonraki bölüm",
+      "previousPart": "Önceki bölüm",
+      "showPrevious": "Önceki bölümleri göster",
+      "hidePrevious": "Önceki bölümleri gizle",
+      "allRead": "Tüm içerik okundu"
+    },
+    "matchWords": {
+      "instructions": "Soldaki her öğeyi sağdaki doğru eşiyle bağlayın!",
+      "matched": "çift bağlandı",
+      "reset": "Yeniden Başla"
+    },
+    "promptTrainer": {
+      "subtitle": "EDI ile istemini eğit",
+      "challenge": "🎯 Meydan Okuma:",
+      "criteria": "Başarı kriterleri:",
+      "startMessage": "Başlamak için istemini yaz!",
+      "completed": "İstem onaylandı! Tebrikler! 🎉",
+      "placeholder": "İstemini buraya yaz...",
+      "attempts": "Denemeler",
+      "showHint": "İpucu göster",
+      "hideHint": "İpucu gizle",
+      "showExample": "İstem örneği göster",
+      "hideExample": "Örneği gizle"
+    },
+    "ediMotivation": {
+      "almostDone": "Neredeyse bitti! 🎯 Az kaldı!",
+      "halfway": "Yarı yoldasın! 💪 Böyle devam et!",
+      "greatJob": "Harika iş! ✨ Çok iyi gidiyorsun!",
+      "keepGoing": "Şimdi vazgeçme! 🔥 Yapabilirsin!",
+      "finalStretch": "Son düzlük! ⚡ Biraz daha!",
+      "encouragement": "Sana inanıyorum! 💖 Birlikte gidelim!",
+      "yourAssistant": "asistanın",
+      "almostDoneDay": "{{day}}. gün neredeyse bitti! 🎯 {{phrase}}",
+      "halfwayDay": "{{day}}. günün yarısı! 💪 {{phrase}}",
+      "finalStretchDay": "{{day}}. günün son düzlüğü! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Çok iyi gidiyorsun!",
+          "Devam et, harikasın!",
+          "Az kaldı, yapabilirsin!",
+          "Vazgeçme!",
+          "Muhteşemsin!"
+        ],
+        "halfway": [
+          "Harika gidiyorsun!",
+          "Yarı yolda, güçlü kal!",
+          "Mükemmel ilerleme!",
+          "İnanılmazsın!",
+          "Böyle devam!"
+        ],
+        "finalStretch": [
+          "Son yakın!",
+          "Bu kadar yol geldin!",
+          "Son hamle, her şeyini ver!",
+          "Şık bir şekilde bitir!",
+          "Neredeyse bitiş çizgisinde!"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Haftalık seri",
+    "subtitle": "Öğrenme alışkanlığını sürdürün",
+    "days": {
+      "mon": "Pzt",
+      "tue": "Sal",
+      "wed": "Çar",
+      "thu": "Per",
+      "fri": "Cum",
+      "sat": "Cmt",
+      "sun": "Paz"
+    }
+  },
+  "auth": {
+    "title": "Hesabınıza Erişin",
+    "loginTab": "Giriş Yap",
+    "signupTab": "Kayıt Ol",
+    "email": "E-posta",
+    "emailPlaceholder": "your@email.com",
+    "password": "Şifre",
+    "passwordPlaceholder": "Şifreniz",
+    "confirmPassword": "Şifre Onayı",
+    "confirmPasswordPlaceholder": "Şifrenizi onaylayın",
+    "loginButton": "Giriş Yap",
+    "signupButton": "Kayıt Ol",
+    "loginSuccess": "Giriş başarılı!",
+    "signupSuccess": "Hesap başarıyla oluşturuldu!",
+    "passwordMismatch": "Şifreler eşleşmiyor",
+    "passwordTooShort": "Şifre en az 6 karakter olmalıdır",
+    "loginError": "Giriş hatası",
+    "signupError": "Kayıt hatası",
+    "fullName": "Tam İsim",
+    "fullNamePlaceholder": "Tam isminizi girin",
+    "nameRequired": "Lütfen tam isminizi girin"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Çevrimiçi",
+    "greeting": "Merhaba! 👋 Ben EDI, Educly'deki asistanınızım! Size yardımcı olmaktan çok mutluyum! Ne öğrenmek istersiniz?",
+    "placeholder": "Sorunuzu yazın...",
+    "error": "Mesaj gönderme hatası"
+  },
+  "freelancer": {
+    "title": "Freelancer Öğrenme Yolu",
+    "subtitle": "AI ile Para Kazanın",
+    "dashboardDesc": "AI araçlarını kullanarak başarılı bir freelancer olmak için kanıtlanmış stratejileri öğrenin.",
+    "headerDesc": "AI freelancer olarak para kazanma becerilerinde ustalaşın",
+    "modules": "Öğrenme Modülleri",
+    "access": "Yola Eriş",
+    "tipsTitle": "Uzman İpuçları",
+    "tipsDesc": "Her modül, zaten AI ile para kazanan başarılı freelancerlardan pratik ipuçları içerir.",
+    "premium": { "title": "Premium Freelancer Öğrenme Yolu", "description": "Başarılı bir AI freelancer olmak için özel içeriklerin kilidini açın", "features": { "strategies": "Kanıtlanmış satış stratejileri", "clients": "İlk müşterilerinizi nasıl elde edersiniz", "pricing": "Fiyatlandırma ve pazarlık", "platforms": "Freelancerlar için en iyi platformlar" } },
+    "modulesList": { "1": { "title": "Freelancer Temelleri", "description": "Başlamak için zihniyet ve ilk adımlar" }, "2": { "title": "Portföyünüzü Oluşturma", "description": "AI ile karşı konulmaz bir portföy oluşturun" }, "3": { "title": "Müşteri Bulma", "description": "İlk işlerinizi almak için stratejiler" }, "4": { "title": "Stratejik Fiyatlandırma", "description": "AI çalışmanız için nasıl ücret alırsınız" }, "5": { "title": "Ağ Oluşturma ve Ortaklıklar", "description": "Profesyonel ağınızı oluşturun" }, "6": { "title": "Kazanan Teklifler", "description": "Dönüştüren teklifler yazın" }, "7": { "title": "İşinizi Büyütme", "description": "Solo freelancerdan girişimciye" }, "8": { "title": "AI Otomasyonu", "description": "Verimliliğinizi katlamak için AI kullanın" } }
+  },
+  "contactPage": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Bizimle iletişime geçmenin en iyi yolunu seçin",
+    "aiChat": {
+      "title": "AI Sohbet Desteği",
+      "description": "Akıllı asistanımızla platform, fiyatlar ve kurslar hakkında anında yanıt alın.",
+      "button": "AI Sohbetini Aç",
+      "available": "7/24 Müsait"
+    },
+    "humanSupport": {
+      "title": "İnsan Desteği",
+      "description": "Daha kişiselleştirilmiş yardım, karmaşık sorular veya iş ortaklıkları için e-posta ile ulaşın.",
+      "button": "E-posta Gönder",
+      "copyEmail": "E-postayı Kopyala",
+      "emailCopied": "E-posta kopyalandı!",
+      "openGmail": "Gmail'de Aç",
+      "responseTime": "24-48 saat içinde yanıt"
+    },
+    "aiCapabilities": {
+      "title": "AI sohbetimiz ne konuda yardımcı olabilir",
+      "item1": "8 AI aracımız hakkında bilgi (ChatGPT, Claude, Gemini, vb.)",
+      "item2": "Fiyatlar ve abonelik planları",
+      "item3": "28 günlük meydan okuma detayları",
+      "item4": "Platform nasıl çalışır",
+      "item5": "Sertifikasyon süreci",
+      "item6": "Teknik gereksinimler"
+    }
+  },
+  "upsell": {
+    "features": "Erişeceğiniz özellikler:",
+    "cta": "Şimdi Aç",
+    "back": "Panele Dön",
+    "freelancer": {
+      "title": "Serbest Çalışan Alanı",
+      "headline": "Özel İçerik",
+      "subtitle": "Gelişmiş özellikleri açın",
+      "description": "Özel AI iş fırsatlarına erişin ve öğrendiklerinizi uygulayın.",
+      "feature1": "Uzaktan AI iş fırsatları",
+      "feature2": "Kategori ve deneyime göre filtre",
+      "feature3": "Her hafta yeni işler eklendi",
+      "feature4": "Doğrudan başvuru bağlantısı"
+    },
+    "ai_hub": {
+      "title": "AI Merkezi",
+      "headline": "Özel İçerik",
+      "subtitle": "Gelişmiş özellikleri açın",
+      "description": "Görüntüler, istemler oluşturmak ve yanıt almak için uzman asistanlarla AI Merkezini açın.",
+      "feature1": "Profesyonel görüntüler oluşturmak için AI",
+      "feature2": "İstem oluşturma asistanı",
+      "feature3": "Uzman AI'dan yanıt alın",
+      "feature4": "Asistanlara sınırsız erişim"
+    }
+  },
+  "legal": {
+    "email": "E-posta",
+    "website": "Web sitesi",
+    "termsOfUse": {
+      "title": "Kullanım Koşulları – Educly",
+      "lastUpdated": "Son güncelleme: Ocak 2025",
+      "intro": "Educly uygulamasına erişerek, yükleyerek veya kullanarak, kullanıcı bu Kullanım Koşullarını okuduğunu, anladığını ve tamamen kabul ettiğini beyan eder. Burada belirtilen herhangi bir koşulu kabul etmiyorsanız, platformu kullanmayı derhal bırakmalısınız.",
+      "sections": {
+        "about": {
+          "title": "1. Educly Hakkında",
+          "content": "Educly, satın alma sırasında sunulan ücretli deneme süresini içerebilen yinelenen abonelik modeli altında çalışan, uygulama ve/veya çevrimiçi ortam aracılığıyla eğitim ve bilgilendirici içerik sunan dijital bir platformdur."
+        },
+        "acceptance": {
+          "title": "2. Koşulların Kabulü",
+          "content": "Educly'yi kullanmak ve herhangi bir plana abone olmak, bu Kullanım Koşullarının ve platformda bulunan Gizlilik Politikasının tam kabulünü ifade eder. Uygulamaya girerek, kullanıcı satın alma sırasında bildirilen koşullara göre otomatik ücretlerle yinelenen abonelik hizmetine abone olduğunu kabul eder."
+        },
+        "account": {
+          "title": "3. Kayıt ve Kullanıcı Sorumluluğu",
+          "intro": "3.1. Kullanıcı, kayıt sırasında doğru, eksiksiz ve güncel bilgi sağlamayı kabul eder.",
+          "responsibility": "3.2. Kullanıcı aşağıdakiler için tek başına sorumludur:",
+          "items": [
+            "Erişim bilgilerinin gizliliğini korumak",
+            "Hesabında gerçekleştirilen tüm faaliyetler"
+          ],
+          "disclaimer": "3.3. Educly, kullanıcı ihmalinden kaynaklanan yetkisiz erişimden sorumlu değildir."
+        },
+        "plans": {
+          "title": "4. Planlar, Abonelik ve Ücretli Deneme",
+          "items": [
+            "4.1. Educly içeriğine erişim, kullanıcının belirttiği ödeme yönteminden otomatik tahsilatlarla yinelenen abonelik aracılığıyla gerçekleşir.",
+            "4.2. Bazı planlar, azaltılmış başlangıç tutarı ve satın alma sırasında bildirilen sürenin sonunda yinelenen aboneliğe otomatik dönüşüm ile karakterize edilen ücretli deneme içerebilir, bu koşullarda belirlenen kurallar dahilinde iptal talebi yapılmadıkça.",
+            "4.3. Fiyatlar, sıklık, deneme süresi ve otomatik yenileme ile ilgili tüm bilgiler satın alma onayından önce açıkça sunulur."
+          ]
+        },
+        "refund": {
+          "title": "5. İade ve İptal Politikası",
+          "trialRefund": {
+            "title": "5.1. Ücretli Deneme İadesi",
+            "content": "Kullanıcı, ücretli denemenin ilk tahsilat tarihinden itibaren 30 gün içinde yalnızca ücretli deneme için ödenen tutarların iadesini talep edebilir."
+          },
+          "howToRefund": {
+            "title": "5.2. İade Nasıl Talep Edilir",
+            "content": "Ücretli deneme iade talebi yalnızca Educly'nin resmi destek kanalları aracılığıyla yapılmalıdır."
+          },
+          "cancellation": {
+            "title": "5.3. Abonelik İptali veya Duraklatma",
+            "content1": "Kullanıcı herhangi bir zamanda abonelik iptali veya duraklatma talebinde bulunabilir. Talebin bir sonraki tahsilattan önce geçerli olması için, planlanan tahsilat tarihinden en az 48 saat önce yapılması gerekir.",
+            "content2": "Talep bu son tarihten sonra yapılırsa, bir sonraki fatura döneminden itibaren geçerli olacak ve önceden ödenen süre sonuna kadar içeriğe erişim aktif kalacaktır.",
+            "content3": "İptal veya duraklatma talepleri yalnızca resmi e-posta aracılığıyla yapılmalıdır:",
+            "content4": "Diğer kanallar aracılığıyla yapılan talepler iptal amaçları için geçerli sayılmayacaktır.",
+            "content5": "Yinelenen abonelik için ödenen tutarlar iade edilmez. Aboneliği onaylayarak, kullanıcı ödeme onayından hemen sonra içeriğe erişimin sağlandığını ve yinelenen abonelik modeline abone olduğunu kabul eder."
+          },
+          "processing": {
+            "title": "5.4. Finansal İşlem",
+            "content": "Onaylanan ücretli deneme iadeleri, ödeme operatörü ve kullanıcının kullandığı yöntemin kurallarına göre işlenecektir. Educly, üçüncü tarafların son tarihleri veya operasyonel prosedürleri için sorumlu değildir."
+          }
+        },
+        "acceptableUse": {
+          "title": "6. Platformun Uygun Kullanımı",
+          "intro": "Kullanıcıya aşağıdakiler yasaktır:",
+          "items": [
+            "İzinsiz Educly içeriğini kopyalamak, çoğaltmak, dağıtmak veya ticarileştirmek",
+            "Hesap erişimini üçüncü taraflarla paylaşmak",
+            "Platformu yasadışı, dolandırıcılık veya iyi niyete aykırı amaçlarla kullanmak"
+          ],
+          "consequence": "Bu kuralların ihlali, iade hakkı olmaksızın hesap askıya alma veya iptale yol açabilir."
+        },
+        "ip": {
+          "title": "7. Fikri Mülkiyet",
+          "content": "Educly'de bulunan tüm içerik, metinler, videolar, görseller, sesler, markalar, logolar, düzenler ve dijital materyaller dahil olmak üzere, telif hakkıyla korunmaktadır ve Educly veya lisans verenlerine aittir, yetkisiz kullanım yasaktır."
+        },
+        "liability": {
+          "title": "8. Sorumluluk Sınırlaması",
+          "content": "Educly tarafından sağlanan içerik eğitim ve bilgilendirme amaçlıdır. Belirli sonuçlar için garanti yoktur ve kullanıcı, platform aracılığıyla elde edilen bilgilerin uygulanmasından tek başına sorumludur."
+        },
+        "modifications": {
+          "title": "9. Koşullarda Değişiklikler",
+          "content": "Educly bu Kullanım Koşullarını herhangi bir zamanda değiştirebilir. Herhangi bir değişiklikten sonra platformu kullanmaya devam etmek, yeni koşulların kabulünü ifade eder."
+        },
+        "law": {
+          "title": "10. Uygulanacak Hukuk ve Yargı Yetkisi",
+          "content": "Bu Kullanım Koşulları Brezilya Federal Cumhuriyeti yasalarına tabidir ve Tüketici Koruma Kanunu uyarınca, herhangi bir anlaşmazlığı çözmek için tüketicinin ikametgahı yargı yetkisi olarak seçilmiştir."
+        },
+        "contact": {
+          "title": "11. İletişim",
+          "intro": "Sorular, ücretli deneme iade talepleri veya abonelik iptali veya duraklatma talepleri yalnızca resmi e-posta aracılığıyla yapılmalıdır:"
+        }
+      }
+    }
+  }
+}

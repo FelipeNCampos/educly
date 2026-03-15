@@ -1,0 +1,1303 @@
+{
+  "day1": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Cos'è ChatGPT (Senza Fantasia)",
+        "content": "Prima di usare ChatGPT, devi capire UNA cosa:\n\n❌ Non pensa\n❌ Non capisce il mondo\n❌ Non ha coscienza\n\nChatGPT è un **Large Language Model (LLM)**.\n\nFunziona così:\nTesto entra → probabilità vengono calcolate → testo esce.\n\n👉 **Prevede la parola successiva** basandosi su pattern appresi da miliardi di testi umani."
+      },
+      {
+        "type": "text",
+        "title": "Il Pappagallo Statistico",
+        "content": "ChatGPT non ha imparato fatti.\nHa imparato **come gli umani scrivono sui fatti**.\n\nQuando digiti:\n\"Il marketing digitale funziona meglio con...\"\n\nIl modello calcola probabilità:\n- Strategia\n- Contenuto\n- Traffico\n- Dati\n\nSceglie la sequenza più probabile."
+      },
+      {
+        "type": "quiz",
+        "title": "Test di Realtà",
+        "question": "Quale affermazione è vera?",
+        "options": [
+          { "text": "ChatGPT capisce quello che scrive", "isCorrect": false },
+          { "text": "ChatGPT prevede parole basandosi su pattern", "isCorrect": true },
+          { "text": "ChatGPT pensa come un umano", "isCorrect": false }
+        ],
+        "explanation": "Corretto. La comprensione è tua. La previsione è dell'IA."
+      },
+      {
+        "type": "text",
+        "title": "2. Cosa Fa Molto Bene ChatGPT",
+        "content": "ChatGPT eccelle nei compiti basati su TESTO.\n\n✔ Scrivere testi, email e copy\n✔ Generare idee e brainstorming\n✔ Riassumere contenuti\n✔ Spiegare concetti\n✔ Creare piani (marketing, studio, contenuto)"
+      },
+      {
+        "type": "quiz",
+        "title": "Capacità di ChatGPT",
+        "question": "Quale compito può fare correttamente ChatGPT?",
+        "options": [
+          { "text": "Diagnosticare malattie da immagini mediche", "isCorrect": false },
+          { "text": "Creare un piano di marketing", "isCorrect": true },
+          { "text": "Prevedere prezzi delle azioni con certezza", "isCorrect": false }
+        ],
+        "explanation": "Esatto. Forte con il testo, debole con le previsioni del mondo reale."
+      },
+      {
+        "type": "text",
+        "title": "3. Token: Il Linguaggio Interno di ChatGPT",
+        "content": "ChatGPT non legge parole.\nLegge **TOKEN**.\n\nEsempio:\n\"Marketing\" → 1 token\n\"Incostituzionalità\" → diversi token\n\nI token influenzano:\n- Costo\n- Velocità\n- Limite di memoria\n\n👉 I prompt efficaci usano meno token."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Ottimizza il Prompt",
+        "question": "Costruisci il prompt più efficiente per chiedere un riassunto:",
+        "initialWords": ["Riassumi", "il testo", "in 3 punti", "Potresti", "per favore"],
+        "correctOrder": ["Riassumi", "il testo", "in 3 punti"],
+        "explanation": "Perfetto! Prompt diretti e specifici generano risultati migliori."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Congratulazioni per aver completato il Giorno 1! 🎉 Ora pratica: chiedimi qualcosa di creativo o logico e confronta le risposte.",
+          "topic": "chatgpt_intro"
+        }
+      }
+    ]
+  },
+  "day2": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Prompt Engineering: La Nuova Interfaccia",
+        "content": "Dimentica linguaggi di programmazione complessi. Oggi il linguaggio di programmazione più importante al mondo è **linguaggio naturale ben strutturato**.\n\nUn **prompt** non è una query di ricerca. È un'**interfaccia di controllo** per reti neurali con trilioni di parametri."
+      },
+      {
+        "type": "text",
+        "title": "2. Il Framework C.T.F.D.",
+        "content": "Per prompt professionali, ricorda questa struttura:\n\n**C - CONTESTO**\n• \"Agisci come [specialista con X anni di esperienza nel settore Y]\"\n\n**T - ATTIVITÀ**\n• Usa verbi all'imperativo: \"Crea\", \"Analizza\", \"Confronta\"\n\n**F - FORMATO**\n• Definisci la struttura in anticipo: JSON, tabella, lista\n\n**D - DETTAGLI**\n• Vincoli specifici: \"Evita il gergo tecnico\", \"Usa un linguaggio semplice\""
+      },
+      {
+        "type": "practical",
+        "title": "Pratica: Crea un Prompt C.T.F.D.",
+        "question": "Crea un prompt professionale per l'analisi di mercato:",
+        "initialWords": [
+          "Agisci come analista di mercato.",
+          "Analizza il panorama dell'e-commerce.",
+          "Formatta come Executive Summary.",
+          "Concentrati sulle tendenze del 2024."
+        ],
+        "correctOrder": [
+          "Agisci come analista di mercato.",
+          "Analizza il panorama dell'e-commerce.",
+          "Formatta come Executive Summary.",
+          "Concentrati sulle tendenze del 2024."
+        ],
+        "explanation": "Eccellente! La sequenza C.T.F.D. = Contesto → Attività → Formato → Dettagli"
+      },
+      {
+        "type": "quiz",
+        "title": "Tecniche di Prompting",
+        "question": "Quando usare il Few-Shot Prompting?",
+        "options": [
+          { "text": "Quando vuoi risposte creative e varie", "isCorrect": false },
+          { "text": "Quando hai bisogno di formattazione e stile consistenti e specifici", "isCorrect": true },
+          { "text": "Quando non hai tempo per scrivere esempi", "isCorrect": false }
+        ],
+        "explanation": "Few-Shot è ideale per garantire coerenza di formato e stile."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 2 completato! 🎯 Esercitati con il framework C.T.F.D. con me.",
+          "topic": "prompt_engineering"
+        }
+      }
+    ]
+  },
+  "day3": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Il Potere delle Persone Consulente",
+        "content": "Usa ChatGPT come un team di consulenti specializzati.\n\n**Esempi di Persona:**\n• \"Agisci come consulente di marketing digitale con 10 anni di esperienza\"\n• \"Agisci come CFO di un'azienda Fortune 500\"\n• \"Agisci come career coach specializzato in transizioni professionali\""
+      },
+      {
+        "type": "text",
+        "title": "2. Il Metodo Socratico",
+        "content": "Invece di chiedere la risposta, chiedi di essere istruito.\n\n**Prompt Socratico:**\n\"Agisci come un professore socratico. Non darmi la risposta diretta. Fammi domande stimolanti in modo che io possa arrivare alla conclusione su [argomento] da solo.\""
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Crea una Persona Interviewer",
+        "question": "Crea il prompt per simulare un colloquio di lavoro:",
+        "initialWords": [
+          "Agisci come",
+          "un responsabile del personale",
+          "Fammi domande",
+          "per la posizione di",
+          "Sviluppatore"
+        ],
+        "correctOrder": [
+          "Agisci come",
+          "un responsabile del personale",
+          "Fammi domande",
+          "per la posizione di",
+          "Sviluppatore"
+        ],
+        "explanation": "Perfetto! Ora hai un simulatore di colloqui personalizzato."
+      },
+      {
+        "type": "quiz",
+        "title": "Applicazioni delle Persone",
+        "question": "Qual è il modo migliore per usare le persone per imparare?",
+        "options": [
+          { "text": "Chiedere risposte veloci e dirette", "isCorrect": false },
+          { "text": "Usare il metodo socratico per sviluppare il pensiero critico", "isCorrect": true },
+          { "text": "Copiare le risposte senza analizzarle", "isCorrect": false }
+        ],
+        "explanation": "Il metodo socratico ti costringe a pensare e imparare veramente."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 3! 🧠 Ora sono il tuo consulente. Scegli una persona e esercitiamoci insieme.",
+          "topic": "personas"
+        }
+      }
+    ]
+  },
+  "day4": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Tempo per la Vera Pratica",
+        "content": "Hai imparato la teoria, i pilastri del prompt e il potere delle persone. Ora combiniamo tutto in un **progetto di marketing professionale**.\n\nImmagina di essere il consulente per una nuova **app fitness**."
+      },
+      {
+        "type": "practical",
+        "title": "Costruire il Cervello del Marketing",
+        "question": "Crea il prompt ideale seguendo: AZIONE + OGGETTO + DETTAGLIO + CONTESTO.",
+        "initialWords": ["un piano di marketing", "Crea", "app fitness", "semplice per una nuova"],
+        "correctOrder": ["Crea", "un piano di marketing", "semplice per una nuova", "app fitness"],
+        "explanation": "Congratulazioni! Hai costruito un'istruzione logica che evita risultati generici."
+      },
+      {
+        "type": "practical",
+        "title": "Attivare la Persona",
+        "question": "Completa il comando per migliorare il tono del testo:",
+        "initialWords": ["come", "Agisci", "specialista", "un", "nel copywriting"],
+        "correctOrder": ["Agisci", "come", "un", "specialista", "nel copywriting"],
+        "explanation": "Ora l'IA userà trigger mentali e frasi che convertono."
+      },
+      {
+        "type": "quiz",
+        "title": "Fine del Primo Modulo",
+        "question": "Come ti senti dopo aver padroneggiato le basi?",
+        "options": [
+          { "text": "Sono ancora confuso", "isCorrect": false },
+          { "text": "Mi sento in pieno controllo di ChatGPT", "isCorrect": true }
+        ],
+        "explanation": "Hai completato i primi 4 giorni! Preparati per il modulo Claude."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo ChatGPT completato! 🏆 Hai padroneggiato le basi. Domani iniziamo con Claude!",
+          "topic": "chatgpt_mastery"
+        }
+      }
+    ]
+  },
+  "day5": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere Claude",
+        "content": "Claude è l'IA sviluppata da Anthropic, focalizzata su **sicurezza ed etica**.\n\nDifferenze con ChatGPT:\n• Addestrato con \"Constitutional AI\"\n• Meno incline ad allucinazioni tossiche\n• Segue le istruzioni complesse più rigidamente\n\nPer le aziende significa **sicurezza e affidabilità**."
+      },
+      {
+        "type": "text",
+        "title": "Le Versioni: Haiku, Sonnet e Opus",
+        "content": "**Haiku:** Estremamente veloce ed economico\n**Sonnet (3.5):** Miglior rapporto qualità-prezzo, supera GPT-4 nella programmazione\n**Opus:** Il più potente, per scoperte scientifiche"
+      },
+      {
+        "type": "quiz",
+        "title": "Versioni di Claude",
+        "question": "Quale versione di Claude è consigliata per l'uso generale?",
+        "options": [
+          { "text": "Haiku - il più economico", "isCorrect": false },
+          { "text": "Sonnet - miglior rapporto qualità-prezzo", "isCorrect": true },
+          { "text": "Opus - il più costoso", "isCorrect": false }
+        ],
+        "explanation": "Sonnet offre il giusto equilibrio tra qualità e costi."
+      },
+      {
+        "type": "text",
+        "title": "2. Enorme Finestra di Contesto",
+        "content": "La \"finestra di contesto\" è la memoria della conversazione:\n• ChatGPT: ~32k token\n• **Claude: 200k fino a 1 milione di token**\n\nPuoi caricare interi libri o contratti da 500 pagine."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Prompt per Claude",
+        "question": "Crea un prompt che sfrutta la finestra di contesto di Claude:",
+        "initialWords": [
+          "Analizza questo documento",
+          "di 100 pagine",
+          "e trova",
+          "tutte le clausole",
+          "sulle scadenze"
+        ],
+        "correctOrder": [
+          "Analizza questo documento",
+          "di 100 pagine",
+          "e trova",
+          "tutte le clausole",
+          "sulle scadenze"
+        ],
+        "explanation": "Perfetto! Claude è ideale per analizzare documenti lunghi."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo Claude! 🤖 Chiedimi le differenze tra Claude e ChatGPT.",
+          "topic": "claude_intro"
+        }
+      }
+    ]
+  },
+  "day6": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Claude per il Copywriting",
+        "content": "Claude eccelle nella scrittura persuasiva perché:\n• Segue le istruzioni sul tono in modo preciso\n• Mantiene coerenza nei testi lunghi\n• Evita esagerazioni e false promesse"
+      },
+      {
+        "type": "text",
+        "title": "Tecniche di Copywriting con IA",
+        "content": "**Formule che funzionano:**\n• **AIDA:** Attenzione, Interesse, Desiderio, Azione\n• **PAS:** Problema, Aggravio, Soluzione\n• **FAB:** Caratteristiche, Vantaggi, Benefici"
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Titolo AIDA",
+        "question": "Crea il prompt per scrivere titoli persuasivi:",
+        "initialWords": ["Scrivi 5 titoli", "con la formula AIDA", "per un corso", "sul marketing digitale"],
+        "correctOrder": ["Scrivi 5 titoli", "con la formula AIDA", "per un corso", "sul marketing digitale"],
+        "explanation": "Eccellente! Le formule di copy rendono i tuoi prompt più professionali."
+      },
+      {
+        "type": "quiz",
+        "title": "Copywriting con Claude",
+        "question": "Quale formula usare per testi che convertono?",
+        "options": [
+          { "text": "Scrivere tutto in una volta senza struttura", "isCorrect": false },
+          { "text": "Usare formule come AIDA o PAS", "isCorrect": true },
+          { "text": "Copiare testi della concorrenza", "isCorrect": false }
+        ],
+        "explanation": "Le formule danno struttura e prevedibilità ai risultati."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 6 - Copywriting! ✍️ Dammi un prodotto e creo titoli con AIDA.",
+          "topic": "claude_copywriting"
+        }
+      }
+    ]
+  },
+  "day7": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: Claude",
+        "content": "È ora di mettere in pratica tutto quello che hai imparato su Claude!\n\n**La sfida:**\nCrea un pacchetto di marketing completo per un prodotto fittizio solo con Claude."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Definire il Prodotto",
+        "question": "Crea il prompt per definire il tuo prodotto:",
+        "initialWords": ["Aiutami", "a creare", "un prodotto digitale", "nella nicchia", "Produttività"],
+        "correctOrder": ["Aiutami", "a creare", "un prodotto digitale", "nella nicchia", "Produttività"],
+        "explanation": "Ottimo inizio! Ora hai la base del progetto."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Sequenza Email",
+        "question": "Crea il prompt per la sequenza email:",
+        "initialWords": ["Crea una sequenza", "di 3 email", "per il lancio", "di questo prodotto"],
+        "correctOrder": ["Crea una sequenza", "di 3 email", "per il lancio", "di questo prodotto"],
+        "explanation": "Perfetto! Stai costruendo un funnel completo."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo Claude",
+        "question": "Qual è il più grande vantaggio di Claude per il copywriting?",
+        "options": [
+          { "text": "È gratuito", "isCorrect": false },
+          { "text": "Mantiene coerenza nei testi lunghi e segue le istruzioni in modo preciso", "isCorrect": true },
+          { "text": "Genera immagini insieme al testo", "isCorrect": false }
+        ],
+        "explanation": "Claude è eccellente per progetti che richiedono coerenza e precisione."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo Claude completato! 🎯 Ora sai come usare Claude per copywriting e analisi documenti.",
+          "topic": "claude_mastery"
+        }
+      }
+    ]
+  },
+  "day8": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere DeepSeek",
+        "content": "DeepSeek è un'IA cinese che ha sorpreso il mondo per:\n• **Qualità comparabile a GPT-4** a una frazione del costo\n• Eccellente in matematica e programmazione\n• Open source (alcuni modelli)\n• Addestrata con focus sul pensiero logico"
+      },
+      {
+        "type": "text",
+        "title": "Quando Usare DeepSeek",
+        "content": "**Casi d'uso ideali:**\n• Programmazione e debug del codice\n• Analisi dati e statistica\n• Problemi matematici complessi\n• Ottimizzazione di algoritmi"
+      },
+      {
+        "type": "quiz",
+        "title": "DeepSeek: Fondamenti",
+        "question": "Qual è la differenza più grande di DeepSeek?",
+        "options": [
+          { "text": "È più creativo degli altri modelli", "isCorrect": false },
+          { "text": "Eccellente con codice e matematica a basso costo", "isCorrect": true },
+          { "text": "Genera le migliori immagini", "isCorrect": false }
+        ],
+        "explanation": "DeepSeek brilla in compiti logici e tecnici."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Prompt per il Codice",
+        "question": "Crea un prompt per scrivere una funzione Python:",
+        "initialWords": ["Scrivi una funzione", "in Python che", "calcoli la media", "di una lista"],
+        "correctOrder": ["Scrivi una funzione", "in Python che", "calcoli la media", "di una lista"],
+        "explanation": "Perfetto! I prompt per il codice dovrebbero essere specifici e strutturati."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo DeepSeek! 💻 Chiedimi di scrivere o debuggare codice.",
+          "topic": "deepseek_intro"
+        }
+      }
+    ]
+  },
+  "day9": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. DeepSeek per l'Analisi Dati",
+        "content": "DeepSeek è eccezionale per:\n• Analisi di dataset\n• Creazione di query SQL\n• Manipolazione dati con Python/Pandas\n• Visualizzazione dei dati"
+      },
+      {
+        "type": "text",
+        "title": "2. Creare Query SQL",
+        "content": "**Prompt SQL:**\n\"Crea una query SQL che:\n1. Selezioni tutti gli utenti\n2. Che hanno acquistato negli ultimi 30 giorni\n3. Raggruppati per categoria prodotto\n4. Ordinati per valore totale decrescente\""
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Query SQL",
+        "question": "Crea il prompt per una query di analisi:",
+        "initialWords": ["Crea una query", "che calcoli", "il fatturato medio", "per mese"],
+        "correctOrder": ["Crea una query", "che calcoli", "il fatturato medio", "per mese"],
+        "explanation": "Eccellente! Query ben strutturate generano insight preziosi."
+      },
+      {
+        "type": "quiz",
+        "title": "Analisi Dati con IA",
+        "question": "Per cosa usare DeepSeek nell'analisi dati?",
+        "options": [
+          { "text": "Solo per creare grafici carini", "isCorrect": false },
+          { "text": "Per creare query, manipolare dati e generare insight", "isCorrect": true },
+          { "text": "Per sostituire completamente gli analisti umani", "isCorrect": false }
+        ],
+        "explanation": "DeepSeek accelera il lavoro analitico, ma non sostituisce il giudizio umano."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 9 - Analisi Dati! 📊 Descrivi i tuoi dati e creo la query perfetta.",
+          "topic": "deepseek_data"
+        }
+      }
+    ]
+  },
+  "day10": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: DeepSeek",
+        "content": "Creiamo un progetto completo di automazione con DeepSeek!\n\n**La sfida:**\nCrea un sistema automatizzato di analisi dati che elabori le vendite e generi report."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Struttura del Progetto",
+        "question": "Crea il prompt per strutturare il progetto:",
+        "initialWords": ["Crea la struttura", "di un progetto Python", "per l'analisi", "dei dati di vendita"],
+        "correctOrder": ["Crea la struttura", "di un progetto Python", "per l'analisi", "dei dati di vendita"],
+        "explanation": "Ottimo! Una struttura chiara facilita la manutenzione del codice."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Elaborazione Dati",
+        "question": "Crea il prompt per l'elaborazione:",
+        "initialWords": ["Scrivi una funzione", "che elabori", "un CSV di vendite", "e calcoli le metriche"],
+        "correctOrder": ["Scrivi una funzione", "che elabori", "un CSV di vendite", "e calcoli le metriche"],
+        "explanation": "Perfetto! Funzioni ben definite sono la base di un buon codice."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo DeepSeek",
+        "question": "Qual è il modo migliore per usare DeepSeek per il codice?",
+        "options": [
+          { "text": "Chiedere codice generico e adattarlo dopo", "isCorrect": false },
+          { "text": "Specificare chiaramente input, output e requisiti", "isCorrect": true },
+          { "text": "Copiare codice da altri progetti", "isCorrect": false }
+        ],
+        "explanation": "La specificità genera codice più utile e meno lavoro successivo."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo DeepSeek completato! 🎉 Padroneggi codice e analisi dati con IA.",
+          "topic": "deepseek_mastery"
+        }
+      }
+    ]
+  },
+  "day11": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere Gemini",
+        "content": "Gemini è l'IA di Google con integrazione nativa nell'ecosistema Google.\n\n**Differenze:**\n• Accesso a Internet in tempo reale\n• Integrazione con Google Workspace\n• Eccellente nella ricerca e sintesi\n• Supporto multimodale (testo, immagine, video)"
+      },
+      {
+        "type": "text",
+        "title": "2. Gemini + Google Workspace",
+        "content": "La forza sta nell'integrazione:\n• **Gmail:** Riassumere email e creare risposte\n• **Docs:** Scrivere e revisionare documenti\n• **Sheets:** Analizzare dati e creare formule\n• **Slides:** Generare presentazioni"
+      },
+      {
+        "type": "quiz",
+        "title": "Gemini: Fondamenti",
+        "question": "Qual è la differenza più grande di Gemini?",
+        "options": [
+          { "text": "È il più economico sul mercato", "isCorrect": false },
+          { "text": "Integrazione nativa con Google Workspace e accesso a Internet", "isCorrect": true },
+          { "text": "Genera codice meglio di tutti", "isCorrect": false }
+        ],
+        "explanation": "La forza di Gemini sta nell'integrazione con l'ecosistema Google."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Prompt di Ricerca",
+        "question": "Crea un prompt che sfrutti l'accesso a Internet di Gemini:",
+        "initialWords": ["Ricerca le ultime", "tendenze IA", "nel 2024", "e riassumi i punti principali"],
+        "correctOrder": ["Ricerca le ultime", "tendenze IA", "nel 2024", "e riassumi i punti principali"],
+        "explanation": "Perfetto! Gemini può accedere a informazioni aggiornate."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo Gemini! 🌐 Chiedimi di ricerche e integrazione Google.",
+          "topic": "gemini_intro"
+        }
+      }
+    ]
+  },
+  "day12": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Gemini per la Produttività",
+        "content": "Automatizza il tuo lavoro con Gemini:\n• Riassumere documenti lunghi\n• Creare template per email\n• Generare report automatici\n• Analizzare tabelle complesse"
+      },
+      {
+        "type": "text",
+        "title": "2. Analisi Documenti",
+        "content": "**Prompt di analisi:**\n\"Analizza questo documento ed estrai:\n1. Punti principali\n2. Azioni richieste\n3. Scadenze menzionate\n4. Rischi identificati\n\nFormatta come lista con priorità.\""
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Executive Summary",
+        "question": "Crea il prompt per una Executive Summary:",
+        "initialWords": ["Crea un riassunto", "per dirigenti con", "massimo 200 parole", "di questo report"],
+        "correctOrder": ["Crea un riassunto", "per dirigenti con", "di questo report", "massimo 200 parole"],
+        "explanation": "Eccellente! Le Executive Summary fanno risparmiare tempo a tutti."
+      },
+      {
+        "type": "quiz",
+        "title": "Produttività con Gemini",
+        "question": "Qual è il modo migliore per usare Gemini per la produttività?",
+        "options": [
+          { "text": "Fare prima tutto manualmente", "isCorrect": false },
+          { "text": "Automatizzare compiti ripetitivi e analisi", "isCorrect": true },
+          { "text": "Usarlo solo per intrattenimento", "isCorrect": false }
+        ],
+        "explanation": "Gemini brilla nell'automazione del lavoro ripetitivo."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 12 - Produttività! ⚡ Dammi un compito ripetitivo e ti mostro come automatizzarlo.",
+          "topic": "gemini_productivity"
+        }
+      }
+    ]
+  },
+  "day13": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: Gemini",
+        "content": "Creiamo un workflow completo di ricerca con Gemini!\n\n**La sfida:**\nCrea un sistema di ricerca di mercato che raccolga dati attuali e generi report."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Definire la Ricerca",
+        "question": "Crea il prompt per strutturare la ricerca:",
+        "initialWords": ["Ricerca", "il mercato e-commerce", "in Germania", "con dati attuali"],
+        "correctOrder": ["Ricerca", "il mercato e-commerce", "in Germania", "con dati attuali"],
+        "explanation": "Ottimo! Con l'accesso a Internet, Gemini fornisce dati freschi."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Formattare il Report",
+        "question": "Crea il prompt per il report finale:",
+        "initialWords": ["Formatta la ricerca", "come Executive Report", "con grafici", "e raccomandazioni"],
+        "correctOrder": ["Formatta la ricerca", "come Executive Report", "con grafici", "e raccomandazioni"],
+        "explanation": "Perfetto! Report ben formattati impressionano gli stakeholder."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo Gemini",
+        "question": "Quando Gemini è la scelta migliore?",
+        "options": [
+          { "text": "Per compiti senza bisogno di Internet", "isCorrect": false },
+          { "text": "Per ricerche e integrazione con Google Workspace", "isCorrect": true },
+          { "text": "Solo per programmazione", "isCorrect": false }
+        ],
+        "explanation": "Gemini brilla nella ricerca e produttività nell'ecosistema Google."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo Gemini completato! 🌟 Padroneggi ricerche e produttività con Gemini.",
+          "topic": "gemini_mastery"
+        }
+      }
+    ]
+  },
+  "day14": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere NanoBanana",
+        "content": "NanoBanana è uno strumento IA specializzato in:\n• Creazione di contenuti visivi\n• Ottimizzazione per social media\n• Generazione rapida ed efficiente di immagini\n• Integrazione con workflow di marketing"
+      },
+      {
+        "type": "text",
+        "title": "2. Prompt Visivi",
+        "content": "**Consigli per prompt di immagini:**\n• Sii specifico sullo stile (fotorealistico, illustrazione, minimalista)\n• Definisci colori e atmosfera\n• Indica il contesto d'uso (Instagram, banner, thumbnail)"
+      },
+      {
+        "type": "quiz",
+        "title": "NanoBanana: Fondamenti",
+        "question": "Per cosa è più adatto NanoBanana?",
+        "options": [
+          { "text": "Scrivere testi lunghi", "isCorrect": false },
+          { "text": "Contenuti visivi e ottimizzazione social media", "isCorrect": true },
+          { "text": "Programmare codice", "isCorrect": false }
+        ],
+        "explanation": "NanoBanana è specializzato in contenuti visivi e marketing."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Visual per Social Media",
+        "question": "Crea il prompt per un visual di Instagram:",
+        "initialWords": ["Crea un'immagine", "per Instagram", "stile minimalista", "sulla produttività"],
+        "correctOrder": ["Crea un'immagine", "per Instagram", "stile minimalista", "sulla produttività"],
+        "explanation": "Perfetto! Contesto e stile sono cruciali per i visual."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo NanoBanana! 🎨 Creiamo contenuti visivi per i social media.",
+          "topic": "nanobanana_intro"
+        }
+      }
+    ]
+  },
+  "day15": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Branding con NanoBanana",
+        "content": "Crea un branding visivo coerente:\n• Definire palette di colori\n• Standardizzare stili visivi\n• Template per diverse piattaforme\n• Costruire identità di marca"
+      },
+      {
+        "type": "text",
+        "title": "2. Serie di Contenuti",
+        "content": "**Strategia per serie:**\n• Definire uno stile visivo per tutti i post\n• Creare elementi coerenti (cornici, font, colori)\n• Costruire riconoscibilità"
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Serie di Contenuti",
+        "question": "Crea il prompt per una serie Instagram:",
+        "initialWords": ["Crea 5 immagini", "nello stesso stile", "per una serie", "sugli consigli IA"],
+        "correctOrder": ["Crea 5 immagini", "nello stesso stile", "per una serie", "sugli consigli IA"],
+        "explanation": "Eccellente! La coerenza è la chiave per il branding."
+      },
+      {
+        "type": "quiz",
+        "title": "Branding Visivo",
+        "question": "Cosa è importante per la coerenza visiva?",
+        "options": [
+          { "text": "Progettare ogni post completamente diverso", "isCorrect": false },
+          { "text": "Usare gli stessi colori, font e stili", "isCorrect": true },
+          { "text": "Scegliere immagini casuali", "isCorrect": false }
+        ],
+        "explanation": "La coerenza costruisce riconoscibilità e fiducia."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 15 - Branding! 🎯 Creiamo un'identità visiva coerente.",
+          "topic": "nanobanana_branding"
+        }
+      }
+    ]
+  },
+  "day16": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: NanoBanana",
+        "content": "Crea un kit di marketing visivo completo!\n\n**La sfida:**\nCrea tutte le risorse visive per una campagna prodotto."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Immagine Eroica",
+        "question": "Crea il prompt per l'immagine principale:",
+        "initialWords": [
+          "Crea un'immagine eroica",
+          "per una landing page di app",
+          "moderna e professionale",
+          "con tonalità blu"
+        ],
+        "correctOrder": [
+          "Crea un'immagine eroica",
+          "per una landing page di app",
+          "moderna e professionale",
+          "con tonalità blu"
+        ],
+        "explanation": "Ottimo! L'immagine eroica è la prima impressione."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Kit Social Media",
+        "question": "Crea il prompt per il kit social:",
+        "initialWords": ["Crea varianti", "per Instagram, Facebook", "e LinkedIn", "nello stesso stile"],
+        "correctOrder": ["Crea varianti", "per Instagram, Facebook", "e LinkedIn", "nello stesso stile"],
+        "explanation": "Perfetto! Ogni piattaforma ha le sue specifiche."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo NanoBanana",
+        "question": "Come creare marketing visivo professionale?",
+        "options": [
+          { "text": "Creare ogni immagine singolarmente senza piano", "isCorrect": false },
+          { "text": "Definire uno stile coerente e adattarlo per tutte le piattaforme", "isCorrect": true },
+          { "text": "Usare solo foto stock", "isCorrect": false }
+        ],
+        "explanation": "Coerenza e pianificazione sono la chiave per il marketing professionale."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo NanoBanana completato! 🎨 Padroneggi la creazione di contenuti visivi.",
+          "topic": "nanobanana_mastery"
+        }
+      }
+    ]
+  },
+  "day17": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere Lovable",
+        "content": "Lovable è lo strumento che stai usando proprio ora!\n\n**Cosa può fare Lovable:**\n• Creare app web complete con prompt\n• Generare design automaticamente\n• Integrare backend con Supabase\n• Deployment con un click"
+      },
+      {
+        "type": "text",
+        "title": "2. La Filosofia Lovable",
+        "content": "**Principi fondamentali:**\n• Descrivi cosa vuoi, non come farlo\n• Itera rapidamente con feedback\n• Concentrati sul prodotto finale, non sul codice\n• Usa integrazioni per funzionalità avanzate"
+      },
+      {
+        "type": "quiz",
+        "title": "Lovable: Fondamenti",
+        "question": "Qual è il vantaggio più grande di Lovable?",
+        "options": [
+          { "text": "Sostituisce completamente i programmatori", "isCorrect": false },
+          { "text": "Sviluppo rapido di app con linguaggio naturale", "isCorrect": true },
+          { "text": "È solo per designer", "isCorrect": false }
+        ],
+        "explanation": "Lovable democratizza lo sviluppo di app per tutti."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Prompt per App",
+        "question": "Crea il prompt per un'app semplice:",
+        "initialWords": ["Crea un'app Todo", "con design moderno", "Categorie", "e date di scadenza"],
+        "correctOrder": ["Crea un'app Todo", "con design moderno", "Categorie", "e date di scadenza"],
+        "explanation": "Perfetto! Requisiti chiari portano a risultati migliori."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo Lovable! 💜 Impari a creare app complete con prompt.",
+          "topic": "lovable_intro"
+        }
+      }
+    ]
+  },
+  "day18": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Prompt Lovable Efficaci",
+        "content": "Consigli per risultati migliori:\n• Descrivi il risultato finale desiderato\n• Specifica preferenze di stile e colori\n• Menziona feature importanti singolarmente\n• Itera in piccoli passi"
+      },
+      {
+        "type": "text",
+        "title": "2. Linee Guida di Design",
+        "content": "**Cosa funziona bene:**\n• \"Design moderno, minimalista\"\n• \"Modalità scura con colori di accento\"\n• \"Layout responsive mobile-first\"\n• \"Stile componenti Shadcn/UI\""
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Richiesta Funzionalità",
+        "question": "Crea il prompt per una nuova funzionalità:",
+        "initialWords": [
+          "Aggiungi una funzione di ricerca",
+          "con opzioni di filtro",
+          "Ricerca in tempo reale",
+          "e evidenziazione risultati"
+        ],
+        "correctOrder": [
+          "Aggiungi una funzione di ricerca",
+          "con opzioni di filtro",
+          "Ricerca in tempo reale",
+          "e evidenziazione risultati"
+        ],
+        "explanation": "Eccellente! Richieste di feature specifiche danno risultati precisi."
+      },
+      {
+        "type": "quiz",
+        "title": "Prompting con Lovable",
+        "question": "Come ottenere i migliori risultati con Lovable?",
+        "options": [
+          { "text": "Descrivere tutto in un unico prompt enorme", "isCorrect": false },
+          { "text": "Lavorare in modo iterativo con richieste specifiche e piccole", "isCorrect": true },
+          { "text": "Dare solo descrizioni vaghe", "isCorrect": false }
+        ],
+        "explanation": "Lavorare in modo iterativo con richieste chiare porta a risultati migliori."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 18 - Mastery Lovable! 🚀 Esercitiamoci con tecniche di prompting avanzate.",
+          "topic": "lovable_prompting"
+        }
+      }
+    ]
+  },
+  "day19": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: Lovable",
+        "content": "Crea un'app mini completa!\n\n**La sfida:**\nSviluppa un'app Habit-Tracker con Lovable."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: App Base",
+        "question": "Crea il prompt per la struttura di base:",
+        "initialWords": [
+          "Crea un Habit-Tracker",
+          "con check-in giornaliero",
+          "Visualizzazione streak",
+          "e statistiche progresso"
+        ],
+        "correctOrder": [
+          "Crea un Habit-Tracker",
+          "con check-in giornaliero",
+          "Visualizzazione streak",
+          "e statistiche progresso"
+        ],
+        "explanation": "Ottimo! La struttura di base è chiaramente definita."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Affinare il Design",
+        "question": "Crea il prompt per il design:",
+        "initialWords": ["Migliora il design", "con animazioni", "colori motivazionali", "ed elementi di gamification"],
+        "correctOrder": ["Migliora il design", "con animazioni", "colori motivazionali", "ed elementi di gamification"],
+        "explanation": "Perfetto! L'iterazione del design rende le app più attraenti."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo Lovable",
+        "question": "Qual è il workflow più efficace per Lovable?",
+        "options": [
+          { "text": "Fare tutto perfetto al primo tentativo", "isCorrect": false },
+          { "text": "Costruire e affinare in modo iterativo", "isCorrect": true },
+          { "text": "Copiare solo template", "isCorrect": false }
+        ],
+        "explanation": "L'iterazione è la chiave per lo sviluppo di app con Lovable."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo Lovable completato! 💜 Ora puoi creare app con linguaggio naturale.",
+          "topic": "lovable_mastery"
+        }
+      }
+    ]
+  },
+  "day20": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere Captions",
+        "content": "Captions è specializzato in:\n• Creazione automatica di sottotitoli\n• Trascrizione video\n• Traduzione multilingua\n• Ottimizzazione video per social media"
+      },
+      {
+        "type": "text",
+        "title": "2. Workflow Contenuti Video",
+        "content": "**Workflow ottimale:**\n1. Registrare video\n2. Trascrivere con Captions\n3. Adattare e stilizzare sottotitoli\n4. Esportare per diverse piattaforme"
+      },
+      {
+        "type": "quiz",
+        "title": "Captions: Fondamenti",
+        "question": "Per cosa è più adatto Captions?",
+        "options": [
+          { "text": "Modificare immagini", "isCorrect": false },
+          { "text": "Ottimizzare video con sottotitoli e trascrizioni", "isCorrect": true },
+          { "text": "Scrivere codice", "isCorrect": false }
+        ],
+        "explanation": "Captions è lo strumento specialista per la sottotitolazione video."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Sottotitoli Video",
+        "question": "Crea il workflow per un video:",
+        "initialWords": ["Trascrivi il video", "crea sottotitoli", "traduci in inglese", "formatta per TikTok"],
+        "correctOrder": ["Trascrivi il video", "crea sottotitoli", "traduci in inglese", "formatta per TikTok"],
+        "explanation": "Perfetto! Un workflow chiaro fa risparmiare tempo."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo Captions! 🎬 Ottimizziamo contenuti video.",
+          "topic": "captions_intro"
+        }
+      }
+    ]
+  },
+  "day21": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Tecniche Captions Avanzate",
+        "content": "Ottimizzazione video professionale:\n• Creare clip highlight basate su keyword\n• Capitoli automatici per YouTube\n• Generare descrizioni ottimizzate per SEO\n• Creare contenuti accessibili"
+      },
+      {
+        "type": "text",
+        "title": "2. Adattamento Specifico per Piattaforma",
+        "content": "**Ogni piattaforma ha le sue regole:**\n• **YouTube:** Sottotitoli lunghi, ottimizzati per SEO\n• **TikTok:** Brevi, con emoji e stile\n• **Instagram:** Formato quadrato con overlay di testo\n• **LinkedIn:** Tono professionale"
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Esportazione Multi-Piattaforma",
+        "question": "Crea il workflow per multi-piattaforma:",
+        "initialWords": ["Crea versioni", "per YouTube e TikTok", "con sottotitoli adattati", "e formati corretti"],
+        "correctOrder": ["Crea versioni", "per YouTube e TikTok", "con sottotitoli adattati", "e formati corretti"],
+        "explanation": "Eccellente! L'adattamento alla piattaforma massimizza la portata."
+      },
+      {
+        "type": "quiz",
+        "title": "Ottimizzazione Video",
+        "question": "Perché versioni diverse per piattaforme diverse?",
+        "options": [
+          { "text": "È inutile, un video basta", "isCorrect": false },
+          { "text": "Ogni piattaforma ha requisiti e pubblico propri", "isCorrect": true },
+          { "text": "Solo per la dimensione del file", "isCorrect": false }
+        ],
+        "explanation": "Contenuti ottimizzati per la piattaforma performano significativamente meglio."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 21 - Multi-Piattaforma! 📱 Ottimizziamo contenuti per diverse piattaforme.",
+          "topic": "captions_multiplatform"
+        }
+      }
+    ]
+  },
+  "day22": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: Captions",
+        "content": "Crea un workflow completo di contenuti video!\n\n**La sfida:**\nRegistra un video e ottimizzalo per 3 diverse piattaforme."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Trascrizione Base",
+        "question": "Crea il prompt per la trascrizione:",
+        "initialWords": ["Trascrivi il video", "con timestamp", "identifica i parlanti", "evidenzia punti importanti"],
+        "correctOrder": ["Trascrivi il video", "con timestamp", "identifica i parlanti", "evidenzia punti importanti"],
+        "explanation": "Ottimo! Una buona trascrizione è la base per tutto."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Stilizzazione Sottotitoli",
+        "question": "Crea il prompt per lo styling:",
+        "initialWords": ["Stilizza i sottotitoli", "con look moderno", "transizioni animate", "e colori di marca"],
+        "correctOrder": ["Stilizza i sottotitoli", "con look moderno", "transizioni animate", "e colori di marca"],
+        "explanation": "Perfetto! Sottotitoli stilizzati aumentano l'engagement."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo Captions",
+        "question": "Qual è il passo più importante nel workflow video?",
+        "options": [
+          { "text": "Caricare direttamente senza modifiche", "isCorrect": false },
+          { "text": "Trascrivere, ottimizzare e adattare alla piattaforma", "isCorrect": true },
+          { "text": "Migliorare solo la qualità dell'immagine", "isCorrect": false }
+        ],
+        "explanation": "Un workflow completo massimizza la performance video."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo Captions completato! 🎬 Padroneggi sottotitolazione video e ottimizzazione multi-piattaforma.",
+          "topic": "captions_mastery"
+        }
+      }
+    ]
+  },
+  "day23": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Conoscere ElevenLabs",
+        "content": "ElevenLabs è leader nella sintesi vocale IA:\n• Text-to-Speech realistico\n• Clonazione voci\n• Voce multilingue\n• Controllo emotivo"
+      },
+      {
+        "type": "text",
+        "title": "2. Casi d'Uso",
+        "content": "**Cosa puoi fare con ElevenLabs:**\n• Doppiare podcast automaticamente\n• Creare audiolibri\n• Generare voiceover per video\n• Produrre contenuti multilingue"
+      },
+      {
+        "type": "quiz",
+        "title": "ElevenLabs: Fondamenti",
+        "question": "Per cosa è più adatto ElevenLabs?",
+        "options": [
+          { "text": "Generare immagini", "isCorrect": false },
+          { "text": "Sintesi vocale realistica e clonazione voci", "isCorrect": true },
+          { "text": "Scrivere codice", "isCorrect": false }
+        ],
+        "explanation": "ElevenLabs è lo strumento leader per la sintesi vocale IA."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Progetto Voce",
+        "question": "Crea il prompt per un voiceover:",
+        "initialWords": [
+          "Genera un voiceover",
+          "voce maschile professionale",
+          "per un video esplicativo",
+          "con tono calmo"
+        ],
+        "correctOrder": [
+          "Genera un voiceover",
+          "voce maschile professionale",
+          "per un video esplicativo",
+          "con tono calmo"
+        ],
+        "explanation": "Perfetto! Voce e tono devono corrispondere al contenuto."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Benvenuto nel modulo ElevenLabs! 🎙️ Creiamo voci professionali.",
+          "topic": "elevenlabs_intro"
+        }
+      }
+    ]
+  },
+  "day24": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Clonazione Voci con ElevenLabs",
+        "content": "Crea la tua voce IA:\n• Carica campioni vocali\n• Allena il modello\n• Usa la tua voce per qualsiasi testo\n\n⚠️ **Etica:** Solo voci tue o con permesso!"
+      },
+      {
+        "type": "text",
+        "title": "2. Controllo Emotivo",
+        "content": "**Parametri di controllo:**\n• Stabilità: Coerenza vs. variazione\n• Chiarezza: Pronuncia precisa vs. naturale\n• Stile: Da formale a emotivo\n• Velocità: Regolabile per diversi scopi"
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Voiceover Emotivo",
+        "question": "Crea il prompt per diverse emozioni vocali:",
+        "initialWords": ["Genera due versioni", "una entusiasta", "una calmante", "dello stesso testo"],
+        "correctOrder": ["Genera due versioni", "una entusiasta", "una calmante", "dello stesso testo"],
+        "explanation": "Eccellente! Le emozioni rendono l'audio vivo."
+      },
+      {
+        "type": "quiz",
+        "title": "Clonazione Voci",
+        "question": "Cosa è importante nella clonazione voci?",
+        "options": [
+          { "text": "Usare qualsiasi voce senza permesso", "isCorrect": false },
+          { "text": "Clonare solo voci proprie o con permesso", "isCorrect": true },
+          { "text": "Non ci sono preoccupazioni etiche", "isCorrect": false }
+        ],
+        "explanation": "Etica e permessi sono essenziali nella clonazione voci."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 24 - Clonazione Voci! 🎤 Parliamo di sintesi vocale etica.",
+          "topic": "elevenlabs_cloning"
+        }
+      }
+    ]
+  },
+  "day25": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "Progetto Pratico: ElevenLabs",
+        "content": "Crea un progetto audio completo!\n\n**La sfida:**\nProduci un intro podcast breve con voce professionale."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 1: Scrivere lo Script",
+        "question": "Crea il prompt per lo script podcast:",
+        "initialWords": [
+          "Scrivi uno script introduttivo",
+          "lungo 30 secondi",
+          "per un podcast tech",
+          "accogliente e dinamico"
+        ],
+        "correctOrder": [
+          "Scrivi uno script introduttivo",
+          "lungo 30 secondi",
+          "per un podcast tech",
+          "accogliente e dinamico"
+        ],
+        "explanation": "Ottimo! Un buono script è la base per un buon audio."
+      },
+      {
+        "type": "practical",
+        "title": "Passo 2: Generare Audio",
+        "question": "Crea il prompt per la voce:",
+        "initialWords": ["Genera l'audio", "con voce energetica", "pronuncia chiara", "e musica di sottofondo leggera"],
+        "correctOrder": ["Genera l'audio", "con voce energetica", "pronuncia chiara", "e musica di sottofondo leggera"],
+        "explanation": "Perfetto! La voce giusta fa la differenza."
+      },
+      {
+        "type": "quiz",
+        "title": "Riepilogo Modulo ElevenLabs",
+        "question": "Cosa rende professionale la sintesi vocale?",
+        "options": [
+          { "text": "Solo la tecnica è importante", "isCorrect": false },
+          { "text": "Buono script, voce appropriata e controllo emotivo", "isCorrect": true },
+          { "text": "Parlare il più veloce possibile", "isCorrect": false }
+        ],
+        "explanation": "L'audio professionale combina tutti gli elementi armoniosamente."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Modulo ElevenLabs completato! 🎙️ Padroneggi sintesi vocale IA professionale.",
+          "topic": "elevenlabs_mastery"
+        }
+      }
+    ]
+  },
+  "day26": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Combinare Tutti gli Strumenti",
+        "content": "Ora hai padroneggiato 8 potenti strumenti IA:\n\n• **ChatGPT:** Generazione testo e brainstorming\n• **Claude:** Copywriting preciso e analisi\n• **DeepSeek:** Codice e analisi dati\n• **Gemini:** Ricerca e integrazione Google\n• **NanoBanana:** Contenuti visivi\n• **Lovable:** Sviluppo app\n• **Captions:** Sottotitolazione video\n• **ElevenLabs:** Sintesi vocale"
+      },
+      {
+        "type": "text",
+        "title": "2. Il Workflow Multi-Tool",
+        "content": "**Workflow contenuti professionale:**\n1. ChatGPT: Brainstorming idee\n2. Claude: Affinare testi\n3. NanoBanana: Creare visual\n4. Captions: Sottotitolare video\n5. ElevenLabs: Aggiungere audio\n6. Lovable: Costruire app/sito"
+      },
+      {
+        "type": "quiz",
+        "title": "Combinazione Strumenti",
+        "question": "Qual è la chiave per il workflow multi-tool?",
+        "options": [
+          { "text": "Usare solo uno strumento per tutto", "isCorrect": false },
+          { "text": "Usare ogni strumento per i suoi punti di forza e combinare i risultati", "isCorrect": true },
+          { "text": "Avviare tutti gli strumenti contemporaneamente", "isCorrect": false }
+        ],
+        "explanation": "Strumenti specializzati combinati danno i migliori risultati."
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Pianificare Workflow",
+        "question": "Crea un workflow per un lancio prodotto:",
+        "initialWords": ["Brainstorm con ChatGPT", "Testi con Claude", "Immagini con NanoBanana", "Video con Captions"],
+        "correctOrder": ["Brainstorm con ChatGPT", "Testi con Claude", "Immagini con NanoBanana", "Video con Captions"],
+        "explanation": "Perfetto! Un workflow chiaro massimizza l'efficienza."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 26 - Integrazione! 🔗 Combiniamo tutti gli strumenti in un progetto.",
+          "topic": "integration_intro"
+        }
+      }
+    ]
+  },
+  "day27": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "1. Il Tuo Stack IA Personale",
+        "content": "Ora sai quali strumenti esistono. È ora di definire il tuo stack personale.\n\n**Domande di auto-riflessione:**\n• Quali compiti hai più frequentemente?\n• Quali strumenti ti hanno aiutato di più?\n• Dove puoi risparmiare più tempo?"
+      },
+      {
+        "type": "text",
+        "title": "2. Strategie di Automazione",
+        "content": "**Consigli per l'automazione:**\n• Salvare prompt ricorrenti come template\n• Documentare workflow\n• Collegare strumenti tramite API\n• Pianificare tempo per apprendimento e sperimentazione"
+      },
+      {
+        "type": "practical",
+        "title": "🎯 Esercizio: Definire lo Stack",
+        "question": "Definisci il tuo stack di 3 strumenti per l'uso quotidiano:",
+        "initialWords": [
+          "Strumento principale per testo",
+          "Strumento per visual",
+          "Strumento per ricerca",
+          "Trigger di automazione"
+        ],
+        "correctOrder": [
+          "Strumento principale per testo",
+          "Strumento per visual",
+          "Strumento per ricerca",
+          "Trigger di automazione"
+        ],
+        "explanation": "Eccellente! Uno stack focalizzato è più efficace che usare tutti gli strumenti."
+      },
+      {
+        "type": "quiz",
+        "title": "Stack Personale",
+        "question": "Cosa è importante nella scelta degli strumenti?",
+        "options": [
+          { "text": "Usare sempre tutti gli strumenti", "isCorrect": false },
+          { "text": "Scegliere strumenti basati sui tuoi compiti più frequenti", "isCorrect": true },
+          { "text": "Usare solo lo strumento più nuovo", "isCorrect": false }
+        ],
+        "explanation": "Il miglior stack si adatta alle tue specifiche esigenze."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "Giorno 27 - Il Tuo Stack! 🛠️ Ottimizziamo il tuo workflow IA personale.",
+          "topic": "personal_stack"
+        }
+      }
+    ]
+  },
+  "day28": {
+    "steps": [
+      {
+        "type": "text",
+        "title": "🎓 Conclusione: Ora Sei un Professionista IA!",
+        "content": "Congratulazioni! Hai completato 28 giorni di maestria IA.\n\n**Cosa hai imparato:**\n• Padroneggiare 8 strumenti IA specializzati\n• Scrivere prompt professionali\n• Creare workflow multi-tool\n• Costruire il tuo ecosistema IA"
+      },
+      {
+        "type": "text",
+        "title": "Il Futuro con l'IA",
+        "content": "**I tuoi prossimi passi:**\n• Rimani curioso - l'IA si evolve quotidianamente\n• Sperimenta con nuovi strumenti\n• Condividi la tua conoscenza con altri\n• Usa l'IA in modo responsabile ed etico"
+      },
+      {
+        "type": "quiz",
+        "title": "Quiz Finale",
+        "question": "Qual è la cosa più importante che hai imparato?",
+        "options": [
+          { "text": "L'IA sostituirà gli umani", "isCorrect": false },
+          { "text": "L'IA è uno strumento potente che potenzia le persone se usato correttamente", "isCorrect": true },
+          { "text": "Serve solo uno strumento IA", "isCorrect": false }
+        ],
+        "explanation": "L'IA potenzia le capacità umane - tu rimani sempre al centro."
+      },
+      {
+        "type": "practical",
+        "title": "🏆 Esercizio Finale: Il Tuo Piano Master",
+        "question": "Crea il tuo piano IA personale:",
+        "initialWords": [
+          "Il mio obiettivo principale con l'IA",
+          "I miei top 3 strumenti",
+          "La mia routine settimanale",
+          "Il mio prossimo grande progetto"
+        ],
+        "correctOrder": [
+          "Il mio obiettivo principale con l'IA",
+          "I miei top 3 strumenti",
+          "La mia routine settimanale",
+          "Il mio prossimo grande progetto"
+        ],
+        "explanation": "Fantastico! Hai un piano chiaro per il tuo futuro con l'IA."
+      },
+      {
+        "type": "component",
+        "componentName": "SimulatedAIChat",
+        "props": {
+          "initialMessage": "🎓 CONGRATULAZIONI! Hai completato tutti i 28 giorni e ora sei un professionista IA certificato! Il tuo certificato ti aspetta. Qual è il tuo prossimo grande passo?",
+          "topic": "graduation"
+        }
+      }
+    ]
+  }
+}

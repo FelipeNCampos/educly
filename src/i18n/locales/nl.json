@@ -1,0 +1,438 @@
+{
+  "challenge": {
+    "week": "Week",
+    "day": "Dag",
+    "days": "dagen",
+    "completed": "Voltooid",
+    "viewAll": "Alles bekijken",
+    "continueFromWhere": "Ga verder waar je gebleven was",
+    "aiDomination": "AI Beheersing",
+    "level1": "Niveau 1",
+    "started": "Uitdaging gestart!",
+    "goodLuck": "Succes met je leerreis!",
+    "notFound": "Uitdaging niet gevonden",
+    "aiTrails": "AI Paden",
+    "challenge28Days": "28 Dagen Uitdaging",
+    "chooseAI": "Kies een AI om te leren:",
+    "trail": "Pad",
+    "startChallenge": "Start Uitdaging",
+    "starting": "Starten...",
+    "ais": "AI's",
+    "progress": "Voortgang",
+    "review": "Beoordelen",
+    "viewTrail": "Bekijk pad",
+    "aiChallenges": "AI Uitdagingen",
+    "master8AI": "Beheers 8 AI's in 28 dagen",
+    "master8AIDesc": "Elke uitdaging is ontworpen om je de belangrijkste AI-tools op de markt te leren."
+  },
+  "personalizedTrail": {
+    "title": "Jouw Gepersonaliseerde Pad",
+    "progress": "{{completed}}/{{total}} dagen voltooid",
+    "notFound": "Pad niet gevonden.",
+    "createNew": "Nieuw pad maken"
+  },
+  "personalizedLesson": {
+    "title": "Gepersonaliseerde Les",
+    "dayTitle": "Dag {{day}}",
+    "todayTask": "Taak van vandaag",
+    "taskIntro": "Wat je gaat leren",
+    "taskDescription": "Taakbeschrijving",
+    "exerciseTitle": "Praktische Oefening",
+    "exerciseNote": "Voltooi deze oefening om je leren te versterken",
+    "markComplete": "Markeer als voltooid",
+    "completeNote": "Je hebt het vandaag geweldig gedaan!",
+    "dayComplete": "Dag voltooid!",
+    "greatWork": "Geweldig werk! Je maakt vooruitgang!",
+    "nextDay": "Volgende dag",
+    "viewTrail": "Bekijk pad",
+    "continue": "Doorgaan",
+    "complete": "Voltooien"
+  },
+  "landing": {
+    "nav": {"home": "Home", "about": "Over ons", "programs": "Functies", "testimonials": "Testimonials", "plan": "Abonnement", "contact": "Contact", "login": "Inloggen", "startNow": "Download App"},
+    "hero": {"badge": "De meest complete AI-app op de markt", "title": "Beheers", "titleHighlight": "Kunstmatige Intelligentie", "titleEnd": "Direct vanaf Je Telefoon", "subtitle": "Leer AI met interactieve leerpaden, praktische oefeningen en digitale certificaten — alles in de app. Toegang tot 20+ AI-tools, offline modus en gamification.", "cta": "Gratis downloaden", "demo": "Demo bekijken", "students": "downloads", "rating": "beoordeling", "countries": "landen"},
+    "features": {
+      "sectionLabel": "App-functies", "title": "Alles Wat Je Nodig Hebt in Je Zak", "subtitle": "Een complete app met interactieve paden, AI-assistent, realtime voortgang en certificaten.",
+      "curriculum": {"title": "Interactieve Leerpaden", "description": "Leer met gegamificeerde paden en voortdurend bijgewerkte content over de beste AI-tools."},
+      "mentoring": {"title": "Ingebouwde AI-assistent", "description": "Krijg realtime antwoorden van EDI, je persoonlijke AI-assistent in de app."},
+      "community": {"title": "Realtime Voortgang", "description": "Volg je voortgang met gedetailleerde dashboards, streaks en leerstatistieken."},
+      "certification": {"title": "Digitale Certificaten", "description": "Verdien certificaten door paden en uitdagingen te voltooien."},
+      "practical": {"title": "Offline Modus", "description": "Download lessen en studeer zonder internet — perfect om overal te leren."},
+      "career": {"title": "Gamification", "description": "Verdien XP, level up, ontgrendel badges en houd je dagelijkse studiestreek vol."}
+    },
+    "programs": {
+      "sectionLabel": "Functies", "title": "Ontdek de app-functies", "subtitle": "Functies ontworpen voor alle niveaus.", "popular": "Meest populair", "startNow": "Download App", "beginner": "Beginner", "intermediate": "Gemiddeld", "advanced": "Gevorderd",
+      "fundamentals": {"title": "AI-leerpaden", "description": "Begin je AI-reis met interactieve en gegamificeerde paden in de app.", "duration": "4 weken", "highlights": ["Interactieve AI-paden", "Praktische ChatGPT-oefeningen", "Taakautomatisering via app", "Digitaal certificaat"]},
+      "machineLearning": {"title": "Geavanceerde Uitdagingen", "description": "Duik in 28-daagse uitdagingen met dagelijkse oefeningen.", "duration": "28 dagen", "highlights": ["Dagelijkse AI-uitdagingen", "Interactieve oefeningen", "Gegamificeerde voortgang", "Voltooiingscertificaten"]},
+      "deepLearning": {"title": "Persoonlijke AI-assistent", "description": "Gebruik EDI, je ingebouwde AI-assistent, voor vragen en prompt-training.", "duration": "Onbeperkt", "highlights": ["Ingebouwde AI-chat", "Prompt-trainer", "Realtime antwoorden", "Gepersonaliseerde ondersteuning in de app"]}
+    },
+    "pricing": {"badge": "Prijzen", "title": "Ontgrendel het volledige potentieel van de app", "subtitle": "Begin vandaag je AI-leerreis", "week1": "1 WEEK PLAN", "week4": "4 WEKEN PLAN", "week12": "12 WEKEN PLAN", "mostPopular": "MEEST POPULAIR", "from": "VAN", "for": "VOOR", "perDay": "per dag", "getMyPlan": "NEEM MIJN PLAN", "note": "Mensen die het 12-weken plan gebruiken krijgen dubbele resultaten."},
+    "testimonials": {
+      "sectionLabel": "Testimonials", "title": "Wat onze gebruikers zeggen", "subtitle": "Duizenden mensen hebben al AI geleerd met de Educly-app.",
+      "items": [
+        {"name": "Maria Silva", "role": "Data Scientist", "country": "Brazilië", "text": "De Educly-app heeft mijn manier van AI leren veranderd. Ik gebruik hem elke dag in de bus en in 3 maanden had ik mijn eerste baan."},
+        {"name": "João Santos", "role": "Product Manager", "country": "Portugal", "text": "De app is geweldig — de paden zijn praktisch en ik kan offline studeren. Gamification houdt me gemotiveerd."},
+        {"name": "Ana García", "role": "ML Engineer", "country": "Mexico", "text": "Ik heb meerdere uitdagingen via de app voltooid en de digitale certificaten maakten het verschil in mijn CV."},
+        {"name": "Carlos Fernández", "role": "Startup Founder", "country": "Argentinië", "text": "Ik gebruik de app dagelijks om bij te blijven met AI. De offline modus is perfect voor wie veel reist."}
+      ]
+    },
+    "globalReach": {
+      "sectionLabel": "Wereldwijd bereik", "title": "Aanwezig over de hele wereld", "subtitle": "De Educly-app is gedownload in meer dan 150 landen.",
+      "regions": {"latinAmerica": "Latijns-Amerika", "europe": "Europa", "northAmerica": "Noord-Amerika", "asiaOceania": "Azië & Oceanië"},
+      "features": {"languages": {"title": "15 talen", "description": "App beschikbaar in meerdere talen met professionele vertaling"}, "support": {"title": "24/7 ondersteuning", "description": "Ingebouwde AI-assistent en supportteam altijd beschikbaar"}, "community": {"title": "Community in de app", "description": "Verbind met gebruikers wereldwijd en deel je voortgang"}}
+    },
+    "stats": {"students": "Downloads", "countries": "Landen", "satisfaction": "Store-beoordeling", "partners": "AI-tools"},
+    "cta": {
+      "title": "Klaar om AI te leren direct vanaf je telefoon?", "subtitle": "Sluit je aan bij meer dan 50.000 gebruikers die AI al beheersen met de Educly-app.",
+      "startFree": "Gratis downloaden", "talkConsultant": "Praat met support", "guarantee": "30 dagen garantie", "installments": "Tot 12 termijnen",
+      "benefits": ["Volledige toegang tot alle paden", "Gratis app-updates", "Ingebouwde AI-assistent", "Digitale certificaten", "Offline modus beschikbaar", "30 dagen geld-terug-garantie"]
+    },
+    "footer": {
+      "description": "De meest complete AI-app op de markt. Leer AI praktisch, direct vanaf je telefoon.",
+      "contact": "Contact", "programs": "Functies", "resources": "Bronnen", "company": "Bedrijf", "legal": "Juridisch",
+      "links": {"aiFundamentals": "AI-leerpaden", "machineLearning": "28-daagse uitdagingen", "deepLearning": "AI-assistent", "aiForBusiness": "Digitale certificaten", "blog": "Blog", "webinars": "Tutorials", "ebooks": "Gidsen", "community": "Community", "aboutUs": "Over ons", "careers": "Carrières", "partnerships": "Partnerschappen", "contact": "Contact", "terms": "Gebruiksvoorwaarden", "privacy": "Privacy", "cookies": "Cookies"},
+      "copyright": "Alle rechten voorbehouden.", "madeWith": "Gemaakt met ❤️ voor de wereldwijde AI-community"
+    }
+  },
+  "common": {
+    "back": "Terug",
+    "next": "Volgende",
+    "start": "Start",
+    "continue": "Doorgaan",
+    "complete": "Voltooien",
+    "login": "Inloggen",
+    "signup": "Registreren",
+    "logout": "Uitloggen",
+    "loading": "Laden...",
+    "translating": "Inhoud wordt vertaald...",
+    "error": "Er is een fout opgetreden",
+    "of": "van"
+  },
+  "quiz": {
+    "selectAllAnswers": "Selecteer alle juiste antwoorden",
+    "verify": "Controleren",
+    "perfect": "Perfect!",
+    "youGotAll": "Je hebt ze allemaal goed!",
+    "almostRight": "Bijna goed!",
+    "youGotXofY": "Je hebt {{correct}} van de {{total}} goed.",
+    "incorrect": "Onjuist",
+    "tryAgainNext": "Probeer het de volgende keer opnieuw!",
+    "correct": "Correct!",
+    "wellDone": "Goed gedaan! Ga zo door!",
+    "correctAnswerWas": "Het juiste antwoord was:"
+  },
+  "lessonUI": {
+    "taskCompleted": "Taak voltooid",
+    "yourAnswer": "Jouw antwoord:",
+    "repeatTask": "Taak herhalen"
+  },
+  "learningSummary": {
+    "fundamentalConcepts": "Fundamentele concepten van {{tool}}",
+    "practicalTechniques": "Praktische gebruikstechnieken",
+    "dailyApplication": "Hoe toe te passen in het dagelijks leven"
+  },
+  "lesson": {
+    "locked": "Vergrendeld",
+    "completed": "Voltooid",
+    "startNow": "Nu starten",
+    "noContent": "Inhoud nog niet beschikbaar.",
+    "checkAnswer": "Antwoord Controleren",
+    "tryAgain": "Opnieuw Proberen",
+    "tryAgainFeedback": "Oeps! Probeer opnieuw.",
+    "correctAnswer": "Gefeliciteerd! Juist antwoord!",
+    "phaseCompleted": "Fase succesvol voltooid!",
+    "loading": "Laden...",
+    "close": "Sluiten",
+    "continue": "DOORGAAN",
+    "verify": "CONTROLEREN",
+    "stepTypes": {
+      "learn": "📚 Leren",
+      "quiz": "❓ Quiz",
+      "practical": "⚡ Praktijk",
+      "simulator": "🤖 Simulator"
+    },
+    "quiz": {
+      "correct": "Correct!",
+      "incorrect": "Probeer opnieuw",
+      "askEdi": "Vraag EDI om hulp",
+      "hint": "💡 Hint",
+      "excellent": "Uitstekend!",
+      "almostThere": "Bijna!",
+      "masteredConcept": "Je beheerst dit concept. Ga zo door!",
+      "hintReread": "Lees de opties opnieuw. Het juiste antwoord is gekoppeld aan het hoofdconcept.",
+      "hintOrder": "Denk aan de logische volgorde: actie → object → details.",
+      "hintReview": "Ga terug naar de vorige inhoud en bekijk de concepten.",
+      "hintAskEdi": "EDI kan je helpen! Klik op de knop hieronder.",
+      "getCorrectToContinue": "Beantwoord correct om door te gaan"
+    },
+    "practical": {
+      "instructions": "Klik op de woorden om de juiste prompt te bouwen:",
+      "yourAnswer": "Jouw antwoord:",
+      "available": "Beschikbare woorden:"
+    },
+    "chat": {
+      "aiReady": "Klaar om te helpen",
+      "sendPlaceholder": "Typ je bericht...",
+      "aiResponse": "Uitstekend voorbeeld! Heb je gezien hoe ik je invoer heb verwerkt? Nu we het in de praktijk hebben getest, klik op 'DOORGAAN' om verder te gaan."
+    },
+    "textParts": {
+      "part": "Deel",
+      "of": "van",
+      "nextPart": "Volgend deel",
+      "previousPart": "Vorig deel",
+      "showPrevious": "Vorige delen tonen",
+      "hidePrevious": "Vorige delen verbergen",
+      "allRead": "Alle inhoud gelezen"
+    },
+    "matchWords": {
+      "instructions": "Verbind elk item links met de juiste match rechts!",
+      "matched": "paren verbonden",
+      "reset": "Opnieuw beginnen"
+    },
+    "promptTrainer": {
+      "subtitle": "Train je prompt met EDI",
+      "challenge": "🎯 Uitdaging:",
+      "criteria": "Succescriteria:",
+      "startMessage": "Schrijf je prompt om te beginnen!",
+      "completed": "Prompt goedgekeurd! Gefeliciteerd! 🎉",
+      "placeholder": "Typ hier je prompt...",
+      "attempts": "Pogingen",
+      "showHint": "Toon hint",
+      "hideHint": "Verberg hint",
+      "showExample": "Toon promptvoorbeeld",
+      "hideExample": "Verberg voorbeeld"
+    },
+    "ediMotivation": {
+      "almostDone": "Bijna klaar! 🎯 Je bent er bijna!",
+      "halfway": "Halverwege! 💪 Ga zo door!",
+      "greatJob": "Geweldig werk! ✨ Je doet het fantastisch!",
+      "keepGoing": "Geef nu niet op! 🔥 Je kunt het!",
+      "finalStretch": "Laatste stuk! ⚡ Nog even!",
+      "encouragement": "Ik geloof in je! 💖 Samen gaan we ervoor!",
+      "yourAssistant": "je assistent",
+      "almostDoneDay": "Dag {{day}} is bijna voorbij! 🎯 {{phrase}}",
+      "halfwayDay": "Halverwege dag {{day}}! 💪 {{phrase}}",
+      "finalStretchDay": "Laatste stuk van dag {{day}}! ⚡ {{phrase}}",
+      "phrases": {
+        "almostDone": [
+          "Je doet het geweldig!",
+          "Ga zo door, je bent geweldig!",
+          "Bijna daar, je kunt het!",
+          "Geef niet op!",
+          "Je bent fantastisch!"
+        ],
+        "halfway": [
+          "Je doet het super!",
+          "Halverwege, blijf sterk!",
+          "Uitstekende vooruitgang!",
+          "Je bent ongelooflijk!",
+          "Ga zo door!"
+        ],
+        "finalStretch": [
+          "Het einde is nabij!",
+          "Je bent zo ver gekomen!",
+          "Laatste zetje, geef alles!",
+          "Eindig in stijl!",
+          "Bijna bij de finish!"
+        ]
+      }
+    }
+  },
+  "weeklyStreak": {
+    "title": "Wekelijkse reeks",
+    "subtitle": "Houd de leergewoonte vast",
+    "days": {
+      "mon": "ma",
+      "tue": "di",
+      "wed": "wo",
+      "thu": "do",
+      "fri": "vr",
+      "sat": "za",
+      "sun": "zo"
+    }
+  },
+  "auth": {
+    "title": "Toegang tot uw account",
+    "loginTab": "Inloggen",
+    "signupTab": "Registreren",
+    "email": "E-mail",
+    "emailPlaceholder": "your@email.com",
+    "password": "Wachtwoord",
+    "passwordPlaceholder": "Uw wachtwoord",
+    "confirmPassword": "Wachtwoord bevestigen",
+    "confirmPasswordPlaceholder": "Bevestig uw wachtwoord",
+    "loginButton": "Inloggen",
+    "signupButton": "Registreren",
+    "loginSuccess": "Succesvol ingelogd!",
+    "signupSuccess": "Account succesvol aangemaakt!",
+    "passwordMismatch": "Wachtwoorden komen niet overeen",
+    "passwordTooShort": "Wachtwoord moet minimaal 6 tekens bevatten",
+    "loginError": "Inlogfout",
+    "signupError": "Registratiefout",
+    "fullName": "Volledige Naam",
+    "fullNamePlaceholder": "Voer uw volledige naam in",
+    "nameRequired": "Voer uw volledige naam in"
+  },
+  "supportChat": {
+    "title": "EDI",
+    "online": "Online",
+    "greeting": "Hallo! 👋 Ik ben EDI, uw assistent hier bij Educly! Ik ben erg blij om u te helpen! Wat wilt u weten?",
+    "placeholder": "Typ uw vraag...",
+    "error": "Fout bij het verzenden van bericht"
+  },
+  "freelancer": {
+    "title": "Freelancer Leertraject",
+    "subtitle": "Verdien geld met AI",
+    "dashboardDesc": "Leer bewezen strategieën om een succesvolle freelancer te worden met AI-tools.",
+    "headerDesc": "Beheers de vaardigheden om als AI-freelancer geld te verdienen",
+    "modules": "Leermodules",
+    "access": "Ga naar Leertraject",
+    "tipsTitle": "Expertips",
+    "tipsDesc": "Elke module bevat praktische tips van succesvolle freelancers die al verdienen met AI.",
+    "premium": { "title": "Premium Freelancer Leertraject", "description": "Ontgrendel exclusieve content om een succesvolle AI-freelancer te worden", "features": { "strategies": "Bewezen verkoopstrategieën", "clients": "Hoe je je eerste klanten krijgt", "pricing": "Prijsstelling en onderhandeling", "platforms": "Beste platforms voor freelancers" } },
+    "modulesList": { "1": { "title": "Freelancer Basis", "description": "Mindset en eerste stappen om te beginnen" }, "2": { "title": "Portfolio Bouwen", "description": "Maak een onweerstaanbaar portfolio met AI" }, "3": { "title": "Klanten Vinden", "description": "Strategieën om je eerste opdrachten te krijgen" }, "4": { "title": "Strategische Prijsstelling", "description": "Hoe je AI-werk moet berekenen" }, "5": { "title": "Netwerken & Partnerschappen", "description": "Bouw je professionele netwerk" }, "6": { "title": "Winnende Voorstellen", "description": "Schrijf voorstellen die converteren" }, "7": { "title": "Business Schalen", "description": "Van solo freelancer naar ondernemer" }, "8": { "title": "AI Automatisering", "description": "Gebruik AI om productiviteit te vermenigvuldigen" } }
+  },
+  "contactPage": {
+    "title": "Neem Contact Op",
+    "subtitle": "Kies de beste manier om contact met ons op te nemen",
+    "aiChat": {
+      "title": "AI Chat Ondersteuning",
+      "description": "Krijg direct antwoord over ons platform, prijzen en cursussen van onze slimme assistent.",
+      "button": "Open AI Chat",
+      "available": "24/7 Beschikbaar"
+    },
+    "humanSupport": {
+      "title": "Menselijke Ondersteuning",
+      "description": "Voor meer persoonlijke hulp, complexe vragen of zakelijke partnerschappen, neem contact op via email.",
+      "button": "Stuur Email",
+      "copyEmail": "Kopieer Email",
+      "emailCopied": "Email gekopieerd!",
+      "openGmail": "Open in Gmail",
+      "responseTime": "Antwoord binnen 24-48 uur"
+    },
+    "aiCapabilities": {
+      "title": "Waar onze AI chat mee kan helpen",
+      "item1": "Informatie over onze 8 AI-tools (ChatGPT, Claude, Gemini, enz.)",
+      "item2": "Prijzen en abonnementsplannen",
+      "item3": "Details van de 28-daagse uitdaging",
+      "item4": "Hoe het platform werkt",
+      "item5": "Certificeringsproces",
+      "item6": "Technische vereisten"
+    }
+  },
+  "upsell": {
+    "features": "Waar je toegang tot krijgt:",
+    "cta": "Nu Ontgrendelen",
+    "back": "Terug naar Dashboard",
+    "freelancer": {
+      "title": "Freelancer Gebied",
+      "headline": "Exclusieve Inhoud",
+      "subtitle": "Ontgrendel geavanceerde functies",
+      "description": "Krijg toegang tot exclusieve AI-vacatures en pas toe wat je hebt geleerd.",
+      "feature1": "Remote AI-vacatures",
+      "feature2": "Filteren op categorie en ervaring",
+      "feature3": "Wekelijks nieuwe vacatures toegevoegd",
+      "feature4": "Directe sollicitatielink"
+    },
+    "ai_hub": {
+      "title": "AI-Hub",
+      "headline": "Exclusieve Inhoud",
+      "subtitle": "Ontgrendel geavanceerde functies",
+      "description": "Ontgrendel de AI-Hub met gespecialiseerde assistenten om afbeeldingen, prompts te maken en antwoorden te krijgen.",
+      "feature1": "AI voor professionele afbeeldingen",
+      "feature2": "Prompt-creatie assistent",
+      "feature3": "Krijg antwoorden van gespecialiseerde AI",
+      "feature4": "Onbeperkte toegang tot assistenten"
+    }
+  },
+  "legal": {
+    "email": "E-mail",
+    "website": "Website",
+    "termsOfUse": {
+      "title": "Gebruiksvoorwaarden – Educly",
+      "lastUpdated": "Laatst bijgewerkt: Januari 2025",
+      "intro": "Door de Educly-app te openen, te installeren of te gebruiken, verklaart de gebruiker deze Gebruiksvoorwaarden te hebben gelezen, begrepen en volledig te accepteren. Als u het niet eens bent met een hier vermelde voorwaarde, moet u onmiddellijk stoppen met het gebruik van het platform.",
+      "sections": {
+        "about": {
+          "title": "1. Over Educly",
+          "content": "Educly is een digitaal platform dat educatieve en informatieve inhoud aanbiedt via een app en/of online omgeving, opererend onder een terugkerend abonnementsmodel, dat een betaalde proefperiode kan omvatten, zoals gepresenteerd op het moment van aankoop."
+        },
+        "acceptance": {
+          "title": "2. Aanvaarding van de Voorwaarden",
+          "content": "Het gebruik van Educly en het abonneren op een plan impliceert volledige aanvaarding van deze Gebruiksvoorwaarden, evenals het Privacybeleid dat beschikbaar is op het platform. Door de app te betreden, erkent de gebruiker dat hij zich abonneert op een terugkerende abonnementsdienst met automatische kosten, volgens de voorwaarden die zijn meegedeeld op het moment van aankoop."
+        },
+        "account": {
+          "title": "3. Registratie en Verantwoordelijkheid van de Gebruiker",
+          "intro": "3.1. De gebruiker stemt ermee in om bij registratie waarheidsgetrouwe, volledige en actuele informatie te verstrekken.",
+          "responsibility": "3.2. De gebruiker is als enige verantwoordelijk voor:",
+          "items": [
+            "Het handhaven van de vertrouwelijkheid van zijn toegangsgegevens",
+            "Alle activiteiten uitgevoerd op zijn account"
+          ],
+          "disclaimer": "3.3. Educly is niet verantwoordelijk voor ongeautoriseerde toegang als gevolg van nalatigheid van de gebruiker."
+        },
+        "plans": {
+          "title": "4. Plannen, Abonnement en Betaalde Proefperiode",
+          "items": [
+            "4.1. Toegang tot Educly-inhoud vindt plaats via een terugkerend abonnement, met automatische afschrijvingen van de door de gebruiker aangegeven betaalmethode.",
+            "4.2. Sommige plannen kunnen een betaalde proefperiode bevatten, gekenmerkt door een verlaagd initieel bedrag en automatische conversie naar een terugkerend abonnement aan het einde van de periode die is meegedeeld op het moment van aankoop, tenzij een annuleringsverzoek wordt ingediend binnen de regels die in deze voorwaarden zijn vastgesteld.",
+            "4.3. Alle informatie met betrekking tot prijzen, frequentie, proefperiode en automatische verlenging wordt duidelijk gepresenteerd vóór de aankoopbevestiging."
+          ]
+        },
+        "refund": {
+          "title": "5. Restitutie- en Annuleringsbeleid",
+          "trialRefund": {
+            "title": "5.1. Restitutie Betaalde Proefperiode",
+            "content": "De gebruiker kan binnen 30 dagen na de datum van de eerste afschrijving van de betaalde proefperiode uitsluitend restitutie aanvragen van de bedragen betaald voor de betaalde proefperiode."
+          },
+          "howToRefund": {
+            "title": "5.2. Hoe Restitutie Aan te Vragen",
+            "content": "Het restitutieverzoek voor de betaalde proefperiode moet uitsluitend worden ingediend via de officiële ondersteuningskanalen van Educly."
+          },
+          "cancellation": {
+            "title": "5.3. Annulering of Pauzeren van Abonnement",
+            "content1": "De gebruiker kan op elk moment een annulering of pauze van het abonnement aanvragen. Om het verzoek vóór de volgende afschrijving te laten gelden, moet het minstens 48 uur vóór de geplande afschrijvingsdatum worden ingediend.",
+            "content2": "Als het verzoek na deze deadline wordt ingediend, gaat het in vanaf de volgende factureringscyclus en blijft de toegang tot inhoud actief tot het einde van de reeds betaalde periode.",
+            "content3": "Annulerings- of pauzeverzoeken moeten uitsluitend worden ingediend via de officiële e-mail:",
+            "content4": "Verzoeken via andere kanalen worden niet als geldig beschouwd voor annuleringsdoeleinden.",
+            "content5": "Bedragen betaald voor het terugkerende abonnement worden niet gerestitueerd. Door het abonnement te bevestigen, erkent de gebruiker dat toegang tot inhoud onmiddellijk na betalingsbevestiging beschikbaar wordt gesteld en dat hij zich abonneert op een terugkerend abonnementsmodel."
+          },
+          "processing": {
+            "title": "5.4. Financiële Verwerking",
+            "content": "Goedgekeurde restituties van de betaalde proefperiode worden verwerkt volgens de regels van de betalingsoperator en de door de gebruiker gebruikte methode. Educly is niet verantwoordelijk voor deadlines of operationele procedures van derden."
+          }
+        },
+        "acceptableUse": {
+          "title": "6. Gepast Gebruik van het Platform",
+          "intro": "De gebruiker is het volgende verboden:",
+          "items": [
+            "Educly-inhoud kopiëren, reproduceren, verspreiden of commercialiseren zonder toestemming",
+            "Accounttoegang delen met derden",
+            "Het platform gebruiken voor illegale, frauduleuze doeleinden of in strijd met goede trouw"
+          ],
+          "consequence": "Schending van deze regels kan leiden tot opschorting of annulering van het account, zonder recht op restitutie."
+        },
+        "ip": {
+          "title": "7. Intellectueel Eigendom",
+          "content": "Alle inhoud beschikbaar op Educly, inclusief teksten, video's, afbeeldingen, audio, merken, logo's, lay-outs en digitale materialen, is beschermd door auteursrecht en behoort toe aan Educly of haar licentiegevers, elk ongeautoriseerd gebruik is verboden."
+        },
+        "liability": {
+          "title": "8. Beperking van Aansprakelijkheid",
+          "content": "De inhoud die door Educly wordt aangeboden, is educatief en informatief van aard. Er is geen garantie voor specifieke resultaten en de gebruiker is als enige verantwoordelijk voor de toepassing van de via het platform verkregen informatie."
+        },
+        "modifications": {
+          "title": "9. Wijzigingen van de Voorwaarden",
+          "content": "Educly kan deze Gebruiksvoorwaarden op elk moment wijzigen. Voortgezet gebruik van het platform na wijzigingen impliceert aanvaarding van de nieuwe voorwaarden."
+        },
+        "law": {
+          "title": "10. Toepasselijk Recht en Jurisdictie",
+          "content": "Deze Gebruiksvoorwaarden worden beheerst door de wetten van de Federale Republiek Brazilië, met de woonplaats van de consument gekozen als jurisdictie, overeenkomstig de Wet Consumentenbescherming, voor het oplossen van geschillen."
+        },
+        "contact": {
+          "title": "11. Contact",
+          "intro": "Vragen, restitutieverzoeken voor de betaalde proefperiode of verzoeken om annulering of pauze van het abonnement moeten uitsluitend worden ingediend via de officiële e-mail:"
+        }
+      }
+    }
+  }
+}
